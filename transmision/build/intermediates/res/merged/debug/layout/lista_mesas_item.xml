@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent" >
+
+        <ImageView
+            android:id="@+id/mesaImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/defaultContentDescription"
+            android:gravity="center"
+            android:src="@drawable/urna_128" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/mesaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/mesaImageView"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" >
+        </TextView>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/item_line"
+        android:layout_width="wrap_content"
+        android:layout_height="0.6dp"
+        android:layout_below="@+id/item"
+        android:background="@drawable/list_divider" />
+
+    <RelativeLayout
+        android:id="@+id/item_dates"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/item_line"
+        android:background="@drawable/button_ll_delta" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+        	android:paddingLeft="@dimen/doblebigmargin" >
+
+            <ImageView
+                android:id="@+id/mesaImageView_dates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/defaultContentDescription"
+                android:gravity="center"
+                android:src="@drawable/dates_128" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/mesaImageView_dates_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/defaultContentDescription"
+                android:gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/checked_128" >
+            </ImageView>
+            
+            <TextView
+                android:id="@+id/mesaTextView_dates"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/mesaImageView_dates"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/kenia_selecmesa_dates"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+        </RelativeLayout>
+        
+       <View
+        android:id="@+id/item_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="0.6dp"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/list_divider" />
+    
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/item_dates"
+        android:background="@drawable/button_ll_delta" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+        	android:paddingLeft="@dimen/doblebigmargin" >
+
+            <ImageView
+                android:id="@+id/mesaImageView_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/defaultContentDescription"
+                android:gravity="center"
+                android:src="@drawable/camera_128" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/mesaImageView_photo_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/defaultContentDescription"
+                android:gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/checked_128" >
+            </ImageView>
+            
+            <TextView
+                android:id="@+id/mesaTextView_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/mesaImageView_photo"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/kenia_selecmesa_photo"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+        </RelativeLayout>
+        
+    <View
+        android:id="@+id/item_line3"
+        android:layout_width="wrap_content"
+        android:layout_height="0.6dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/list_divider" />
+    
+    </RelativeLayout>
+
+
+</RelativeLayout>

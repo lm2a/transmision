@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dip"
+    android:layout_height="640dip"
+    android:background="@drawable/borderblue" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="1dip"
+        android:background="@color/greyBG" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/toast_frame"
+            android:orientation="horizontal"
+            android:padding="20dip" >
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dip"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/obteniendo"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/gmapsimage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent" />
+
+
+        <LinearLayout
+            android:id="@+id/gmapsbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="1dip"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/toast_frame"
+            android:orientation="vertical"
+            android:alpha="0.7"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:background="@android:color/white"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/gmapsdirec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/direccion"
+                    android:textSize="17sp"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:id="@+id/gmapsdirecll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gmapsdirec"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dip"
+                    android:background="@android:color/darker_gray"
+                    android:orientation="vertical"
+                    android:padding="1dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:padding="5dp" >
+
+                        <TextView
+                            android:id="@+id/gmapdirectv"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        
+        <ImageButton
+            android:id="@+id/zoomout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/gmapsbox"
+            android:layout_margin="10dip"
+            android:background="@android:color/transparent"
+            android:paddingBottom="20dip"
+            android:src="@drawable/zoomout" />
+
+        <ImageButton
+            android:id="@+id/zoomin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/zoomout"
+            android:layout_toRightOf="@id/gmapsbox"
+            android:layout_margin="10dip"
+            android:background="@android:color/transparent"
+            android:src="@drawable/zoomin" />
+        
+        <ImageButton
+            android:id="@+id/gmapsCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dip"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cancel_184" />
+    </RelativeLayout>
+
+</LinearLayout>

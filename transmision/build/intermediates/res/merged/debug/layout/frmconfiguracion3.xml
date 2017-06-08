@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/main_background0"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="fill_parent"
+        android:layout_height="192dp"
+        android:background="@drawable/rightblackline"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/barra_fastscroll_track"
+        android:smoothScrollbar="true" />
+
+    <com.indra.elections.customcontrols.CustomTextViewOpenSans
+        android:id="@+id/headding_mesas"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lista"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:layout_marginTop="@dimen/mediummargin"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|left"
+        android:text="@string/mesas"
+        android:textColor="@color/greyTextDark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <com.indra.elections.customcontrols.CustomTextViewOpenSans
+        android:id="@+id/headding_censo"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/lista"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:layout_marginTop="@dimen/mediummargin"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|right"
+        android:text="@string/censo"
+        android:textColor="@color/greyTextDark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bigmargin"
+            android:layout_marginLeft="@dimen/bigmargin"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/info_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/info_72" />
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:layout_toRightOf="@id/info_image"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|left"
+                android:text="@string/inslocal"
+                android:textColor="@color/greyTextDark"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/line_height"
+            android:background="@color/greyBG" />
+
+        <LinearLayout
+            android:id="@+id/buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_big"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <RelativeLayout
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_ll_delta"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/button1_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/bigmargin"
+                    android:layout_marginRight="@dimen/bigmargin"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textColor="@color/greyTextDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/button1_text"
+                    android:src="@android:drawable/ic_menu_edit" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="@dimen/line_height"
+                android:layout_height="fill_parent"
+                android:background="@color/greyBG" />
+
+            <RelativeLayout
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_ll_delta"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/button2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_action_accept_with_state"
+                android:gravity="center"
+                android:text="@string/accept"
+                android:textColor="@drawable/button_font_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/sublista"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/ll_bottom"
+        android:layout_below="@id/headding_mesas"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@drawable/rightblackline"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadeScrollbars="false"
+        android:fadingEdgeLength="72dp"
+        android:fillViewport="true"
+        android:requiresFadingEdge="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/barra_fastscroll_track"
+        android:smoothScrollbar="true" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/headding_mesas"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@color/line_color" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/mediummargin"
+        layout="@layout/footeritem" />
+
+</RelativeLayout>

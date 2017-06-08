@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/height_item_big" >
+    
+    <RelativeLayout
+        android:id="@+id/item0"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_item_big"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/item00"
+            android:layout_width="192dip"
+            android:layout_height="@dimen/height_item_big"
+            layout="@layout/switchitem" />
+
+        <View
+            android:layout_width="@dimen/line_height"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/item00"
+            android:layout_marginBottom="@dimen/mediummargin"
+            android:layout_marginTop="@dimen/mediummargin"
+            android:background="@color/line_color" />
+ 
+        <include
+            android:id="@+id/item01"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_big"
+            android:layout_toRightOf="@id/item00"
+            layout="@layout/edititem_nif" />
+        
+        <include
+            android:id="@+id/item02"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_big"
+            android:layout_toRightOf="@id/item00"
+            android:visibility="invisible"
+            layout="@layout/edititem_nie" /> 
+                
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/color/vpi__dark_theme.xml"
+    }
+]

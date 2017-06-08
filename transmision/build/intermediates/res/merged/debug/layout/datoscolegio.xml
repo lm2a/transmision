@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/datoscolegioLL"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/localBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/toast_frame"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/LocalizacionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dip"
+                android:drawableRight="@android:drawable/ic_menu_mapmode"
+                android:text="@string/localizacion" />
+
+            <LinearLayout
+                android:id="@+id/direcll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/LocalizacionButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dip"
+                android:background="@android:color/darker_gray"
+                android:orientation="vertical"
+                android:padding="1dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/directv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/direc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/direcll"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:text="@string/direccion"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/datoscolegioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dip"
+                android:drawableRight="@android:drawable/ic_menu_edit"
+                android:text="@string/continuar" />
+
+            <TextView
+                android:id="@+id/mesas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/direcll"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:text="@string/mesas"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:id="@+id/svMesasLL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/datoscolegioButton"
+                android:layout_below="@id/mesas"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dip"
+                android:background="@android:color/darker_gray"
+                android:orientation="vertical"
+                android:padding="1dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <ListView
+                        android:id="@+id/svMesas"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+        android:background="@drawable/rightblackline"
+        android:scrollbarStyle="outsideInset"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadeScrollbars="false"
+        android:smoothScrollbar="true"
+        android:scrollbarThumbVertical="@drawable/barra_fastscroll_track"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

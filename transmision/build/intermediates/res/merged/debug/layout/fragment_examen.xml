@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.indra.elections.views.ZoomLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background0"
+        tools:context=".views.FrmExamen" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/mesaEscrutinioExamen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dip"
+                layout="@layout/table_mesa_examen"
+                android:paddingTop="10dip" />
+
+            <include
+                android:id="@+id/mesaResultado"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mesaEscrutinioExamen"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dip"
+                layout="@layout/table_examen"
+                android:paddingTop="10dip" />
+
+            <include
+                android:id="@+id/examenResultado"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mesaResultado"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dip"
+                layout="@layout/informationexamen_layout" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:alpha="0.2" >
+
+                <TextView
+                    android:id="@+id/marcadeagua"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="100dip"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:rotation="-45"
+                    android:text="@string/marcaAguaExamen"
+                    android:textColor="#33FF33"
+                    android:textSize="100sp"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.indra.elections.views.ZoomLayout>
+
+    <com.indra.elections.utils.keyboard.CustomKeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:keyBackground="@drawable/buttonkey_selector"
+        android:keyPreviewLayout="@layout/popupview"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

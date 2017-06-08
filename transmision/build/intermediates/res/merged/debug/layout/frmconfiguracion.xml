@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indra.elections.views.ZoomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deltabar" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_item_big"/>
+
+                <View
+                    android:id="@+id/configuracion_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/line_height"
+                    android:background="@color/greyBG" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" >
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@android:id/tabhost" />
+    </RelativeLayout>
+
+</com.indra.elections.views.ZoomLayout>

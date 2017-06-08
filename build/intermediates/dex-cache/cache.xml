@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/library-2.4.0_d53dc734c4f73356a9b0e037d3809298038f71ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c1aa08d66f4c3bb4f44c9972702966c65d20823d">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/classes_fe9c9b78238ea4f4362b0ddde8331d33af2b9249.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/support-v4-19.1.0_74757ecf79c029588b630e5b44389422ccd2445e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/2017/transmision/transmision/libs/org.xbill.dns_2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="55a985168f375b6192b78d260f9ca65596316f09">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/org.xbill.dns_2.1.1_5c44deb972bd25cb45287b9572fbfb555a28ccad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/2017/transmision/transmision/libs/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/gson-2.7_a3be7627e61754872c3fd521916cca3671ad052f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ba7bbd116766b8ff02b422d2eb37fa5946b717a4">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/classes_bb346bfd516230d64573ed5c0a6e1f7e6fe930c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/2017/transmision/transmision/libs/ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="341090035bee5b8b881570ada5dd17ac9bef2d26">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-2.5.8-jar-with-dependencies_60f9f2afbd58c5b873ee31a9e2314ef56a2a6165.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/2017/transmision/SlidingLibrary/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a43a03277e9b38993382dcb6113826f82da21f15">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/classes_377ccb7c6e39b2ee0a4186503710477439d3ffa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lm2a/2017/transmision/wheel/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd440fea56642be0bbd0979d4d75d57127072d8e">
+        <dex dex="/Users/lm2a/2017/transmision/transmision/build/intermediates/pre-dexed/debug/classes_dc19385347a4f8835243e9dbd3814edb17330a1f.jar" />
+    </item>
+
+</items>

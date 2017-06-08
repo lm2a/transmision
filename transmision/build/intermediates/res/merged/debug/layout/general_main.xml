@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        sothree:overlay="true"
+        sothree:panelHeight="40dp"
+        sothree:shadowHeight="4dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.indra.elections.views.InterceptorLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/interceptorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@+id/deltabar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="56dip"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="40dip"
+                    layout="@layout/maeactionbar" />
+
+                <android.support.v4.widget.DrawerLayout
+                    android:id="@+id/drawer_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/deltabar" >
+
+                    <FrameLayout
+                        android:id="@+id/content_frame"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/greyBG" />
+
+                    <include
+                        android:id="@+id/drawer_view"
+                        android:layout_width="400dip"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="start"
+                        layout="@layout/slider_menuleft" />
+                </android.support.v4.widget.DrawerLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="16dip"
+                    android:layout_below="@id/deltabar"
+                    android:alpha="0.5"
+                    android:background="@drawable/tab_shadow1" />
+            </com.indra.elections.views.InterceptorLayout>
+
+            <com.indra.elections.utils.keyboard.CustomKeyboardView
+                android:id="@+id/keyboard_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:keyBackground="@drawable/buttonkey_selector"
+                android:keyPreviewLayout="@layout/popupview"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/slidersystembar" />
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+    <include
+        android:id="@+id/deltaheadermain"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentTop="true"
+        layout="@layout/delta_header" />
+
+    <!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="96dip"
+        android:alpha="0.1" >
+
+        <TextView
+            android:id="@+id/marcadeagua"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="100dip"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:rotation="-45"
+            android:text="@string/marcaAguaAutoformacion"
+            android:textColor="@color/fgAppText"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <FrameLayout
+    android:id="@+id/content_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" />
+                        
+</RelativeLayout>

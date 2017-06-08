@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/drawable-hdpi-v4/vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/drawable-hdpi-v4/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_holo.9.png",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/drawable-hdpi-v4/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/drawable-hdpi-v4/vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_holo.9.png",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/drawable-hdpi-v4/vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-hdpi-v4/launcher_icon.png",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/drawable-hdpi-v4/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png"
+    }
+]

@@ -1,0 +1,538 @@
+[
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/fase_font_color.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/fase_font_color.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/nifnie.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/nifnie.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/iebc_logo.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/iebc_logo.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_font_color.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_font_color.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/background_slider_help.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/background_slider_help.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/foreground_image.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/foreground_image.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_font_color_0500.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_font_color_0500.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/but_delta_pressed.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/but_delta_pressed.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/main_background_splash_gallegas.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/main_background_splash_gallegas.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/help_datospersonales.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/help_datospersonales.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/llbackground.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/llbackground.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ok_verde_184_clickable.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/ok_verde_184_clickable.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_background_fase.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_background_fase.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/main_background_splash_0500.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/main_background_splash_0500.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/escrutinio_item_background_light.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/escrutinio_item_background_light.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/sombra.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/sombra.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_photo.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_photo.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_bateria_media_carga.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_bateria_media_carga.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/fondo_0500.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/fondo_0500.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ok_verde_142_clickable.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/ok_verde_142_clickable.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/main_background0.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/main_background0.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/fastscroll_trackball_holo_light.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/fastscroll_trackball_holo_light.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/icon_battery.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/icon_battery.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/buttontext_selector.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/buttontext_selector.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/arrow_redux.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/arrow_redux.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_shadow2.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_shadow2.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/corner_wheel.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/corner_wheel.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/next_azulito_184_clickable.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/next_azulito_184_clickable.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_shadow1.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_shadow1.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/next_azulito_142_clickable.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/next_azulito_142_clickable.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/action_bar_button_red.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/action_bar_button_red.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/main_background_splash_andaluzas.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/main_background_splash_andaluzas.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/back_azulito_184_clickable.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/back_azulito_184_clickable.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_background.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_background.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/list_divider.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/list_divider.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_pressed_holo.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_pressed_holo.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_background_0500.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_background_0500.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_circulo_flecha_blanco.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_circulo_flecha_blanco.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/background_header_estado_mesas.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/background_header_estado_mesas.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_ll_delta_holo.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_ll_delta_holo.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/barcode_bg.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/barcode_bg.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/datosborrar.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/datosborrar.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tabs_bg_deselected.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tabs_bg_deselected.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/wheel_bg.xml",
+        "source": "/Users/lm2a/2017/transmision/wheel/build/intermediates/bundles/default/res/drawable/wheel_bg.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/light.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/light.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/table_border.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/table_border.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tabs_selected.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tabs_selected.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/but_delta_normal.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/but_delta_normal.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/menu_delta_selected.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/menu_delta_selected.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_normal_holo.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_normal_holo.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/cancel_184_clickable.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/cancel_184_clickable.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/escrutinio_item_background_gray.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/escrutinio_item_background_gray.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_disabled_pressed.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_disabled_pressed.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/background_deltaedittext.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/background_deltaedittext.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/datosaceptar.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/datosaceptar.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_warning.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_warning.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/peruvian_fastscroll_track.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/peruvian_fastscroll_track.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_disabled.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_disabled.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/buttontelephone.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/buttontelephone.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/forma_rounded.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/forma_rounded.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tabs_bg.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tabs_bg.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/wheel_val.xml",
+        "source": "/Users/lm2a/2017/transmision/wheel/build/intermediates/bundles/default/res/drawable/wheel_val.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/transparent.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/transparent.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/sym_keyboard_feedback_return.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/sym_keyboard_feedback_return.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/borderblue.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/borderblue.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/menu_delta_normal.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/menu_delta_normal.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/above_shadow.xml",
+        "source": "/Users/lm2a/2017/transmision/SlidingLibrary/build/intermediates/bundles/default/res/drawable/above_shadow.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_background_andaluzas.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_background_andaluzas.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_reloj.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_reloj.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/main_background_toast.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/main_background_toast.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/datoseditar.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/datoseditar.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/datosmenu.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/datosmenu.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/dialogbackground2.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/dialogbackground2.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/datoslisto.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/datoslisto.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/background_info_mesas.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/background_info_mesas.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/menu_delta_2.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/menu_delta_2.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/previewbackground.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/previewbackground.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_bateria_alerta.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_bateria_alerta.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/indicator_input_error.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/indicator_input_error.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/escrutinio_item_background_blue.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/escrutinio_item_background_blue.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ic_action_accept_with_state.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/ic_action_accept_with_state.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/bandera_arg_96.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/bandera_arg_96.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_circulo_flecha_negro.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_circulo_flecha_negro.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/back_azulito_142_clickable.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/back_azulito_142_clickable.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/warning.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/warning.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/menu_delta_pressed.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/menu_delta_pressed.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_ll_delta.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_ll_delta.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/background_info_mesas_0500.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/background_info_mesas_0500.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/footer_bg.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/footer_bg.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/sym_keyboard_delete.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/sym_keyboard_delete.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/progressbarhorizontal.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/progressbarhorizontal.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/launcher_icon.png",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/drawable/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/onpe.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/onpe.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/sombra2.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/sombra2.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/barra_fastscroll_track.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/barra_fastscroll_track.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_background_footer.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_background_footer.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/menu_delta.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/menu_delta.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/below_shadow.xml",
+        "source": "/Users/lm2a/2017/transmision/SlidingLibrary/build/intermediates/bundles/default/res/drawable/below_shadow.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_informacion.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_informacion.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/sig.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/sig.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_normal.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_normal.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_aceptar_blanco.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_aceptar_blanco.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/datosbuscar.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/datosbuscar.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/buttonpressedtelephone.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/buttonpressedtelephone.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/error.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/error.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_delta.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_delta.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/forma_help.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/forma_help.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/fondo_05001.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/fondo_05001.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/indra_button_selector.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/indra_button_selector.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/tab_font_color.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/tab_font_color.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/share_via_barcode.png",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/drawable/share_via_barcode.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/background_fragment_edit_text.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/background_fragment_edit_text.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml",
+        "source": "/Users/lm2a/2017/transmision/viewPagerIndicator/build/intermediates/bundles/default/res/drawable/vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/buttonkey_selector.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/buttonkey_selector.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/nosi.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/nosi.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/bg_huella.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/bg_huella.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/icon_logo.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/icon_logo.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/arrow.jpg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/arrow.jpg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/bgbat.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/bgbat.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/cancel_65.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/cancel_65.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/main_background_splash.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/main_background_splash.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ic_action_search_with_state.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/ic_action_search_with_state.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_bateria_cargando2.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_bateria_cargando2.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_pressed.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_pressed.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_bateria_terminada.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_bateria_terminada.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/logo_galicia.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/logo_galicia.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/info.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/info.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/boletin_all.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/boletin_all.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/button_selector.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/button_selector.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/escrutinio_item_background_dark.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/escrutinio_item_background_dark.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/popclaro.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/popclaro.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_bateria_llena.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_bateria_llena.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/ico_cancelar_blanco.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable/ico_cancelar_blanco.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable/fondo_argentina.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/drawable/fondo_argentina.png"
+    }
+]

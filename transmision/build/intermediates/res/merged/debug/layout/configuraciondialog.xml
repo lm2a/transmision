@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/configuracion1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dip"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvconfiguracion1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal"
+                android:text="@string/accesibilidad"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/configuracionswitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvconfiguracion1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:textOff="@string/off"
+                android:textOn="@string/on" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/configuracion1"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/configuracion2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/configuracion1"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dip"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvconfiguracion6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal"
+                android:text="@string/brillo"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/brilloseekbar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tvconfiguracion6"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:max="100" >
+            </SeekBar>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

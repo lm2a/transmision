@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.indra.elections.views.ZoomLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/deltabar"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_background0" >
+
+            <FrameLayout
+                android:id="@+id/mesaEscrutinio"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textViewInstrucciones"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/mesaEscrutinio"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/info"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/fgAppText"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/infoVotosLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/buttons"
+                android:layout_below="@id/textViewInstrucciones"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/votele_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/fgAppBackgroundBlue"
+                    android:padding="5dp"
+                    android:tag="@string/item_0" >
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/votele_deltaEditText"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/background_deltaedittext"
+
+
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="4"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        android:layout_toLeftOf="@id/votele_deltaEditText"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center_vertical"
+                        android:tag="@string/label"
+                        android:text="@string/boletin_cast"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/vottot_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/fgAppBackgroundGray"
+                    android:padding="5dp"
+                    android:tag="@string/item_1" >
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/vottot_deltaEditText"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/background_deltaedittext"
+
+
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        android:layout_toLeftOf="@id/vottot_deltaEditText"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center_vertical"
+                        android:tag="@string/label"
+                        android:text="@string/boletin_valid"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/votimpug_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/fgAppBackgroundBlue"
+                    android:padding="5dp"
+                    android:tag="@string/item_2" >
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/votimpug_deltaEditText"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/background_deltaedittext"
+
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        android:layout_toLeftOf="@id/votimpug_deltaEditText"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center_vertical"
+                        android:tag="@string/label"
+                        android:text="@string/boletin_disputed"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/white" >
+
+                <View
+                    android:layout_width="@dimen/line_height"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/buttonAceptar"
+                    android:background="@color/greyBG" />
+
+                <RelativeLayout
+                    android:id="@+id/buttonAceptar"
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@color/eleccion_color1_0507" >
+<!-- android:background="@drawable/button_ll_delta"  -->
+                    <ProgressBar
+                        android:id="@+id/progressBarEnviando"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="30dp"
+                        android:background="@android:color/transparent"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/buttonAceptarTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/bigmargin"
+                        android:layout_marginRight="@dimen/bigmargin"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_action_accept_with_state"
+                        android:gravity="center"
+                        android:text="@string/accept"
+                        android:textColor="@drawable/button_font_color"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line_width"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_alignTop="@id/buttons"
+                android:background="@color/greyBG" />
+        </RelativeLayout>
+    </com.indra.elections.views.ZoomLayout>
+
+    <include
+        android:id="@+id/informationMessage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_item_big"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="210dp"
+        layout="@layout/informationmsg_layout"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/editTextMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#CC808080"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:id="@+id/layoutToZoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent" >
+
+            <com.indra.elections.customcontrols.CustomViewPager
+                android:id="@+id/editTextPager"
+                android:layout_width="550dp"
+                android:layout_height="550dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:background="@android:color/transparent"
+                android:rotation="90" />
+
+            <ImageView
+                android:id="@+id/closeEditTextImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/editTextPager"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:contentDescription="@string/defaultContentDescription"
+                android:src="@drawable/ok_verde_142_clickable" />
+
+            <ImageView
+                android:id="@+id/nextEditTextImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/editTextPager"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:contentDescription="@string/defaultContentDescription"
+                android:src="@drawable/next_azulito_142_clickable" />
+
+            <ImageView
+                android:id="@+id/backEditTextImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/editTextPager"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:contentDescription="@string/defaultContentDescription"
+                android:src="@drawable/back_azulito_142_clickable" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

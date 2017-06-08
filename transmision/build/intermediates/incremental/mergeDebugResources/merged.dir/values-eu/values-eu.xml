@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faseNames">
+		<item>Eraketa</item>
+		<item>Lehenengo aurrerapena</item>
+		<item>Bigarren Aurrerapena</item>
+		<item>Hirugarren Aurrerapena</item>
+		<item>Zenbaketa</item>
+		<item>Egunaren zain</item>
+    </string-array>
+    <string-array name="faseTitles">
+		<item>MAHAIEN ERAKETA</item>
+		<item>LEHENENGO AURRERAPENA</item>
+		<item>BIGARREN AURRERAPENA</item>
+		<item>HIRUGARREN AURRERAPENA</item>
+		<item>ZENBAKETA</item>
+		<item>EGUNAREN ZAIN</item>
+    </string-array>
+    <string-array name="menu">
+		<item>Konfigurazioa</item>
+		<item>Datuen bidalketa</item>
+		<item>Mahaien egoera</item>
+		<item>Telefonoa</item>        
+    </string-array>
+    <string-array name="otrasOpciones">
+		<item>Egoera kontsultatu</item>
+		<item>Pantaila</item>
+		<item>Itzali gailua</item>
+		<item>Laguntza</item>
+    </string-array>
+    <string-array name="otrasOpcionesTest">
+		<item>Egoera kontsultatu</item>
+		<item>Pantaila</item>
+		<item>Itzali gailua</item>
+		<item>Azterketa hasi</item>
+		<item>Deia egin</item>
+    </string-array>
+    <string-array name="txtInstrucciones_boletin">
+		<item>Adierazi errolda</item>
+		<item>Adierazi alta-ziurtagirien kopurua erroldan</item>
+		<item>Adierazi erroreak zuzentzeko ziurtagirien kopurua erroldan</item>
+		<item>Sartu boto-emaileen kopuru osoa</item>
+		<item>Adierazi botoa eman duten mahaiaren erroldan datozen hautesleen kopurua</item>
+		<item>Adierazi botoa eman duten mahaiaren erroldan datozen artekarien kopurua</item>
+		<item>Sartu boto baliogabeen kopurua</item>
+		<item>Sartu boto zurien kopurua</item>
+    </string-array>
+    <string name="Autoformacion">Autoprestakuntza</string>
+    <string name="CERTIFICIONES_ALTA">Errolda ziurtagirietan alta akastunak</string>
+    <string name="CERTIFICIONES_CORRECCION">Errolda ziurtagirietan akastunen zuzenketa</string>
+    <string name="ConNACK">Erantzunik gabeko konexioak</string>
+    <string name="Examen">Azterketa</string>
+    <string name="IMEI">IMEI</string>
+    <string name="Jornada">Hauteskunde-eguna</string>
+    <string name="NIE">AIZ</string>
+    <string name="NIF">IFZ</string>
+    <string name="OK">OK</string>
+    <string name="ResulBlanc">Boto zurien kopurua</string>
+    <string name="ResulCenso">Errolda</string>
+    <string name="ResulCertAlt">2- Hautesle-erroldan altan</string>
+    <string name="ResulCertAlt_28">A.- Hauteskunde-erroldako altakoa</string>
+    <string name="ResulCertErr">3- Akatsak zuzendutakoak</string>
+    <string name="ResulNVots">Boto-emaileak guztira</string>
+    <string name="ResulNele">A) Botoa eman duten eta erroldako hautesleak</string>
+    <string name="ResulNele_28">Boto eman duten artekarien kopurua (3)</string>
+    <string name="ResulNeleayuda">Botoa eman duten mahaiaren erroldan dauden hautesleen kopurua</string>
+    <string name="ResulNint">B) Botoa eman duten eta erroldan ez dauden artekariak</string>
+    <string name="ResulNint_28">Boto eman duten Mahaiko erroldan ez dauden artekarien kopurua (3)</string>
+    <string name="ResulNintayuda">Botoa eman duten mahaiaren erroldan dauden artekarien kopurua</string>
+    <string name="ResulNul">Boto baliogabeen kopurua</string>
+    <string name="STATUS_ERROR">Ez da egoera jaso</string>
+    <string name="Simulacro">Simulakroa</string>
+    <string name="UNKNOW_ERROR">AKATS EZEZAGUNA</string>
+    <string name="VOTANTES_CERO">Boto-emaileen totala (Botatu duten erroldako hautesleak + botatu duten eta erroldan ez dauden artekariak) 0 baino handiagoa izan behar du</string>
+    <string formatted="false" name="VOTANTES_ELECTORES">Boto eman ez duten erroldako hautesleak ezin dira Erroldatuak baino gehiago izan %s+ Errolda Ziurtagirien Alta %s</string>
+    <string name="VOTANTES_ELECTORES1">Hautesle boto-emaileak Hauteslea ezin dira Errolda baino gehiago izan </string>
+    <string name="VOTANTES_ELECTORES2"> =+ ziurt. Alta</string>
+    <string name="VOTANTES_INTERVENTORES">Boto eman duten eta erroldan ez dauden artekariak ezin dira aurkeztutako hautagai-zerrenden bikoitza baino gehiago izan (%d)</string>
+    <string name="VOTANTES_SUMA">Boto-emaileen totala (Botatu duten erroldako hauteselak + botatu duten eta erroldan ez dauden artekariak) Boto Zuriak + Hautagaitzen Botoak izan behar da</string>
+    <string name="VOTANTES_SUMA1">Hautagai-zerrenden Botoak ezin dira hauek baino txikiagoak izan: Boto-emaile guztiak - Zuriak - Baliogabeak</string>
+    <string name="VOTANTES_SUMA2">Hautagai-zerrenden Botoak ezin dira hauek baino handiagoak izan: (Boto-emaile guztiak - Zuriak - Baliogabeak)* Hautagaitza kop. Barrutia</string>
+    <string name="VOTANTES_SUMA3">Hautagai batentzako Botoak hauek baino txikiagoak edo berdina izan behar dira: Boto-emaile guztiak - Zuriak - Baliogabeak</string>
+    <string name="VOTANTES_SUMA4">Boto-emaileen totala (Botatu duten erroldako hauteselak + botatu duten eta erroldan ez dauden artekariak) Boto Zuriak + Boto baliogabeak baino handiagoa izan behar da</string>
+    <string name="VerDat">DATUEN BERTSIOA:%s</string>
+    <string name="VerSw">SW BERTSIOA:%s</string>
+    <string name="accboletin">Mahaiaren boto-kontaketako buletinean sartzen </string>
+    <string name="accept">Onartu</string>
+    <string name="acceptlanguage">ONARTU</string>
+    <string name="accesibilidad">Irisgarritasuna</string>
+    <string name="aceptarTxt">Onartu</string>
+    <string name="action">AKZIOA</string>
+    <string name="activarAccesibilidad">Erabilerraztasun aukera aktibatuko duzu, gailua berrabiaraziko da\nZiur al zaude?</string>
+    <string name="admin">Administrazioa</string>
+    <string name="admin_Home">Home-ra joan</string>
+    <string name="admin_mostrar">Erakutsi Taulak</string>
+    <string name="admin_red">Sarearen doikuntzak</string>
+    <string name="ajustes">Doitzeak</string>
+    <string name="apagando">Gailua itzailtzen. Itxaron, mesedez...</string>
+    <string name="apagardispositivo">Itzali gailua</string>
+    <string name="app_name">2015eko maiatzaren 24ko hauteskundeak</string>
+    <string name="app_picker_name">Aplikazioak</string>
+    <string name="applylanguage">APLIKATU HIZKUNTZA</string>
+    <string name="applyprovincia">APLIKATU PROBINTZIA</string>
+    <string name="avance">Boto-emaileen kopurua</string>
+    <string name="ayuda">Laguntza</string>
+    <string name="bloqueando">Pantaila blokeatzen. Itxaron, mesedez...</string>
+    <string name="bookmark_picker_name">Laster-markak</string>
+    <string name="borrardatos">Datuak ezabatu</string>
+    <string name="brillo">Argitasuna</string>
+    <string name="buscar">Bilatu</string>
+    <string name="button_add_calendar">Gehitu egutegian</string>
+    <string name="button_add_contact">Gehitu kontaktua</string>
+    <string name="button_book_search">Bilatu liburua</string>
+    <string name="button_cancel">Utzi</string>
+    <string name="button_custom_product_search">Bilaketa pertsonalizatua</string>
+    <string name="button_dial">Markatu zenbakia</string>
+    <string name="button_email">Bidali e-posta</string>
+    <string name="button_get_directions">Lortu jarraibideak</string>
+    <string name="button_mms">Bidali MMSa</string>
+    <string name="button_ok">Ados</string>
+    <string name="button_open_browser">Ireki arakatzailean</string>
+    <string name="button_product_search">Produktu bilaketa</string>
+    <string name="button_search_book_contents">Bilatu edukiak</string>
+    <string name="button_share_app">Aplikazioa</string>
+    <string name="button_share_bookmark">Laster-marka</string>
+    <string name="button_share_by_email">Partekatu e-posta bidez</string>
+    <string name="button_share_by_sms">Partekatu SMS bidez</string>
+    <string name="button_share_clipboard">Arbela</string>
+    <string name="button_share_contact">Kontaktua</string>
+    <string name="button_show_map">Erakutsi mapa</string>
+    <string name="button_sms">Bidali SMSa</string>
+    <string name="button_web_search">Web bilaketa</string>
+    <string name="button_wifi">Konektatu sarera</string>
+    <string name="callincorrecto">Telefono okerra. <b>Tabletaren Erabiltzaileentzako Arreta-gunera</b>, larrialdietako telefonoetara edo 900 zenbakiekin hasten direnak bakarrik daude baimenduta deiak</string>
+    <string name="callintroduza">Sartu markatu nahi duzun telefonoa</string>
+    <string name="callllamando">PDAren Arazoak konpontzeko telefonora deitzen</string>
+    <string name="callsidesea"><b>CAU</b></string>
+    <string name="cancel">Ezeztatu</string>
+    <string name="censalesalta"><b>Errolda ziurtagirietan alta</b></string>
+    <string name="censo"><b>ERROLDA</b><br/></string>
+    <string name="censo2">ERROLDA</string>
+    <string name="cererror"><b>Ziurtagirietan akatsa</b></string>
+    <string name="cerrar">Itxi</string>
+    <string name="cerrar2">ITXI</string>
+    <string name="codigo">Kodea:</string>
+    <string name="codigollamada">Eragiketa hau zenbait arazo konpontzeko bakarrik da baliagarria. Behar izanez gero, deitu arazoak konpontzeko telefono zenbakira eta beharko duzun PINa emango dizute</string>
+    <string name="codigos">KODEAK</string>
+    <string name="colgar">Eskegi</string>
+    <string name="comenzarExamen">Azterketa hasi</string>
+    <string name="completado">Osatuta</string>
+    <string name="comunidad">AUTONOMIKOAK</string>
+    <string name="comunvotantes">OROKORRA</string>
+    <string name="concejo">KONTZEJUA</string>
+    <string name="concejos">KONTZEJUAK</string>
+    <string name="conectedto">Hona konektatuta</string>
+    <string name="conf_guion">-</string>
+    <string name="conf_letra">Letra</string>
+    <string name="configuracion">Konfigurazioa</string>
+    <string name="confirmarlanguage">Hizkuntza aldaketa honi aplikatu </string>
+    <string name="confirmarprovincia">%s probintzia aukeratu nahi al duzu?</string>
+    <string name="connor">NoR KONEXIOA</string>
+    <string name="consejos">IRLEETAKO KONTZEJUAK</string>
+    <string name="constitucionTabText">&lt;b>Fasea&lt;/b>&lt;br>Eraketa</string>
+    <string name="constmesa">Fasea: &lt;font color="green">&lt;b>Mahaien eraketa&lt;/b>&lt;/font></string>
+    <string name="constmesa_nohtml">Mahaien eraketa</string>
+    <string name="consultarestado">Egoera kontsultatu</string>
+    <string name="consultarestado_message">Zerbitzariaren egoera berriro lortu nahi al duzu?</string>
+    <string name="contents_contact">Kontaktuaren informazioa</string>
+    <string name="contents_email">Helbide elektronikoa</string>
+    <string name="contents_location">Koordenatu geografikoak</string>
+    <string name="contents_phone">Telefono zenbakia</string>
+    <string name="contents_sms">SMS helbidea</string>
+    <string name="contents_text">Testu laua</string>
+    <string name="continuar">Jarraitu</string>
+    <string name="controlalarma">Alarmaren kontrola</string>
+    <string name="cortes09">GAZTELA ETA LEONGO\nGORTEAK </string>
+    <string name="datacontact"><b>Kontaktuaren datuak</b></string>
+    <string name="datosconexion">Konexio-datuak</string>
+    <string name="datosdispositivo">GAILUAREN DATUAK</string>
+    <string name="datoslocal">HAUTESLEKUAREN DATUAK</string>
+    <string name="dc">Kontrol-digitua</string>
+    <string name="dc_erroneo">Kontroleko digitu okerra</string>
+    <string name="dc_formacion">Kontroleko digitu okerra, Prestakuntzarako sartu \'1\'</string>
+    <string name="dc_simulacro">Kontroleko digitu okerra, simulakro honetarako sartu \'1\'</string>
+    <string name="defaultContentDescription">Deskribatzaile lehenetsia</string>
+    <string name="delete">Ezabatu</string>
+    <string name="desactivarAccesibilidad">Erabilerraztasun aukera desgaituko duzu, gailua berrabiaraziko da\nZiur al zaude?</string>
+    <string name="desautorizado">Gailua ez dago gaituta, mesedez, deitu Arazoak konpontzeko telefonora</string>
+    <string name="dialog_apagarterminal">Terminala itzaliko da.\nZiur al zaude?</string>
+    <string name="dialog_cerrardatos1"><b>DATU PERTSONALAK</b> <b>EDITATUTA</b> "Jarraitu" sakatzen baduzu, aldaketak galduko dituzu.<br/><br/><b>DATU PERTSONALAK</b> gordetzeko, sakatu "Ezeztatu", eta sakatu "Onartu" <b>DATU PERTSONALAK</b> erlaitzean.</string>
+    <string name="dialog_cerrardatos2">&lt;b>HAUTESLEKUKO DATUAK EDITATUTA&lt;/b> &lt;b>EDITATU&lt;/b> dira, "Jarraitu" sakatzen baduzu, aldaketak galduko dituzu.&lt;br>&lt;br>&lt;b>HAUTESLEKUKO DATUAK&lt;/b> gordetzeko, sakatu "Ezeztatu", eta sakatu "Onartu" &lt;b>HAUTESLEKUKO DATUAK&lt;/b> erlaitzean.</string>
+    <string name="dialog_cerrarresultados">Leihoa ixten baduzu datuak galduko dira\nZiur zaude?</string>
+    <string name="dialog_comenzarexamen">Adi, Azterketa Modua hastera doa\nEragiketa hau Hezitzaile batek gainbegiratuta egin\nZiur al zaude?</string>
+    <string name="dialog_configuracion">KONFIGURAZIOA</string>
+    <string name="dialog_conformidad1">Zure datu pertsonalak sartu behar dira, 2015eko maiatzaren 24ko Hausteskundeetan administrazioak erabil ahal izateko bakarrik</string>
+    <string name="dialog_conformidad2">Terminalaren kokapena erregistratzera zoaz administrazio-kontrolarentzako</string>
+    <string name="dialog_conformidad2_options">&lt;b>Terminalaren kokapena partekatu aktibatu&lt;/b>&lt;br>&lt;br>Terminalaren kokapena erregistratuko da administrazio-kontrolarentzako</string>
+    <string name="dialog_conformidad3">Mesedez, sakatu  &lt;i>&lt;b>\"Terminalaren kokapenaren erregistroa aktibatu\"&lt;/b>&lt;/i> , aplikazioa erabiltzen jarraitzeko</string>
+    <string formatted="false" name="dialog_conformidad4">Sisteman erregistratuta gera dadin ikastetxea baieztatu nahi al duzu?&lt;br>&lt;br>&lt;b>%s&lt;/b>&lt;br>&lt;br>Botoi bat ere sakatzen ez baduzu, Hauteslekua automatikoki erregistratuko da &lt;b>%s segundo barru&lt;/b></string>
+    <string formatted="false" name="dialog_conformidad_idioma_inicio">Ez hizkuntzaren sisteman erregistratu berretsi nahi al duzu?&lt;br>&lt;br>&lt;b>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/b>&lt;br>&lt;br>Botoi bat ere sakatzen baduzu, hizkuntza automatikoki erresgistratuko da en &lt;b>%s&lt;/b></string>
+    <string name="dialog_errormesa">Akatsa mahaian</string>
+    <string name="dialog_errormesaconnection">Akatsa zerbitzariarekin konektatzen</string>
+    <string name="dialog_errormesanotfound">Mahaia ez da aurkitu, mesedez berrikusi datuak</string>
+    <string name="dialog_mesassinconfirmar">Berretsi gabeko mahaiak</string>
+    <string name="dialog_noestado">Ez da egoerarik jaso</string>
+    <string formatted="false" name="dialog_prioridad_eleccion">Mesedez, sartu lehenengo mahaiaren zenbaketaren buletina &lt;b>%s&lt;/b> Hauteskunderako &lt;b>%s&lt;/b></string>
+    <string name="dialog_sim_no">Sarea konfiguratzen. Itxaron, arren...</string>
+    <string name="dialog_votoszero">Hautagai-zerrenden botoak zero dira\nZiur al zaude?</string>
+    <string name="direccion">Helbidea</string>
+    <string name="direccion2">HELBIDEA</string>
+    <string name="distrito">Barrutia</string>
+    <string name="edit">Editatu</string>
+    <string name="elec">Aukera</string>
+    <string name="eleccensados"><b>Erroldatutako hautesleak</b></string>
+    <string name="electoresCenso"><b>HAUTESLE KOPURUA ERROLDAKO ZERRENDEN ARABERA:</b>\n(Datu honetan alta eta baja eranskinak ere hartuko dira kontuan)</string>
+    <string name="electoresCensoExtranjeros"><b>ESPAINIAN BIZI DIREN E.B.KO ETA HITZARMENAK DITUZTEN HERRIALDEETAKO HERRITARRAK:</b>\n(Datu honetan alta eta baja eranskinak ere hartuko dira kontuan)</string>
+    <string name="electoresCensoNacional"><b>ESPAINIAN BIZI DIREN HAUTESKUNDE-ERROLDAKO HAUTESLEAK:</b>\n(Datu honetan alta eta baja eranskinak ere hartuko dira kontuan)</string>
+    <string name="enviando">Datuak bidaltzen. Itxaron, mesedez...</string>
+    <string name="enviandoTx">Transmisorearen datuak egiaztatzen. Itxaron, mesedez...</string>
+    <string name="enviarlogs">Logak bidali</string>
+    <string name="enviarmesas">Datuen bidalketa</string>
+    <string name="envioMesasCompletado">Bidalketa Burututa</string>
+    <string name="error_campo_obligatorio">Eremu hau derrigorrezkoa da</string>
+    <string name="errores">Akatsak</string>
+    <string name="errorpin">Akatsa PINa sartzen</string>
+    <string name="escrutinio">Fasea: &lt;font color="green">&lt;b>Zenbaketa&lt;/b>&lt;/font></string>
+    <string name="escrutinioTabText">&lt;b>Fasea&lt;/b>&lt;br>Boto-kontaketa</string>
+    <string name="escrutinio_nohtml">Boto-Kontaketa</string>
+    <string name="esperandoApertura">(MAHAIAK IREKITZEAREN ZAIN)</string>
+    <string name="esperandoTabText">&lt;b>Fasea&lt;/b>&lt;br>Egunaren zain</string>
+    <string name="esperandojornada">Fasea: &lt;font color="green">&lt;b>Egunaren zain&lt;/b>&lt;/font></string>
+    <string name="esperandojornada_nohtml">Egunaren zain</string>
+    <string name="estado">Egoera</string>
+    <string name="estadoMesasConstMesas">Mahaien eraketa</string>
+    <string name="estadoMesasEnCola">Bidaltzeko ilaran</string>
+    <string name="estadoMesasEnviadaxtfno">Telefonoaren bidez bidalita</string>
+    <string name="estadoMesasEnviado">Tabletaren bidez bidalita</string>
+    <string name="estadoMesasEscrutinio">Boto-kontaketa</string>
+    <string name="estadoMesasIdMesas">Mahaiak</string>
+    <string name="estadoMesasInfoColumnaResaltada">Nabarmendutako zutabea oraingo faseari dagokio.</string>
+    <string name="estadoMesasNoAplica">Ez du aplikatzen:</string>
+    <string name="estadoMesasPrimerAvance">Lehenengo Aurrerapena</string>
+    <string name="estadoMesasSegundoAvance">Bigarren Aurrerapena</string>
+    <string name="estadoMesasSinDatos">Daturik gabe</string>
+    <string name="estadoMesasTercerAvance">Hirugarren Aurrerapena</string>
+    <string name="estadomesas">Mahaien egoera</string>
+    <string name="extranjero">DOKUMENTUA</string>
+    <string name="fase">Fasea: </string>
+    <string name="finTabText">&lt;b>Fasea&lt;/b>&lt;br>Egunaren bukaera</string>
+    <string name="finalizado">Amaituta</string>
+    <string name="finformacion">Prestakuntza zikloa bukatu duzu, sakatu Onartu aplikazioa berrabiarazi eta ziklo berri bat hasteko.</string>
+    <string name="finformaciontitle">Prestakuntzaren bukaera</string>
+    <string name="finjornada">Fasea: &lt;font color="green">&lt;b>Egunaren bukaera&lt;/b>&lt;/font></string>
+    <string name="finjornada_nohtml">Egunaren bukaera</string>
+    <string name="forzarapagar">Gailua automatikoki itzaliko da &lt;b>%s segundo barru&lt;/b>&lt;br></string>
+    <string name="frmEstadoMesasTitle">Mahaien egoera</string>
+    <string name="header_menu">MENUA</string>
+    <string name="header_title1">KONFIGURAZIOA</string>
+    <string name="help_ayuda">&lt;b>&lt;u>Laguntza&lt;/u>:&lt;/b> Ordezkariak botoi hau sakatu ahalko du pantaila&lt;br />        guztietan, eta laguntza-leiho bat agertuko da, non&lt;br />        haren aukerak eta botoiak azalduko diren.</string>
+    <string name="help_bExit">Irten</string>
+    <string name="help_bateria">&lt;b>&lt;u>Bateria&lt;/u>:&lt;/b> Bateriaren kargaren maila adierazten du. Beti&lt;br />        egon behar du % 30 gainetik:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/full_battery_48.png" /> Bateriaren maila oso altua.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_75_48.png" />   Bateriaren maila altua.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_50_48.png" />   Bateriaren maila ertaina.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_25_48.png" />   Bateriaren maila baxua.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/almost_empty_48.png" /> Bateriaren maila oso baxua. Sarera konektatu.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/empty_battery_48.png" /> Bateria deskargatu da. Sarera konektatu.</string>
+    <string name="help_cobertura">&lt;b>&lt;u>Estaldura&lt;/u>:&lt;/b> Estaldura maila adierazten du:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_4.png" /> &lt;b>Oso ona&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_3.png" /> &lt;b>Ona&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_2.png" /> &lt;b>Ertaina&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_1.png" /> &lt;b>Txarra&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_0.png" /> &lt;b>Bat ere ez:&lt;/b> Jarri harremanetan Tabletaren Erabiltzaileentzako &lt;b>Arreta-gunearekin&lt;br/>        &amp;nbsp;&amp;nbsp;&lt;/b>.</string>
+    <string name="help_cobertura_top">&lt;img src="file:///android_res/drawable/high_connection_48.png" />&amp;nbsp;&lt;b>&lt;u>Estaldura maila&lt;/u>:&amp;nbsp;&lt;/b>Estaldura maila eta mota adierazten&lt;br />ditu. Honakoak izan daitezke:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/high_connection_48.png" /> &lt;b>Ona&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/medium_connection_48.png" /> &lt;b>Ertaina&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/low_connection_48.png" /> &lt;b>Txarra&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/no_connection_48.png" /> &lt;b>Bat ere ez&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;Operadorea (Movistar, NO SIM edo NO RED)&lt;br />        &amp;nbsp;&amp;nbsp;eta estaldura mota (HP, H, 3G, E).</string>
+    <string name="help_codigomesa">Mahaiaren kodea sakatu hautatukao mahaiaren oraingo faseari&lt;br />dagozkionak</string>
+    <string name="help_constitucion_mesas">&lt;b>&lt;u>Mahaien eraketa:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Mahaia eratzeko, azaldu behar da:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Mahaiaren Kontroleko digitua:&lt;/b>&amp;nbsp;Buletinako Kontroleko Digituko eremuan agertzen&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; den zenbakia sartu  behar izango duzu.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Hautesle nazionalen kopurua, erroldako zerrenden arabera:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; lehendakariari gogoratu beharko&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;diozu, jazotzekotan, Alten eta Bajen Eranskinetako&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hautesle nazional eta atzerritarren datua eguneratu behar duela. (Sartu,&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;gehienez, lau zenbaki eremu bakiotzean).&lt;br />&lt;br />
+        Hauteskunde bakoitzeko Hautesleen kopurua sartu eta gero, &lt;img src=""file:///android_res/drawable/datosaceptar.png"" /> botoia sakatuko da
+         aipatutako datuak bidaltzeko. Bildalketa ondo egin bada, paintailan jakinaraziko da.&lt;br />
+        Sartutako datuetan akatsa nabaritzen bada, &lt;b> pantailan akats-mezuaz &lt;/b>&lt;img src=""file:///android_res/drawable/error.png"" /> ohartaraziko da zuzen dadin.</string>
+    <string name="help_constitucion_mesas_tipocenso0">&lt;b>&lt;u>Mahaien eraketa:&lt;/u>&lt;/b>&lt;br />&lt;br />Mahai bat eratzeko, hauxe adierazi beharra dago:&lt;br />&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>- Mahaiaren kontroleko digitua:&lt;/b>&amp;nbsp;Hemen azaltzen den zenbakia adierazi beharko&lt;br />
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;duzu buletineko Kontroleko Digituaren eremua.&lt;br />
+Kontroleko digitua sartutakoan, &lt;img src=""file:///android_res/drawable/datosaceptar.png"" /> botoia sakatuko da adierazitako datuak bidaltzeko. Ongi bidali bada, pantaila bidez jakinaraziko da.&lt;br /> Sartutako datuetan akatsen bat hautematen bada, pantailan agertuko den &lt;b>errore-mezuaren bitartez&lt;/b> &lt;img src=""file:///android_res/drawable/error.png"" /> abisatuko da hura zuzentzeko.</string>
+    <string name="help_constitucion_mesas_tipocenso1">&lt;b>&lt;u>Mahaien eraketa:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Mahaia eratzeko, datu hauek adierazi behar dira:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Mahaiaren kontroleko digitua:&lt;/b>&amp;nbsp;Hemen agertzen den zenbakia sartu beharko duzu:&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;buletineko Kontroleko Digituaren eremua.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Nazioko hautesleen kopurua erroldaren zerrenden arabera:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Mahaiaren presidenteari gogorarazi beharko diozu&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hauxe duten nazioko hautesleen errolda&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Alta eta Baja Eranskinekin eguneratu behar dituela jaso badira. (Honela sartu &lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;gehienez lau digitu eremu bakoitzean).&lt;br />&lt;br />
+        Hauteskunde bakoitzarentzat Boto-emaileen kopurua sartutakoan, &lt;img src=""file:///android_res/drawable/datosaceptar.png"" /> botoia sakatuko da
+        adierazitako datuak bidaltzeko. Ongi bidali bada, pantailaren bitartez jakinaraziko da.&lt;br />
+        Sartutako datuetan akatsen bat hautematen bada, &lt;b> pantailan agertuko den &lt;/b>errore-mezuaren bitartez&lt;img src=""file:///android_res/drawable/error.png"" />  abisatuko da hura zuzentzeko.</string>
+    <string name="help_datos">&lt;b>&lt;u>Datuak&lt;/u>:&lt;/b> Datuen estaldura adierazten du:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_connected_g.png" /> &lt;b>Konektatuta:&lt;/b> datuen estaldura zaindu behar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;da, tableta uneoro egon dadin&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;zerbitzariarekin konektatuta.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_no_connected_gred.png" /> &lt;b>Konektatu gabe:&lt;/b> Tabletaren Erabiltzaileentzako &lt;b>Arreta-gunearekin&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;jarri harremanetan&lt;/b>.</string>
+    <string name="help_datos_colegio">&lt;b>&lt;u>Hauteslekuaren datuak eta esleitutako mahaiak&lt;/u>:&lt;/b>&lt;br />&lt;br />        Aurreko pantailan sartutako mahaiaren datuen arabera,&lt;br />        Hauteslekuaren eta ordezkari esleitutako mahaien datuak agertuko dira:&lt;br />        &lt;img src="file:///android_res/drawable/ic_action_place.png" />Hauteslekuaren kokapena mapan adierazten du.&lt;br />        &amp;nbsp;&lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp; Datuak zuzenak badira, botoi hau sakatu beharko duzu         hauteslekua baieztatu eta jarraitzeko.&lt;br />        &amp;nbsp;&lt;img src="file:///android_res/drawable/datoseditar.jpg" />&amp;nbsp; Datuak zuzenak ez badira, botoi hau sakatuz&lt;br />        sartutako mahaiaren datuen pantailara itzuliko zara haiek aldatzeko.</string>
+    <string name="help_datos_colegio_direccion">INSTITUTO Nº4 AMPARO SANZ\nTOMÁS EDISON 9998 KALEA\nALBACETE\nALBACETE\n</string>
+    <string name="help_datos_conexion">&lt;b>&lt;u>Konexioko datuen informazioa&lt;/u>:&lt;/b> Botoi honen bitartez&lt;br />        konexioko datuen inguruko hurrengo informazioa&lt;br />        lortuko dugu. &lt;b>Tabletaren Erabiltzaileentzako&lt;/b>Arreta-guneak&lt;br />        datu hauek eska ditzake arazoren bat badago:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Modua:&lt;/b> Autoprestakuntza, simulakroa edo hauteskunde-eguna.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Gailua&lt;/b> konektatzeko erabiltzen ari zaren sareari dagokion&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;operadorea. &lt;b>&lt;i>MOVISTAR&lt;i>&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ez badator, &lt;b>Tabletaren Erabiltzaileentzako&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Arreta-gunearekin jarri beharko duzu harremanetan&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- APN: &lt;/b> gailua konektatuta duen sarearena.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&lt;/b> Gailuaren identifikatzailea.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&lt;/b> SIM txartelaren identifikatzailea.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Tabletaren IP&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Zerbitzariaren IP&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Erantzunik gabeko konexioak&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Softwarearen bertsioa&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Datuen bertsioa&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Azken egoera ikusi:&lt;/b> Botoi hau sakatzen baduzu,&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;zenbait kasutan Tabletaren Erabiltzaileentzako Arreta-gunearentzat erabilgarria&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;izan daitekeen &lt;b>informazioa erakutsiko da&lt;/b>.</string>
+    <string name="help_datos_electoral_cut1">&lt;b>&lt;u>Ordezkariari esleitutako mahaietako baten datuen sarrera&lt;/u>:&lt;/b>&lt;br />&lt;br />        Ordezkaria identifikatutakoan, esleituta duen mahairen bateko datuak sartzeko&lt;br />        atala azalduko da. Datu hauek adierazi beharko dira:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Probintzia:&lt;/b> Probintziaren kodea (bi digitu).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Udalerria:&lt;/b> Udalerriaren kodea (hiru digitu).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Barrutia:&lt;/b> Barrutiaren kodea (bi digitu).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Atala:&lt;/b> Atalaren kodea (hiru digitu).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mahaia:&lt;/b> Mahaiaren kodea (letra bat).</string>
+    <string name="help_datos_electoral_cut2">&lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Mahaiaren datuak sartutakoan, botoi hau sakatu beharra dago jarraitzeko.&lt;br />&lt;br />         &lt;img src="file:///android_res/drawable/datosbuscar.jpg" />Gero, botoi hau sakatu beharra dago sartu duzun mahaia bilatzeko:        &amp;nbsp;Datu guztiak zuzenak badira, hurrengo pantailara igaroko da Hauteslekua eta mahaiak egiaztatzeko:        &lt;br /> Bestela, mezu bat agertuko da aldatu behar duzun eremuaren azpian.&lt;br />        &lt;br />&lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Botoi hori sakatuta, sartutako datu GUZTIAK ezabatuko dira.        &lt;br />&lt;br />&lt;img src="file:///android_res/drawable/datosmenu.jpg" />&amp;nbsp;Nahi duzunean sartu ahalko zara Menutik Hauteslekuko datuak aldatzeko eta konfigurazio aukera hautatzen.        &lt;br />Simulakroan eta hauteskunde-egunean, &lt;b>Tabletaren Erabiltzaileentzako Arreta-gunera&lt;/b> deitu beharko da Hauteslekuaren datuak aldatzeko.</string>
+    <string name="help_datos_modosnavega">&lt;b>Pantailan nabigatzeko moduak&lt;/b>:&lt;br />        Oraingo fasean dauden Hauteskundeetan esleitutako mahai bakoitzaren datuak&lt;br />        hautatu eta sartzeko bi modu daude:&lt;br />         -Hautatu nahi duzun Hauteskunderako logotipoa sakatu eta nabarmendu egingo        &lt;br />&amp;nbsp;da.&lt;br />        -Erakuslea/hatza pantailaren erditik, eskuinera edo ezkerrera arrastatu,&lt;br />&amp;nbsp;hautatu nahi duzun Hauteskunderako erlaitza nabarmentzen den arte.</string>
+    <string name="help_datos_personales_cut1">&lt;b>&lt;u>Ordezkariaren datuak&lt;/u>:&lt;/b>&lt;br />&lt;br />           Gailua lehenengo aldiz abiarazten duzunean, Ordezkariaren&lt;br />datozen datu pertsonalak eskatuko ditu:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Dokumentua:&lt;/b> Sakatu &amp;nbsp;&lt;img src="file:///android_res/drawable/nifnie.jpg" />&amp;nbsp; botoia AIZ aukera gaitzeko,&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;behar izanez gero.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IFZ/AIZ:&lt;/b> IFZ/AIZ zenbakia eta letra.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Izen-abizenak:&lt;/b> Sartu ordezkariaren izena eta abizenak.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- 1 telefonoa:&lt;/b> Harremanetarako lehenengo telefonoa. Uneoro Ordezkariarekin&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;harremanetan jartzeko telefono mugikorra izan behar da, &lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;simulakroan eta Hauteskunde-egunean bereziki.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- 2 telefonoa:&lt;/b> Harremanetarako bigarren telefonoa (hautazkoa).&lt;br />        &lt;br />Garrantzitsua da datu horiek zuzenak izatea, Ordezkariarekin harremanetan jarri behar izanez gero&lt;br />        erabiliko direlako&lt;br />        &lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Datu pertsonal guztiak sartu ondoren tekla hau sakatu behar da aurrera egiteko.</string>
+    <string name="help_datos_personales_cut2">&lt;b>&lt;u>Ordezkariaren datuak&lt;/u>:&lt;/b>&lt;br />&lt;br />        &lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp;Datu guztiak sartu ondoren, botoi hau sakatu behar da:        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Datu guztiak zuzenak badira, Hauteslekua erlaitza aktibatuko da.        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Bestela, eremuaren azpian mezu bat agertuko da, zeina         &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aldatu beharko den.        &lt;br />        &lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Botoi hau sakatzen denean sartutako datu GUZTIAK ezabatzen dira. &lt;br />        &amp;nbsp;Nahi duzunean aldatu ahalko dituzu datu pertsonalak &amp;nbsp;&lt;img src="file:///android_res/drawable/datosmenu.jpg" /> &lt;br />        atalean sartu eta konfigurazio aukera hautatzen.</string>
+    <string name="help_datos_personales_pag1_tab1">&lt;b>&lt;u>Datuak pantailan sartzeko moduak&lt;/u>:&lt;/b>&lt;br />        Lau modu daude eremu batetik bestera igarotzeko eta haiek editatzeko:&lt;br />        &amp;nbsp;&amp;nbsp;1-Editatu nahi den eremua sakatu.&lt;br />        &amp;nbsp;&amp;nbsp;2-&lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> Arkatza sakatu, editatu nahi den eremuaren eskuinean eta eremu&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;horretako alda daitezkeen datuen&amp;nbsp; &lt;img src="file:///android_res/drawable/ic_action_accept.png" /> checka aldatuko&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;da.&lt;br />        &amp;nbsp;&amp;nbsp;3-Teklatuan &lt;img src="file:///android_res/drawable/sig.jpg" /> hurrengo tekla sakatu eta eremu batetik hurrengora&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;igaroko zara.&lt;br />        &amp;nbsp;&amp;nbsp;4-Eremua osatutakoan automatikoki igaroko da hurrengora, &lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; "Izena eta abizenak" eremua izan ezik, non aurreko&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aukeretako bat burutu beharko den.</string>
+    <string name="help_datos_personales_pag1_tab2">&lt;b>&lt;u>Pantailaren datuak sartzeko moduak&lt;/u>:&lt;/b>&lt;br />        Lau modu daude eremu batetik bestera igarotzeko eta haiek editatzeko:&lt;br />        &amp;nbsp;&amp;nbsp;1-Editatu nahi den eremua sakatu.&lt;br />        &amp;nbsp;&amp;nbsp;2-&lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> Arkatza sakatu, editatu nahi den eremuaren eskuinean eta eremu&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;horretako datuak alda daitezkeela adierazten duen checka aldatuko da.&amp;nbsp;&lt;img src="file:///android_res/drawable/check48.png" />&lt;br />&amp;nbsp;&amp;nbsp;3-Hurrengo teklatuko tekla sakatu eta eremu batetik bestera igaroko zara.&amp;nbsp;&lt;img src="file:///android_res/drawable/sig.jpg" />&lt;br />&amp;nbsp;&amp;nbsp;4-Eremua betetakoan, automatikoki igaroko da hurrengora.</string>
+    <string name="help_datos_tabs">&lt;b>Hauteskunde-erlaitza&lt;/b>:&lt;br />        Aplikazioak transmititu behar diren bezainbeste erlaitz erakutsiko ditu. Mahaiaren 2015eko Tokiko Hauteskundeen fase honetako datuak bidali arte, mahai hau ez da erabilgarri egongo aplikatuko zaizkion gainerako Hauteskundeetarako datuak betetzeko.</string>
+    <string name="help_datosdeldispositivo">&lt;img src="file:///android_res/drawable/info_72.png" />&amp;nbsp;&lt;b>&lt;u>Gailuaren datuak&lt;/u>:&lt;/b>Tabletaren datu identifikatzaileak:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- APN:&amp;nbsp;&lt;/b>gailura konektatzeko erabiltzen duena&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&amp;nbsp;&lt;/b>Gailuaren identifikatzailea&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&amp;nbsp;&lt;/b>SIM txartelaren identifikatzailea&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Gailuaren IP&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Zerbitzariaren IP&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- noR konexioa:&lt;/b>&amp;nbsp;Erantzunik gabeko konexioen&lt;br />kopurua adierazten du.</string>
+    <string name="help_datoslocalelectoral">&lt;img src="file:///android_res/drawable/urnalista.png" />&amp;nbsp;&lt;b>&lt;u>Hauteslekuaren datuak&lt;/u>:&lt;/b>&amp;nbsp;Gailuan grabatu diren datuak dira.&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Hauteslekua:&amp;nbsp;&lt;/b>Hauteslekuaren izena&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Helbidea:&amp;nbsp;&lt;/b>Kalea, zenbakia, herria eta Posta-kodea.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Errefrentzia-mahaia:&amp;nbsp;&lt;/b>Ordezkariari esleitu zaion mahaietako bat.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mahaien zerrenda:&amp;nbsp;&lt;/b>Ordezkariari esleitutako gainerako mahaiak.</string>
+    <string name="help_escrutinio_1">&lt;b>&lt;u>Boto-kontaketa: Oinarrizko kontzeptuak&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>Hauteskunde-errolda:&lt;/b> Hautesle izateko baldintzak dituzten eta&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aldi batez edo betirako sufragio-eskubidea kendu ez zaien&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pertsonak dira.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Alta ziurtagiriak:&lt;/b> Hauteskunde-erroldako Bulegoak igorritako errolda-agiri&lt;br /&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;berezia aurkeztu duten hautesleen kopurua da.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Botoa eman duten mahai bereko erroldako hautesleak:&lt;/b> Adierazi&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mahaiko erroldan dauden boto-emaileak.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Erroldan ez dauden eta mahaian botoa eman duten artekariak:&lt;/b> Botoa eman&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eta mahaiko erroldan ez zeuden artekarien kopurua.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Boto baliogabeen kopurua:&lt;/b> Boto baliogabe dira:&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Eredu ofizialeko gutun-azalak edo boto-paperak ez direnen bitartez&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;igorritakoak.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Gutun-azalik gabeko boto-paperak.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Aldaketak izan dituzten gutun-azaletan igorritakoak.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Hautagaien izena aldatuta duten, gehitu zaien edo izena ezabatu zaien edo         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aldatuta duten boto-paperekin egindakoak, eta baita testu edo&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;esaldiren bat idatzita dutenak ere, aldaketaren bat nahita egin zaienean.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Hautagai-zerrenda bat baino gehiagoko boto-paperak dituzten&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;gutun-azalak (hautagai-zerrenda berako boto-paper bat baino gehiago,&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;badatoz balio duen boto bakar gisa hartuko da).&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· &lt;u>Gogoan izan&lt;/u>:&lt;/b> Ez dira Boto baliogabeak izango&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;botoa zein den zalantzan jartzen ez duen marka edo ikurren bat duten&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;boto-paperak.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Boto zurien kopurua:&lt;/b> Boto-paperik ez duten gutun-azalen kopurua&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;adierazi.</string>
+    <string name="help_escrutinio_2">&lt;b>&lt;u>Boto-kontaketako buletinaren eremuak&lt;/u>&lt;/b>&lt;br />&lt;br />        Hasteko, kontateka egiten denean, ondorengo datuak adierazi behar&lt;br />        dira:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mahairen Kontroleko Digitua:&lt;/b>&amp;nbsp;Buletinaren Kontroleko Digitua eremuan agertzen den zenbakia adierazi beharko duzu.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Imprimatutako buletinaren hurrengo datuak:&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Hauteskundearen erroldan alta emanda daudenak&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Botoa eman duten erroldako hautesleak&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Mahaiko erroldan ez datozen botoa eman duten artekariak&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Boto baliogabeen kopurua&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Boto zurien kopurua&lt;/b>.&lt;br />&lt;br />        Ondoren, &lt;b>hautagai-zerrenda bakoitzeko botoak betetzen dira&lt;/b>. Ez dago&lt;br />        zertan bete 0 boto lortu dituzten hautaga-zerrendak.        &lt;br />        &lt;b> &lt;u>Balidazioak&lt;/u>:&lt;/b>Gogoan izan mahaian erroldatutako hautesleen kopurua&lt;br />       botoa (A) + botoa eman duten mahaian erroldatuta ez dauden artekariak (B)&lt;br />           hautagai-zerrendei emandako botoak + boto zuriak + boto baliogabeak baturaren emaitzaren berdina izan behar duela.&lt;br />        Botoa eman duten mahaian erroldatutako hautesleen kopurua (A)&lt;br />          erroldaren + alta ziurtagirien batura edo txikiagoa izan behar duela.</string>
+    <string name="help_escrutinio_2b">&lt;b>&lt;u>Boto-kontaketa pantailan sartutako datuak ikustea&lt;/u>:&lt;/b>&lt;br />            Kontaketa pantaila osoa ikusi ahalko duzu, kontaketa buletineko datuak sartzen bukatutakoan. Horretarako, areagotuta duzun testuko datuen ikonoa itxi behar da &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />            Kontaketa-pantailan mugitzeko, erakuslea edo hatza pantailan gainetik eta bertikalean higitu beharko dituzu.</string>
+    <string name="help_escrutinio_3">&lt;b>&lt;u>Datuak boto-kontaketa pantailan sartu&lt;/u>:&lt;/b>&lt;br />            Kontaketa pantailaren eremuan datuak sartzeko, lehenik Kontroleko Digitua idatzi beharko duzu. Ondoren, hauxe egin beharko duzu:&lt;br />            &amp;nbsp;1) Datuak sartu nahi dituzun eremua sakatzean, eremua garbituko da eta pantailaren beheko partean teklatua agertuko da.&lt;br />            &amp;nbsp;2) Dagokion balioa idatzi pantailan ikus daitekeen datuen eremuan eta sakatu Hurr. botoia. &lt;img src="file:///android_res/drawable/sig.jpg" /> .&lt;br />            &amp;nbsp;3) Hurrengo eremu hedatuari dagokion balioa sartu.&lt;br />            1,2 eta 3 puntuak behar adina aldiz errepikatu beharko dituzu kontaketa pantailako eremu guztiak bete arte (buletineko datuak             eta hautagai-zerrendei emandako botoak) zure buletinean duzun bezala.&lt;br />            Eremuari dagokion balioa zero denean, ez dago zertan zifra hori sartu, Hurr. tekla &lt;img src="file:///android_res/drawable/sig.jpg" /> erabil dezakezu             eta hurrengo eremura igaro, edo zuzenean sakatu bete nahi duzun eremua.&lt;br />            Aurrera egin eta hedatutako datuen eremuak ikusteko, erakuslea ere erabil dezakezu. Mugi ezazu goitik behera eta behetik gora            hautatu nahi duzun datuen eremura iritsi arte.&lt;br />            Kontaketa pantaila osoa ikusi ahalko duzu Boto-kontaketa buletineko datuak sartzen bukatutakoan. Horretarako, irekita daukazun datuen eremua ixten duen ikonoa             sakatu beharko duzu &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />            Kontaketa pantaila osotik ibiltzeko, erakuslea pantailan gora eta behera mugitu beharko duzu.</string>
+    <string name="help_esperandojornada">Dagoen fasean, &lt;b>ordezkariak ez du ekintzar ik burutu behar&lt;/b>&lt;br />         .Mahaiaren eraketa fasera&lt;br />          automatikoki aldatuko da.</string>
+    <string name="help_estado_mesas">&lt;b>&lt;u>Mahaien egoera:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Pantaila honek mahai bakoitzaren egoerari buruzko informazioa erakusten du&lt;br />
+        hauteskunde-prozesuko faseetan (oraingo fasearen zutabea beste kolore batez nabarmenduko da).&lt;br />
+        Fase bakoitzean mahai baten egoera guztiak honako hau dira:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_remove.png"" /> Daturik gabe:&lt;/b> Ez dago mahaiaren daturik.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/pending_icon.png"" /> Bidaltzeko ilaran:&lt;/b> Mahaiaren datuak bidaltzeko zain daude.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_accept.png"" /> Tabletaren bidez bidalita:&lt;/b> Mahaiaren datuak tabletaren bidez bidali dira.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_menu_call.png"" /> Telefonoaren bidez bidalita:&lt;/b> Mahaiaren datuak bidali dira telefonoaren bidez.</string>
+    <string name="help_estado_mesas_multielec">&lt;b>&lt;u>Mahaien egoera:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Pantaila honetan mahai bakoitzaren egoerari buruzko informazioa erakusten da&lt;br />
+        hautatutako hauteskunde-prozesuaren fase desberdinetan (logotipoa nabarmenduko da).&lt;br />
+        Oraingo faseari dagokion zutabea beste kolore batez nabarmenduko da. Mahaiaren egoera desberdinak hauek izan daitezke:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_remove.png"" /> Daturik gabe:&lt;/b> Mahaiari buruzko daturik ez dago.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/pending_icon.png"" /> Bidalketa-ilaran:&lt;/b> Mahaiko datuak bidaltzeko zain daude.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_accept.png"" /> Tablet bidez bidalita:&lt;/b> Mahaiko datuak tablet bidez bidali dira.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_menu_call.png"" /> Telefono bidez bidalia:&lt;/b> Mahaiko datuak telefono bidez bidali dira.</string>
+    <string name="help_findefase">Fase honetan dagoeneko sartu dira esleitua zaizkion mahai guztientzako&lt;br />           datuak.</string>
+    <string name="help_findejornada">Fase honek ordezkariari esleitutako mahaiak guztietako datuak&lt;br />           bidali direla esan nahi du.</string>
+    <string name="help_mapa">&lt;b>&lt;u>Hauteskunderako kokapena&lt;/u>:&lt;/b>&lt;br />        Adierazi grabatutako Hauteslekua zein&lt;br />probintzian dagoen.</string>
+    <string name="help_mesasindatos">&lt;b>Daturik gabe&lt;/b>:&lt;br />        Oraingo fasean datuak sartuta ez dituzten mahaien kopurua&lt;br />         adierazten du.&lt;br />        &lt;b>Bidali gabe&lt;/b>:&lt;br />        Oraingo fasean datuak sartuta dituzten&lt;br />         baina bidalketa-ilaran dituzten mahaien kopurua adierazten du.</string>
+    <string name="help_modo">&lt;b>&lt;u>Modua&lt;/u>:&lt;/b> Tableta zein modutan dabilen&lt;br />adierazten du:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/autoformacion.png" /> &lt;b>Autoprestakuntza&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/examen.png" /> &lt;b>Azterketa&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/simulacro.png" /> &lt;b>Simulakroa&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/urna.png" /> &lt;b>Hauteskunde-eguna&lt;/b>.</string>
+    <string name="help_open_progress">Laguntza irekitzen...</string>
+    <string name="help_operadora">&lt;b>&lt;u>Gailua (HP, H, 3G, E) konektatzeko&lt;/u>&lt;/b> erabili den&lt;br />sareari dagokion operadorea. Ez badator &lt;b>&lt;i>Movistar&lt;i>&lt;/b>&lt;br />edo NO SIM edo NO RED azaltzen bada jar zaitez&lt;br />harremanetean&lt;b>Tabetaren Erabiltzaileentzako&lt;br />        Arreta-gunearekin&lt;/b>.</string>
+    <string name="help_otras_opciones">&lt;b>&lt;u>Beste eragiketak&lt;/u>:&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Datu pertsonalak:&lt;/b> Editatu Ordezkariaren&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;datu pertsonalak.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Ikusi egoera&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Pantaila:&lt;/b> Erabilerraztasuna eta argitasuna.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Gailua itzali&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Azterketa hasi&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Deia egin&lt;/b>.</string>
+    <string name="help_pantalla_principal_1">&lt;b>&lt;u>Pantaila Nagusia: Erreferentzia-mahaia, eta Hauteslekuaren helbidea eta datuak&lt;/u>.&lt;/b>&lt;br />&lt;br />        Erreferentzia-mahaia sakatzean &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, hauteslekuaren datuak&lt;br />        eta esleitutako mahaiak ikusiko dira:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Hauteslekuaren helbidea:&lt;/b> Hauteslekua eta haren helbidea.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Hauteskunde-lokaleko mahaiak:&lt;/b> Esleitutako mahaien zerrenda eta errolda.&lt;br />&lt;br />        &lt;b>Ikusi mapa&lt;/b> &lt;img src="file:///android_res/drawable/ic_action_place.png" /> botoiaz hauteslekuaren kokapen fisikoa ikusiko&lt;br />        duzu.&lt;br />        &lt;b>Editatu botoiak&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> mahaien edizioko pantaila erakutsiko du (&lt;br />        Simulakroan eta Hauteskunde egunean izan ezik). Ordezkariak datu horiek zuzendu behar baditu&lt;br />        Tabletaren Erabiltzaleen Arreta gunearekin &lt;b>jarri harremanetan&lt;/b>.&lt;br />&lt;br />        Datu horiek ezkutatzeko, nahikoa da erreferentziako&lt;br />        mahaia &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" /> berriz sakatzea.</string>
+    <string name="help_pantalla_principal_2">&lt;b>&lt;u>Pantaila Nagusia: Datuen bidalketa&lt;/u>.&lt;/b>&lt;br />&lt;br />        Atal honetan oraindik daturik ez duten eta bidali gabeko mahaien&lt;br />        kopuruari buruz informatzen da.&lt;br />&lt;br />        &lt;b>&lt;u>Mahaien egoera:&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>Mahaien egoera botoia&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_info_details.png" /> sakatzean, &lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>Mahaien egoera&lt;/b> pantaila irekiko da eta hauteskundeen mahai eta egun bakoitzari&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;dagokion egoera ikusiko da. Mahaien egoera hau izan daiteke:&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/delete_icon.png" /> Daturik gabe&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> Bildatzeko ilaran&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/check_icon.png" /> Bidalita&lt;/b>.&lt;br />&lt;br />        &lt;b>&lt;u>Daturik gabeko mahaiak:&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Nahi den hauteskunde-prozesua sakatzean &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, hauteskunde prozesutarako eta egungo faserako&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;daturik ez duten mahaien zerrenda ikusiko da&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(pantailaren izenburuan adierazia).&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Zerrendan agertzen diren mahaietako bat sakatzean, dagokion&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Fasearen pantailara sartuko gara eta han adieraziko da&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mahaiaren kontrol-digitua eta fase honetan adieraziko diren gainerako datuak. &lt;br />       &amp;nbsp;&amp;nbsp;&amp;nbsp;Prozesua mahai guztiekin errepikatuko da. &lt;br />&lt;br /> Daturik gabeko zerrenda hau ezkutatzeko, nahikoa da&amp;nbsp;        &lt;br />&lt;br />&amp;nbsp;&amp;nbsp; hauteskunde prozesua buruzko &amp;nbsp; berriz sakatzea.</string>
+    <string name="help_popmenu_opciones">&lt;img src="file:///android_res/drawable/ic_action_overflow.png" />&amp;nbsp;&amp;nbsp;&lt;b>&lt;u>Aukeren botoia&lt;/u>:&lt;/b>&lt;br />        &lt;br />        &lt;b>Azken egoera ikusi:&amp;nbsp;&lt;/b>botoi hau sakatzen baduzu          &lt;br />        &lt;br /> &lt;b>Tabletaren Erabiltzaileentzako Arreta gunean&lt;/b>&lt;br />eska daitekeen informazioa erakutsiko da.&lt;br />        &lt;br />        &lt;b>Pantaila:&amp;nbsp;&lt;/b>aukera hau sakatzean         &lt;br />o erabilerraztasuna gaitu edo desgaitu ahalko duzu&lt;br />(pantailaren tamaina handiagotzeko aukera) eta &lt;br />distira doitu ahalko duzu.&lt;br />&lt;br />        &lt;b>Hasi azterketa:&amp;nbsp;&lt;/b>aukera horren bitartez azterketan&lt;br />sartu ahalko zara eta hezitzaileak adierazitakoan&lt;br />bakarrik egin behar izango duzu.</string>
+    <string name="help_primer_avance">&lt;b>&lt;u>Lehenengo aurrerapena:&lt;/u>&lt;/b>&lt;br />&lt;br />            Lehenengo Aurrerapenaren datuak bidaltzeko, hauxe adierazi behar da:&lt;br />&lt;br />                  &amp;nbsp;&amp;nbsp;&lt;b>- Mahaiaren Kontroleko Digitua:&lt;/b>&amp;nbsp;Buletinaren &lt;i>Kontroleko:&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Digitua&lt;/i>sartu beharko duzu.&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>        -Hauteskunde bakoitzeko mahaiaren boto-emaileen kopurua: &lt;/b>&amp;nbsp;Gehienez&lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;lau digitu sartu behar dituzu eremu bakoitzean. Hauteskunde bakoitzeko boto-emaileen kopurua sartutakoan,&lt;b>Onartu&lt;/b> &lt;img src="file:///android_res/drawable/datosaceptar.png" /> botoia sakatu adierazitako datuak bidaltzeko. Ongi bidali bada, pantailaren bitartez bitartez jakinaraziko da.        &lt;br />&lt;br />Sartutako datuetan akatsik badago, &lt;b>akats-mezu&lt;/b> baten bidez abisatuko da pantailan&lt;img src="file:///android_res/drawable/error.png" />hura zuzen dezazun. &lt;br />&lt;br />        &lt;b>&lt;u>Balidazioak&lt;/u>:&lt;/b> Gogoan izan Lehenengo aurrerapeneko boto-emaileen kopurua hautatutako Hauteskundearen Lehenengo Aurrerapenekoen edo Hauteskunde honentzako mahaiaren erroldakoen bezainbeste edo gutxiago izan behar direla.</string>
+    <string name="help_segundo_avance">&lt;b>&lt;u>Bigarren aurrerapena:&lt;/u>&lt;/b>&lt;br />&lt;br />            Bigarren Aurrerapenaren datuak bidaltzeko, hauxe adierazi behar da:&lt;br />&lt;br />                  &amp;nbsp;&amp;nbsp;&lt;b>- Mahaiaren Kontroleko Digitua:&lt;/b>&amp;nbsp;Buletinaren &lt;i>Kontroleko:&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Digitua&lt;/i>sartu beharko duzu.&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>        -Hauteskunderako mahai bakoitzeko boto-emaileen kopurua: &lt;/b>&amp;nbsp;Gehienez&lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;lau digitu sartu ahalko dituzu eremu bakoitzean. Hauteskunde bakoitzeko boto-emaileen kopurua sartutakoan,&lt;b>Onartu&lt;/b> &lt;img src="file:///android_res/drawable/datosaceptar.png" /> botoia sakatu adierazitako datuak bidaltzeko. Ongi bidali bada, pantailaren bitartez bitartez jakinaraziko da.        &lt;br />&lt;br />        Sartutako datuetan akatsen bat hautemango balitz, pantailaz abisatuko da &lt;b>errore-mezu baten bitartez&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> hura zuzen dezazun.&lt;br />&lt;br />        &lt;b>&lt;u>Balidazioak&lt;/u>:&lt;/b> Gogoan izan Bigarren aurrerapeneko boto-emaileen kopurua&lt;br />        hautatutako Hauteskunderako Lehenengo Aurrerapenekoa baino handiagoa eta Hauteskunde horren mahaiko erroldaren berdina edo txikiagoa izan behar dela.</string>
+    <string name="help_sidemenu_config">&lt;b>&lt;u>Konfigurazioa&lt;/u>:&lt;br />        &lt;/b> Aukera hau hautatuz gero, datu pertsonalak edo esleitutako mahaiak ikusi         &lt;br />edo aldatu ahalko dituzu.</string>
+    <string name="help_sidemenu_enviodatos">&lt;b>&lt;u>Datuen bidalketa&lt;/u>:&lt;br />        &lt;/b> Aukera hau sakatzen duzunean, oraingo&lt;br />fasearen hasierako pantaila erakutsiko da.</string>
+    <string name="help_sidemenu_estmesas">&lt;b>&lt;u>Mahaien egoera&lt;/u>:&lt;br />        &lt;/b> Aukera hau sakatzen duzunean, mahai&lt;br />bakoitzaren egoera hauteskundeen&lt;br />eguneko fase bakoitzean&lt;br />zein den bistaratuko duzu pantailan.</string>
+    <string name="help_sidemenu_telefono">&lt;b>&lt;u>Telefonoa&lt;/u>:&lt;br />        &lt;/b> Botoi hau sakatzen duzunean Tabletaren Erabiltzaileentzako &lt;b>Arreta-gunearekin&lt;/b>&lt;br />harremanetan jartzeko informazioa&lt;/ br>       eta deia egiteko teklatua ikusiko dituzu.</string>
+    <string name="help_telefono">&lt;b>&lt;u>Telefonoa:&lt;/u>&lt;/b>&lt;br />&lt;br />         Tabletaren Erabiltzaileentzat Arreta-gunearen telefono-zenbakia &lt;b>markatzen denean&lt;u>,          &lt;/u>teklatuaren beheko partean esku-librea aktibatzeko edo desaktibatzeko botoia         &lt;/b>eta bolumena doitzeko barra agertuko dira.</string>
+    <string name="help_titulo_aceptar_colegio">Onartu hauteslekua</string>
+    <string name="help_titulo_configuracion">Konfigurazioa</string>
+    <string name="help_titulo_fase">Fasea</string>
+    <string name="help_titulo_fases">&lt;b>&lt;u>Faseak&lt;/u>:&lt;/b> Hauteskunde-eguna &lt;br />ondorengo fase hauetan banatzen da:&lt;br />        &amp;nbsp;&lt;b>- Egunaren zain&lt;/b>.&lt;br />        &amp;nbsp;&lt;b>- Mahaien eraketa:&lt;/b>&lt;br />        &amp;nbsp;goizeko 8etatik aurrera.&lt;br />        &amp;nbsp;&lt;b>- Lehenengo aurrerapena (*)&lt;/b>&lt;br />        &amp;nbsp;&lt;b>- Bigarren aurrerapena (*)&lt;/b>&lt;br />        &amp;nbsp;&lt;b>- Boto-kontaketa:&lt;/b> 20:00.&lt;br />        &amp;nbsp;&lt;b>- Hauteskunde-egunaren bukaera&lt;/b>.&lt;br />                 (*) Tabletaren erabiltzaileak aurrerapenei&lt;br />dagozkien datuak tabletaren&lt;br />erabiltzaile-eskuliburuan datozen&lt;br />ordutegiaren arabera eta hautatutako&lt;br />Hausteskundeen arabera transmititu&lt;br />behar ditu.</string>
+    <string name="help_titulo_seccion">&lt;b>&lt;u>Izenburua&lt;/u>:&lt;/b> Atalaren izenburua.</string>
+    <string name="help_version_software">&lt;b>&lt;u>SW bertsioa&lt;/u>:&lt;/b>&lt;br />        Informazio hori &lt;br />&lt;b>Tabletaren Erabiltzaileentzako arreta-gunean eska daiteke&lt;/b>.</string>
+    <string name="help_volver">&lt;b>&lt;u>Atzera&lt;/u>:&lt;/b>&amp;nbsp;&lt;img src="file:///android_res/drawable/undo_56.png" /> Aurreko pantailara&lt;br />        itzultzeko botoia.</string>
+    <string name="history_clear_one_history_text">Garbitu</string>
+    <string name="history_clear_text">Garbitu historia</string>
+    <string name="history_email_title">Barra-kode eskanerraren historia</string>
+    <string name="history_empty">Hutsik</string>
+    <string name="history_empty_detail">Ez da inoiz barra-koderik gorde</string>
+    <string name="history_send">Bidali historia</string>
+    <string name="history_title">Historia</string>
+    <string name="identification"><b>Identifikazioa</b></string>
+    <string name="idioma"><b>Hizkuntza</b></string>
+    <string name="idiomacambiar">Aldatu Hizkuntza</string>
+    <string name="imeDone">Amaiera</string>
+    <string name="imeNext">Hur.</string>
+    <string name="incorrectPIN"><b>PIN</b> Okerra</string>
+    <string name="insdist">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Sartu Barrutia&lt;/big>&lt;/big></string>
+    <string name="insertePIN">Sartu <b>PIN-a:</b></string>
+    <string name="inslocal">&lt;b>Adi:&lt;/b>&lt;br>Sakatu &lt;b>&lt;i>\"Onartu\"&lt;/i>&lt;/b> botoia, Hauteslekua Sisteman erregistratuta gera dadin</string>
+    <string name="insmesa">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Sartu Mahaia&lt;/big>&lt;/big></string>
+    <string name="insmuni">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Sartu Udalerria&lt;/big>&lt;/big></string>
+    <string name="insnie">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Sartu AIZ&lt;/big>&lt;/big></string>
+    <string name="insnif">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Sartu IFZ&lt;/big>&lt;/big></string>
+    <string name="insprov">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Sartu Probintzia&lt;/big>&lt;/big></string>
+    <string name="inssec">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Sartu Sekzioa&lt;/big>&lt;/big></string>
+    <string name="insselmesa">&lt;b>Jarraibideak:&lt;/b> Hautatu mahaia</string>
+    <string name="insselmesa1">&lt;b>Mahaia prozesatuta&lt;/b></string>
+    <string name="insselprov">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Hautatu Probintzia&lt;/big>&lt;/big></string>
+    <string name="instel">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> Sartu Telefonoa</string>
+    <string name="internocensados"><b>Erroldatuta ez dauden artekariak</b></string>
+    <string name="introducir">Sartu %s</string>
+    <string name="introducirCodigo">Sartu %s kodea</string>
+    <string name="ipDispositivo">GAILUAREN IP</string>
+    <string name="ipServidor">ZERBITZARIAREN IP</string>
+    <string name="ippda">Tabletaren IP</string>
+    <string name="ipweb">Web-zerbitzuaren IP</string>
+    <string name="label">labela</string>
+    <string name="leyenda">TESTUA</string>
+    <string name="listamesas">MAHAIEN ZERRENDAK</string>
+    <string name="listosoftkeyboard">Eginda</string>
+    <string name="llamadaproceso">Deia</string>
+    <string name="llamando">Deitzen. Itxaron, mesedez...</string>
+    <string name="loadMessage">Abiarazten. Itxaron...</string>
+    <string name="local">Hauteslekua</string>
+    <string name="local2">HAUTESLEKUA</string>
+    <string name="localizacion">Ikus Mapa</string>
+    <string name="logo">Indraren logotipoa</string>
+    <string name="logoElecciones">Hauteskundeen logotipoa</string>
+    <string name="logoMinisterio">Egoeraren Logotipoa</string>
+    <string name="manosLibres">Esku libreak</string>
+    <string name="mapas_error">Sarea ez dago erabilgarri, ezin da Hauteslekuaren maparik lortu. Mesedez, saiatu berriz geroago</string>
+    <string name="marcaAguaAutoformacion"><small>AUTO-PRESTAKUNTZA\n MODUA\n</small></string>
+    <string name="marcaAguaExamen">AZTERKETA\n MODUA\n</string>
+    <string name="marcaAguaVersionFormacion">BERTSIOA\nPRESTAKUNTZA\n</string>
+    <string name="menu_encode_mecard">Erabili MECARD</string>
+    <string name="menu_encode_vcard">Erabili vCard</string>
+    <string name="menu_help">Laguntza</string>
+    <string name="menu_history">Historia</string>
+    <string name="menu_noaction">Mesedez, sartu zure datu pertsonalak eta zure Hauteslekuaren datuak lehenengo</string>
+    <string name="menu_settings">Ezarpenak</string>
+    <string name="menu_share">Partekatu</string>
+    <string name="mesa">Mahaia</string>
+    <string name="mesa_enviada">MAHAIA BIDALI DA</string>
+    <string name="mesapruebaerror">Autoprestakuntza moduan dagoenean bakarrik erabil daiteke mahaia.</string>
+    <string name="mesaref">Mahaiaren erref.</string>
+    <string name="mesaref_revise">Egiaztatu zure datuak</string>
+    <string name="mesareferencia">Erreferentzia-mahaia</string>
+    <string name="mesareferencia2">ERREFERENTZIA-MAHAIA</string>
+    <string name="mesas">MAHAIAK</string>
+    <string name="mesasSinDatos">Daturik gabe %d</string>
+    <string name="mesasSinEnviar">Bidali gabe%d</string>
+    <string name="mesasTxt">Mahaiak</string>
+    <string name="mesasfin">Bukaera</string>
+    <string name="mesasseleccionadas"><b>Hautatutako mahaiak</b></string>
+    <string name="mesassindatos">Daturik gabeko mahaia(k)</string>
+    <string name="mesassinenviar">Bidali gabeko mahaia(k)</string>
+    <string name="mod_idioma"><b>Aldatu Hizkuntza</b></string>
+    <string name="mode">Modua</string>
+    <string name="modifica_variable">aldagaia aldatzen du</string>
+    <string name="modificardatos_dni"><b>NAN</b></string>
+    <string name="modificardatos_revise">Egiaztatu zure datu pertsonalak</string>
+    <string name="modificardatos_tfno1"><b>1TFNOA.</b></string>
+    <string name="modificardatos_tfno2"><b>2TFNOA.</b></string>
+    <string name="modo_header">MODUA:</string>
+    <string name="msg_bulk_mode_scanned">Handizkako modua: barra-kodea eskaneatuta eta gordeta</string>
+    <string name="msg_camera_framework_bug">Barkatu, Android kamerak arazo bat izan du. Behar bada gailua berrabiarazi beharko duzu.</string>
+    <string name="msg_default_format">Formatua</string>
+    <string name="msg_default_meta">Metadatuak</string>
+    <string name="msg_default_mms_subject">Kaixo</string>
+    <string name="msg_default_status">Kokatu barra-kode bat laukizuzenaren barruan eskaneatzeko.</string>
+    <string name="msg_default_time">Denbora</string>
+    <string name="msg_default_type">Mota</string>
+    <string name="msg_encode_contents_failed">Ezin izan da barra-kode bat kodetu emandako datuetatik.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Barkatu, eskatutako aplikazioa ezin izan da abiarazi. Behar bada barra-kodearen edukiak baliogabeak dira.</string>
+    <string name="msg_invalid_value">Balio baliogabea</string>
+    <string name="msg_redirect">Berbideratu</string>
+    <string name="msg_sbc_book_not_searchable">Barkatu, liburu honetan ezin da bilaketarik egin.</string>
+    <string name="msg_sbc_failed">Barkatu, bilaketak arazo bat izan du.</string>
+    <string name="msg_sbc_no_page_returned">Ez da orririk itzuli</string>
+    <string name="msg_sbc_page">Orria</string>
+    <string name="msg_sbc_results">Emaitzak</string>
+    <string name="msg_sbc_searching_book">Liburua arakatzen\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Lagina ez dago eskuragarri</string>
+    <string name="msg_share_explanation">Datuak parteka ditzakezu zure pantailan barra-kode bat bistaratu eta beste telefono batekin eskaneatuz.</string>
+    <string name="msg_share_text">Edo idatzi zerbait eta sakatu Enter</string>
+    <string name="msg_sure">Ziur zaude?</string>
+    <string name="msg_unmount_usb">Barkatu, SD txartela ez dago eskuragarri.</string>
+    <string name="municipio">Udalerria</string>
+    <string name="negativeButtonText">Ez</string>
+    <string name="no">Ez</string>
+    <string name="noHayMesasQueMostrar">EZ DAGO ERAKUSTEKO MAHAIRIK</string>
+    <string name="noHayMesasSinDatos">(DAGOENEKO SARTU DIRA MAHAI GUZTIEN DATUAK)</string>
+    <string name="noLocalizacion">Kokapena desgaitu da. Mesedez, saiatu geroago</string>
+    <string name="noRequiereEnvioMesas">Bidaltzea ez da beharrezkoa</string>
+    <string name="nochangemesa">Prestakuntza moduan dagoenean bakarrik alda daiteke mahaia.</string>
+    <string name="nombre">IZEN-ABIZENAK</string>
+    <string name="notiftitle">Zerbitzuaren jakinarazpena</string>
+    <string name="numCertificacionesCensales">Aurkeztutako Errolda Ziurtagirien kopurua</string>
+    <string name="numero">Zenbakia %s</string>
+    <string name="numvotantes">Boto-emaileen kopurua</string>
+    <string name="obteniendo">Datuak eskuratzen. Itxaron, mesedez...</string>
+    <string name="off">OFF</string>
+    <string name="ok">Onartu</string>
+    <string name="on">ON</string>
+    <string name="otrasopciones">Aukerak</string>
+    <string name="otrasopciones_apagardispositivo">Itzali gailua</string>
+    <string name="otrasopciones_bloqueardispositivo">Blokeatu gailua</string>
+    <string name="otrasopciones_modificardatoscontacto">Aldatu Kontaktuaren datuak</string>
+    <string name="otrasopciones_modificarmesa">Aldatu Mahaia</string>
+    <string name="otrasopciones_obtenerdatosconexion">Lortu Konexio-datuak</string>
+    <string name="otrasopciones_obtenerestado">Ikusi Egoera</string>
+    <string name="otrasopciones_realizarllamadas">Deiak egin</string>
+    <string name="otrasopciones_resolucionproblemas">Arazoen konpontzea</string>
+    <string name="pantalla">Pantaila</string>
+    <string name="parsecolegio">Probetarako Hautesleku faltsua</string>
+    <string name="parsedireccion">Hautesleku faltsuaren helbidea</string>
+    <string name="patterncolegio">Hauteslekua</string>
+    <string name="patterndireccion">Helbidea</string>
+    <string name="personaldata">Datu pertsonalak</string>
+    <string name="positiveButtonText">Bai</string>
+    <string name="preferences_actions_title">Barra kode bat aurkitzean\u2026</string>
+    <string name="preferences_auto_focus_title">Erabili fokuratze automatikoa</string>
+    <string name="preferences_auto_open_web_title">Ireki web orriak automatikoki</string>
+    <string name="preferences_bulk_mode_summary">Eskaneatu eta gorde hainbat barra-kode jarraian</string>
+    <string name="preferences_bulk_mode_title">Handizkako eskaneatze modua</string>
+    <string name="preferences_copy_to_clipboard_title">Kopiatu arbelera</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Ordezkapenak: %s = edukiak, %f = formatua, %t = mota</string>
+    <string name="preferences_custom_product_search_title">Bilaketa URL pertsonalizatua</string>
+    <string name="preferences_decode_1D_industrial_title">1D industriala</string>
+    <string name="preferences_decode_1D_product_title">1D produktua</string>
+    <string name="preferences_decode_Aztec_title">Azteka</string>
+    <string name="preferences_decode_Data_Matrix_title">Datu matrizeak</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR kodeak</string>
+    <string name="preferences_device_bug_workarounds_title">Gailuaren errorearen konponbidea</string>
+    <string name="preferences_disable_barcode_scene_mode_title">Barra-koderik ez eszena modua</string>
+    <string name="preferences_disable_continuous_focus_summary">Erabili fokuratze modu estandarra soilik</string>
+    <string name="preferences_disable_continuous_focus_title">Etengabeko fokuratzerik ez</string>
+    <string name="preferences_disable_exposure_title">Esposiziorik ez</string>
+    <string name="preferences_disable_metering_title">Neurtzerik ez</string>
+    <string name="preferences_front_light_auto">Automatikoa</string>
+    <string name="preferences_front_light_off">Ezgaituta</string>
+    <string name="preferences_front_light_on">Gaituta</string>
+    <string name="preferences_front_light_summary">Eskaneatzea hobetzen du zenbait telefonotan argiztapena txikia denean, baina distirak eragin ditzake. Ez du gailu guztietan funtzionatzen.</string>
+    <string name="preferences_front_light_title">Erabili aurreko argia</string>
+    <string name="preferences_general_title">Ezarpen orokorrak</string>
+    <string name="preferences_history_summary">Biltegiratu eskaneatzeak historian</string>
+    <string name="preferences_history_title">Gehitu historiara</string>
+    <string name="preferences_invert_scan_summary">Atzeko plano beltzean barra-kode zuriak eskaneatzeko. Ez du gailu guztietan funtzionatzen.</string>
+    <string name="preferences_invert_scan_title">Alderantzikatu eskaneatzea</string>
+    <string name="preferences_name">Ezarpenak</string>
+    <string name="preferences_orientation_title">Biraketa automatikorik ez</string>
+    <string name="preferences_play_beep_title">Soinu-seinalea</string>
+    <string name="preferences_remember_duplicates_summary">Gorde barra-kode beraren hainbat eskaneatze historian</string>
+    <string name="preferences_remember_duplicates_title">Gogoratu errepikatuak</string>
+    <string name="preferences_result_title">Emaitzen ezarpenak</string>
+    <string name="preferences_scanning_title">Barra-kodeak eskaneatzean, deskodetu\u2026</string>
+    <string name="preferences_search_country">Bilatu herrialdea</string>
+    <string name="preferences_supplemental_summary">Saiatu barra-kodearen edukiei buruzko informazio gehiago eskuratzen</string>
+    <string name="preferences_supplemental_title">Eskuratu informazio gehiago</string>
+    <string name="preferences_vibrate_title">Bibratu</string>
+    <string name="primerAvanceTabText">&lt;b>Fasea&lt;/b>&lt;br>Lehenengo aurrerapena</string>
+    <string name="primeravance">Fasea: &lt;font color="green">&lt;b>Lehenengo aurrerapena&lt;/b>&lt;/font></string>
+    <string name="primeravance_nohtml">Lehenengo aurrerapena</string>
+    <string name="procesando">Prozesatzen</string>
+    <string name="prohibido">Gailuak ez du baimenik, mesedez, deitu Arazoak konpontzeko telefonora</string>
+    <string name="provincia">Probintzia</string>
+    <string name="rechazar">Ezeztatu</string>
+    <string name="refrescar">Datuak berritu</string>
+    <string name="reinciaraplicacion">Berrabiarazi</string>
+    <string name="responder">Erantzun</string>
+    <string name="result_address_book">Kontaktu-informazioa aurkitu da</string>
+    <string name="result_calendar">Egutegiko gertaera aurkitu da</string>
+    <string name="result_email_address">Helbide elektronikoa aurkitu da</string>
+    <string name="result_geo">Koordenatu geografikoak aurkitu dira</string>
+    <string name="result_isbn">Liburua aurkitu da</string>
+    <string name="result_product">Produktua aurkitu da</string>
+    <string name="result_sms">SMS helbidea aurkitu da</string>
+    <string name="result_tel">Telefono zenbakia aurkitu da</string>
+    <string name="result_text">Testu laua aurkitu da</string>
+    <string name="result_uri">URLa aurkitu da</string>
+    <string name="result_wifi">WLAN konfigurazioa aurkitu da</string>
+    <string name="resultado">Azterketaren emaitza:</string>
+    <string name="resultadoexamen">Azterketaren bukaera</string>
+    <string name="resultadoinfo">*Jakinarazi zure emaitza Hezitzaileari</string>
+    <string name="resultadoultimo">Azken Azterketaren emaitza:</string>
+    <string name="sbc_name">Google Book bilaketa</string>
+    <string name="seccion">Atala</string>
+    <string name="segundoAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>Bigarren aurrerapena</string>
+    <string name="segundoavance">Fasea: &lt;font color="green">&lt;b>Bigarren aurrerapena&lt;/b>&lt;/font></string>
+    <string name="segundoavance_nohtml">Bigarren aurrerapena</string>
+    <string name="seleccionaridioma"><b>Aukeratu hizkuntza</b></string>
+    <string name="seleccionprovincia">Probintziak</string>
+    <string name="selectlanguage">AUKERATU HIZKUNTZA</string>
+    <string name="selectprovincia">AUKERATU PROBINTZIA</string>
+    <string name="si">Bai</string>
+    <string name="sim_netlocked">NETWORK LOCKED</string>
+    <string name="sim_no">SIM-IK EZ</string>
+    <string name="sim_nored">EZ DAGO SARERIK</string>
+    <string name="sim_pin">PIN BEHARREZKOA</string>
+    <string name="sim_puk">PUK BEHARREZKOA</string>
+    <string name="slider_apn">APN</string>
+    <string name="slider_bateria">BATERIA NAGUSIA</string>
+    <string name="slider_bateria_nivel0">BATERIA MAILA OSO ALTUA</string>
+    <string name="slider_bateria_nivel1">BATERIA MAILA ALTUA</string>
+    <string name="slider_bateria_nivel2">BATERIA MAILA ERTAINA</string>
+    <string name="slider_bateria_nivel3">BATERIA MAILA BAXUA</string>
+    <string name="slider_bateria_nivel4">BATERIAREN MAILA OSO BAXUA</string>
+    <string name="slider_bateria_nivel5">BATERIA DESKARGATUTA</string>
+    <string name="slider_conexion1">ESTALDURA ONA</string>
+    <string name="slider_conexion2">ESTALDURA ERTAINA</string>
+    <string name="slider_conexion3">ESTALDURA TXARRA</string>
+    <string name="slider_conexion4">ESTALDURARIK EZ</string>
+    <string name="slider_corriente_conectada">KORRONTERA KONEKTATUA</string>
+    <string name="slider_elecciones">HAUTESKUNDEAK APN</string>
+    <string name="slider_iccid">ICCID</string>
+    <string name="slider_imei">IMEI</string>
+    <string name="smesa"><b>Mahaia/k</b><br/></string>
+    <string name="splash1">Tableta konfiguratzen</string>
+    <string name="splash2">SIM txartelarekin komunikatzen</string>
+    <string name="splash3">Sarea erabilgarri egotearen zain</string>
+    <string name="splash4">Datuen zerbitzariarekin konektatzen</string>
+    <string name="splash5">Erantzuna prozesatzen</string>
+    <string name="splash51">Backup-ak egiaztatzen: %d saialdia</string>
+    <string name="splash6">Mesedez, aukeratu hizkuntza</string>
+    <string name="sysdump">&lt;b>Administrazioko funtzio batean ari zara sartzen.&lt;br>Mesedez, sakatu onartu irteteko.&lt;/b>&lt;br>&lt;br>%s</string>
+    <string name="tab1">DATU\nPERTSONALAK</string>
+    <string name="tab2">HAUTESKUNDE-LOKALAREN\nDATUAK</string>
+    <string name="tabla_concejo">Kontzejua</string>
+    <string name="tablas">TAULAK</string>
+    <string name="telefono">TELEFONOA</string>
+    <string name="telefono1">1 TELEFONOA</string>
+    <string name="telefono2">2 TELEFONOA (HAUTAZKOA)</string>
+    <string name="tercerAvanceTabText">&lt;b>Fasea&lt;/b>&lt;br>Hirugarren aurrerapena</string>
+    <string name="terceravance">Fasea: &lt;font color="green">&lt;b>Hirugarren aurrerapena&lt;/b>&lt;/font></string>
+    <string name="terceravance_nohtml">Hirugarren aurrerapena</string>
+    <string name="terminar">Eskegi</string>
+    <string name="tfno1">1 TFNOA.</string>
+    <string name="tfno2">2 TFNOA.</string>
+    <string name="tiempo">Denbora</string>
+    <string name="toast_situacion1">Mahaiak Eratzeko gelditzen diren Mahaien zerrenda eguneratu da</string>
+    <string name="toast_situacion2">Hauteskunderako gelditzen diren Mahaien zerrenda eguneratu da %s</string>
+    <string name="todasLasElecciones">HAUTESKUNDE GUZTIAK</string>
+    <string name="total">TOTALA</string>
+    <string name="txtInstrucciones_dc_introducir">Sartu Kontroleko Digitua</string>
+    <string name="txtInstrucciones_enviando">Datuak bidaltzen...</string>
+    <string name="txtInstrucciones_introducir">Telefono-zenbakia sartu%s</string>
+    <string name="txtInstrucciones_introducirCenso">Errolda Sartu</string>
+    <string name="txtInstrucciones_introducirCensoExtranjeros">Atzerritarren Errolda Sartu</string>
+    <string name="txtInstrucciones_introducirCensoNacional">Errolda Nazionala Sartu</string>
+    <string name="txtInstrucciones_rellenar_boletin">Boto-kontaketako buletineko balioak sartu</string>
+    <string name="txtInstrucciones_validacion_error">Akatsa balidatzean</string>
+    <string name="txtInstrucciones_validacion_ok">Balidazioa ongi bukatuta</string>
+    <string name="txtInstrucciones_validacion_warnings">Egiaztatu sartutako datuak</string>
+    <string name="txtInstrucciones_validando_avances">Aurrerapenak balidatzen...</string>
+    <string name="txtInstrucciones_validando_censo">Errolda balidatzen...</string>
+    <string name="txtInstrucciones_validando_datos">Datuak balidatzen...</string>
+    <string name="txtInstrucciones_validando_dc">Kontroleko Digitua balidatzen...</string>
+    <string name="txtInstrucciones_validando_escrutinio">Buletina eta Hautagai-zerrendak balidatzen...</string>
+    <string name="txtInstrucciones_votantes_avance1">Sartu Lehenengo Aurrerapenaren Boto-emaileen kopurua</string>
+    <string name="txtInstrucciones_votantes_avance2">Sartu Bigarren Aurrerapenaren Boto-emaileen kopurua</string>
+    <string name="txtInstrucciones_votantes_avance3">Sartu Hirugarren Aurrerapenaren Boto-emaileen kopurua</string>
+    <string name="txtInstrucciones_votos_candidato">Hautagai-zarrendaren botoak</string>
+    <string name="ultimoestado">Azken Egoera</string>
+    <string name="unknown">unknown</string>
+    <string name="urlping">http://m.google.com</string>
+    <string name="validacion_censo_supera_umbral">Erroldaren balioa hasierako erroldaren balioarekiko (%d) baimendutako tartetik kanpo dago</string>
+    <string name="validacion_censo_supera_umbral_extranjeros">Hautesle nazionalen erroldaren eta hautesle atzerritarren erroldaren arteko batura hasierako erroldaren balioarekiko (%d) baimendutako tartetik kanpo dago</string>
+    <string name="validacion_censo_valor_coincide_otra_mesa">Sartu den errolda %s mahaiarenarekin bat dator. Ziur ondo dagoela?</string>
+    <string name="validacion_censo_valor_no_valido">Erroldarako balio baliagarria sartu behar duzu.</string>
+    <string name="valores">BALOREAK</string>
+    <string name="value">value</string>
+    <string name="vblanco"><b>Boto zuriak</b></string>
+    <string name="vnulos"><b>Boto baliogabeak</b></string>
+    <string name="volumen">Bolumena</string>
+    <string name="volver">Atzera</string>
+    <string formatted="false" name="votos_2n_avanc_inferior_1r">Bigarren Aurrerapena %sLehenengo Aurrerapena baino txikiagoa %s</string>
+    <string formatted="false" name="votos_3r_avanc_inferior_2n">Hirugarren Aurrerapena %sBigarren Aurrerapena baino txikiagoa %s</string>
+    <string name="votos_avanc_inferior1">2. Aurrerapena</string>
+    <string name="votos_avanc_inferior2">1. Aurrerapena baino txikiagoa</string>
+    <string name="votos_avanc_inferior3">3. Aurrerapena</string>
+    <string name="votos_avanc_inferior4">2. Aurrerapena baino txikiagoa</string>
+    <string name="votos_avanc_voto_igual_DC">Boto-emaileen kopurua %sKontroleko digituarekin bat dator. Zuzena al da?</string>
+    <string name="votos_avanc_voto_igual_DC1">Boto-emaileen kopurua</string>
+    <string name="votos_avanc_voto_igual_DC2">Kontroleko Digituarekin bat dator. Zuzena al da?</string>
+    <string formatted="false" name="votos_avanc_voto_igual_censo">Boto-emaileen kopurua %sErroldarekin %sbat dator. Datua sartu nahi duzula ziur al zaude?</string>
+    <string name="votos_avanc_voto_igual_censo1">Boto-emaileen kopurua</string>
+    <string name="votos_avanc_voto_igual_censo2">eta Errolda bat datoz\"</string>
+    <string name="votos_avanc_voto_igual_censo3">\"Ziur zaude sartutako datua ondo dagoela</string>
+    <string name="votos_avance1_cero_telefono">Mahai honetarako %sdatuen zenbaketako telefonoaz transmititu behar izango duzu.</string>
+    <string name="votos_avance1_cero_telefono1">Mahai honetarako</string>
+    <string name="votos_avance1_cero_telefono2">datuen zenbaketako telefonoaz transmititu behar izango duzu</string>
+    <string name="votos_avance_avanceN">Boto-emaileen kopurua aurreko aurrerapenarekin bat dator %sZiur al zaude?</string>
+    <string formatted="false" name="votos_avance_censo">Boto-emaileen kopurua %sErrolda baino handiagoa %s</string>
+    <string name="votos_avance_censo1">Boto-emaileen kopurua</string>
+    <string name="votos_avance_censo2">Zero baino handiagoa</string>
+    <string name="votos_avance_cero">Ziur al zaude boto-emaileen kopurua %s dela?</string>
+    <string name="votos_avance_cero1">Ziur al zaude boto-emaileen kopurua</string>
+    <string name="votos_avance_cero2">0 dela?</string>
+    <string name="votos_avance_introducir">Sartu Boto-emaileen kopurua</string>
+    <string name="votos_resultado_baja_participacion">%d%% baino gutxiagok hartu dute parte. Ziur zaude sartutako datuak ondo daudela?</string>
+    <string name="votos_resultado_umbral">Baliteke hautagai-zerredaren bateko botoetan akatsen bat egotea. Ziur zaude sartutako datuak ondo daudela?</string>
+    <string name="warningMessageSalir">Aurreko menura itzultzen bazara, pantailan sartutako datu guztiak galduko dira. Ziur al zaude itzuli nahi duzula?</string>
+    <string name="warningTitleEnvio">Bidalketa baieztatu...</string>
+    <string name="warningTitleSalir">Ziur al zaude itzuli nahi duzula?</string>
+    <string name="wifi_changing_network">Sarerako konexioa eskatzen\u2026</string>
+    <string name="wrongletter">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b>Dokumentuaren letra okerra&lt;/big>&lt;/big></string>
+    <string name="wrongnie">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b>AIZ okerra&lt;/big>&lt;/big></string>
+    <string name="wrongnif">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b> IFZ okerra&lt;/big>&lt;/big></string>
+    <string name="wrongnombre">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b>Izen okerra&lt;/big>&lt;/big></string>
+    <string name="wrongphone">&lt;big>&lt;big>&lt;b>Jarraibideak:&lt;/b>Telefono okerra&lt;/big>&lt;/big></string>
+</resources>

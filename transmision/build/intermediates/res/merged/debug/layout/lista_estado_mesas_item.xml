@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/itemListaEstadoMesas"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+
+        <RelativeLayout
+            android:id="@+id/escrutinioEstadoRelativeLayout"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="65dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/defaultContentDescription"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/escrutinioEstadoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/defaultContentDescription" />
+
+            <ProgressBar
+                android:id="@+id/escrutinioEstadoProgressBar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tercerAvanceEstadoRelativeLayout"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_toLeftOf="@id/escrutinioEstadoRelativeLayout"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/defaultContentDescription"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/tercerAvanceEstadoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/defaultContentDescription" />
+
+            <ProgressBar
+                android:id="@+id/tercerAvanceEstadoProgressBar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/segundoAvanceEstadoRelativeLayout"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_toLeftOf="@id/tercerAvanceEstadoRelativeLayout"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/defaultContentDescription"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/segundoAvanceEstadoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/defaultContentDescription" />
+
+            <ProgressBar
+                android:id="@+id/segundoAvanceEstadoProgressBar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/primerAvanceEstadoRelativeLayout"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_toLeftOf="@id/segundoAvanceEstadoRelativeLayout"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/defaultContentDescription"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/primerAvanceEstadoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/defaultContentDescription" />
+
+            <ProgressBar
+                android:id="@+id/primerAvanceEstadoProgressBar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/constitucionMesaEstadoRelativeLayout"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toLeftOf="@id/primerAvanceEstadoRelativeLayout"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/defaultContentDescription"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/constitucionMesaEstadoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/defaultContentDescription" />
+
+            <ProgressBar
+                android:id="@+id/constitucionMesaEstadoProgressBar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/mesaTextView"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/separatorView"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColor="@color/header_color_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

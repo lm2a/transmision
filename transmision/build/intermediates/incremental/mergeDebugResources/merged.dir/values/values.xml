@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="Planets">
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="codigo_provincias">
+		<item>01</item>
+		<item>02</item>
+		<item>03</item>
+		<item>04</item>
+		<item>33</item>
+		<item>05</item>
+		<item>06</item>
+		<item>08</item>
+		<item>09</item>
+		<item>10</item>
+		<item>11</item>
+		<item>39</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>07</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+		<item>32</item>
+		<item>34</item>
+		<item>35</item>
+		<item>36</item>
+		<item>26</item>
+		<item>37</item>
+		<item>40</item>
+		<item>41</item>
+		<item>42</item>
+		<item>43</item>
+		<item>38</item>
+		<item>44</item>
+		<item>45</item>
+		<item>46</item>
+		<item>47</item>
+		<item>48</item>
+		<item>49</item>
+		<item>50</item>
+		<item>51</item>
+		<item>52</item>
+	</string-array>
+    <string-array name="country_codes" ns1:ignore="MissingTranslation">
+    <item>-</item>
+    <item>AR</item>
+    <item>AU</item>
+    <item>BR</item>
+    <item>BG</item>
+    <item>CA</item>
+    <item>CH</item>
+    <item>CN</item>
+    <item>CZ</item>
+    <item>DE</item>
+    <item>DK</item>
+    <item>ES</item>
+    <item>FI</item>
+    <item>FR</item>
+    <item>GB</item>
+    <item>GR</item>
+    <item>HU</item>
+    <item>ID</item>
+    <item>IT</item>
+    <item>JP</item>
+    <item>KR</item>
+    <item>NL</item>
+    <item>PL</item>
+    <item>PT</item>
+    <item>RO</item>    
+    <item>RU</item>
+    <item>SE</item>
+    <item>SK</item>
+    <item>SI</item>
+    <item>TR</item>
+    <item>TW</item>
+    <item>US</item>
+  </string-array>
+    <string-array name="faseNames">
+        <item>Constitución</item>
+        <item>Cantidad de Votos</item>
+        <item>Segundo Avance</item>
+        <item>Tercer Avance</item>
+        <item>Escrutinio</item>
+        <item>Esperando Jornada</item>
+    </string-array>
+    <string-array name="faseTitles">
+        <item>&lt;b>ENVÍO DE TELEGRAMA&lt;/b></item>
+        <item>&lt;b>CANTIDAD DE VOTOS&lt;/b></item>
+        <item>&lt;b>SEGUNDO AVANCE&lt;/b></item>
+        <item>&lt;b>TERCER AVANCE&lt;/b></item>
+        <item>&lt;b>ESCRUTINIO&lt;/b></item>
+        <item>&lt;b>ESPERANDO JORNADA&lt;/b></item>
+    </string-array>
+    <string-array name="idiomalanguajes">
+
+		<item>Espanol</item>
+		<item>Catalan</item>
+	</string-array>
+    <string-array name="idiomalanguajesCodes">
+
+		<item>es</item>
+		<item>ca</item>
+	</string-array>
+    <string-array name="menu">
+        <item>Configuración</item>
+        <item>Envío de Datos</item>
+        <item>Estado de Mesas</item>
+        <item>Teléfono</item>        
+    </string-array>
+    <integer-array name="menu_int">
+        <item>@drawable/settings48</item>
+        <item>@drawable/home48</item>
+        <item>@drawable/check48</item>
+        <item>@drawable/telephone48</item>
+    </integer-array>
+    <integer-array name="menu_int_fase">
+        <item>0x01</item>
+        <item>0x02</item>
+        <item>0x03</item>
+        <item>0x04</item>
+    </integer-array>
+    <string-array name="mesaLetters">
+		<item>A</item>
+		<item>B</item>
+		<item>C</item>
+		<item>D</item>
+		<item>E</item>
+		<item>F</item>
+		<item>G</item>
+		<item>H</item>
+		<item>U</item>
+	</string-array>
+    <string-array name="nieLetters">
+		<item>
+		</item>
+		<item>X</item>
+		<item>Y</item>
+		<item>Z</item>
+	</string-array>
+    <string-array name="nifLetters">
+		<item>
+		</item>
+		<item>A</item>
+		<item>B</item>
+		<item>C</item>
+		<item>D</item>
+		<item>E</item>
+		<item>F</item>
+		<item>G</item>
+		<item>H</item>
+		<item>I</item>
+		<item>J</item>
+		<item>K</item>
+		<item>L</item>
+		<item>M</item>
+		<item>N</item>
+		<item>N</item>
+		<item>O</item>
+		<item>P</item>
+		<item>Q</item>
+		<item>R</item>
+		<item>S</item>
+		<item>T</item>
+		<item>U</item>
+		<item>V</item>
+		<item>W</item>
+		<item>X</item>
+		<item>Y</item>
+		<item>Z</item>
+	</string-array>
+    <string-array name="otrasOpciones">
+        <item>Consultar Estado</item>
+        <item>Pantalla</item>
+        <item>Apagar Dispositivo</item>
+        <item>Ayuda</item>
+    </string-array>
+    <string-array name="otrasOpcionesTest">
+        <item>Consultar Estado</item>
+        <item>Pantalla</item>
+        <item>Apagar Dispositivo</item>
+        <item>Comenzar Examen</item>
+        <item>Realizar Llamada</item>
+    </string-array>
+    <string-array name="preferences_front_light_options">
+    <item>@string/preferences_front_light_on</item>
+    <item>@string/preferences_front_light_auto</item>
+    <item>@string/preferences_front_light_off</item>
+  </string-array>
+    <string-array name="preferences_front_light_values" ns1:ignore="MissingTranslation">
+    <item>ON</item>
+    <item>AUTO</item>
+    <item>OFF</item>
+  </string-array>
+    <string-array name="provincias">
+		<item>Alava</item>
+		<item>Albacete</item>
+		<item>Alicante</item>
+		<item>Almería</item>
+		<item>Asturias</item>
+		<item>Avila</item>
+		<item>Badajoz</item>
+		<item>Barcelona</item>
+		<item>Burgos</item>
+		<item>Caceres</item>
+		<item>Cadiz</item>
+		<item>Cantabria</item>
+		<item>Castellón</item>
+		<item>Ciudad Real</item>
+		<item>Córdoba</item>
+		<item>La Coruna</item>
+		<item>Cuenca</item>
+		<item>Gerona</item>
+		<item>Granada</item>
+		<item>Guadalajara</item>
+		<item>Guipúzcoa</item>
+		<item>Huelva</item>
+		<item>Huesca</item>
+		<item>Islas Baleares</item>
+		<item>Jaén</item>
+		<item>León</item>
+		<item>Lérida</item>
+		<item>Lugo</item>
+		<item>Madrid</item>
+		<item>Malaga</item>
+		<item>Murcia</item>
+		<item>Navarra</item>
+		<item>Orense</item>
+		<item>Palencia</item>
+		<item>Las Palmas</item>
+		<item>Pontevedra</item>
+		<item>La Rioja</item>
+		<item>Salamanca</item>
+		<item>Segovia</item>
+		<item>Sevilla</item>
+		<item>Soria</item>
+		<item>Tarragona</item>
+		<item>Santa Cruz de Tenerife</item>
+		<item>Teruel</item>
+		<item>Toledo</item>
+		<item>Valencia</item>
+		<item>Valladolid</item>
+		<item>Vizcaya</item>
+		<item>Zamora</item>
+		<item>Zaragoza</item>
+		<item>Ceuta</item>
+		<item>Melilla</item>
+	</string-array>
+    <string-array name="txtInstrucciones_boletin">
+        <item>Introduzca el censo</item>
+        <item>Introduzca el número de certificaciones de alta en el censo electoral</item>
+        <item>Introduzca el número de certificaciones de corrección de errores</item>
+        <item>Introduzca el número total de votantes</item>
+        <item>Introduzca la cantidad de ciudadanos que han votado</item>
+        <item>Introduzca la cantidad de sobres utilizados en la urna</item>
+        <item>Introduzca el número de votos nulos</item>
+        <item>Introduzca el número de votos en blanco</item>
+        <item>Introduzca el número de votos recurridos</item>
+        <item>Introduzca el número de votos de identidad impugnada</item>
+    </string-array>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="action_bar">#ff0d0d0d</color>
+    <color name="azul_light">#91cbdb</color>
+    <color name="azul_oscuro">#001e41</color>
+    <color name="barradark">#007ea1</color>
+    <color name="barralight">#91cbdb</color>
+    <color name="bgSplahScreen">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="eleccion_color1_0000">#4d94cf</color>
+    <color name="eleccion_color1_0400">@android:color/holo_blue_light</color>
+    <color name="eleccion_color1_0501">#cc0066</color>
+    <color name="eleccion_color1_0506">#8dc63f</color>
+    <color name="eleccion_color1_0507">#005595</color>
+    <color name="eleccion_color1_0509">#ef9d30</color>
+    <color name="eleccion_color1_0528">#bb161f</color>
+    <color name="eleccion_color1_0530">#af426f</color>
+    <color name="eleccion_color1_0533">#00aeef</color>
+    <color name="eleccion_color1_0535">#145b92</color>
+    <color name="eleccion_color1_0539">#db303f</color>
+    <color name="eleccion_color1_0545">#b72029</color>
+    <color name="eleccion_color1_0546">#bd3f10</color>
+    <color name="eleccion_color1_0550">#f4cc25</color>
+    <color name="eleccion_color1_0626">#8bb31d</color>
+    <color name="eleccion_color1_0631">#404041</color>
+    <color name="eleccion_color1_0646">#e8760d</color>
+    <color name="eleccion_color2_0000">#4d94cf</color>
+    <color name="eleccion_color2_0400">#ffffff</color>
+    <color name="eleccion_color2_0501">#550023</color>
+    <color name="eleccion_color2_0506">#ffffff</color>
+    <color name="eleccion_color2_0507">#000000</color>
+    <color name="eleccion_color2_0509">#ffffff</color>
+    <color name="eleccion_color2_0528">#ffffff</color>
+    <color name="eleccion_color2_0530">#000000</color>
+    <color name="eleccion_color2_0533">#ffffff</color>
+    <color name="eleccion_color2_0535">#145b92</color>
+    <color name="eleccion_color2_0539">#3e3a3c</color>
+    <color name="eleccion_color2_0545">#3e3a3c</color>
+    <color name="eleccion_color2_0546">#000000</color>
+    <color name="eleccion_color2_0550">#000000</color>
+    <color name="eleccion_color2_0626">#000000</color>
+    <color name="eleccion_color2_0631">#ffffff</color>
+    <color name="eleccion_color2_0646">#585858</color>
+    <color name="eleccion_color3_0000">#4d94cf</color>
+    <color name="eleccion_color3_0400">#3b608d</color>
+    <color name="eleccion_color3_0501">#eeece6</color>
+    <color name="eleccion_color3_0506">#00a651</color>
+    <color name="eleccion_color3_0507">#ffffff</color>
+    <color name="eleccion_color3_0509">#ffffff</color>
+    <color name="eleccion_color3_0528">#d71921</color>
+    <color name="eleccion_color3_0530">#f5f5f5</color>
+    <color name="eleccion_color3_0533">#0167aa</color>
+    <color name="eleccion_color3_0535">#ccddef</color>
+    <color name="eleccion_color3_0539">#e4e4e4</color>
+    <color name="eleccion_color3_0545">#face3d</color>
+    <color name="eleccion_color3_0546">#eceef0</color>
+    <color name="eleccion_color3_0550">#afaca8</color>
+    <color name="eleccion_color3_0626">#d4dee3</color>
+    <color name="eleccion_color3_0631">#ed1c24</color>
+    <color name="eleccion_color3_0646">#FFFFFF</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="errorColor">@android:color/holo_red_dark</color>
+    <color name="errorRed">#F32D20</color>
+    <color name="fgAppBackgroundBlue">#CCECFF</color>
+    <color name="fgAppBackgroundBlueSelected">#BBDBEE</color>
+    <color name="fgAppBackgroundGray">#ECECEC</color>
+    <color name="fgAppBackgroundGraySelected">#DBDBDB</color>
+    <color name="fgAppText">#3d77db</color>
+    <color name="fgLoadMessage">#333333</color>
+    <color name="greyBG">#e3e3e3</color>
+    <color name="greyMenu">#555555</color>
+    <color name="greyMenuSelected">#464646</color>
+    <color name="greyText">#8c8c8c</color>
+    <color name="greyTextDark">#404040</color>
+    <color name="greyTextSoft">#A0A0A0</color>
+    <color name="grey_bg_fase">#77CECECE</color>
+    <color name="grey_bg_fase_selected_center">#CC929292</color>
+    <color name="grey_bg_fase_selected_end">#AAEBEBEB</color>
+    <color name="grey_bg_fase_selected_start">#CC929292</color>
+    <color name="header_color">#001e41</color>
+    <color name="header_color_dark">#001e41</color>
+    <color name="header_red">#FF4444</color>
+    <color name="header_red_dark">#CC0000</color>
+    <color name="jceNewVoter">#00A9BC</color>
+    <color name="line_color">#4d94cf</color>
+    <color name="modeDevelop">#EF7126</color>
+    <color name="modeElection">#61ab6f</color>
+    <color name="modeSimulacre">#451c1c</color>
+    <color name="modeTraining">#6CCECB</color>
+    <color name="off_white">#44ffffff</color>
+    <color name="onpeBarToolOrange">#F29A38</color>
+    <color name="onpeBarToolOrangeClick">#BD6C15</color>
+    <color name="onpeBarToolWhite">#FFF</color>
+    <color name="onpeBlue">#3471A6</color>
+    <color name="onpeDarkBlue">#001e41</color>
+    <color name="onpeGray">#A0B0C2</color>
+    <color name="onpeMediumBlue">#405571</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="pressed_color">@android:color/holo_blue_bright</color>
+    <color name="red">#F62817</color>
+    <color name="red_dark">#cc0000</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="slider_grey">#626465</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="warningYellow">#FFB803</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout"><attr format="dimension" name="panelHeight"/><attr format="dimension" name="shadowHeight"/><attr format="dimension" name="paralaxOffset"/><attr format="color" name="fadeColor"/><attr format="integer" name="flingVelocity"/><attr format="reference" name="dragView"/><attr format="boolean" name="overlay"/><attr format="float" name="anchorPoint"/><attr format="enum" name="initialState">
+            <enum name="expanded" value="0"/>
+            <enum name="collapsed" value="1"/>
+            <enum name="anchored" value="2"/>
+            <enum name="hidden" value="3"/>
+        </attr></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">150dp</dimen>
+    <dimen name="activity_vertical_margin">150dp</dimen>
+    <dimen name="bigmargin">12.8dp</dimen>
+    <dimen name="colorstrip">5dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <dimen name="doblebigmargin">25.6dp</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="height_item_big">96dip</dimen>
+    <dimen name="height_item_medium">38.4dp</dimen>
+    <dimen name="height_item_tab">72dip</dimen>
+    <dimen name="jceActionBarText">15sp</dimen>
+    <dimen name="jceBigLabel">30sp</dimen>
+    <dimen name="jceHeaderIcon">80dp</dimen>
+    <dimen name="jceHeaderText">20sp</dimen>
+    <dimen name="jceLabel">20sp</dimen>
+    <dimen name="jceLogo2Text">10sp</dimen>
+    <dimen name="jceLogoText">20sp</dimen>
+    <dimen name="jceMediumLabel">25sp</dimen>
+    <dimen name="jceSmallLabel">15sp</dimen>
+    <dimen name="jceTableLayoutRowPadding">5dp</dimen>
+    <dimen name="line_height">1.6dp</dimen>
+    <dimen name="mediummargin">6.4dp</dimen>
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="text_size_medium">16.0sp</dimen>
+    <dimen name="text_size_small">14.0sp</dimen>
+    <dimen name="tvMicroText">16sp</dimen>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="viewHolderTag" type="id"/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="google_play_services_version">4242000</integer>
+    <string name="Autoformacion">Autoformación</string>
+    <string formatted="false" name="CERTIFICIONES_ALTA">Certificaciones Censales Alta erróneas</string>
+    <string formatted="false" name="CERTIFICIONES_CORRECCION">Certificaciones Censales Corrección erróneas</string>
+    <string name="ConNACK">Conexiones sin respuesta</string>
+    <string name="Examen">Examen</string>
+    <string name="IMEI">IMEI</string>
+    <string name="Jornada">Jornada Electoral</string>
+    <string name="NIE">NIE</string>
+    <string name="NIF">NIF</string>
+    <string name="OK">OK</string>
+    <string name="ResulBlanc">Número de Votos en Blanco</string>
+    <string name="ResulCenso">Censo</string>
+    <string name="ResulCertAlt">2- De alta en el censo electoral</string>
+    <string name="ResulCertAlt_28">A.- De alta en el censo electoral</string>
+    <string name="ResulCertErr">3- De corrección de errores</string>
+    <string name="ResulNVots">Total Votantes</string>
+    <string name="ResulNele">A) Electores censados que han votado</string>
+    <string name="ResulNele_28">Núm. Electores de la Mesa que han votado (3)</string>
+    <string name="ResulNeleayuda">Núm. de electores/as censados/as en la mesa que votaron</string>
+    <string name="ResulNint">B) Interventores no censados que han votado</string>
+    <string name="ResulNint_28">Núm. Interventores no censados en la Mesa que han votado (3)</string>
+    <string name="ResulNintayuda">Núm. de interventores/as no censados/as en la mesa que votaron</string>
+    <string name="ResulNul">Número de Votos Nulos</string>
+    <string name="STATUS_ERROR">Estado no recibido</string>
+    <string name="Simulacro">Simulacro</string>
+    <string name="UNKNOW_ERROR">ERROR DESCONOCIDO</string>
+    <string name="VOTANTES_CERO">Total Votantes (Electores censados que han votado + Interventores no censados que han votado) debe ser mayor que  0</string>
+    <string formatted="false" name="VOTANTES_ELECTORES">La cantidad de sobres en la urna no puede ser superior al censo (%d)</string>
+    <string name="VOTANTES_ELECTORES1">Votantes Electores no deben superar el Censo </string>
+    <string name="VOTANTES_ELECTORES2">+ Certif. Alta</string>
+    <string formatted="false" name="VOTANTES_INTERVENTORES">Interventores no censados que han votado no debe superar el doble de las candidaturas presentados (%d)</string>
+    <string formatted="false" name="VOTANTES_SUMA">Votos Candidaturas + Votos en Blanco + Votos Nulos + Votos Recurridos + Votos Impugnados no puede superar el censo (%d) </string>
+    <string name="VOTANTES_SUMA1">Votos Candidaturas no pueden ser menor que: Total Votantes - Blancos - Nulos</string>
+    <string name="VOTANTES_SUMA2">Votos Candidaturas no pueden ser mayor que: (Total Votantes – Blancos – Nulos) * nº Candid. Circunscrip</string>
+    <string name="VOTANTES_SUMA3">Votos a un Candidato debe ser menor o igual a: Total Votantes – Blancos – Nulos</string>
+    <string name="VOTANTES_SUMA4">Total Votantes (Electores censados que han votado + Interventores no censados que han votado) debe ser mayor o igual a Votos en Blanco + Votos Nulos</string>
+    <string name="VOTANTES_SUMA5">El número de ciudadanos que han votado debe ser el mismo que el número de votantes registrado con la estación de votación (%d)</string>
+    <string formatted="false" name="VerDat">VERSIÓN DATOS: %s</string>
+    <string formatted="false" name="VerSw">VERSIÓN SW: %s</string>
+    <string name="accboletin">Accediendo a la digitación del telegrama de la mesa </string>
+    <string name="accept">Aceptar</string>
+    <string name="acceptlanguage">ACEPTAR</string>
+    <string name="accesibilidad">Accesibilidad</string>
+    <string name="accvotos">Accediendo a la digitación de los votos de la mesa </string>
+    <string name="aceptarTxt">Aceptar</string>
+    <string name="action">ACCIÓN</string>
+    <string name="activarAccesibilidad">Va a activar la opción de Accesibilidad, el dispositivo se reiniciará\n¿Está usted seguro?</string>
+    <string name="admin">Administración</string>
+    <string name="admin_Home">Ir a Home</string>
+    <string name="admin_mostrar">Mostrar Tablas</string>
+    <string name="admin_red">Ajustes de Red</string>
+    <string name="advertenciaFactoryReset">Se restaurará la tablet al estado original. ¿Estás seguro?</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="androidcode">D</string>
+    <string name="apagando">Apagando dispositivo. Por favor espere…</string>
+    <string name="apagardispositivo">Apagar Dispositivo</string>
+    <string name="app_name">Elecciones Peru 2017</string>
+    <string name="app_picker_name">Applications</string>
+    <string name="applylanguage">APLICAR IDIOMA</string>
+    <string name="applyprovincia">APLICAR PROVINCIA</string>
+    <string name="argentina_barcode">Por favor, coloque el código de barras del telegrama en el recuadro</string>
+    <string name="argentina_barcode_error">El telegrama no corresponde con la mesa configurada</string>
+    <string name="avance">Número de Votantes</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="basichttpsecurity">Basic c2VydmljZXdlYjpvWXBmQ211NDFDR3Axa2Voa2FibkcxY1c=</string>
+    <string name="bloqueando">Bloqueando pantalla. Por favor espere…</string>
+    <string name="boletin_cast">Ciudadanos que han votado</string>
+    <string name="boletin_disputed">Votos Impugnados</string>
+    <string name="boletin_registered">Votantes Registrados</string>
+    <string name="boletin_rejected">VOTOS RECURRIDOS</string>
+    <string name="boletin_valid">Sobres utilizados en la urna</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="borrardatos">Borrar Datos</string>
+    <string name="brillo">Brillo</string>
+    <string name="buscar">Buscar</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="callincorrecto">Teléfono incorrecto. Solo llamadas permitidas al <b>Centro de Atención a Usuarios de Tablet</b>, Teléfonos de emergencias o que empiecen por 900</string>
+    <string name="callintroduza">Introduzca el Teléfono que desee marcar</string>
+    <string name="callllamando">LLamando al Teléfono de Incidencias de PDA</string>
+    <string name="callsidesea"><b>CAU</b></string>
+    <string name="cancel">Cancelar</string>
+    <string name="censalesalta"><b>kCertificaciones Censales Alta</b></string>
+    <string name="censo"><b>CENSO</b><br/></string>
+    <string name="censo2">CENSO</string>
+    <string name="cererror"><b>Certificaciones Error</b></string>
+    <string name="cerrar">Cerrar</string>
+    <string name="cerrar2">CERRAR</string>
+    <string name="codigo">Código:</string>
+    <string name="codigollamada">Esta operación sólo está permitida para resolver determinadas incidencias. Sí es necesario, llame al teléfono de incidencias y le informarán del pin necesario</string>
+    <string name="codigos">CÓDIGOS</string>
+    <string name="colgar">Colgar</string>
+    <string name="comenzarExamen">Comenzar Examen</string>
+    <string name="completado">Completado</string>
+    <string name="comunidad">AUTONÓMICAS</string>
+    <string name="comunvotantes">GENERAL</string>
+    <string name="concejo">CONCEJO:</string>
+    <string name="concejos">CONCEJOS</string>
+    <string name="conectedto">Conectado a</string>
+    <string name="conf_guion">-</string>
+    <string name="conf_letra">Letra</string>
+    <string name="configuracion">Configuración</string>
+    <string name="confirmarlanguage">Aplicar cambio de idioma al </string>
+    <string name="confirmarprovincia">¿Desea seleccionar la provincia de %s?</string>
+    <string name="connor">CONEXIÓN NoR</string>
+    <string name="consejos">CONSEJOS INSULARES</string>
+    <string name="constitucionTabText">Escaneo de&lt;br>Telegrama</string>
+    <string name="constmesa">&lt;font color="green">&lt;b>Escaneo de Telegrama&lt;/b>&lt;/font></string>
+    <string name="constmesa_nohtml">Escaneo de Telegrama</string>
+    <string name="consultarestado">Consultar Estado</string>
+    <string name="consultarestado_message">¿Desea obtener nuevamente el estado del servidor?</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="continuar">Continuar</string>
+    <string name="controlalarma">Control Alarma</string>
+    <string name="cortes09">CORTES DE\nCASTILLA Y LEÓN</string>
+    <string name="datacontact"><b>Datos de contacto</b></string>
+    <string name="datosconexion">Datos Conexión</string>
+    <string name="datosdispositivo">DATOS DEL DISPOSITIVO</string>
+    <string name="datoslocal">DATOS DEL LOCAL ELECTORAL</string>
+    <string name="dc">Dígito de Control</string>
+    <string name="dc_erroneo">Dígito de control erróneo</string>
+    <string name="dc_formacion">Dígito de control erróneo, para Formación introduzca \'1\'</string>
+    <string name="dc_simulacro">Dígito de control erróneo, para este simulacro introduzca \'1\'</string>
+    <string name="defaultContentDescription">Descriptor por defecto</string>
+    <string name="delete">Borrar</string>
+    <string name="desactivarAccesibilidad">Va a desactivar la opción de Accesibilidad, el dispositivo se reiniciará\n¿Está usted seguro?</string>
+    <string name="desautorizado">El dispositivo está deshabilitado, por favor llame al Centro de Incidencias</string>
+    <string name="dialog_apagarterminal">El terminal se va a apagar\n¿Está vd. seguro?</string>
+    <string name="dialog_cerrardatos1">Se han &lt;b>EDITADO&lt;/b> los &lt;b>DATOS PERSONALES&lt;/b>, si pulsa sobre "Continuar" se perderán las modificaciones.&lt;br>&lt;br>Para guardar los &lt;b>DATOS PERSONALES&lt;/b>, pulse en "Cancelar", y pulse en "Aceptar" en la pestaña de &lt;b>DATOS PERSONALES&lt;/b></string>
+    <string name="dialog_cerrardatos2">Se han &lt;b>EDITADO&lt;/b> los &lt;b>DATOS DEL LOCAL ELECTORAL&lt;/b>, si pulsa sobre "Continuar" se perderán las modificaciones.&lt;br>&lt;br>Para guardar los &lt;b>DATOS DEL LOCAL ELECTORAL&lt;/b>, pulse en "Cancelar", y pulse en "Aceptar" en la pestaña de &lt;b>DATOS DEL LOCAL ELECTORAL&lt;/b></string>
+    <string name="dialog_cerrarresultados">Sí se cierra la ventana se perderán los datos\n¿Está vd. seguro?</string>
+    <string name="dialog_comenzarexamen">Atención, va a comenzar el Modo Examen\nRealice esta operación únicamente en supervisión del Formador\n¿Está vd. seguro?</string>
+    <string name="dialog_configuracion">CONFIGURACIÓN</string>
+    <string name="dialog_conformidad1">Es necesario la introducción de sus datos personales, sólo a efectos administrativos en las Elecciones Argentina 2017</string>
+    <string name="dialog_conformidad2">Se va a registrar la ubicación del terminal a efectos de control administrativo</string>
+    <string name="dialog_conformidad2_options">&lt;b>Activar compartir ubicación del terminal&lt;/b>&lt;br>&lt;br>Se va a registrar la ubicación del terminal a efectos de control administrativo</string>
+    <string name="dialog_conformidad3">Por favor, pulse sobre  &lt;i>&lt;b>\"Activar registro de ubicación del terminal\"&lt;/b>&lt;/i> , para continuar con el uso de la aplicación</string>
+    <string formatted="false" name="dialog_conformidad4">¿Desea confirmar el colegio para que quede registrado en el sistema?&lt;br>&lt;br>&lt;b>%s&lt;/b>&lt;br>&lt;br>Sí no pulsa ningún botón, el Local Electoral será registrado automáticamente en &lt;b>%s segundos&lt;/b></string>
+    <string formatted="false" name="dialog_conformidad_idioma_inicio">¿Desea confirmar el idioma para que quede registrado en el sistema?&lt;br>&lt;br>&lt;b>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/b>&lt;br>&lt;br>Sí no pulsa ningún botón, el idioma seleccionado será registrado automáticamente en &lt;b>%s&lt;/b></string>
+    <string name="dialog_errormesa">Error en mesa</string>
+    <string name="dialog_errormesaconnection">Error de Conexión con el servidor</string>
+    <string name="dialog_errormesanotfound">La Mesa introducida no se ha encontrado en la base de datos de las elecciones, por favor revise que los datos corresponden con una de sus mesas asignadas.</string>
+    <string name="dialog_mesassinconfirmar">Mesas sin confirmación</string>
+    <string name="dialog_noestado">Ningún estado recibido</string>
+    <string formatted="false" name="dialog_prioridad_eleccion">Por favor, introduzca primero el boletín de escrutinio de la mesa &lt;b>%s&lt;/b> para la Elección &lt;b>%s&lt;/b></string>
+    <string name="dialog_sim_no">Configurando red móvil, por favor espere…</string>
+    <string name="dialog_votoszero">Votos a las candidaturas son cero\n¿Está Usted Seguro?</string>
+    <string name="direccion">Dirección</string>
+    <string name="direccion2">DIRECCIÓN</string>
+    <string name="distrito">Distrito</string>
+    <string name="dns1">94.126.241.60</string>
+    <string name="dns2">94.126.241.61</string>
+    <string name="edit">Editar</string>
+    <string name="elec">Elección</string>
+    <string name="eleccensados"><b>Electores Censados</b></string>
+    <string name="electoresCenso"><b>NÚMERO DE ELECTORES SEGÚN LAS LISTAS DEL CENSO:</b>\n(Este dato debe incluir los apéndices de alta y baja)</string>
+    <string name="electoresCensoExtranjeros"><b>CIUDADANOS DE LA U.E. Y DE PAISES CON ACUERDOS, RESIDENTES EN ESPAÑA</b>\n(Este dato debe incluir los apéndices de alta y baja)</string>
+    <string name="electoresCensoNacional"><b>ELECTORES RESIDENTES EN ESPAÑA INCLUIDOS EN EL CENSO ELECTORAL</b>\n(Este dato debe incluir los apéndices de alta y baja)</string>
+    <string name="enviando">Enviando datos. Por favor espere…</string>
+    <string name="enviandoTx">Comprobando datos de transmisor. Por favor espere…</string>
+    <string name="enviarlogs">Enviar Logs</string>
+    <string name="enviarmesas">Envío de Datos</string>
+    <string name="envioMesasCompletado">Envío Completado</string>
+    <string name="error_campo_obligatorio">Este campo es obligatorio</string>
+    <string name="errores">Errores</string>
+    <string name="errorpin">error introduciendo el PIN</string>
+    <string name="escrutinio">&lt;font color="green">&lt;b>Digitación de Telegrama&lt;/b>&lt;/font></string>
+    <string name="escrutinioTabText">Digitación de&lt;br>Telegrama</string>
+    <string name="escrutinio_nohtml">Digitación de Telegrama</string>
+    <string name="esperandoApertura">(ESPERANDO LA APERTURA DE MESAS)</string>
+    <string name="esperandoTabText">&lt;b>Fase&lt;/b>&lt;br>Esperando Jornada</string>
+    <string name="esperandojornada">Fase: &lt;font color="green">&lt;b>Esperando Jornada&lt;/b>&lt;/font></string>
+    <string name="esperandojornada_nohtml">Esperando Jornada</string>
+    <string name="estado">Estado</string>
+    <string name="estadoMesasConstMesas">Constitución de Mesas</string>
+    <string name="estadoMesasEnCola">En Cola de Envío</string>
+    <string name="estadoMesasEnviadaxtfno">Enviada por teléfono</string>
+    <string name="estadoMesasEnviado">Enviado por tablet</string>
+    <string name="estadoMesasEscrutinio">Escrutinio</string>
+    <string name="estadoMesasIdMesas">Mesas</string>
+    <string name="estadoMesasInfoColumnaResaltada">La columna resaltada se corresponde con la fase actual.</string>
+    <string name="estadoMesasNoAplica">No aplica:</string>
+    <string name="estadoMesasPrimerAvance">Primer Avance</string>
+    <string name="estadoMesasSegundoAvance">Segundo Avance</string>
+    <string name="estadoMesasSinDatos">Sin Datos</string>
+    <string name="estadoMesasTercerAvance">Tercer Avance</string>
+    <string name="estadomesas">Estado de Mesas</string>
+    <string name="examenpin">examen15</string>
+    <string name="exitmesa">6666666666 A</string>
+    <string name="exitpasswd">666666666</string>
+    <string name="exitpasswd0">000000000</string>
+    <string name="exitpin">9119</string>
+    <string name="extranjero">DOCUMENTO</string>
+    <string name="factoryReset">Factory Reset</string>
+    <string name="fase">Fase: </string>
+    <string name="finTabText">Fin de&lt;br>Jornada</string>
+    <string name="finalizado">Finalizado</string>
+    <string name="finformacion">Ha finalizado un ciclo de formación, pulse Aceptar para reiniciar la aplicación y comenzar un nuevo ciclo.</string>
+    <string name="finformaciontitle">Fin Formación</string>
+    <string name="finjornada">Fase: &lt;font color="green">&lt;b>Fin de Jornada&lt;/b>&lt;/font></string>
+    <string name="finjornada_nohtml">Fin de Jornada</string>
+    <string formatted="false" name="forzarapagar">El dispositivo se apagará automáticamente en &lt;b>%s segundos&lt;/b>&lt;br></string>
+    <string name="frmEstadoMesasTitle">Estado de las mesas</string>
+    <string name="headding">HEADDING</string>
+    <string name="header_menu">MENÚ</string>
+    <string name="header_title1">CONFIGURACIÓN</string>
+    <string name="hello">Hello World, ADeltaActivity!</string>
+    <string name="hello_blank_fragment">Sending data...</string>
+    <string name="help_ayuda">
+&lt;b>&lt;u>Ayuda&lt;/u>:&lt;/b> El Representante podrá pulsar este botón en cada&lt;br />
+        pantalla y aparecerá una ventana de ayuda donde se&lt;br />
+        explicarán todas las opciones y botones de la misma.
+    </string>
+    <string name="help_bExit">Salir</string>
+    <string name="help_bateria">
+&lt;b>&lt;u>Batería&lt;/u>:&lt;/b> Muestra el nivel de carga de la batería. Debe&lt;br />
+        estar siempre por encima del 30%:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/full_battery_48.png" /> Nivel de batería muy alto.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_75_48.png" />   Nivel de batería alto.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_50_48.png" />   Nivel de batería medio.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_25_48.png" />   Nivel de batería bajo.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/almost_empty_48.png" /> Nivel de batería muy bajo. Conectar a la red.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/empty_battery_48.png" /> Batería descargada. Conectar a la red.
+        
+    </string>
+    <string name="help_censo_mesa_1">827</string>
+    <string name="help_censo_mesa_2">723</string>
+    <string name="help_cobertura">
+&lt;b>&lt;u>Cobertura&lt;/u>:&lt;/b> Muestra el nivel de cobertura:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_4.png" /> &lt;b>Muy alta&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_3.png" /> &lt;b>Alta&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_2.png" /> &lt;b>Media&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_1.png" /> &lt;b>Baja&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_0.png" /> &lt;b>Nula:&lt;/b> Debe contactar con el &lt;b>Centro de Atención&lt;br/>
+        &amp;nbsp;&amp;nbsp;a Usuarios de Tablet&lt;/b>.
+    </string>
+    <string name="help_cobertura_top">
+&lt;img src="file:///android_res/drawable/high_connection_48.png" />&amp;nbsp;&lt;b>&lt;u>Nivel de cobertura&lt;/u>:&amp;nbsp;&lt;/b>Muestra el nivel y el tipo de cobertura.
+        &lt;br />Podrán ser los siguientes:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/high_connection_48.png" /> &lt;b>Alto&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/medium_connection_48.png" /> &lt;b>Medio&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/low_connection_48.png" /> &lt;b>Bajo&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/no_connection_48.png" /> &lt;b>Nulo&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;Operadora (Movistar, NO SIM o NO RED) y tipo de&lt;br />
+        &amp;nbsp;&amp;nbsp;cobertura (HP, H, 3G, E).
+    </string>
+    <string name="help_codigomesa">
+Pulsar sobre el código de mesa para introducir los datos &lt;br />  
+	     que correspondan a la fase actual de la mesa seleccionada.
+    </string>
+    <string name="help_constitucion_mesas">
+&lt;b>&lt;u>Constitución de Mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Para realizar la constitución de una mesa, se debe indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dígito de Control de la mesa:&lt;/b>&amp;nbsp;Deberá introducir el número que aparece en&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el campo de Dígito de Control del boletín.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Número de electores (nacionales y extranjeros) según las listas del censo:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Deberá recordar al presidente de mesa la necesidad de actualizar el dato del&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;censo de los electores nacionales y de los electores extranjeros con los&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Apéndices de Altas y Bajas si se hubiesen recibido. (Introducir como&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;máximo cuatro dígitos en cada campo).&lt;br />&lt;br />
+        Una vez introducidos el nº de Votantes en cada Elección, se pulsará el botón &lt;img src="file:///android_res/drawable/datosaceptar.png" />
+        para enviar los datos indicados. 
+        &lt;br />Si el envío ha sido correcto, se informará por pantalla. En el caso de detectarse algún error en los datos introducidos, se avisará por pantalla mediante un &lt;b>mensaje de error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> para su corrección.
+    </string>
+    <string name="help_constitucion_mesas_tipocenso0">
+&lt;b>&lt;u>Constitución de Mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Para realizar la constitución de una mesa, se debe indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dígito de Control de la mesa:&lt;/b>&amp;nbsp;Deberá introducir el número que aparece en&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el campo de Dígito de Control del boletín.&lt;br />
+        Una vez introducido el Dígito de Control, se pulsará el botón &lt;img src="file:///android_res/drawable/datosaceptar.png" />
+        para enviar los datos indicados. 
+        &lt;br />Si el envío ha sido correcto, se informará por pantalla. En el caso de detectarse algún error en los datos introducidos, se avisará por pantalla mediante un &lt;b>mensaje de error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> para su corrección.
+    </string>
+    <string name="help_constitucion_mesas_tipocenso1">
+&lt;b>&lt;u>Constitución de Mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Para realizar la constitución de una mesa, se debe indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dígito de Control de la mesa:&lt;/b>&amp;nbsp;Deberá introducir el número que aparece en&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el campo de Dígito de Control del boletín.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Número de electores nacionales según las listas del censo:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Deberá recordar al presidente de mesa la necesidad de actualizar el dato del&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;censo de los electores nacionales con los&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Apéndices de Altas y Bajas si se hubiesen recibido. (Introducir como&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;máximo cuatro dígitos en cada campo).&lt;br />&lt;br />
+        Una vez introducidos el nº de Votantes en cada Elección, se pulsará el botón &lt;img src="file:///android_res/drawable/datosaceptar.png" />
+        para enviar los datos indicados. 
+        &lt;br />Si el envío ha sido correcto, se informará por pantalla. En el caso de detectarse algún error en los datos introducidos, se avisará por pantalla mediante un &lt;b>mensaje de error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> para su corrección.
+    </string>
+    <string name="help_datos">
+&lt;b>&lt;u>Datos&lt;/u>:&lt;/b> Indica la cobertura de datos:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_connected_g.png" /> &lt;b>Conectado:&lt;/b> Se debe vigilar la cobertura de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;datos, para que la tablet esté en conexión con el&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;servidor en todo momento.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_no_connected_gred.png" /> &lt;b>No conectado:&lt;/b> Debe contactar con el &lt;b>Centro&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;de Atención a Usuarios de Tablet&lt;/b>.
+    </string>
+    <string name="help_datos1">Datos Personales Transmisor</string>
+    <string name="help_datos2">Por favor, compruebe que los datos personales del Transmisor, almacenados en el dispositivo, son correctos</string>
+    <string name="help_datos_colegio">
+&lt;b>&lt;u>Datos del Local Electoral y mesas asignadas&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        Según los datos de la mesa introducida en la pantalla anterior se mostrarán&lt;br />
+        los datos del Local Electoral y de las mesas asignadas al representante:&lt;br />
+		&lt;img src="file:///android_res/drawable/ic_action_place.png" />Muestra en el mapa la ubicación del Local Electoral.&lt;br />
+		&amp;nbsp;&lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp; Si los datos son correctos debe pulsar este botón 
+		para  confirmar el Local Electoral y continuar.&lt;br />
+		&amp;nbsp;&lt;img src="file:///android_res/drawable/datoseditar.jpg" />&amp;nbsp; Si los datos no son los correctos, pulsando este botón regresará&lt;br />
+		a la pantalla de datos de mesa que fueron introducidos y podrá modificarlos.
+        
+    </string>
+    <string name="help_datos_colegio_direccion">INSTITUTO Nº4 AMPARO SANZ\nCALLE TOMÁS EDISON 9998\nALBACETE\nALBACETE\n</string>
+    <string name="help_datos_conexion">
+&lt;b>&lt;u>Información de datos de conexión&lt;/u>:&lt;/b> A través de este botón&lt;br />
+        obtenemos la siguiente información acerca de los datos de&lt;br />
+        conexión. El &lt;b>Centro de Atención a Usuarios de Tablet&lt;/b> puede&lt;br />
+        solicitar la consulta de estos datos en caso de incidencia:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Modo:&lt;/b> Autoformación, simulacro o jornada electoral.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Operadora&lt;/b> a la que pertenece la red por la que está&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;conectando el dispositivo. Si no consta &lt;b>&lt;i>MOVISTAR&lt;i>&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;debe ponerse en contacto con el &lt;b>Centro de Atención a&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Usuarios de Tablet&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- APN&lt;/b> por el que está conectando el dispositivo.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&lt;/b> Identificador del dispositivo.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&lt;/b> Identificador de la tarjeta SIM.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- IP Tablet&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- IP Servidor&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Conexiones sin respuesta&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Versión del software&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Versión de datos&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Consulta del último estado:&lt;/b> Pulsando este botón se&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mostrará información que puede ser útil en determinados&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;casos para el &lt;b>Centro de Atención a Usuarios de Tablet&lt;/b>.
+    </string>
+    <string name="help_datos_electoral_cut1">
+&lt;b>&lt;u>Introducción de los datos de una de las mesas asignadas al representante&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        Una vez identificado el Representante, aparecerá la sección de introducción&lt;br />
+        de datos de una de las mesas que tenga asignadas. Los datos que se deben indicar son:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Provincia:&lt;/b> Código de provincia (dos dígitos).&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Municipio:&lt;/b> Código de municipio (tres dígitos).&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Distrito:&lt;/b> Código de distrito (dos dígitos).&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Sección:&lt;/b> Código de sección (tres dígitos).&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Mesa:&lt;/b> Código de mesa (una letra).
+        
+    </string>
+    <string name="help_datos_electoral_cut2">
+
+        &lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Introducidos todos los datos de la mesa se debe  pulsar este botón para continuar.&lt;br />&lt;br />
+        &lt;img src="file:///android_res/drawable/datosbuscar.jpg" />&amp;nbsp;A continuación se pulsará este botón para la búsqueda de la mesa que ha introducido:
+        &lt;br />Si todos los datos son correctos, pasará a la siguiente pantalla para confirmar Local Electoral y mesas. En caso contrario, aparecerá un mensaje debajo del campo que debe modificar.&lt;br />
+        &lt;br />&lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Pulsando este botón eliminará TODOS los datos introducidos.
+        &lt;br />&lt;br />&lt;img src="file:///android_res/drawable/datosmenu.jpg" />&amp;nbsp;En cualquier momento podrá acceder a modificar los datos de Local Electoral desde Menú,  seleccionando la opción de configuración.
+        &lt;br />&lt;br />Durante el simulacro y la jornada electoral será necesario llamar al &lt;b>Centro de Atención a Usuarios de Tablet&lt;/b> para poder modificar los datos del Local Electoral.
+        
+    </string>
+    <string name="help_datos_modosnavega">
+
+	        &lt;b>Modos de navegación en pantalla&lt;/b>:&lt;br />
+	        Para seleccionar e introducir los datos de las mesas asignadas a cada una de las&lt;br />
+	        Elecciones en su fase actual, puede hacerse de dos formas:&lt;br /> 
+	        -Pulsar sobre el nombre de la Elección que quiere seleccionar y éste aparecerá
+	        &lt;br />&amp;nbsp;resaltado.&lt;br />
+	        -Deslizar el puntero/dedo por el centro de la pantalla, hacia la derecha&lt;br />
+	        &amp;nbsp;o hacia la izquierda, hasta que aparezca resaltada la pestaña de la Elección&lt;br />
+	        &amp;nbsp;que quiere seleccionar. 
+	        
+    </string>
+    <string name="help_datos_personales_cut1">
+&lt;b>&lt;u>Datos del Representante&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        Cuando se arranque el dispositivo por primera vez, se solicitarán los datos&lt;br />
+        personales del Representante. Son:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Documento:&lt;/b> Pulsar el botón &amp;nbsp;&lt;img src="file:///android_res/drawable/nifnie.jpg" />&amp;nbsp; para que se habilite la opción de NIE&lt;br /> 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;si fuese el caso.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- NIF / NIE:&lt;/b> Número y letra del NIF / NIE.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre y apellidos:&lt;/b> Introducir el nombre y los apellidos del representante.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Teléfono 1:&lt;/b> Primer teléfono de contacto. Debe ser un teléfono móvil donde&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;se pueda contactar con el Representante en todo momento, y en especial&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;durante el Simulacro y la Jornada Electoral.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Teléfono 2:&lt;/b> Segundo teléfono de contacto (opcional).&lt;br />
+        &lt;br />Es importante que estos datos sean correctos, ya que se utilizarán en caso de&lt;br />
+        tener que ponerse en contacto con el Representante.&lt;br />
+        &lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Introducidos todos los datos personales se debe pulsar esta tecla para continuar.
+        
+    </string>
+    <string name="help_datos_personales_cut2">
+&lt;b>&lt;u>Datos del Representante&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        &lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp;Una vez introducidos todos los datos hay que pulsar este botón:
+        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si todos los datos son correctos se activará la pestaña de Local Electoral.
+        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;En caso contrario, aparecerá un mensaje debajo del campo que debe ser 
+        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;modificado.
+        &lt;br />
+        &lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Pulsando este botón se eliminarán TODOS los datos introducidos. &lt;br />
+        &amp;nbsp;En cualquier momento podrá modificar los datos personales desde &amp;nbsp;&lt;img src="file:///android_res/drawable/datosmenu.jpg" /> &lt;br />
+        y seleccionando la opción de configuración.
+        
+    </string>
+    <string name="help_datos_personales_nif">11111111H</string>
+    <string name="help_datos_personales_pag1_tab1">
+&lt;b>&lt;u>Formas de introducir los datos en la pantalla&lt;/u>:&lt;/b>&lt;br />
+        Para desplazarse y editar los campos hay cuatro posibilidades:&lt;br />
+        &amp;nbsp;&amp;nbsp;1-Pulsando sobre el campo a editar.&lt;br />
+        &amp;nbsp;&amp;nbsp;2-Pulsando sobre el &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> Lápiz, a la derecha del campo que se quiera editar&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;en este momento se cambiará al&amp;nbsp; &lt;img src="file:///android_res/drawable/ic_action_accept.png" /> de check que indica que los datos de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ese campo se pueden modificar.&lt;br />
+        &amp;nbsp;&amp;nbsp;3-Pulsando &lt;img src="file:///android_res/drawable/sig.jpg" /> tecla de siguiente en el teclado, permitirá pasar de un campo&lt;br /> 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;al siguiente.&lt;br />
+        &amp;nbsp;&amp;nbsp;4-Al completar el campo saltará automáticamente al siguiente, a excepción&lt;br /> 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;del campo "Nombre y apellidos", en el que será necesario realizar&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cualquiera de las opciones anteriores.
+        
+    </string>
+    <string name="help_datos_personales_pag1_tab2">
+&lt;b>&lt;u>Formas de introducir los datos en la pantalla&lt;/u>:&lt;/b>&lt;br />
+        Para desplazarse y editar los campos hay cuatro posibilidades:&lt;br />
+        &amp;nbsp;&amp;nbsp;1-Pulsando sobre el campo a editar.&lt;br />
+        &amp;nbsp;&amp;nbsp;2-Pulsando sobre el &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> Lápiz, a la derecha del campo que se quiera editar&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;en este momento se cambiará al&amp;nbsp; &lt;img src="file:///android_res/drawable/check48.png" /> de check que indica que los datos de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ese campo se pueden modificar.&lt;br />
+        &amp;nbsp;&amp;nbsp;3-Pulsando &lt;img src="file:///android_res/drawable/sig.jpg" /> tecla de siguiente en el teclado, permitirá pasar de un campo&lt;br /> 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;al siguiente.&lt;br />
+        &amp;nbsp;&amp;nbsp;4-Al completar el campo saltará automáticamente al siguiente. 
+        
+    </string>
+    <string name="help_datos_personales_telefono_1">609609609</string>
+    <string name="help_datos_tabs">
+
+	        &lt;b>Pestaña Elección&lt;/b>:&lt;br />
+	        La aplicación muestra tantas pestañas como elecciones deben ser&lt;br />
+	        transmitidas. Hasta que sean enviados los datos de la mesa para &lt;br />
+	        la elección más prioritaria en la fase actual, esta mesa no estará&lt;br />
+	        disponible para completar sus datos para el resto de Elecciones&lt;br />
+	        que le apliquen.
+	        
+    </string>
+    <string name="help_datosdeldispositivo">
+&lt;img src="file:///android_res/drawable/info_72.png" />&amp;nbsp;&lt;b>&lt;u>Datos del Dispositivo&lt;/u>:&lt;/b>Son los datos identificativos de la tablet:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- APN:&amp;nbsp;&lt;/b>por el que está conectado el dispositivo&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&amp;nbsp;&lt;/b>Identificador del dispositivo&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&amp;nbsp;&lt;/b>Identificador de la tarjeta SIM&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- IP de dispositivo&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- IP de Servidor&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Conexión noR:&lt;/b>&amp;nbsp;Indica el número de conexiones sin respuesta.
+    </string>
+    <string name="help_datoslocalelectoral">
+&lt;img src="file:///android_res/drawable/urnalista.png" />&amp;nbsp;&lt;b>&lt;u>Datos del Local Electoral&lt;/u>:&lt;/b>&amp;nbsp;Son los datos que se han grabado en el dispositivo.&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Local Electoral:&amp;nbsp;&lt;/b>Nombre del Local Electoral&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dirección:&amp;nbsp;&lt;/b>Calle, número, localidad y Código Postal.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Mesa de Referencia:&amp;nbsp;&lt;/b>Una de las mesas que tiene asignada el representante.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Lista de mesas:&amp;nbsp;&lt;/b>Resto de mesas asignadas al representante.
+    </string>
+    <string name="help_escrutinio_1">
+&lt;b>&lt;u>Escrutinio: Conceptos básicos&lt;/u>&lt;/b>&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Censo electoral:&lt;/b> Es el número de personas que reúnen los requisitos para&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ser elector y no se hallen privados, definitiva o temporalmente, del derecho&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;de sufragio.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Certificaciones de Alta:&lt;/b> Es el número de electores que han presentado una&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;certificación censal específica expedida por la Oficina de Censo Electoral&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;que le habilita para hacer efectivo el derecho al voto en esa mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Electores censados en la mesa que han votado:&lt;/b> Indicar el número de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;votantes incluidos en el censo de la mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Interventores no censados que han votado en esa mesa:&lt;/b> Indicar el número de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;interventores que han votado y no pertenecen al censo de la misma.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Número de votos nulos:&lt;/b> Es considerado voto nulo:&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Los que se emiten en sobres o papeletas diferentes del modelo oficial.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Las papeletas sin sobre.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Los que se emiten en sobres alterados.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Las papeletas en las que se hubiera modificado, añadido, o tachado el 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nombre de los candidatos y candidatas, alterado su orden de colocación,&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;así como aquellas en las que se hubiera introducido cualquier leyenda o&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;expresión, o producido cualquier otra alteración de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;carácter voluntario o intencionado.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Los sobres que contengan más de una papeleta de distintas candidaturas&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(si se incluyen varias papeletas de la misma candidatura, se cuenta como&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;un solo voto válido).&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· &lt;u>Recuerde&lt;/u>:&lt;/b> No son votos nulos las papeletas en las que se hubiera&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;introducido alguna señal o marca que no genere dudas acerca del&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sentido del voto.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Número de votos en blanco:&lt;/b> Indicar el número de los sobres que no tienen 
+        &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;papeleta.
+    </string>
+    <string name="help_escrutinio_2">
+&lt;b>&lt;u>Campos del boletín de escrutinio&lt;/u>&lt;/b>&lt;br />&lt;br />
+        En primer lugar, para hacer el escrutinio, se deben indicar los siguientes&lt;br />
+        datos:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dígito de Control de la mesa:&lt;/b>&amp;nbsp;Deberá introducir el número que aparece&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;en el campo de Dígito de Control del boletín.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Los siguientes datos del boletín impreso:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· De alta en el censo electoral&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Electores censados que han votado&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Interventores no censados en la mesa que han votado&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Número de votos nulos&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Número de votos en blanco&lt;/b>.&lt;br />&lt;br />
+        Posteriormente, se rellenan los datos de los &lt;b>votos de cada candidatura&lt;/b>. No es&lt;br />
+        necesario rellenar aquellas candidaturas que hayan obtenido 0 votos.
+        &lt;br />&lt;br />
+        &lt;b>&lt;u>Validaciones&lt;/u>:&lt;/b> Recuerde que el número de electores censados en la mesa que han&lt;br />
+        votado (A) + Interventores no censados en la mesa que han votado (B) debe&lt;br />
+        ser igual a la suma de votos a candidaturas + votos en blanco + votos nulos.&lt;br />
+        Número de electores censados en la mesa que han votado (A) debe ser menor &lt;br />
+        o igual que la suma del censo + las certificaciones de alta.
+    </string>
+    <string name="help_escrutinio_2b">
+&lt;b>&lt;u>Visualización de los datos introducidos en pantalla escrutinio&lt;/u>:&lt;/b>&lt;br />
+            Podrá visualizar la pantalla de escrutinio completa, al finalizar la introducción de los datos del boletín de escrutinio, para ello deberá pulsar el icono 
+            que cierra el campo de datos  que tenga ampliado &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />
+            Para desplazarse por la pantalla completa de escrutinio, tendrá que deslizar el puntero o dedo sobre la pantalla y en sentido vertical.
+        
+    </string>
+    <string name="help_escrutinio_3">
+&lt;b>&lt;u>Introducción de los datos en la pantalla de escrutinio&lt;/u>:&lt;/b>&lt;br />
+			Para introducir los datos en los campos de la pantalla de escrutinio, primero deberá escribir el Dígito de Control. A continuación tendrá que:&lt;br />
+			&amp;nbsp;1) Pulsar sobre el campo en el que quiere introducir los datos, éste se ampliará y&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aparecerá el teclado en la parte inferior de la pantalla.&lt;br />
+			&amp;nbsp;2) Teclear el valor que corresponde en el campo de datos que está visible en la&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pantalla y pulsar la tecla &lt;img src="file:///android_res/drawable/sig.jpg" /> .&lt;br />
+			&amp;nbsp;3) Introducir el valor  que corresponda para el siguiente campo ampliado.&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Deberá repetir los puntos 1, 2 y 3 tantas veces como sea necesario hasta&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cumplimentar los datos en todos los campos de la pantalla de escrutinio &lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(datos de boletín y votos a candidaturas) tal y como tendrá en su boletín.&lt;br />&lt;br />
+			Cuando el valor de un campo  sea cero, no será necesario que teclee esta cifra, puede pulsar la tecla &lt;img src="file:///android_res/drawable/sig.jpg" /> 
+			y pasar al siguiente campo o pulsar directamente sobre el campo que quiera rellenar.&lt;br />
+			Para pasar y visualizar los campos de datos ampliados también podrá utilizar el puntero, deslizándolo por la pantalla en sentido vertical,
+			hasta llegar al campo de datos que quiera seleccionar.&lt;br />
+			Podrá visualizar la pantalla de escrutinio completa, al finalizar la introducción de los datos del boletín de escrutinio, para ello deberá pulsar el icono 
+			que cierra el campo de datos  que tenga ampliado &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />
+			Para desplazarse por la pantalla completa de escrutinio, tendrá que deslizar el puntero o dedo sobre la pantalla y en sentido vertical.
+        
+    </string>
+    <string name="help_esperandojornada">
+En la fase actual, &lt;b>no se requiere ninguna acción&lt;/b>&lt;br />
+         por parte del representante.El cambio a la fase de&lt;br /> 
+         constitución de mesa será de forma automática.
+    </string>
+    <string name="help_estado_mesas">
+&lt;b>&lt;u>Estado de las mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Esta pantalla muestra información sobre el estado de cada una de las mesas&lt;br />
+        en las distintas fases del proceso electoral (La columna de la fase actual estará resaltada en otro color).&lt;br />&lt;br />
+        Los distintos estados de una mesa en cada fase pueden ser:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_remove.png" /> Sin datos:&lt;/b> No se tienen datos de la mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> En cola de envío:&lt;/b> Los datos de la mesa están esperando a ser enviados.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_accept.png" /> Enviado por tablet:&lt;/b> Los datos de la mesa han sido enviados por tablet.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_menu_call.png" /> Enviado por teléfono:&lt;/b> Los datos de la mesa han sido enviados por
+        &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;teléfono.
+    </string>
+    <string name="help_estado_mesas_multielec">
+&lt;b>&lt;u>Estado de las mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Esta pantalla muestra información sobre el estado de cada una de las mesas&lt;br />
+        en las distintas fases del proceso electoral seleccionado (el logo estará resaltado).&lt;br />
+        La columna de la fase actual estará resaltada en otro color.&lt;br />&lt;br /> 
+        Los distintos estados de una mesa en cada fase pueden ser:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_remove.png" /> Sin datos:&lt;/b> No se tienen datos de la mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> En cola de envío:&lt;/b> Los datos de la mesa están esperando a ser enviados.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_accept.png" /> Enviado por tablet:&lt;/b> Los datos de la mesa han sido enviados por tablet.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_menu_call.png" /> Enviado por teléfono:&lt;/b> Los datos de la mesa han sido enviados por
+        &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;teléfono.
+    </string>
+    <string name="help_findefase">
+En esta fase ya ha introducido los datos para todas las mesas&lt;br />  
+         que tiene asignadas.
+    </string>
+    <string name="help_findejornada">
+Esta fase indica que han sido enviados los datos de todas&lt;br />  
+         las mesas asignadas al representante.
+    </string>
+    <string name="help_mapa">
+&lt;b>&lt;u>Ubicación de la Elección&lt;/u>:&lt;/b>&lt;br />
+        Indica la provincia a la que pertenece&lt;br />el Local Electoral grabado.
+    </string>
+    <string name="help_mesa_1">02 003 01 019 A</string>
+    <string name="help_mesa_2">02 003 01 019 B</string>
+    <string name="help_mesa_referencia">02 003 01 019 A</string>
+    <string name="help_mesaref1">Introduzca Datos de Mesa</string>
+    <string name="help_mesaref2">Introduzca los datos de una de sus mesas asignadas para transmitir el día electoral. Los datos (Provincia, Municipio, Distrito, Sección y Mesa) los encontrará en los boletines que le fueron entregados con la Tablet</string>
+    <string name="help_mesasindatos">
+
+        &lt;b>Sin Datos&lt;/b>:&lt;br />
+        Indica el número de mesas en las que no han sido introducidos&lt;br /> 
+        los datos para la fase actual.&lt;br />
+        &lt;b>Sin Enviar&lt;/b>:&lt;br />
+        Indica el número de mesas en las que sí se han introducido los datos&lt;br /> 
+        para la fase actual, pero están en la cola de envío.
+        
+    </string>
+    <string name="help_modo">
+&lt;b>&lt;u>Modo&lt;/u>:&lt;/b> Indica el modo en el que opera la tablet:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/autoformacion.png" /> &lt;b>Autoformación&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/examen.png" /> &lt;b>Examen&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/simulacro.png" /> &lt;b>Simulacro&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/urna.png" /> &lt;b>Jornada Electoral&lt;/b>.
+    </string>
+    <string name="help_nombre_eleccion">Parlamento Europeo</string>
+    <string name="help_open_progress">Abriendo ayuda…</string>
+    <string name="help_operadora">
+&lt;b>&lt;u>Operadora&lt;/u>&lt;/b> a la que pertenece la red por la que está&lt;br />
+        conectando el dispositivo (HP, H, 3G, E). Si no consta &lt;br />
+        &lt;b>&lt;i>Movistar&lt;i>&lt;/b> o se muestra NO SIM o NO RED &lt;br />
+        debe ponerse en contacto con el &lt;b>Centro de Atención a&lt;br />
+        Usuarios de Tablet&lt;/b>.
+    </string>
+    <string name="help_otras_opciones">
+&lt;b>&lt;u>Otras opciones&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Datos personales:&lt;/b> Editar los datos&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;personales del Representante.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Consultar estado&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Pantalla:&lt;/b> Accesibilidad y brillo.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Apagar dispositivo&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Comenzar Examen&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Realizar llamada&lt;/b>.
+    </string>
+    <string name="help_pantalla_principal_1">
+&lt;b>&lt;u>Pantalla Principal: Mesa de referencia, dirección y datos del Local Electoral&lt;/u>.&lt;/b>&lt;br />&lt;br />
+        Pulsando sobre la mesa de referencia &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, se mostrarán los datos del local&lt;br />
+        electoral y mesas asignadas:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dirección del Local Electoral:&lt;/b> Local Electoral y dirección del mismo.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Mesas del Local Electoral:&lt;/b> Listado de mesas asignadas y su censo.&lt;br />&lt;br />
+        El botón de &lt;b>Ver Mapa&lt;/b> &lt;img src="file:///android_res/drawable/ic_action_place.png" /> mostrará un mapa con la ubicación física del local&lt;br />
+        electoral.&lt;br />
+        El botón de &lt;b>Editar&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> mostrará la pantalla de edición de mesas (excepto en&lt;br />
+        Simulacro y Jornada Electoral). Si el Representante precisa corregir estos datos&lt;br />
+        deberá ponerse en contacto con el &lt;b>Centro de Atención a Usuarios de Tablet&lt;/b>.&lt;br />&lt;br />
+        Para ocultar estos datos, bastará con pulsar de nuevo sobre la mesa de&lt;br />
+        referencia &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.
+    </string>
+    <string name="help_pantalla_principal_2">
+&lt;b>&lt;u>Pantalla Principal: Envío de datos&lt;/u>.&lt;/b>&lt;br />&lt;br />
+        En esta sección se informa del número de mesas que aún no tienen datos y del&lt;br />
+        número de mesas sin enviar.&lt;br />&lt;br />
+        &lt;b>&lt;u>Estado de las mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Pulsando sobre el botón de &lt;b>Estado Mesas&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_info_details.png" />, se mostrará la pantalla de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>Estado de las Mesas&lt;/b>, donde podremos ver, por cada una de las mesas y fase&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;de la jornada electoral, su estado. El Estado de Mesas puede ser:&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/delete_icon.png" /> Sin datos&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> En cola de envío&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/check_icon.png" /> Enviado&lt;/b>.&lt;br />&lt;br />
+        &lt;b>&lt;u>Mesas sin datos:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Pulsando sobre proceso electoral deseado  &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, se mostrará un listado de las&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mesas que aún no tienen datos para el proceso electoral y fase actual&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(indicada en el título de la pantalla).&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Pulsando sobre alguna de las mesas que aparecen en el listado, accederemos&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;a la pantalla de la Fase que corresponda, donde se indicará el Dígito de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;control de la mesa y el resto de datos a indicar en esta fase. Este proceso se&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;repetirá con todas las mesas.&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Para ocultar este listado de mesas sin datos, bastará con pulsar de nuevo&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sobre el proceso electoral &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.
+    </string>
+    <string name="help_popmenu_opciones">
+&lt;img src="file:///android_res/drawable/ic_action_overflow.png" />&amp;nbsp;&amp;nbsp;&lt;b>&lt;u>Botón de opciones&lt;/u>:&lt;/b>&lt;br />
+        &lt;br />
+        &lt;b>Consulta del último estado:&amp;nbsp;&lt;/b>pulsando este botón  
+        &lt;br />se mostrará información que puede ser solicitada 
+        &lt;br />desde el &lt;b>Centro de Atención a Usuarios de tablet&lt;/b>.&lt;br />
+        &lt;br />
+        &lt;b>Pantalla:&amp;nbsp;&lt;/b>pulsando esta opción se puede habilitar 
+        &lt;br />o deshabilitar la accesibilidad (posibilidad de 
+        &lt;br />aumentar el tamaño de la pantalla) y regular el&lt;br />  
+        brillo.&lt;br />&lt;br />
+        &lt;b>Comenzar examen:&amp;nbsp;&lt;/b>esta opción permite acceder
+        &lt;br />al examen y solamente deberá hacerlo cuando 
+        &lt;br />sea indicado por el formador.
+    
+    </string>
+    <string name="help_primer_avance">
+&lt;b>&lt;u>Primer Avance:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Para enviar los datos del Primer Avance, se debe indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dígito de Control de la mesa:&lt;/b>&amp;nbsp;Deberá introducir el campo &lt;i>Dígito de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Control&lt;/i> del Boletín.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Número de votantes de la mesa en cada Elección:&lt;/b>&amp;nbsp;Deberá introducir como&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;máximo cuatro dígitos en cada campo.&lt;br />&lt;br />
+        Una vez introducidos el nº de Votantes en cada Elección, se pulsará el botón &lt;img src="file:///android_res/drawable/datosaceptar.png" /> para
+        enviar los datos indicados. Si el envío ha sido correcto, se informará por pantalla.
+        &lt;br />&lt;br />
+        En el caso de detectarse algún error en los datos introducidos, se avisará por pantalla mediante un &lt;b>mensaje de error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> para su corrección.&lt;br />&lt;br />
+        &lt;b>&lt;u>Validaciones&lt;/u>:&lt;/b> Recuerde que el número de votantes en el Primer Avance debe ser menor o igual que el 
+        censo de la mesa de esa Elección.
+    </string>
+    <string name="help_segundo_avance">
+&lt;b>&lt;u>Segundo Avance:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Para enviar los datos del Segundo Avance, se debe indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dígito de Control de la mesa:&lt;/b>&amp;nbsp;Deberá introducir el campo &lt;i>Dígito de&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Control&lt;/i> del Boletín.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Número de votantes de la mesa en cada Elección:&lt;/b>&amp;nbsp;Deberá introducir como&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;máximo cuatro dígitos en cada campo.&lt;br />&lt;br />
+        Una vez introducidos el nº de Votantes en cada Elección, se pulsará el botón &lt;img src="file:///android_res/drawable/datosaceptar.png" /> 
+        para enviar los datos indicados. Si el envío ha sido correcto, se informará por pantalla.
+        &lt;br />&lt;br />
+        En el caso de detectarse algún error en los datos introducidos, se avisará
+        por pantalla mediante un &lt;b>mensaje de error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> para su corrección.&lt;br />&lt;br />
+        &lt;b>&lt;u>Validaciones&lt;/u>:&lt;/b> Recuerde que el número de votantes en el Segundo Avance debe ser mayor o igual que en el Primer Avance de la Elección seleccionada y menor o igual que el censo de mesa de esa Elección.
+    </string>
+    <string name="help_sidemenu_config">
+&lt;b>&lt;u>Configuración&lt;/u>:&lt;br />
+	        &lt;/b> Seleccionando esta opción puede consultar, o modificar, 
+	        &lt;br />los datos personales o las mesas asignadas. Lo mismo que
+	        &lt;br />si se pulsa el botón &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/ic_menu_edit.png" />
+	    
+    </string>
+    <string name="help_sidemenu_enviodatos">
+&lt;b>&lt;u>Envío de Datos&lt;/u>:&lt;br />
+        &lt;/b> Pulsando sobre esta opción mostará
+        &lt;br />la pantalla principal de la fase actual.
+    </string>
+    <string name="help_sidemenu_estmesas">
+&lt;b>&lt;u>Estado de Mesas&lt;/u>:&lt;br />
+	        &lt;/b> Pulsando se mostrará la pantalla 
+	        &lt;br />donde se podrá ver el estado de 
+	        &lt;br />cada mesa en cada una de las
+	        &lt;br />fases de la jornada electoral.
+        
+    </string>
+    <string name="help_sidemenu_telefono">
+&lt;b>&lt;u>Teléfono&lt;/u>:&lt;br />
+        &lt;/b> Pulsando este botón se mostrará la información con el &lt;b>Centro de Atención
+        &lt;br />al usuario de Tablet&lt;/b>&lt;/ br>
+        y el teclado para establecer llamada.
+    </string>
+    <string name="help_telefono">
+&lt;b>&lt;u>Teléfono:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Una vez marcado el número de teléfono del &lt;b>Centro de Atención a Usuarios de Tablet&lt;/b>,  
+        &lt;br />aparecerá en la parte inferior del teclado el botón para activar/desactivar el manos libres 
+        &lt;br />y la barra que permitirá regular el volumen.
+        
+    </string>
+    <string name="help_titulo_aceptar_colegio">Aceptar Colegio</string>
+    <string name="help_titulo_configuracion">Configuración</string>
+    <string name="help_titulo_fase">Fase</string>
+    <string name="help_titulo_fases">
+&lt;b>&lt;u>Fases&lt;/u>:&lt;/b> La jornada electoral se &lt;br />divide en las siguientes fases:&lt;br />
+        &amp;nbsp;&lt;b>- Esperando Jornada&lt;/b>.&lt;br />
+        &amp;nbsp;&lt;b>- Constitución de Mesas:&lt;/b> a partir&lt;br />
+        &amp;nbsp;de las 8:00.&lt;br />
+        &amp;nbsp;&lt;b>- Primer Avance (*)&lt;/b>&lt;br />
+        &amp;nbsp;&lt;b>- Segundo Avance (*)&lt;/b>&lt;br />
+        &amp;nbsp;&lt;b>- Escrutinio:&lt;/b> 20:00.&lt;br />
+        &amp;nbsp;&lt;b>- Fin de Jornada Electoral&lt;/b>.&lt;br />
+                 (*) El usuario de tablet debe transmitir&lt;br />
+                 la información correspondiente a los&lt;br />
+                 avances según el horario indicado en&lt;br />
+                 el manual de usuario de tablet y de&lt;br />
+                 acuerdo a la Elección seleccionada.
+        
+    </string>
+    <string name="help_titulo_seccion">&lt;b>&lt;u>Título&lt;/u>:&lt;/b> Título de la sección.</string>
+    <string name="help_version_software">
+&lt;b>&lt;u>Versión SW&lt;/u>:&lt;/b>&lt;br />
+        Esta información puede ser solicitada desde el &lt;br />&lt;b>Centro de Atención a Usuarios de tablet&lt;/b>.
+    </string>
+    <string name="help_volver">
+&lt;b>&lt;u>Volver&lt;/u>:&lt;/b>&amp;nbsp;&lt;img src="file:///android_res/drawable/undo_56.png" /> Botón para volver&lt;br />
+        a la pantalla anterior.
+    </string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="identification"><b>Identificación</b></string>
+    <string name="idioma"><b>Idioma</b></string>
+    <string name="idiomacambiar">Cambiar Idioma</string>
+    <string name="imeDone">Fin</string>
+    <string name="imeNext">Sig.</string>
+    <string name="incorrectPIN"><b>PIN</b> Incorrecto</string>
+    <string name="insdist">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Introduzca Distrito&lt;/big>&lt;/big></string>
+    <string name="insertePIN">Inserte <b>PIN:</b></string>
+    <string name="inslocal">&lt;b>Atención:&lt;/b>&lt;br>Pulse sobre el botón &lt;b>&lt;i>\"Aceptar\"&lt;/i>&lt;/b>, para que el Local Electoral quede registrado en el Sistema</string>
+    <string name="insmesa">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Introduzca Mesa&lt;/big>&lt;/big></string>
+    <string name="insmuni">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Introduzca Municipio&lt;/big>&lt;/big></string>
+    <string name="insnie">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Introduzca NIE&lt;/big>&lt;/big></string>
+    <string name="insnif">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Introduzca NIF&lt;/big>&lt;/big></string>
+    <string name="insprov">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Introduzca Provincia&lt;/big>&lt;/big></string>
+    <string name="inssec">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Introduzca Sección&lt;/big>&lt;/big></string>
+    <string name="insselmesa">&lt;b>Instrucciones:&lt;/b> Seleccione una mesa</string>
+    <string name="insselmesa1">&lt;b>Mesa procesada&lt;/b></string>
+    <string name="insselprov">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Seleccione Provincia&lt;/big>&lt;/big></string>
+    <string name="instel">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Introduzca Teléfono</string>
+    <string name="internocensados"><b>Interventores No Censados</b></string>
+    <string formatted="false" name="introducir">"Introducir %s"</string>
+    <string formatted="false" name="introducirCodigo">"Introducir Código de %s"</string>
+    <string name="ipDispositivo">IP DISPOSITIVO</string>
+    <string name="ipServidor">IP SERVIDOR</string>
+    <string name="ippda">IP Tablet</string>
+    <string name="ipweb">IP servicio web</string>
+    <string name="item_0">0</string>
+    <string name="item_1">1</string>
+    <string name="item_2">2</string>
+    <string name="item_3">3</string>
+    <string name="item_4">4</string>
+    <string name="item_5">5</string>
+    <string name="item_6">6</string>
+    <string name="item_7">7</string>
+    <string formatted="false" name="kenia_counter">&lt;b>Telegrama HOJA: %s/1&lt;/b> \n %s</string>
+    <string name="kenia_footer">ESCANEAR TELEGRAMA</string>
+    <string name="kenia_selecmesa_dates">Digitar Telegrama</string>
+    <string name="kenia_selecmesa_dates_ok">Data sent</string>
+    <string name="kenia_selecmesa_photo">Escanear Telegrama</string>
+    <string name="kenia_selecmesa_photo_ok">Escanear Telegrama</string>
+    <string name="kenia_side1">Telegrama HOJA:1/1</string>
+    <string name="kenia_side2">Form side 2</string>
+    <string name="kenia_validation">Es necesario escanear el telegrama</string>
+    <string name="keypin">4nd4l8c1</string>
+    <string name="label">label</string>
+    <string name="leyenda">LEYENDA</string>
+    <string name="listamesas">LISTA DE MESAS</string>
+    <string name="listosoftkeyboard">Listo</string>
+    <string name="llamadaproceso">Llamada</string>
+    <string name="llamando">Llamando. Por favor espere…</string>
+    <string name="loadMessage">Inicializando. Espere…</string>
+    <string name="local">Local Electoral</string>
+    <string name="local2">LOCAL ELECTORAL</string>
+    <string name="localizacion">Ver Mapa</string>
+    <string name="login">ServiceWeb2016</string>
+    <string name="logo">Logo de Indra</string>
+    <string name="logoElecciones">Logo de las elecciones</string>
+    <string name="logoMinisterio">Logo Estado</string>
+    <string name="manosLibres">Manos libres</string>
+    <string name="mapas_error">Red no disponible, imposible obtener mapas del Local Electoral. Por favor, intentelo de nuevo más tarde</string>
+    <string name="marcaAguaAutoformacion">MODO\nAUTO\nFORMACIÓN\n</string>
+    <string name="marcaAguaExamen">MODO\n EXAMEN\n</string>
+    <string name="marcaAguaVersionFormacion">VERSIÓN\nFORMACIÓN\n</string>
+    <string name="menos">-</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_noaction">Por favor, introduzca primero sus datos personales y los datos de su Local Electoral</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="mesa">Mesa</string>
+    <string name="mesa_enviada">MESA ENVIADA</string>
+    <string name="mesapruebaerror">La mesa de prueba unicamente puede ser utilizada en el modo autoformación</string>
+    <string name="mesaref">Mesa Ref</string>
+    <string name="mesaref_revise">Revise sus datos</string>
+    <string name="mesareferencia">Mesa de referencia</string>
+    <string name="mesareferencia2">MESA DE REFERENCIA</string>
+    <string name="mesas">MESAS</string>
+    <string formatted="false" name="mesasSinDatos">Sin Datos %d</string>
+    <string formatted="false" name="mesasSinEnviar">Sin Enviar %d</string>
+    <string name="mesasTxt">Mesas</string>
+    <string name="mesasfin">Fin de</string>
+    <string name="mesasseleccionadas"><b>Mesas seleccionadas</b></string>
+    <string name="mesassindatos">Mesa(s) sin datos</string>
+    <string name="mesassinenviar">Mesa(s) sin enviar</string>
+    <string name="mod_idioma"><b>Modificar Idioma</b></string>
+    <string name="mode">Modo</string>
+    <string name="modifica_variable">modifica variable</string>
+    <string name="modificardatos_dni"><b>DNI</b></string>
+    <string name="modificardatos_revise">Revise sus datos personales</string>
+    <string name="modificardatos_tfno1"><b>TFNO1</b></string>
+    <string name="modificardatos_tfno2"><b>TFNO2</b></string>
+    <string name="modo_header">MODO:</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="municipio">Municipio</string>
+    <string name="namespace">ServicioDelta</string>
+    <string name="negativeButtonText">No</string>
+    <string name="no">No</string>
+    <string name="noHayMesasQueMostrar">NO HAY MESAS DISPONIBLES PARA MOSTRAR</string>
+    <string name="noHayMesasSinDatos">(YA SE HAN INTRODUCIDO LOS DATOS DE TODAS LAS MESAS)</string>
+    <string name="noLocalizacion">La Localización ha sido deshabilitada. Por favor, intentelo más tarde</string>
+    <string name="noRequiereEnvioMesas">No requiere envío</string>
+    <string name="nochangemesa">Solo se puede cambiar la mesa si se encuentra en el modo de formacion.</string>
+    <string name="nombre">NOMBRE Y APELLIDOS</string>
+    <string name="notiftitle">Notificacion del servicio</string>
+    <string name="numCertificacionesCensales">Número de Certificaciones Censales Presentadas</string>
+    <string formatted="false" name="numero">Número %s</string>
+    <string name="numvotantes">Nº de Votantes</string>
+    <string name="obteniendo">Obteniendo datos. Por favor espere…</string>
+    <string name="off">OFF</string>
+    <string name="ok">Aceptar</string>
+    <string name="on">ON</string>
+    <string name="otrasopciones">Opciones</string>
+    <string name="otrasopciones_apagardispositivo">Apagar Dispositivo</string>
+    <string name="otrasopciones_bloqueardispositivo">Bloquear Dispositivo</string>
+    <string name="otrasopciones_modificardatoscontacto">Modificar Datos Contacto</string>
+    <string name="otrasopciones_modificarmesa">Modificar Mesa</string>
+    <string name="otrasopciones_obtenerdatosconexion">Obtener Datos Conexión</string>
+    <string name="otrasopciones_obtenerestado">Obtener Estado</string>
+    <string name="otrasopciones_realizarllamadas">Realizar Llamadas</string>
+    <string name="otrasopciones_resolucionproblemas">Resolución Problemas</string>
+    <string name="pantalla">Pantalla</string>
+    <string name="parsecolegio">Colegio Ficticio para Pruebas </string>
+    <string name="parsedireccion">Dirección del Colegio Ficticio </string>
+    <string name="pass">v%6n*#6TxDVYkk</string>
+    <string name="patterncolegio">Colegio</string>
+    <string name="patterndescripcion">PARTIDO %s</string>
+    <string name="patterndireccion">Dirección</string>
+    <string name="patternsiglas">PARTIDO %s</string>
+    <string name="personaldata">Datos personales</string>
+    <string name="positiveButtonText">Sí</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_history_summary">Store your scans in History</string>
+    <string name="preferences_history_title">Add to History</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="primerAvanceTabText">Digitación de&lt;br>Cantidad de Votos</string>
+    <string name="primeravance">&lt;font color="green">&lt;b>Cantidad de votos&lt;/b>&lt;/font></string>
+    <string name="primeravance_nohtml">Cantidad de votos</string>
+    <string name="procesando">Procesando</string>
+    <string name="prohibido">El dispositivo está desautorizado, por favor llame al Centro de Incidencias</string>
+    <string name="provincia">Provincia</string>
+    <string name="rechazar">Rechazar</string>
+    <string name="refrescar">Refresca datos</string>
+    <string name="reinciaraplicacion">Reiniciar</string>
+    <string name="responder">Responder</string>
+    <string name="resulCenso2">1- Electores Según Listas Censo</string>
+    <string name="resulCertAlt2">2- Certificaciones Censales Alta</string>
+    <string name="resulCertErr2">3- Certificaciones Censales Corrección</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="resultado">Resultado del Examen:</string>
+    <string name="resultadoexamen">Fin del Examen</string>
+    <string name="resultadoinfo">*Comunique el resultado al Formador</string>
+    <string name="resultadoultimo">Resultado del Último Examen:</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="scan_instructions">Por favor escanee el codigo de barras</string>
+    <string name="seccion">Sección</string>
+    <string name="segundoAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>Segundo Avance</string>
+    <string name="segundoavance">Fase: &lt;font color="green">&lt;b>Segundo avance&lt;/b>&lt;/font></string>
+    <string name="segundoavance_nohtml">Segundo avance</string>
+    <string name="seleccionaridioma"><b>Seleccionar Idioma</b></string>
+    <string name="seleccionprovincia">Provincias</string>
+    <string name="selectlanguage">SELECCIONE IDIOMA</string>
+    <string name="selectprovincia">SELECCIONE PROVINCIA</string>
+    <string name="si">Sí</string>
+    <string name="sim_netlocked">NETWORK LOCKED</string>
+    <string name="sim_no">NO SIM</string>
+    <string name="sim_nored">NO RED</string>
+    <string name="sim_pin">PIN REQUIRED</string>
+    <string name="sim_puk">PUK REQUIRED</string>
+    <string name="slider_apn">APN</string>
+    <string name="slider_bateria">BATERÍA PRINCIPAL</string>
+    <string name="slider_bateria_nivel0">NIVEL DE BATERÍA MUY ALTO</string>
+    <string name="slider_bateria_nivel1">NIVEL DE BATERÍA ALTO</string>
+    <string name="slider_bateria_nivel2">NIVEL DE BATERÍA MEDIO</string>
+    <string name="slider_bateria_nivel3">NIVEL DE BATERÍA BAJO</string>
+    <string name="slider_bateria_nivel4">NIVEL DE BATERÍA MUY BAJO</string>
+    <string name="slider_bateria_nivel5">BATERÍA DESCARGADA</string>
+    <string name="slider_conexion1">COBERTURA ALTA</string>
+    <string name="slider_conexion2">COBERTURA MEDIA</string>
+    <string name="slider_conexion3">COBERTURA BAJA</string>
+    <string name="slider_conexion4">SIN COBERTURA</string>
+    <string name="slider_corriente_conectada">CONECTADO A LA CORRIENTE</string>
+    <string name="slider_elecciones">ELECCIONES APN</string>
+    <string name="slider_iccid">ICCID</string>
+    <string name="slider_iccid_num">89340766000003301890</string>
+    <string name="slider_imei">IMEI</string>
+    <string name="slider_imei_num">863368020058928</string>
+    <string name="smesa"><b>Mesa/s</b><br/></string>
+    <string name="splash1">Configurando tablet</string>
+    <string name="splash2">Comunicando con tarjeta SIM</string>
+    <string name="splash3">Esperando a que la Red este disponible</string>
+    <string name="splash4">Conectando con Servidor de datos</string>
+    <string name="splash5">Procesando respuesta</string>
+    <string formatted="false" name="splash51">Comprobando Backups: Intento número %d</string>
+    <string name="splash6">Por favor, seleccione idioma</string>
+    <string name="stLbMachineId">Id. Maquina</string>
+    <string name="stLbVVMId">Colegio</string>
+    <string name="str0">0</string>
+    <string name="str1">1</string>
+    <string name="str2">2</string>
+    <string name="str3">3</string>
+    <string name="str4">4</string>
+    <string name="str5">5</string>
+    <string name="str6">6</string>
+    <string name="str7">7</string>
+    <string name="str8">8</string>
+    <string name="str9">9</string>
+    <string formatted="false" name="sysdump">&lt;b>Está accediendo a una función de administración.&lt;br>Por favor, pulse aceptar para salir.&lt;/b>&lt;br>&lt;br>%s</string>
+    <string name="tab1">DATOS\nPERSONALES</string>
+    <string name="tab2">DATOS\nLOCAL ELECTORAL</string>
+    <string name="tabla_concejo">Concejo</string>
+    <string name="tablas">TABLAS</string>
+    <string name="telefono">TELÉFONO</string>
+    <string name="telefono1">TELEFONO 1</string>
+    <string name="telefono2">TELEFONO 2 (OPCIONAL)</string>
+    <string name="tercerAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>Tercer Avance</string>
+    <string name="terceravance">Fase: &lt;font color="green">&lt;b>Tercer avance&lt;/b>&lt;/font></string>
+    <string name="terceravance_nohtml">Tercer avance</string>
+    <string name="terminar">Colgar</string>
+    <string name="tfno1">TFNO 1</string>
+    <string name="tfno2">TFNO 2</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="timer_delay_personaldata">12000</string>
+    <string name="tipo">D</string>
+    <string name="tipo_BQ">Q</string>
+    <string name="tipo_home">H</string>
+    <string name="tipo_home_BQ">I</string>
+    <string name="toast_situacion1">Se ha actualizado la lista de Mesas pendientes para la Constitución de Mesas</string>
+    <string formatted="false" name="toast_situacion2">Se ha actualizado la lista de Mesas pendientes para la Elección %s</string>
+    <string name="todasLasElecciones">TODAS LAS ELECCIONES</string>
+    <string name="total">TOTAL</string>
+    <string name="txtInstrucciones_dc_introducir">Introduzca Dígito de Control</string>
+    <string name="txtInstrucciones_enviando">Guardando datos…</string>
+    <string formatted="false" name="txtInstrucciones_introducir">Introduzca el número de %s</string>
+    <string name="txtInstrucciones_introducirCenso">Introduzca Censo</string>
+    <string name="txtInstrucciones_introducirCensoExtranjeros">Introduzca Censo Extranjeros</string>
+    <string name="txtInstrucciones_introducirCensoNacional">Introduzca Censo Nacional</string>
+    <string formatted="false" name="txtInstrucciones_no_editable">El candidato seleccionado no se presenta a la elección %s</string>
+    <string name="txtInstrucciones_rellenar_boletin">"Introduzca los valores del telegrama"</string>
+    <string name="txtInstrucciones_rellenar_info_votos">Introduzca la información de los votos</string>
+    <string name="txtInstrucciones_validacion_error">Errores en la validación</string>
+    <string name="txtInstrucciones_validacion_ok">Validación Completada con Éxito</string>
+    <string name="txtInstrucciones_validacion_warnings">Compruebe los datos introducidos</string>
+    <string name="txtInstrucciones_validando_avances">Validando Avances…</string>
+    <string name="txtInstrucciones_validando_censo">Validando Censo</string>
+    <string name="txtInstrucciones_validando_datos">Validando Datos…</string>
+    <string name="txtInstrucciones_validando_dc">Validando Digito de control…</string>
+    <string name="txtInstrucciones_validando_escrutinio">Validando Telegrama…</string>
+    <string name="txtInstrucciones_validando_informacion_votos">Validando la cantidad de votos…</string>
+    <string name="txtInstrucciones_votantes_avance1">Introduzca el número de Votantes del Primer Avance</string>
+    <string name="txtInstrucciones_votantes_avance2">Introduzca el número de Votantes del Segundo Avance</string>
+    <string name="txtInstrucciones_votantes_avance3">Introduzca el número de Votantes del Tercer Avance</string>
+    <string name="txtInstrucciones_votos_candidato">Votos de la Candidatura</string>
+    <string name="ultimoestado">Último Estado</string>
+    <string name="unknown">unknown</string>
+    <string name="url">https://g3n3ll.0m1cr0n.indra.es/SERVICIODELTA/SERVICIODELTA.ASMX</string>
+    <string name="url1">g3n3ll.0m1cr0n.indra.es</string>
+    <string name="url1alt">89.141.89.163 </string>
+    <string name="url2">/SERVICIODELTA/SERVICIODELTA.ASMX</string>
+    <string name="url2alt">/ServicioDelta/ServicioDelta.asmx</string>
+    <string name="urlalt">https://89.141.89.163/ServicioDelta/ServicioDelta.asmx</string>
+    <string name="urlping">http://m.google.com</string>
+    <string formatted="false" name="validacionImpugnados">La cantidad de votos impugnados no puede superar el censo (%s)</string>
+    <string formatted="false" name="validacion_censo_supera_umbral">El valor del censo está fuera del rango permitido respecto del valor del censo inicial (%d)</string>
+    <string formatted="false" name="validacion_censo_supera_umbral_extranjeros">La suma del censo de electores nacionales y el censo de electores extranjeros está fuera del rango permitido respecto del valor del censo total inicial (%d)</string>
+    <string formatted="false" name="validacion_censo_valor_coincide_otra_mesa">El censo introducido coincide con el de la mesa %s ¿está seguro?</string>
+    <string name="validacion_censo_valor_no_valido">Debe introducir un valor válido para el censo.</string>
+    <string name="valores">VALORES</string>
+    <string name="value">value</string>
+    <string name="vblanco"><b>Votos en Blanco</b></string>
+    <string name="vnulos"><b>Votos Nulos</b></string>
+    <string name="volumen">Volumen</string>
+    <string name="volver">Volver</string>
+    <string formatted="false" name="votos_2n_avanc_inferior_1r">Segundo Avance %sinferior al Primer Avance %s</string>
+    <string formatted="false" name="votos_3r_avanc_inferior_2n">Tercer Avance %sinferior al Segundo Avance %s</string>
+    <string name="votos_avanc_inferior1">2n Avance</string>
+    <string name="votos_avanc_inferior2">inferior al 1r Avance</string>
+    <string name="votos_avanc_inferior3">3r Avance</string>
+    <string name="votos_avanc_inferior4">inferior al 2nd Avance</string>
+    <string formatted="false" name="votos_avanc_voto_igual_DC">El número de votantes %scoincide con el Dígito de control ¿Es correcto?</string>
+    <string name="votos_avanc_voto_igual_DC1">El número de votantes</string>
+    <string name="votos_avanc_voto_igual_DC2">coincide con el Dígito de control ¿ Es correcto ?</string>
+    <string formatted="false" name="votos_avanc_voto_igual_censo">El Nº de Votantes %ses igual que el Censo %s¿Está seguro del dato introducido?</string>
+    <string name="votos_avanc_voto_igual_censo1">El Nº de Votantes</string>
+    <string name="votos_avanc_voto_igual_censo2">es igual que el Censo\"</string>
+    <string name="votos_avanc_voto_igual_censo3">\"Está seguro del dato introducido</string>
+    <string formatted="false" name="votos_avance1_cero_telefono">Deberá trasmitir el %spara esta mesa a través del teléfono de recuento de datos.</string>
+    <string name="votos_avance1_cero_telefono1">Deberá transmitir el</string>
+    <string name="votos_avance1_cero_telefono2">para esta mesa a través del teléfono de recuento de datos</string>
+    <string formatted="false" name="votos_avance_avanceN">El número de votantes coincide con el del avance anterior %s¿Está seguro?</string>
+    <string formatted="false" name="votos_avance_censo">Nº de Votantes %sMayor que Censo %s</string>
+    <string name="votos_avance_censo1">Nº de Votantes</string>
+    <string name="votos_avance_censo2">Mayor que Censo</string>
+    <string formatted="false" name="votos_avance_cero">¿Está usted seguro de que el número de votantes %ses 0?</string>
+    <string name="votos_avance_cero1">¿Está usted seguro de que el número de votantes</string>
+    <string name="votos_avance_cero2">es 0?</string>
+    <string name="votos_avance_introducir">Introduzca el Nº de Votantes</string>
+    <string name="votos_blanco">VOTOS EN BLANCO</string>
+    <string name="votos_nulos">VOTOS NULOS</string>
+    <string formatted="false" name="votos_resultado_baja_participacion">Los niveles de participación son inferiores al %d%%. ¿Está seguro de los datos introducidos?</string>
+    <string name="votos_resultado_umbral">Es posible que haya errores en los votos de alguna candidatura. ¿Está seguro de los datos introducidos?</string>
+    <string name="warningMessageSalir">Si vuelve al menú anterior se perderán todos los datos introducidos en esta pantalla. ¿Está seguro de que desea volver?</string>
+    <string name="warningTitleEnvio">Confirmar el envío…</string>
+    <string name="warningTitleSalir">¿Está seguro de que desea volver?</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+    <string name="wrongletter">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Letra de documento incorrecta&lt;/big>&lt;/big></string>
+    <string name="wrongnie">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> NIE incorrecto&lt;/big>&lt;/big></string>
+    <string name="wrongnif">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> NIF incorrecto&lt;/big>&lt;/big></string>
+    <string name="wrongnombre">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Nombre incorrecto&lt;/big>&lt;/big></string>
+    <string name="wrongphone">&lt;big>&lt;big>&lt;b>Instrucciones:&lt;/b> Telefono incorrecto&lt;/big>&lt;/big></string>
+    <style name="ActionBarButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@null</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:textSize">@dimen/text_size_small</item>
+</style>
+    <style name="ActionBarButtonOffWhite" parent="@style/ActionBarButton">
+    <item name="android:textColor">@color/off_white</item>
+</style>
+    <style name="ActionBarButtonWhite" parent="@style/ActionBarButton">
+    <item name="android:textColor">@color/white</item>
+</style>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <!-- <item name="android:fastScrollThumbDrawable">         @drawable/barra_fastscroll_track</item>
+        <item name="android:fastScrollOverlayPosition">atThumb</item> 
+        <item name="android:fastScrollTextColor">@color/barradark</item>
+        <item name="android:fastScrollTrackDrawable">         @drawable/fastscroll_trackball_holo_light</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@drawable/fastscroll_trackball_holo_light</item>
+        -->
+        <item name="android:fastScrollTextColor">@color/barradark</item>
+        <item name="android:fastScrollTrackDrawable">         @drawable/fastscroll_trackball_holo_light</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@drawable/fastscroll_trackball_holo_light</item>
+    </style>
+    <style name="CaptureTheme" parent="android:Theme.Holo">
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:windowActionModeOverlay">true</item>
+  </style>
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="@android:background">@android:color/transparent</item>
+  </style>
+    <style name="CustomProgressBarT" parent="android:Widget.ProgressBar.Horizontal">
+	    <item name="android:indeterminateOnly">true</item>
+	    <item name="android:indeterminateDrawable">@drawable/progressbarhorizontal</item>
+	    <item name="android:minHeight">10dip</item>
+	    <item name="android:maxHeight">20dip</item>
+	</style>
+    <style name="MyActionBar" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+    <item name="android:background">@android:color/darker_gray</item>
+    <item name="android:actionBarSize">100dip</item>
+</style>
+    <style name="ResultButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+    <item name="android:layout_width">0dip</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">1</item>
+  </style>
+    <style name="ShareButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+    <style name="TabWidgetTheme" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.MyTheme" parent="android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>

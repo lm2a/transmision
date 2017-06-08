@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:padding="15dip"
+    android:background="@color/greyBG"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/contactimgcalling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/contact" />
+
+    <TextView
+        android:id="@+id/llamada2calling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactimgcalling"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/llamadaproceso"
+        android:textColor="@color/errorRed"
+        android:textSize="20sp" />
+
+        <Button
+        android:id="@+id/llamada4calling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llamada2calling"
+        android:layout_alignParentLeft="true"
+        android:alpha="1"
+        android:drawablePadding="10dip"
+        android:drawableRight="@android:drawable/sym_call_outgoing"
+        android:text="@string/rechazar" />
+        
+    <Button
+        android:id="@+id/llamada3calling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llamada2calling"
+        android:layout_alignParentRight="true"
+        android:alpha="1"
+        android:drawablePadding="10dip"
+        android:drawableRight="@android:drawable/sym_call_incoming"
+        android:text="@string/responder" />
+
+</RelativeLayout>

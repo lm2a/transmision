@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faseNames">
+		<item>Constitucion</item>
+		<item>Prumèr Auanç</item>
+		<item>Dusau Auanç</item>
+		<item>Tresau Auanç</item>
+		<item>Escrutinh</item>
+		<item>Demorant jornada</item>
+    </string-array>
+    <string-array name="faseTitles">
+		<item>CONSTITUCION DES MESES</item>
+		<item>PRUMÈR AUANÇ</item>
+		<item>DUSAU AUANÇ</item>
+		<item>TRESAU AUANÇ</item>
+		<item>ESCRUTINH</item>
+		<item>DEMORANT JORNADA</item>
+    </string-array>
+    <string-array name="menu">
+		<item>Configuracion</item>
+		<item>Enviament de Dades</item>
+		<item>Estat de Meses</item>
+		<item>Telefòn</item>
+    </string-array>
+    <string-array name="otrasOpciones">
+		<item>Consultar Estat</item>
+		<item>Pantalha</item>
+		<item>Amòrte eth dispositiu</item>
+		<item>Ajuda</item>
+    </string-array>
+    <string-array name="otrasOpcionesTest">
+		<item>Consultar Estat</item>
+		<item>Pantalha</item>
+		<item>Amortar dispositiu</item>
+		<item>Començar Examen</item>
+		<item>Hèr telefonada</item>
+    </string-array>
+    <string-array name="txtInstrucciones_boletin">
+		<item>Introdusitz eth cens</item>
+		<item>Introdusitz eth nombre de certificacions inscrites en cens electorau</item>
+		<item>Introdusitz eth nombre de certificacions de correccion d\'errors</item>
+		<item>Introdusitz eth nombre totau de votants</item>
+		<item>Introdusitz eth nombre d\'electors censats ena mesa qu\'an votat</item>
+		<item>Introdusitz eth nombre d\'interventors non censadi ena mesa qu\'an votat</item>
+		<item>Introdusitz eth nombre de vòts nulli</item>
+		<item>Introdusitz eth nombre de vòts en blanc</item>
+    </string-array>
+    <string name="Autoformacion">Autoformacion</string>
+    <string name="CERTIFICIONES_ALTA">Certificacions Censaus d’Entrades erronèes</string>
+    <string name="CERTIFICIONES_CORRECCION">Certificacions Censaus de Correccion erronèes</string>
+    <string name="ConNACK">Connexions sense responsa</string>
+    <string name="Examen">Examen</string>
+    <string name="IMEI">IMEI</string>
+    <string name="Jornada">Jornada Electorau</string>
+    <string name="NIE">NIE</string>
+    <string name="NIF">NIF</string>
+    <string name="OK">OK</string>
+    <string name="ResulBlanc">Nombre de Vòts en Blanc</string>
+    <string name="ResulCenso">Cens</string>
+    <string name="ResulCertAlt">2- Insccrit electorau</string>
+    <string name="ResulCertAlt_28">A.- Inscrit en cens electorau</string>
+    <string name="ResulCertErr">3- De correccion d\'errors</string>
+    <string name="ResulNVots">Totau Votants</string>
+    <string name="ResulNele">A) Electors censadi qu\'an votat</string>
+    <string name="ResulNele_28">Num. Electors dera Mesa qu\'an\nvotat (3)</string>
+    <string name="ResulNeleayuda">Nombre d’electors/es censadi/es ena mesa que votèren</string>
+    <string name="ResulNint">B) Interventors non censadi qu\'an votat</string>
+    <string name="ResulNint_28">Num. Interventors non censadi ena Mesa qu\'an votat (3)</string>
+    <string name="ResulNintayuda">Nombre d’interventors/es non censadi/es ena mesa que votèren</string>
+    <string name="ResulNul">Nombre de Vòts Nulli</string>
+    <string name="STATUS_ERROR">Estat non arrecebut</string>
+    <string name="Simulacro">Simulacre</string>
+    <string name="UNKNOW_ERROR">ERROR DESCONEISHUT</string>
+    <string name="VOTANTES_CERO">Totau Votants (Electors censadi qu\'an votat + Interventores non censadi qu\'an votat) a d\'èster mès gran que 0</string>
+    <string formatted="false" name="VOTANTES_ELECTORES">Electors censadi qu\'an votat non a de superar eth Censament %s+ Certificacions Censaus d’Entrada %s</string>
+    <string name="VOTANTES_ELECTORES1">Votants Electors non an de superar eth Cens</string>
+    <string name="VOTANTES_ELECTORES2"> =+ Certif. Entrades</string>
+    <string name="VOTANTES_INTERVENTORES">Interventors non censadi qu\'an votat non a de superar eth doble des candidatures presentades (%d)</string>
+    <string name="VOTANTES_SUMA">Totau Votants (Electors censadi qu\'an votat + Interventors non censadi qu\'an votat) a d\'èster parièr a Vòts en Blanc + Vòts Nulli + Vòts Candidatures</string>
+    <string name="VOTANTES_SUMA1">Vòts Candidatures non pòden èster menor que: Totau Votants - Blanc - Nulli</string>
+    <string name="VOTANTES_SUMA2">Vòts Candidatures non pòden èster major que: (Totau Votants – Blanc – Nulli)  num. Candid. Circonscrip</string>
+    <string name="VOTANTES_SUMA3">Vòts a un Candidat a d\'èster menor o parion a: Totau Votants – Blanc – Nulli</string>
+    <string name="VOTANTES_SUMA4">Total Votants (Electors censadi qu\'an votat + Interventores non censadi qu\'an votat) a d\'èster major o parion a Vòts en Blanc + Vòts Nuls</string>
+    <string name="VerDat">VERSION DADES: %s</string>
+    <string name="VerSw">VERSION SW: %s</string>
+    <string name="accboletin">Accedint ath bulletin d\'escrutinh dera mesa </string>
+    <string name="accept">Aceptar</string>
+    <string name="acceptlanguage">ACCEPTAR</string>
+    <string name="accesibilidad">Accessibilitat</string>
+    <string name="aceptarTxt">Acceptar</string>
+    <string name="action">ACCION</string>
+    <string name="activarAccesibilidad">Activaratz era opcion d\'Accessibilitat, eth dispositiu se tornarà a iniciar\nN’ètz segur?</string>
+    <string name="admin">Administracion</string>
+    <string name="admin_Home">Anar tà Home</string>
+    <string name="admin_mostrar">Mostrar Taules</string>
+    <string name="admin_red">Configuracion de Hilat</string>
+    <string name="ajustes">Ajusti</string>
+    <string name="apagando">Amortant dispositiu. Demoratz, se vos platz…</string>
+    <string name="apagardispositivo">Amortar Dispositiu</string>
+    <string name="app_name">Eleccions 24 de Mai de 2015</string>
+    <string name="app_picker_name">Aplicativos</string>
+    <string name="applylanguage">APLICATZ LENGUA</string>
+    <string name="applyprovincia">APLICAR PROVÍNCIA</string>
+    <string name="avance">Nombre de Votants</string>
+    <string name="ayuda">Ajuda</string>
+    <string name="bloqueando">Blocant pantalha. Demoratz, se vos platz…</string>
+    <string name="bookmark_picker_name">Favoritos</string>
+    <string name="borrardatos">Esfaçar Dades</string>
+    <string name="brillo">Luminositat</string>
+    <string name="buscar">Acceptar</string>
+    <string name="button_add_calendar">Adicionar ao calendário</string>
+    <string name="button_add_contact">Adicionar contato</string>
+    <string name="button_book_search">Procurar livro</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_custom_product_search">Pesquisa Personalizada</string>
+    <string name="button_dial">Marcar número</string>
+    <string name="button_email">Enviar e-mail</string>
+    <string name="button_get_directions">Obter direções</string>
+    <string name="button_mms">Enviar MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Abrir navegador</string>
+    <string name="button_product_search">Procurar produto</string>
+    <string name="button_search_book_contents">Pesquisar conteúdos</string>
+    <string name="button_share_app">Aplicativoc</string>
+    <string name="button_share_bookmark">Favorito</string>
+    <string name="button_share_by_email">Compartilhar via e-mail</string>
+    <string name="button_share_by_sms">Compartilhar via SMS</string>
+    <string name="button_share_clipboard">Área de transferência</string>
+    <string name="button_share_contact">Contato</string>
+    <string name="button_show_map">Visualizar mapa</string>
+    <string name="button_sms">Enviar SMS</string>
+    <string name="button_web_search">Pesquisa na Web</string>
+    <string name="button_wifi">Conectar à rede</string>
+    <string name="callincorrecto">Telefòn incorrècte. Sonque permetudes es telefonades ath <b>Centre d\'Atencion a Usatgèrs de Tauleta</b>, Telefòns d\'emergéncies o que comencen per 00</string>
+    <string name="callintroduza">Introdusitz eth Telefòn que desiratz mercar</string>
+    <string name="callllamando">Telefonant tath Telefòn d\'Incidéncies de PDA</string>
+    <string name="callsidesea"><b>CAU</b></string>
+    <string name="cancel">Anullar</string>
+    <string name="censalesalta"><b>Certificaciones Censaus Entrades</b></string>
+    <string name="censo"><b>CENS</b></string>
+    <string name="censo2">CENS</string>
+    <string name="cererror"><b>Certificacions d’Error</b></string>
+    <string name="cerrar">Barrar</string>
+    <string name="cerrar2">BARRAR</string>
+    <string name="codigo">Còdi:</string>
+    <string name="codigollamada">Aguesta operacion sonque ei permetuda entà resòlver determinades incidéncies. Se cau, telefinatz tath num. d\'incidéncies e vos informaràn deth pin necessari</string>
+    <string name="codigos">CÒDIS</string>
+    <string name="colgar">Talhar era comunicacion</string>
+    <string name="comenzarExamen">Començar Examen</string>
+    <string name="completado">Completat</string>
+    <string name="comunidad">AUTONOMIQUES</string>
+    <string name="comunvotantes">GENERAU</string>
+    <string name="concejo">CONSELH:</string>
+    <string name="concejos">CONSELHS</string>
+    <string name="conectedto">Connectat a</string>
+    <string name="conf_letra">Letra</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="confirmarlanguage">Aplicar cambiament de lengua en </string>
+    <string name="confirmarprovincia">Voletz seleccionar era província de %s?</string>
+    <string name="connor">CONNEXION NoR</string>
+    <string name="consejos">CONSELHS INSULARS</string>
+    <string name="constitucionTabText">&lt;b>Fasa&lt;/b>&lt;br>Constitucion</string>
+    <string name="constmesa">Fasa: &lt;font color="green">&lt;b>Constitucion de Meses&lt;/b>&lt;/font></string>
+    <string name="constmesa_nohtml">Constitucion de Meses</string>
+    <string name="consultarestado">Consultar Estat</string>
+    <string name="consultarestado_message">Desiratz obtier un aute còp er estat deth servidor?</string>
+    <string name="contents_contact">Informação de contato</string>
+    <string name="contents_email">Endereço de e-mail</string>
+    <string name="contents_location">Coordenadas geográficas</string>
+    <string name="contents_phone">Número de telefone</string>
+    <string name="contents_sms">Endereço SMS</string>
+    <string name="contents_text">Texto simples</string>
+    <string name="continuar">Continuar</string>
+    <string name="controlalarma">Contròl d’Alarma</string>
+    <string name="cortes09">CORTS DE\nCASTILHA E LEON </string>
+    <string name="datacontact"><b>Dades de contacte</b></string>
+    <string name="datosconexion">Dades de Connexion</string>
+    <string name="datosdispositivo">DADES DETH DISPOSITIU</string>
+    <string name="datoslocal">DADES DETH LOCAU ELECTORAU</string>
+    <string name="dc">Chifra de Contròl</string>
+    <string name="dc_erroneo">Chifra de contròl erronèa</string>
+    <string name="dc_formacion">Chifra de contròl erronèa, entà Formacion introdusitz \'1\'</string>
+    <string name="dc_simulacro">Chifra de contròl erronèa, entad aguest simulacre introdusitz \'1\'</string>
+    <string name="defaultContentDescription">Descriptor per Defècte</string>
+    <string name="delete">Esfaçar</string>
+    <string name="desactivarAccesibilidad">Desactivaratz era opcion d\'Accessibilitat, eth dispositiu se tornarà a iniciar\nN’ètz segur?</string>
+    <string name="desautorizado">Eth dispositiu ei desabilitat, se vos platz telefonatz tath Centre d\'Incidéncies</string>
+    <string name="dialog_apagarterminal">Eth terminau s\'amortarà\nN\'ètz segur?</string>
+    <string name="dialog_cerrardatos1">S\'an &lt;b>EDITAT&lt;/b> es &lt;b>DADES PERSONAUS&lt;/b>, se premetz sus "Continuar" se perderàn es modificacions.&lt;br>&lt;br>Entà sauvar es &lt;b>DADES PERSONAUS&lt;/b>, premetz sus "Anullar", e premetz sus  "Acceptar" ena pestanha de &lt;b>DADES PERSONAUS&lt;/b></string>
+    <string name="dialog_cerrardatos2">S\'an &lt;b>EDITAT&lt;/b> es &lt;b>DADES DETH LOCAU ELECTORAU&lt;/b>, se premetz sus "Continuar" se perderàn es modificacions.&lt;br>&lt;br>Entà sauvar es &lt;b>DADES DETH LOCAU ELECTORAU&lt;/b>, premetz sus "Anullar", e premetz sus  "Acceptar" ena pestanha de &lt;b>DADES DETH LOCAU ELECTORAU&lt;/b></string>
+    <string name="dialog_cerrarresultados">Se se barre era hièstra se perderàn es dades\nN’ètz segur?</string>
+    <string name="dialog_comenzarexamen">Atencion, va a començar eth Mòde Examen\nHètz aguesta operacion unicaments en supervision deth Formador\nN’ètz segur?</string>
+    <string name="dialog_configuracion">CONFIGURACION</string>
+    <string name="dialog_conformidad1">Auetz d\'entrar es vòstes dades personaus, sonque a efèctes administratius enes Eleccions deth 24 de Mai de 2015</string>
+    <string name="dialog_conformidad2">Se va a enregistrar era ubicacion der aparelh a efèctes de contròl administratiu</string>
+    <string name="dialog_conformidad2_options">&lt;b>Activar compartir ubicacion deth terminau&lt;/b>&lt;br>&lt;br>Se va a enregistrar era ubicacion deth terminau a efèctes de contròl administratiu</string>
+    <string name="dialog_conformidad3">Se vos platz, premetz sus  &lt;i>&lt;b>\"Activar registre d\'ubicacion der aparelh\"&lt;/b>&lt;/i> , entà continuar d’emplegar era aplicacion</string>
+    <string formatted="false" name="dialog_conformidad4">Desiratz confirmar eth collègi entà que demore enregistrat en sistèma?&lt;br>&lt;br>&lt;b>%s&lt;/b>&lt;br>&lt;br>Se non premetz cap de boton, eth Locau Electorau serà enregistrat automaticaments en %s. &lt;b> segondes&lt;/b></string>
+    <string formatted="false" name="dialog_conformidad_idioma_inicio">Desire confirmar er idiòma entà que demore enregistrat en sistèma?&lt;br>&lt;br>&lt;b>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/b>&lt;br>&lt;br>Òc pas prem cap boton, er idiòma seleccionat serà enregistrat automaticaments en  &lt;b>%s&lt;/b></string>
+    <string name="dialog_errormesa">Error en Mesa</string>
+    <string name="dialog_errormesaconnection">Error de Connexion damb eth servidor</string>
+    <string name="dialog_errormesanotfound">Mesa non trapada, se vos platz revisatz es dades</string>
+    <string name="dialog_mesassinconfirmar">Meses sense confirmacion</string>
+    <string name="dialog_noestado">Cap d’estat arrecebut</string>
+    <string formatted="false" name="dialog_prioridad_eleccion">Se vos platz, introdusitz prumèr eth bulletin d\'escrutinh dera mesa de vòte &lt;b>%s&lt;/b> entara Eleccion &lt;b>%s&lt;/b></string>
+    <string name="dialog_sim_no">Configurant hilat mobil, demoratz, se vos platz…</string>
+    <string name="dialog_votoszero">Vòts as candidatures son zèro\nN’ètz segur?</string>
+    <string name="direccion">Adreça</string>
+    <string name="direccion2">ADREÇA</string>
+    <string name="distrito">Districte</string>
+    <string name="edit">Editar</string>
+    <string name="elec">Eleccion</string>
+    <string name="eleccensados"><b>Electors Censadi</b></string>
+    <string name="electoresCenso"><b>NOMBRE d\'ELECTORS SEGONS ES LISTES DETH CENS:</b>\n(Aquera dada deu includir es apendix de nauta e baisha)</string>
+    <string name="electoresCensoExtranjeros"><b>ELECTORS ESTRANGÈRS SEGONS LISTES DETH CENS:</b>\n(Aquera dada a d\'includir es apendix de nauta e baisha)</string>
+    <string name="electoresCensoNacional"><b>ELECTORS NACIONAUS SEGONS LISTES DETH CENS:</b>\n(Aquera dada deu includir es apendix de nauta e baisha)</string>
+    <string name="enviando">Enviant dades. Demoratz, se vos platz…</string>
+    <string name="enviandoTx">Verificant dades de transmeteire. Demoratz, se vos platz…</string>
+    <string name="enviarlogs">Enviar Logs</string>
+    <string name="enviarmesas">Enviament de Dades</string>
+    <string name="envioMesasCompletado">Enviament Completat</string>
+    <string name="error_campo_obligatorio">Aguest camp ei obligatòri</string>
+    <string name="errores">Errors</string>
+    <string name="errorpin">error en tot introdusir eth PIN</string>
+    <string name="escrutinio">Fasa: &lt;font color="green">&lt;b>Escrutinh&lt;/b>&lt;/font></string>
+    <string name="escrutinioTabText">&lt;b>Fasa&lt;/b>&lt;br>Escrutinh</string>
+    <string name="escrutinio_nohtml">Escrutinh</string>
+    <string name="esperandoApertura">(DEMORANT ERA DUBERTURA DES MESES)</string>
+    <string name="esperandoTabText">&lt;b>Fasa&lt;/b>&lt;br>Demorant Jornada</string>
+    <string name="esperandojornada">Fasa: &lt;font color="green">&lt;b>Demorant Jornada&lt;/b>&lt;/font></string>
+    <string name="esperandojornada_nohtml">Demorant Jornada</string>
+    <string name="estado">Estat</string>
+    <string name="estadoMesasConstMesas">Constitucion de Meses</string>
+    <string name="estadoMesasEnCola">En Coa d\'Enviament</string>
+    <string name="estadoMesasEnviadaxtfno">Enviada per telefòn</string>
+    <string name="estadoMesasEnviado">Enviat per tauleta tactil</string>
+    <string name="estadoMesasEscrutinio">Escrutinh</string>
+    <string name="estadoMesasIdMesas">Meses</string>
+    <string name="estadoMesasInfoColumnaResaltada">Era colomna destacada correspon damb era fasa actuau.</string>
+    <string name="estadoMesasNoAplica">Non aplique:</string>
+    <string name="estadoMesasPrimerAvance">Prumèr Auanç</string>
+    <string name="estadoMesasSegundoAvance">Dusau Auanç</string>
+    <string name="estadoMesasSinDatos">Sense Dades</string>
+    <string name="estadoMesasTercerAvance">Tresau Auanç</string>
+    <string name="estadomesas">Estat de Meses</string>
+    <string name="extranjero">DOCUMENT</string>
+    <string name="fase">Fasa: </string>
+    <string name="finTabText">&lt;b>Fasa&lt;/b>&lt;br>Fin de Jornada</string>
+    <string name="finalizado">Finalizat</string>
+    <string name="finformacion">Auetz finalizat un cicle de formacion, premetz Acceptar entà reiniciar era aplicacion e començar un nau cicle.</string>
+    <string name="finformaciontitle">Fin Formacion</string>
+    <string name="finjornada">Fasa: &lt;font color="green">&lt;b>Fin de Jornada&lt;/b>&lt;/font></string>
+    <string name="finjornada_nohtml">Fin de Jornada</string>
+    <string name="forzarapagar">Eth dispositiu s’amortarà automaticaments en &lt;b>%s segondes&lt;/b>&lt;br></string>
+    <string name="frmEstadoMesasTitle">Estat des meses</string>
+    <string name="header_menu">MENÚ</string>
+    <string name="header_title1">CONFIGURACION</string>
+    <string name="help_ayuda">&lt;b>&lt;u>Ajuda&lt;/u>:&lt;/b> Eth Representant poderà prémer aguest boton en cada&lt;br />        pantalha e apareisherà ua hièstra d\'ajuda a on&lt;br />        s’explicaràn totes es opcions e botons dera pantalha.</string>
+    <string name="help_bExit">Gésser</string>
+    <string name="help_bateria">&lt;b>&lt;u>Bateria&lt;/u>:&lt;/b> Mòstre eth nivèu de carga dera bateria. &lt;br />        A d\'èster tostemp peth dessús de 30%:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/full_battery_48.png" /> Nivèu de bateria fòrça naut.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_75_48.png" />   Nivèu de bateria naut.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_50_48.png" />   Nivèu de bateria miei.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_25_48.png" />   Nivèu de bateria baish.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/almost_empty_48.png" /> Nivèu de bateria fòrça baish. Connectar ath hilat.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/empty_battery_48.png" /> Bateria descargada. Connectatz ath hilat.</string>
+    <string name="help_cobertura">&lt;b>&lt;u>Cobertura&lt;/u>:&lt;/b> Mòstre eth nivèu de cobertura:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_4.png" /> &lt;b>Fòrça nauta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_3.png" /> &lt;b>Nauta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_2.png" /> &lt;b>Mieja&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_1.png" /> &lt;b>Baisha&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_0.png" /> &lt;b>Nulla:&lt;/b> Auetz de contactar damb eth &lt;b>Centre d\'Atencion&lt;br/>        &amp;nbsp;&amp;nbsp;a Usatgèrs de Tauleta&lt;/b>.</string>
+    <string name="help_cobertura_top">&lt;img src="file:///android_res/drawable/high_connection_48.png" />&amp;nbsp;&lt;b>&lt;u>Nivèu de cobertura&lt;/u>:&amp;nbsp;&lt;/b>Mòstre eth nivèu e eth tipe de&lt;br />cobertura.Poderàn èster es següents:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/high_connection_48.png" /> &lt;b>Naut&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/medium_connection_48.png" /> &lt;b>Miei&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/low_connection_48.png" /> &lt;b>Baish&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/no_connection_48.png" /> &lt;b>Nul&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;Operador (Movistar, NON SIM o NON HILAT) e tipe de&lt;br />         &amp;nbsp;&amp;nbsp;cobertura (HP, H, 3G, E).</string>
+    <string name="help_codigomesa">Premetz sus eth còdi de mesa entà introdusir es dades&lt;br />que corresponen ara fasa actuau dera mesa seleccionada.</string>
+    <string name="help_constitucion_mesas">&lt;b>&lt;u>Constitucion de meses:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Entà realizar era constitucion d\'ua mesa, cau indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Chifra de Contròl dera mesa:&lt;/b>&amp;nbsp;Cau introdusir eth numèro qu\'apareish en&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;camp de Chifra de Contròl deth bulletin.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre d\'electors (nacionaus e estrangèrs) segontes es listes deth cens:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Aurà de rebrembar ath president dera mesa eth besonh d\'actualizar era dada deth&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cens des electors nacionaus e des electors estrangèrs damb es&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;annèxes d’Altes e Baishes se s\'auessen recebut. (Introdusir coma&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;maxima quate chifres en cada camp).&lt;br />&lt;br />
+        Un viatge introdusits eth nombre de Votants en cada Eleccion, se premerà eth boton &lt;img src="file:///android_res/drawable/datosaceptar.png" />
+        entà enviar es dades indicades. S\'er enviament a estat corrècte, s\'informarà per pantalha.&lt;br />
+        En cas de detectar-se quauque error enes dades introdusides, s\'avertirà per pantalha per miei d\'un &lt;b>messatge d\'error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> entara sua correcion.</string>
+    <string name="help_constitucion_mesas_tipocenso0">&lt;b>&lt;u>Constitucion de meses:&lt;/u>&lt;/b>&lt;br />&lt;br />Entà realizar era constitucion d\'ua mesa, cau indicar:&lt;br />&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>- Chifra de Contròl dera mesa:&lt;/b>&amp;nbsp;Cau introdusir eth numèro qu\'apareish en&lt;br />
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;camp de Chifra de Contròl deth bulletin.&lt;br />
+Un còp introdusida era Chifra de Contròl, se premerà eth boton &lt;img src="file:///android_res/drawable/datosaceptar.png" /> entà enviar es dades indicades. S\'er enviament ei estat corrècte, s\'informarà per pantalha.&lt;br />En cas de detectar-se quauque error enes dades introdusides, s\'avertirà per pantalha mejançant un &lt;b>messatge d\'error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> entà que se corregisque.</string>
+    <string name="help_constitucion_mesas_tipocenso1">&lt;b>&lt;u>Constitucion de meses:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Entà realizar era constitucion d\'ua mesa, cau indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Chifra de Contròl dera mesa:&lt;/b>&amp;nbsp;Cau introdusir eth numèro qu\'apareish en&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;camp de Chifra de Contròl deth bulletin.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre d\'electors nacionaus segontes es listes deth cens:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Aurà de rebrembar ath president de mesa eth besonh d\'actualizar era dada deth&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cens des electors nacionaus damb es&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;annèxes d’Altes e Baishes se s\'auessen arrecebut. (Introdusir un&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;maxímum de quate chifres en cada camp).&lt;br />&lt;br />
+        Un viatge introdusits eth nombre de Votants en cada Eleccion, se premerà eth boton &lt;img src="file:///android_res/drawable/datosaceptar.png" />
+        entà enviar es dades indicades. S\'er enviament ei estat corrècte, s\'informarà per pantalha.&lt;br />
+        En cas de detectar-se quauque error enes dades introdusides, s\'avertirà per pantalha per miei d\'un &lt;b>messatge d\'error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" />  entara sua correcion.</string>
+    <string name="help_datos">&lt;b>&lt;u>Dades&lt;/u>:&lt;/b> Indique era cobertura de dades:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_connected_g.png" /> &lt;b>Connectat:&lt;/b> Cau susvelhar era cobertura de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;dades, entà qu’era tauleta sigue en connexion damb eth&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;Servidor en tot moment.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_no_connected_gred.png" /> &lt;b>Non connectat:&lt;/b> Auetz de contactar damb eth &lt;b>Centre&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;d’Atencion a Usatgèrs de Tauleta&lt;/b>.</string>
+    <string name="help_datos_colegio">&lt;b>&lt;u>Dades deth locau electorau e meses assignades&lt;/u>:&lt;/b>&lt;br />&lt;br />        Segons es dades dera mesa introdusida ena pantalha precedenta&lt;br />        se mostraràn es dades deth Locau Electorau e des meses assignades ath representant:&lt;br />        &lt;img src="file:///android_res/drawable/ic_action_place.png" />Mòstre en mapa era ubicacion deth locau electorau.&lt;br />        &amp;nbsp;&lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp; S\'es dades son corrèctes cau prémer aguest boton         entà  confirmar eth locau electorau e continuar.&lt;br />        &amp;nbsp;&lt;img src="file:///android_res/drawable/datoseditar.jpg" />&amp;nbsp; S\'es dades non son es corrèctes, en tot prémer aguest boton tornaratz&lt;br />       tara pantalha des dades de mesa introdusides e poderatz modificar-les.</string>
+    <string name="help_datos_colegio_direccion">INSTITUT Nº4 AMPARO SANZ\nCALLE TOMÁS EDISON 9998\nALBACETE\nALBACETE\n</string>
+    <string name="help_datos_conexion">&lt;b>&lt;u>Informacion de dades de connexion&lt;/u>:&lt;/b> A trauès d\'aguest boton&lt;br />        obtiem era següenta informacion sus es dades de&lt;br />        connexion. Eth &lt;b>Centre d\'Atencion a Usatgèrs de Tauleta&lt;/b> pòt&lt;br />        sollicitar era consulta d\'aqueres dades en cas d\'incidéncia:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mòde:&lt;/b> Autoformacion, simulacre o jornada electorau.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Operador&lt;/b> ath a qué pertanh eth hilat a on ei&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;connectat eth dispositiu. Se non cònste &lt;b>&lt;i>MOVISTAR&lt;i>&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cau méter-se en contacte damb eth &lt;b>Centre d\'Atencion a       &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Usatgèrs de Tauleta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- APN&lt;/b> que connècteeth dispositiu.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&lt;/b> Identificador Deth dispositiu.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&lt;/b> Identificador dera carta SIM.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP Tauleta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP Servidor&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Connexions sense responsa&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Version deth logicial&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Version de dades&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Consulta deth darrèr estat:&lt;/b> Prement aguest boton se&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mostrarà informacion que pòt èster utila en determinadi&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;casi entath &lt;b>Centre d\'Atencion a Usatgèrs de Tauleta&lt;/b>.</string>
+    <string name="help_datos_electoral_cut1">&lt;b>&lt;u>Entratge des dades d\'un des meses assignades ath representant&lt;/u>:&lt;/b>&lt;br />&lt;br />        Un còp identificat eth Representant, apareisherà era seccion d\'entratge&lt;br />       de dades d\'un des meses qu\'age assignades. Es dades que cau indicar son:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Província:&lt;/b> Còdi de província (dues chifres).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Municipi:&lt;/b> Còdi de municipi (tres chifres).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Districte:&lt;/b> Còdi de districte (dus chifres).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Seccion:&lt;/b> Còdi de seccion (tres chifres).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mesa:&lt;/b> Còdi de mesa (ua letra).</string>
+    <string name="help_datos_electoral_cut2">&lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Introdusides totes es dades dera mesa cau prémer aguest boton entà continuar.&lt;br />&lt;br />        &lt;img src="file:///android_res/drawable/datosbuscar.jpg" />&amp;nbsp;Ara seguira se premerà aguest boton entara recèrca dera mesa qu\'auetz introdusit:        &lt;br />Se totes es dades son corrèctes, passaratz ara pantalha següenta entà confirmar Locau Electorau e mesa. En cas contrari, apareisherà un messatge jos eth camp que cau modificar.&lt;br />        &lt;br />&lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Prement aguest boton eliminaratz TOTES es dades introdusides.        &lt;br />&lt;br />&lt;img src="file:///android_res/drawable/datosmenu.jpg" />&amp;nbsp;En quinsevolh moment poderatz accedir a modificar es dades de Locau Electorau des deth Menú,  en tot seleccionar era opcion de configuracion.        &lt;br />Pendent eth simulacre e era jornada electorau serà de besonh trucar ath &lt;b>Centre d\'Atencion a Usatgèrs de Tauleta&lt;/b> entà poder modificar es dades deth Locau Electorau.</string>
+    <string name="help_datos_modosnavega">&lt;b>Manères de navegacion en pantalha&lt;/b>:&lt;br />        Entà seleccionar e introdusir es dades des meses assignades a cada ua des&lt;br />        Eleccions ena sua fasa actuau, se pòt hèr de dues manères:&lt;br />         -premetz sus eth logotip dera Eleccion que voletz seleccionar e e aguest apareisherà        &lt;br />&amp;nbsp;remercat.&lt;br />        -Botjatz era sageta/o eth dit peth centre dera pantalha, entara dreta&lt;br />        &amp;nbsp;o entara quèrra, enquia qu\'apareishe destacada era pestanha dera Eleccion&lt;br />        &amp;nbsp;que que voletz seleccionar.</string>
+    <string name="help_datos_personales_cut1">&lt;b>&lt;u>Dades deth representant&lt;/u>:&lt;/b>&lt;br />&lt;br />        Quan arrincarà eth dispositiu per prumèr còp, se sollicitaràn es dades&lt;br />        personaus deth Representant. Son:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Document:&lt;/b> premetz eth boton &amp;nbsp;&lt;img src="file:///android_res/drawable/nifnie.jpg" />&amp;nbsp; entà que s\'abilite era opcion de NIE&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;se siguesse eth cas.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- NIF / NIE:&lt;/b> Numèro e letra deth NIF / NIE.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nòm e cognòms:&lt;/b> Introdusitz eth nòm e es cognòms deth representant.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Telefòn 1:&lt;/b> Prumèr telefòn de contacte.A d\'ester un telefòn mobil a on&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;se pogue contactar damb eth Representant en tot moment, e&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mès que mès pendent eth Simulacre e era Jornada Electorau.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Telefòn 2:&lt;/b> Dusau telefòn de contacte (opcionau).&lt;br />        &lt;br />Ei important qu\'aqueres dades siguen corrèctes, pr’amor que s\'utilizaràn en cas que&lt;br />        calgue méter-se en contacte damb eth Representant&lt;br />        &lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Introdusides totes es dades personaus cau prémer aguesta tecla entà continuar.</string>
+    <string name="help_datos_personales_cut2">&lt;b>&lt;u>Dades deth representant&lt;/u>:&lt;/b>&lt;br />&lt;br />        &lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp;Un còp introdusides totes es dades cau prémer aguest boton:        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Se totes es dades son corrèctes s\'activarà era pestanha de Locau Electorau.        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;En cas contrari, apareisherà un messatge jos eth camp que cau         &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;modificar.        &lt;br />        &lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Prement aguest boton s\'eliminaràn TOTES es dades introdusides. &lt;br />        &amp;nbsp;En quinsevolh moment poderatz modificar es dades personaus des de &amp;nbsp;&lt;img src="file:///android_res/drawable/datosmenu.jpg" /> &lt;br />        e seleccionant era opcion de configuracion.</string>
+    <string name="help_datos_personales_pag1_tab1">&lt;b>&lt;u>Manères d\'introdusir es dades ena pantalha&lt;/u>:&lt;/b>&lt;br />        Entà desplaçar-se e editar es camps i a quate possibilitats:&lt;br />        &amp;nbsp;&amp;nbsp;1-Prement sus eth camp a editar.&lt;br />        &amp;nbsp;&amp;nbsp;2-Prement sus eth &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> creion, ena dreta deth camp que se volgue editar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;en aqueth moment se cambiarà ath&amp;nbsp; &lt;img src="file:///android_res/drawable/ic_action_accept.png" /> de check qu\'indique qu\'es dades de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aqueth camp se pòden modificar.&lt;br />        &amp;nbsp;&amp;nbsp;3-Prement &lt;img src="file:///android_res/drawable/sig.jpg" /> era tecla de següent en teclat, permeterà passar d\'un camp&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ath següent.&lt;br />        &amp;nbsp;&amp;nbsp;4-En completar eth camp sautarà automaticaments ath següent, exceptat&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deth camp "Nòm e cognòms", a on calerà realizar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;quinsevolh des opcions precedentes.</string>
+    <string name="help_datos_personales_pag1_tab2">&lt;b>&lt;u>Manères d\'introdusir es dades ena pantalha&lt;/u>:&lt;/b>&lt;br />        Entà desplaçar-se e editar es camps i a quate possibilitats:&lt;br />        &amp;nbsp;&amp;nbsp;1-Prement sus eth camp a editar.&lt;br />        &amp;nbsp;&amp;nbsp;2-Prement sus eth &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> creion, ena dreta deth camp que se volgue editar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;En aqueth moment se cambiarà ath&amp;nbsp; &lt;img src="file:///android_res/drawable/check48.png" /> de check qu\'indique qu\'es dades&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;d’aqueth camp se pòden modificar.&lt;br />        &amp;nbsp;&amp;nbsp;3-Prement &lt;img src="file:///android_res/drawable/sig.jpg" /> tecla de següent en teclat, permeterà passar d\'un camp&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ath següent.&lt;br />        &amp;nbsp;&amp;nbsp;4-En completar eth camp sautarà automaticaments ath següent.</string>
+    <string name="help_datos_tabs">&lt;b>Pestanha Eleccion&lt;/b>:&lt;br />        Era aplicacion mòstre tantes pestanhes coma eleccions an d\'èster&lt;br />        transmetudes. Enquia que siguen enviades es dades dera mesa entà &lt;br />        Eleccions Locaus 2015 ena fasa actuau, aguesta mesa non serà&lt;br />        disponible entà completar es sues dades entara rèsta d\'Eleccions&lt;br />        que li apliquen.</string>
+    <string name="help_datosdeldispositivo">&lt;img src="file:///android_res/drawable/info_72.png" />&amp;nbsp;&lt;b>&lt;u>Dades deth Dispositiu&lt;/u>:&lt;/b>Son es dades identificatives&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;dera tauleta:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- APN:&amp;nbsp;&lt;/b>A on ei connectat eth dispositiu&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&amp;nbsp;&lt;/b>Identificador deth dispositiu&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&amp;nbsp;&lt;/b>Identificador dera carta SIM&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP de dispositiu&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP de Servidor&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Connexion noR:&lt;/b>&amp;nbsp;Indique eth nombre de connexions&lt;br/>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sense responsa.</string>
+    <string name="help_datoslocalelectoral">&lt;img src="file:///android_res/drawable/urnalista.png" />&amp;nbsp;&lt;b>&lt;u>Dades deth Locau Electorau&lt;/u>:&lt;/b>&amp;nbsp;Son es dades que s\'an enregistrat en dispositiu.&lt;br />&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>- Locau Electorau:&amp;nbsp;&lt;/b>Nòm deth Locau Electorau&lt;/b>.&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>- Adreça:&amp;nbsp;&lt;/b>Carrèr, numèro, localitat e Còdi Postau.&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>- Mesa de Referéncia:&amp;nbsp;&lt;/b>Un des meses qu\'a assignat eth representant.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Lista de meses:&amp;nbsp;&lt;/b>Rèsta de meses assignades ath representant.</string>
+    <string name="help_escrutinio_1">&lt;b>&lt;u>Escrutinh: Concèptes basics&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Cens electorau:&lt;/b> Ei eth nombre de persones qu\'an es requisits entà&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;èster electors e non se tròben privadi, definitivaments o temporauments,&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;deth dret de sufragi.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Certificacions d’Entrada:&lt;/b> Ei eth nombre d\'electors qu\'an presentat ua&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Certificacion recensala especifica expedida pera Mesa de Cens Electorau&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;que l’abilite entà hèr efectiu eth dret de vòt en aquera mesa.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Electors censadi ena mesa qu\'an votat:&lt;/b> Indicar eth nombre de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;votants includidi en cens dera mesa.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Interventors non censadi qu\'an votat en aquera mesa:&lt;/b> Indicatz eth nombre&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;d’interventors qu\'an votat e non apartien ad aqueth cens.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre de vòts nulli:&lt;/b> Ei considerat vòte nul:&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Es vòts que s\'emeten en envolòpes o paperetes desparières deth&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;modèl oficiau.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Es paperetes sense envolòpa.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Es que s\'emeten en envolòpes alterades.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Es paperetes a on s\'auesse modificat, hijut, o raiat eth nòm des candidats e&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;candidates alterat eth sòn orde de collocacion, e tanben aqueres&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;a on s\'auesse introdusit quina legenda que sigue o expression, o produsit&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;quinsevolh auta alteracion que sigue de caractèr volontari o intencionat.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Es envolòpes que contenguen mès d\'ua papereta de candidatures diferentes&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(Se s\'includissen diuèrses paperetes dera madeisha candidatura, se&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;compde coma un solet vòt valid).&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· &lt;u>Arrebrembatz&lt;/u>:&lt;/b> Non son vòts nulli es paperetes a on s\'auesse&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;introdusit quauque senhau o mèrca que non genère dobtes sus eth&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sens deth vòt.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre de vòts en blanc:&lt;/b> Indicatz eth nombre des envolòpes que non an         &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cap de papereta.</string>
+    <string name="help_escrutinio_2">&lt;b>&lt;u>Camps deth bulletin d\'escrutinh&lt;/u>&lt;/b>&lt;br />&lt;br />        En prumèr lòc, entà hèr er escrutinh, cau indicar es següentes&lt;br />        dades:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Chifra de Contròl dera mesa:&lt;/b>&amp;nbsp;Cau introdusir eth numèro qu\'apareish&lt;br />        &amp;nbsp;&amp;nbsp;en camp de Chifra de Contròl deth bulletin.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Es següentes dades deth bulletin estampat:&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Inscrit en cens electorau&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Electors censadi qu\'an votat&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Interventors non censadi ena mesa qu\'an votat&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Nombre de vòts nulli&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Nombre de vòts en blanc&lt;/b>.&lt;br />&lt;br />        Posterioraments, cau ramplir es dades des &lt;b>vòts de cada candidatura&lt;/b>. Non ei&lt;br />        de besonh ramplir aqueres candidatures qu\'agen obtengut 0 vòts.        &lt;br />        &lt;b>&lt;u>Validacions&lt;/u>:&lt;/b> Arrebrembatz qu\'eth nombre d\'electors censadi ena mesa qu\'an&lt;br />        votat (A) + interventors non censadi ena mesa qu\'an votat (B) an&lt;br />        èster egau ara soma de vòts a candidatures + vòts en blanc + vòts nulli.&lt;br />        Nombre d\'electors censadi ena mesa qu\'an votat (A) a d\'èster menor &lt;br />        o egau qu’era soma deth cens + es certificacions d’inscripcion.</string>
+    <string name="help_escrutinio_2b">&lt;b>&lt;u>Visualizacion des dades introdusides ena pantalha escrutinh&lt;/u>:&lt;/b>&lt;br />            Poderatz visualizar era pantalha d\'escrutinh complèta, quan  finalize era entrada des dades deth bulletin d\'escrutinh, entad açò cau prémer era icòna             que barre eth camp de dades  qu\'ajatz aumentada &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />            Entà desplaçar-se pera pantalha complèta d\'escrutinh, cau hèr córrer era sageta o eth dit sus era pantalha e en sens verticau.</string>
+    <string name="help_escrutinio_3">&lt;b>&lt;u>Introduccion des dades ena pantalha d\'escrutinh&lt;/u>:&lt;/b>&lt;br />            Entà introdusir es dades enes camps dera pantalha d\'escrutinh, prumèr cau d\'escríuer era Chifra de Contròl. Ara seguida auratz de:&lt;br />            &amp;nbsp;1) prémer sus eth camp a on voletz introdusir es dades, aguest aumentarà e apareisherà eth teclat ena part inferiora dera pantalha.&lt;br />            &amp;nbsp;2) Escriuetz era valor que correspon en camp de dades qu\'ei visible ena pantalha e premetz era tecla Seg. &lt;img src="file:///android_res/drawable/sig.jpg" /> .&lt;br />            &amp;nbsp;3) Introdusitz era valor  que correspone entath següent camp aumentat.&lt;br />            Aura de repetir es punts 1, 2 e 3 tanti viatges coma calgue enquia completar es dades en toti es camps dera pantalha d\'escrutinh (dades de bulletin             e vòts a candidatures) tau coma auratz en vòste bulletin.&lt;br />            Quan era valor d\'un camp  sigue zèro, non calerà escríuer aquera chifra, podètz prémer era tecla Sig. &lt;img src="file:///android_res/drawable/sig.jpg" />             E passar ath següent camp o prémer dirèctaments sus eth camp que volgatz ramplir.&lt;br />            Entà passar e visualizar es camps de dades ampliades tanben poderatz utilizar era sageta, hènt-la a córrer pera pantalha en sens verticau,            enquia arribar ath camp de dades que volgatz seleccionar.&lt;br />            Poderatz visualizar era pantalha d\'escrutinh complèta, en finalizar era introduccion des dades deth bulletin d\'escrutinh, entad açò cau prémer era icòna             que barre eth camp de dades  qu\'ajatz aumentada &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />            Entà desplaçar-se pera pantalha complèta d\'escrutinh, cau hèr a córrer era sageta sus era pantalha e en sens verticau.</string>
+    <string name="help_esperandojornada">ena fasa actuau, &lt;b>non se requerís cap d’accion&lt;/b>&lt;br />         per part deth representant.Eth cambiament ara fasa de&lt;br />          Constitucion de mesa serà de manèra automatica.</string>
+    <string name="help_estado_mesas">&lt;b>&lt;u>Estat des meses:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Aguesta pantalha mòstre informacion sus er estat de cada ua des meses&lt;br />
+        enes diuèrses fases deth procès electorau (Era colomna dera fasa actuau serà remercada en un aute color).&lt;br />
+        Es diuèrsi estats d\'ua mesa en cada fasa pòden èster:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_remove.png" /> Sense dades:&lt;/b> Non s\'an dades dera mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> Ena coa d\'enviament:&lt;/b> Es dades dera mesa demoren a èster enviades.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_accept.png" /> Enviat per tablet:&lt;/b> Es dades dera mesa an estat enviades per tauleta tactil.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_menu_call.png" /> Enviat per telefòn:&lt;/b> Es dades dera mesa an estat enviades per telefòn.</string>
+    <string name="help_estado_mesas_multielec">&lt;b>&lt;u>Estat des meses:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Aguesta pantalha mòstre informacion sus er estat de cada ua des meses&lt;br />
+        enes diuèrses fases deth procès electorau seleccionat (eth logo serà destacat).&lt;br />
+        Era colomna dera fasa actuau serà destacada damb ua auta color. Es desparièrs estats d\'ua mesa en cada fasa pòden èster:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_remove.png" /> Sense dades:&lt;/b> Non s\'an dades dera mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> En coa d\'enviament:&lt;/b> Es dades dera mesa demoren a èster enviades.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_accept.png" /> Enviat per tablet:&lt;/b> Es dades dera mesa an estat enviades per tauleta tactil.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_menu_call.png" /> Enviat per telefòn:&lt;/b> Es dades dera mesa an estat enviades per telefòn.</string>
+    <string name="help_findefase">En aquera fasa auetz ja introdusit es dades entà toti es meses&lt;br />           qu\'auetz assignades.</string>
+    <string name="help_findejornada">Aquera fasa indique qu\'an estat enviades es dades de totes&lt;br />           es meses assignades ath representant.</string>
+    <string name="help_mapa">&lt;b>&lt;u>Ubicacion dera Eleccion&lt;/u>:&lt;/b>&lt;br />        Indique era província qué pertanh&lt;br />Eth Locau Electorau enregistrat.</string>
+    <string name="help_mesasindatos">&lt;b>Sense Dades&lt;/b>:&lt;br />        Indique eth nombre de meses a on es dades non an estat introdusides&lt;br />         entara fasa actuau.&lt;br />        &lt;b>Sense Enviar&lt;/b>:&lt;br />        Indique eth nombre de meses a on s’an introdusit es dades&lt;br />         entara fasa actuau, mès son ena coa d\'enviament.</string>
+    <string name="help_modo">&lt;b>&lt;u>Mòde&lt;/u>:&lt;/b> Indique eth mòde qu\'opère era tauleta:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/autoformacion.png" /> &lt;b>Autoformacion&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/examen.png" /> &lt;b>Examen&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/simulacro.png" /> &lt;b>Simulacre&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/urna.png" /> &lt;b>Jornada Electorau&lt;/b>.</string>
+    <string name="help_open_progress">Daurint ajuda…</string>
+    <string name="help_operadora">&lt;b>&lt;u>Operador&lt;/u>&lt;/b> a qué pertanh eth hilat a on ei &lt;br /> connectat eth dispositiu (HP, H, 3G, E). Se non cònste &lt;br />        &lt;b>&lt;i>Movistar&lt;i>&lt;/b> o se mòstre CAP DE SIM o CAP DE HILAT &lt;br />        auetz de contactar damb eth &lt;b>Centre d\'Atencion as&lt;br />        Usatgèrs de Tauleta&lt;/b>.</string>
+    <string name="help_otras_opciones">&lt;b>&lt;u>D’autes opcions&lt;/u>:&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Dades personaus:&lt;/b> Editar es dades&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Personaus deth Representant.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Consultar estat&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Pantalha:&lt;/b> Accessibilitat e luminositat.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Amortar dispositiu&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Començar examen&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Realizar telefonada&lt;/b>.</string>
+    <string name="help_pantalla_principal_1">&lt;b>&lt;u>Pantalha Principau: Mesa de referéncia, adreça e dades deth Locau Electorau&lt;/u>.&lt;/b>&lt;br />&lt;br />        Prement sus eth mesa de referéncia &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, se mostraràn es dades deth locau&lt;br />        electorau e meses assignades:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Adreça deth Locau Electorau:&lt;/b> Locau Electorau e adreça deth locau.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Meses deth Locau Electorau:&lt;/b> Lista de meses assignades e eth sòn cens.&lt;br />&lt;br />        Eth boton de &lt;b>Veir Mapa&lt;/b> &lt;img src="file:///android_res/drawable/ic_action_place.png" /> mostrarà ua mapa damb era ubicacion fisica deth locau&lt;br />        electorau.&lt;br />        Eth boton d\'Editar &lt;b>&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> mostrarà era pantalha d\'edicion de meses (exceptat en&lt;br />        Simulacre e Jornada Electorau). S\'eth Representant precise corregir aqueres dades&lt;br />        s\'aurà de méter en contacte damb eth &lt;b>Centre d\'Atencion a Usatgèrs de Tauleta&lt;/b>.&lt;br />&lt;br />        Entà amagar aguestes dades, sonque cau prémer un aute còp sus era mesa de&lt;br />        referéncia &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.</string>
+    <string name="help_pantalla_principal_2">&lt;b>&lt;u>Pantalha Principau: Enviament de dades&lt;/u>.&lt;/b>&lt;br />&lt;br />        En aguesta seccion s\'informe deth nombre de meses qu\'encara non cap de dada e eth&lt;br />        nombre de meses sense enviar.&lt;br />&lt;br />        &lt;b>&lt;u>Estat des meses:&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Prement eth boton d’&lt;b>Estat des Meses&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_info_details.png" />, se mostrarà era pantalha d’&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>Estat des Meses&lt;/b>, a on poderam veir, per cada ua des meses e fasa&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;dera jornada electorau, eth sòn estat. Er Estat des Meses pòt èster:&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/delete_icon.png" /> Sense dades&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> En coa d\'enviament&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/check_icon.png" /> Enviat&lt;/b>.&lt;br />&lt;br />        &lt;b>&lt;u>Meses sense dades:&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Prement sus procès electorau desirat  &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, se mostrarà ua lista des&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;meses qu\'encara non an cap de dada entath procès electorau e fasa actuau&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(Indicada en títol dera pantalha).&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Prement sus quauqu\'ua des meses qu\'apareishen ena lista, accediram&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ara pantalha dera Fasa que correspone, a on s\'indicarà era Chifra de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Contròl dera mesa e era rèsta de dades a indicar en aguesta fasa. Aguest procès se&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;repetirà damb totes es meses.&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Entà amagar aguesta lista de meses sense dades, cau prémer un aute còp&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sus eth procès electorau &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.</string>
+    <string name="help_popmenu_opciones">&lt;img src="file:///android_res/drawable/ic_action_overflow.png" />&amp;nbsp;&amp;nbsp;&lt;b>&lt;u>Boton d\'opcions&lt;/u>:&lt;/b>&lt;br />        &lt;br />        &lt;b>Consulta deth darrèr estat:&amp;nbsp;&lt;/b>prement aguest boton se&lt;br />mostrarà informacion que pòt èster sollicitada         &lt;br />des deth &lt;b>Centre d\'Atencion a Usatgèrs de tauleta&lt;/b>.&lt;br />        &lt;br />        &lt;b>Pantalha:&amp;nbsp;&lt;/b>en tot prémer aguesta opcion se pòt&lt;br />abilitar o deshabilitar era accessibilitat (possibilitat        &lt;br />d’aumentar es dimensions dera pantalha) e regular&lt;br />era luminositat.&lt;br />&lt;br />        &lt;b>Començar examen:&amp;nbsp;&lt;/b>aguesta opcion permet accedir        &lt;br />ar examen e sonque ac auetz de hèr quan ac         &lt;br />indique eth formador.</string>
+    <string name="help_primer_avance">&lt;b>&lt;u>Prumèr Auanç:&lt;/u>&lt;/b>&lt;br />&lt;br />        Entà enviar es dades deth Prumèr Auanç, cau indicar:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Chifra de Contròl dera mesa:&lt;/b>&amp;nbsp;Cau introdusir eth camp &lt;i>Chifra de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Contròl&lt;/i> deth Bulletin.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre de votants dera mesa en cada Eleccion:&lt;/b>&amp;nbsp;Cau introdusir un&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;maxímum de quate chifres en cada camp.&lt;br />&lt;br />        Un còp introdusit eth nombre de Votants en cada Eleccion, se premerà eth boton &lt;b>Acceptar&lt;/b> &lt;img src="file:///android_res/drawable/datosaceptar.png" /> entà        enviar es dades indicades. S\'er enviament ei estat corrècte, s\'informarà per pantalha.        &lt;br />&lt;br />        En cas de detectar-se bèra error enes dades introdusides, s\'avertirà per pantalha mejançant un &lt;b>messatge d\'error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> entà que se corregisque.&lt;br />&lt;br />        &lt;b>&lt;u>Validacions&lt;/u>:&lt;/b> Arrebrembatz qu\'eth nombre de votants en Prumèr Auanç a d\'èster menor o egau ath         cens dera mesa d\'aquera Eleccion.</string>
+    <string name="help_segundo_avance">&lt;b>&lt;u>Dusau Auanç:&lt;/u>&lt;/b>&lt;br />&lt;br />        Entà enviar es dades deth Dusau Auanç, cau indicar:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Chifra de Contròl dera mesa:&lt;/b>&amp;nbsp;Cau introdusir eth camp &lt;i>Chifra de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Contròl&lt;/i> deth Bulletin.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre de votants dera mesa en cada Eleccion:&lt;/b>&amp;nbsp;Cau introdusir un&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;maxímum de quate chifres en cada camp.&lt;br />&lt;br />        Un còp introdusit eth nombre de Votants en cada Eleccion, se premerà eth boton &lt;b>Acceptar&lt;/b> &lt;img src="file:///android_res/drawable/datosaceptar.png" />         entà enviar es dades indicades. S\'er enviament ei estat corrècte, s\'informarà per pantalha.        &lt;br />&lt;br />        En cas de detectar-se bèra error enes dades introdusides, s\'avertirà        per pantalha mejançant un &lt;b>messatge d\'error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> entà que se corregisque.&lt;br />&lt;br />        &lt;b>&lt;u>Validacions&lt;/u>:&lt;/b> Arrebrembatz qu\'eth nombre de votants en Dusau Auanç a d\'èster major o egau&lt;br />        qu’en Prumèr Auanç dera Eleccion seleccionada e menor o egau ath cens dera mesa d\'aquera Eleccion.</string>
+    <string name="help_sidemenu_config">&lt;b>&lt;u>Configuracion&lt;/u>:&lt;br />        &lt;/b> Seleccionant aguesta opcion podetz consultar, o modificar,         &lt;br />es dades personaus o es meses assignades.</string>
+    <string name="help_sidemenu_enviodatos">&lt;b>&lt;u>Enviament de Dades&lt;/u>:&lt;br />        &lt;/b> Prement sus aguesta opcion se mostarà        &lt;br />era pantalha principau dera fasa actuau.</string>
+    <string name="help_sidemenu_estmesas">&lt;b>&lt;u>Estat de Meses&lt;/u>:&lt;br />        &lt;/b> Prement se mostrarà era pantalha a on         &lt;br />se poderà veir er estat de cada mesa en         &lt;br />cada ua fases dera jornada electorau.</string>
+    <string name="help_sidemenu_telefono">&lt;b>&lt;u>Telefòn&lt;/u>:&lt;br />        &lt;/b> Prement aguest boton se mostrarà era informacion damb eth&lt;br />&lt;b>Centre d\'Atencion ar usatgèr de Tauleta&lt;/b> e eth teclat&lt;br />entà establir telefonada.</string>
+    <string name="help_telefono">&lt;b>&lt;u>Telefòn:&lt;/u>&lt;/b>&lt;br />&lt;br />        Un còp mercat eth numèro de telefòn deth &lt;b>Centre d\'Atencion a Usatgèrs de Tauleta&lt;/b>,          &lt;br />apareisherà ena part inferiora deth teclat eth boton entà activar/desactivar era opcion de mans liures         &lt;br />e era barra que permeterà regular eth volum.</string>
+    <string name="help_titulo_aceptar_colegio">Acceptar Collègi</string>
+    <string name="help_titulo_configuracion">Configuracion</string>
+    <string name="help_titulo_fase">Fasa</string>
+    <string name="help_titulo_fases">&lt;b>&lt;u>Fases&lt;/u>:&lt;/b> Era jornada electorau se &lt;br />dividís enes següentes fases:&lt;br />        &amp;nbsp;&lt;b>- Demorant Jornada&lt;/b>.&lt;br />         &amp;nbsp;&lt;b>- Constitucion des Meses:&lt;/b>&lt;br />         &amp;nbsp;a compdar des 8:00.&lt;br />         &amp;nbsp;&lt;b>- Prumèr Auanç (*)&lt;/b>&lt;br />         &amp;nbsp;&lt;b>- Dusau Auanç (*)&lt;/b>&lt;br />         &amp;nbsp;&lt;b>- Escrutinh:&lt;/b> 20:00.&lt;br />         &amp;nbsp;&lt;b>- Fin de Jornada Electorau&lt;/b>.&lt;br />                 (*) Er usatgèr de tauleta a de transméter&lt;br />                 era informacion corresponenta as&lt;br />                 auanci segons er orari indicat en&lt;br />                manuau d\'usatgèr de tauleta e&lt;br />                 cossent damb era Eleccion seleccionada.</string>
+    <string name="help_titulo_seccion">&lt;b>&lt;u>Títol&lt;/u>:&lt;/b> Títol dera seccion.</string>
+    <string name="help_version_software">&lt;b>&lt;u>Version SW&lt;/u>:&lt;/b>&lt;br />        Aquera informacion pòt èster sollicitada des deth &lt;br />&lt;b>Centre d\'Atencion a Usatgèrs de tauleta&lt;/b>.</string>
+    <string name="help_volver">&lt;b>&lt;u>Tornar&lt;/u>:&lt;/b>&amp;nbsp;&lt;img src="file:///android_res/drawable/undo_56.png" /> Boton entà tornar&lt;br />        tara pantalha precedenta.</string>
+    <string name="history_clear_one_history_text">Limpar</string>
+    <string name="history_clear_text">Limpar histórico</string>
+    <string name="history_email_title">Histórico do Barcode Scanner</string>
+    <string name="history_empty">Vazio</string>
+    <string name="history_empty_detail">Nenhum código de barras foram registrados</string>
+    <string name="history_send">Enviar histórico</string>
+    <string name="history_title">Histórico</string>
+    <string name="identification"><b>Identificacion</b></string>
+    <string name="idioma"><b>Lengua</b></string>
+    <string name="idiomacambiar">Cambiar Lengua</string>
+    <string name="imeDone">Fin</string>
+    <string name="imeNext">Seg.</string>
+    <string name="incorrectPIN"><b>PIN</b> Incorrècte</string>
+    <string name="insdist">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introdusitz Districte&lt;/big>&lt;/big></string>
+    <string name="insertePIN">Inseritz <b>PIN:</b></string>
+    <string name="inslocal">&lt;b>Atencion:&lt;/b>&lt;br>premetz sus eth boton &lt;b>&lt;i>\"Acceptar\"&lt;/i>&lt;/b>, entà qu’eth Locau Electorau sigue enregistrat en Sistèma</string>
+    <string name="insmesa">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introdusitz Mesa&lt;/big>&lt;/big></string>
+    <string name="insmuni">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introdusitz Municipi&lt;/big>&lt;/big></string>
+    <string name="insnie">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introdusitz NIE&lt;/big>&lt;/big></string>
+    <string name="insnif">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introdusitz NIF&lt;/big>&lt;/big></string>
+    <string name="insprov">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introdusitz Província&lt;/big>&lt;/big></string>
+    <string name="inssec">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introdusitz Seccion&lt;/big>&lt;/big></string>
+    <string name="insselmesa">&lt;b>Instruccions:&lt;/b> Seleccionatz un mesa</string>
+    <string name="insselmesa1">&lt;b>Mesa processada&lt;/b></string>
+    <string name="insselprov">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Seleccionatz Província&lt;/big>&lt;/big></string>
+    <string name="instel">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introdusitz Telefòn</string>
+    <string name="internocensados"><b>Interventores Non Censadi</b></string>
+    <string name="introducir">Introdusitz %s</string>
+    <string name="introducirCodigo">Introdusitz Còdi de %s</string>
+    <string name="ipDispositivo">IP DISPOSITIU</string>
+    <string name="ipServidor">IP SERVIDOR</string>
+    <string name="ippda">IP Tauleta</string>
+    <string name="ipweb">IP servici web</string>
+    <string name="label">etiqueta</string>
+    <string name="leyenda">LEGENDA</string>
+    <string name="listamesas">LISTA DE MESES</string>
+    <string name="listosoftkeyboard">Prèst</string>
+    <string name="llamadaproceso">Telefonada</string>
+    <string name="llamando">Telefonant. Demoratz, se vos platz…</string>
+    <string name="loadMessage">Inicializant. Demoratz…</string>
+    <string name="local">Locau Electorau</string>
+    <string name="local2">LOCAU ELECTORAU</string>
+    <string name="localizacion">Veir Mapa</string>
+    <string name="logo">Logotip d’Indra</string>
+    <string name="logoElecciones">Logotip des eleccions</string>
+    <string name="logoMinisterio">Logo Estat</string>
+    <string name="manosLibres">Mans liures</string>
+    <string name="mapas_error">Hilat non disponible, impossible d\'obtier mapes deth Locau Electorau. Se vos platz, tornatz-ac a sajar mès tard</string>
+    <string name="marcaAguaAutoformacion">MÒDE\n AUTO - FORMACION\n</string>
+    <string name="marcaAguaExamen">MÒDE\n EXAMEN\n</string>
+    <string name="marcaAguaVersionFormacion">VERSION\nFORMACION\n</string>
+    <string name="menu_encode_mecard">Usar MECARD</string>
+    <string name="menu_encode_vcard">Usar vCard</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_history">Histórico</string>
+    <string name="menu_noaction">Se vos platz, introdusitz prumèr es vòstes dades personaus e es dades deth vòste Locau Electorau</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="mesa">Mesa</string>
+    <string name="mesa_enviada">MESA ENVIAT</string>
+    <string name="mesapruebaerror">Eth mesa de pròva solament se pòt utilizar en mòde autoformacion</string>
+    <string name="mesaref">Mesa Ref</string>
+    <string name="mesaref_revise">Revisatz es vòstes dades</string>
+    <string name="mesareferencia">Mesa de referéncia</string>
+    <string name="mesareferencia2">MESA DE REFERÉNCIA</string>
+    <string name="mesas">MESES</string>
+    <string name="mesasSinDatos">Sense Dades %d</string>
+    <string name="mesasSinEnviar">Sense Enviar %d</string>
+    <string name="mesasTxt">Meses</string>
+    <string name="mesasfin">Fin</string>
+    <string name="mesasseleccionadas"><b>Meses seleccionades</b></string>
+    <string name="mesassindatos">Mesa(es) sense dades</string>
+    <string name="mesassinenviar">Mesa(es) sense enviar</string>
+    <string name="mod_idioma"><b>Modificatz Lengua</b></string>
+    <string name="mode">Mòde</string>
+    <string name="modifica_variable">modifica variabla</string>
+    <string name="modificardatos_dni"><b>DNI</b></string>
+    <string name="modificardatos_revise">Revisatz es vòstes dades personaus</string>
+    <string name="modificardatos_tfno1"><b>TEL 1</b></string>
+    <string name="modificardatos_tfno2"><b>TEL 2</b></string>
+    <string name="modo_header">MÒDE:</string>
+    <string name="msg_bulk_mode_scanned">Modo em massa: código de barras lido e guardado</string>
+    <string name="msg_camera_framework_bug">Desculpe, a câmera do Android encontrou um problema. Poderá precisar reiniciar o dispositivo.</string>
+    <string name="msg_default_format">Formato</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Olá</string>
+    <string name="msg_default_status">Alinhar código de barras com o exemplo para ser lido.</string>
+    <string name="msg_default_time">Tempo</string>
+    <string name="msg_default_type">Tipo</string>
+    <string name="msg_encode_contents_failed">Não foi possível codificar o código de barras a partir dos dados fornecidos.</string>
+    <string name="msg_error">Erro</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Desculpe, o aplicativo solicitada não pode ser iniciado. O conteúdo do código de barras poderá ser inválido.</string>
+    <string name="msg_invalid_value">Valor inválido</string>
+    <string name="msg_redirect">Redirecionar</string>
+    <string name="msg_sbc_book_not_searchable">Desculpe, este livro não é pesquisável.</string>
+    <string name="msg_sbc_failed">Desculpe, foi encontrado um erro na pesquisa.</string>
+    <string name="msg_sbc_no_page_returned">Nenhuma página obtida</string>
+    <string name="msg_sbc_page">Página</string>
+    <string name="msg_sbc_results">Resultados</string>
+    <string name="msg_sbc_searching_book">Procurando livro\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Trecho não disponível</string>
+    <string name="msg_share_explanation">Pode compartilhar dados exibindo um código de barras na sua tela e lendo-o com outro celular</string>
+    <string name="msg_share_text">Ou digite algum texto e pressione Enter</string>
+    <string name="msg_sure">Tem certeza?</string>
+    <string name="msg_unmount_usb">Desculpe, o cartão SD não está disponível.</string>
+    <string name="municipio">Municipi</string>
+    <string name="negativeButtonText">Non</string>
+    <string name="no">Non</string>
+    <string name="noHayMesasQueMostrar">CAP DE MESA DISPONIBLE ENTÀ MOSTRAR</string>
+    <string name="noHayMesasSinDatos">(S\'aN JA INTRODUSIT ES DADES DE TOTES ES MESES)</string>
+    <string name="noLocalizacion">Era Localizacion a estat desabilitada. Se vos platz, sajatz mès tard</string>
+    <string name="noRequiereEnvioMesas">Non requerís enviament</string>
+    <string name="nochangemesa">Sonque se pòt cambiar era mesa s’ètz en mòde de formacion.</string>
+    <string name="nombre">NÒM E COGNÒMS</string>
+    <string name="notiftitle">Notificacion deth servici</string>
+    <string name="numCertificacionesCensales">Nombre de Certificacions Censaus Presentades</string>
+    <string name="numero">Numèro %s</string>
+    <string name="numvotantes">Nombre de Votants</string>
+    <string name="obteniendo">Obtient dades. Demoratz, se vos platz…</string>
+    <string name="off">OFF</string>
+    <string name="ok">Acceptar</string>
+    <string name="on">ON</string>
+    <string name="otrasopciones">Opcions</string>
+    <string name="otrasopciones_apagardispositivo">Amortar Dispositiu</string>
+    <string name="otrasopciones_bloqueardispositivo">Blocar Dispositiu</string>
+    <string name="otrasopciones_modificardatoscontacto">Modificar Dades de Contacte</string>
+    <string name="otrasopciones_modificarmesa">Modificar Mesa</string>
+    <string name="otrasopciones_obtenerdatosconexion">Obtier Dades de Connexion</string>
+    <string name="otrasopciones_obtenerestado">Obtier Estat</string>
+    <string name="otrasopciones_realizarllamadas">Hèr Telefonades</string>
+    <string name="otrasopciones_resolucionproblemas">Resolucion de Problèmes</string>
+    <string name="pantalla">Pantalha</string>
+    <string name="parsecolegio">Collègi Fictici entàs Pròves </string>
+    <string name="parsedireccion">Adreça deth Collègi Fictici</string>
+    <string name="patterncolegio">Collègi</string>
+    <string name="patterndireccion">Adreça</string>
+    <string name="personaldata">Dades personaus</string>
+    <string name="positiveButtonText">Òc</string>
+    <string name="preferences_actions_title">Quando o código de barras é encontrado\u2026</string>
+    <string name="preferences_auto_focus_title">Usar foco automático</string>
+    <string name="preferences_auto_open_web_title">Abrir páginas da web automaticamente</string>
+    <string name="preferences_bulk_mode_summary">Ler e guardar códigos de barras continuamente</string>
+    <string name="preferences_bulk_mode_title">Modo em massa</string>
+    <string name="preferences_copy_to_clipboard_title">Copiar para a área de transferência</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Substituições: %s = conteúdos, %f = formato, %t = tipo</string>
+    <string name="preferences_custom_product_search_title">Pesquisa personalizada de URL</string>
+    <string name="preferences_decode_1D_industrial_title">Indústrial 1D</string>
+    <string name="preferences_decode_1D_product_title">Produto 1D</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Soluções alternativas de dispositivos com erros</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No modo de cena de código de barras</string>
+    <string name="preferences_disable_continuous_focus_summary">Use apenas o modo de foco padrão</string>
+    <string name="preferences_disable_continuous_focus_title">No foco contínuo</string>
+    <string name="preferences_disable_exposure_title">Nenhuma exposição</string>
+    <string name="preferences_disable_metering_title">Sem medição</string>
+    <string name="preferences_front_light_auto">Automático</string>
+    <string name="preferences_front_light_off">Inativo</string>
+    <string name="preferences_front_light_on">Ativo</string>
+    <string name="preferences_front_light_summary">Melhora a leitura em luz fraca em alguns telefones, mas pode causar clarões. Não disponível em certos dispositivos.</string>
+    <string name="preferences_front_light_title">Usar luz frontal</string>
+    <string name="preferences_general_title">Configurações Gerais</string>
+    <string name="preferences_history_summary">Armazene seus scans em História</string>
+    <string name="preferences_history_title">Adicionar à História</string>
+    <string name="preferences_invert_scan_summary">Procurar por códigos de barras brancos em fundo preto. Não disponível em certos dispositivos.</string>
+    <string name="preferences_invert_scan_title">Inverter leitura</string>
+    <string name="preferences_name">Configurações</string>
+    <string name="preferences_orientation_title">Sem rotação automática</string>
+    <string name="preferences_play_beep_title">Apitar</string>
+    <string name="preferences_remember_duplicates_summary">Guardar pesquisas múltiplas do mesmo código de barras no histórico</string>
+    <string name="preferences_remember_duplicates_title">Lembrar duplicados</string>
+    <string name="preferences_result_title">Definições do resultado</string>
+    <string name="preferences_scanning_title">Quando procurar por códigos de barras, decodificar\u2026</string>
+    <string name="preferences_search_country">Procurar País</string>
+    <string name="preferences_supplemental_summary">Tentar recuperar mais informação sobre os conteúdos dos códigos de barras</string>
+    <string name="preferences_supplemental_title">Recuperar mais informação</string>
+    <string name="preferences_vibrate_title">Vibrar</string>
+    <string name="primerAvanceTabText">&lt;b>Fasa&lt;/b>&lt;br>Prumèr Auanç</string>
+    <string name="primeravance">Fasa: &lt;font color="green">&lt;b>Prumèr Auanç&lt;/b>&lt;/font></string>
+    <string name="primeravance_nohtml">Prumèr Auanç</string>
+    <string name="procesando">Processant</string>
+    <string name="prohibido">Eth dispositiu ei desautorizat, se vos platz telefonatz tath Centre d\'Incidéncies</string>
+    <string name="provincia">Província</string>
+    <string name="rechazar">Refusar</string>
+    <string name="refrescar">Actualizar dades</string>
+    <string name="reinciaraplicacion">Reinicializar</string>
+    <string name="responder">Arrespóner</string>
+    <string name="result_address_book">Info de contato encontrada</string>
+    <string name="result_calendar">Evento de calendário encontrado</string>
+    <string name="result_email_address">Endereço de e-mail encontrado</string>
+    <string name="result_geo">Coordenadas geográficas encontradas</string>
+    <string name="result_isbn">Livro encontrado</string>
+    <string name="result_product">Produto encontrado</string>
+    <string name="result_sms">Endereço SMS encontrado</string>
+    <string name="result_tel">Número de telefone encontrado</string>
+    <string name="result_text">Texto simples encontrado</string>
+    <string name="result_uri">URL encontrado</string>
+    <string name="result_wifi">Configuração WLAN encontrada</string>
+    <string name="resultado">Resultat der Examen:</string>
+    <string name="resultadoexamen">Fin der Examen</string>
+    <string name="resultadoinfo">*Comunicatz eth resultat ath Formador</string>
+    <string name="resultadoultimo">Resultat deth Darrèr Examen:</string>
+    <string name="sbc_name">Pesquisa Google Book</string>
+    <string name="seccion">Seccion</string>
+    <string name="segundoAvanceTabText">&lt;b>Fasa&lt;/b>&lt;br>Dusau Auanç</string>
+    <string name="segundoavance">Fasa: &lt;font color="green">&lt;b>Dusau auanç&lt;/b>&lt;/font></string>
+    <string name="segundoavance_nohtml">Dusau auanç</string>
+    <string name="seleccionaridioma"><b>Seleccionatz Lengua</b></string>
+    <string name="seleccionprovincia">Províncies</string>
+    <string name="selectlanguage">SELECCIONATZ LENGUA</string>
+    <string name="selectprovincia">SELECCIONATZ PROVÍNCIA</string>
+    <string name="si">Òc</string>
+    <string name="sim_netlocked">HILAT LOCKED</string>
+    <string name="sim_no">CAP DE SIM</string>
+    <string name="sim_nored">SENSE HILAT</string>
+    <string name="sim_pin">PIN NECESSARI</string>
+    <string name="sim_puk">PUK NECESSARI</string>
+    <string name="slider_apn">APN</string>
+    <string name="slider_bateria">BATERIA PRINCIPAU</string>
+    <string name="slider_bateria_nivel0">NIVÈU DE BATERIA FÒRÇA NAUT</string>
+    <string name="slider_bateria_nivel1">NIVÈU DE BATERIA NAUT</string>
+    <string name="slider_bateria_nivel2">NIVÈU DE BATERIA MIEI</string>
+    <string name="slider_bateria_nivel3">NIVÈU DE BATERIA BAISH</string>
+    <string name="slider_bateria_nivel4">NIVÈU DE BATERIA FÒRÇA BAISH</string>
+    <string name="slider_bateria_nivel5">BATERIA DESCARGADA</string>
+    <string name="slider_conexion1">COBERTURA NAUTA</string>
+    <string name="slider_conexion2">COBERTURA MIEJA</string>
+    <string name="slider_conexion3">COBERTURA BAISHA</string>
+    <string name="slider_conexion4">SENSE COBERTURA</string>
+    <string name="slider_corriente_conectada">CONNECTAT ARA ELECTRICITAT</string>
+    <string name="slider_elecciones">ELECCIONS APN</string>
+    <string name="slider_iccid">ICCID</string>
+    <string name="slider_imei">IMEI</string>
+    <string name="smesa"><b>Mesa/s</b></string>
+    <string name="splash1">Configurant tauleta</string>
+    <string name="splash2">Comunicant damb carta SIM</string>
+    <string name="splash3">Demorant qu\'eth Hilat sigue disponible</string>
+    <string name="splash4">Connectant damb Servidor de dades</string>
+    <string name="splash5">Processant responsa</string>
+    <string name="splash51">Verificant Backups: Ensag numèro %d</string>
+    <string name="splash6">Se vos platz, seleccionatz lengua</string>
+    <string name="sysdump">&lt;b>Acceditz a ua foncion d\'administracion.&lt;br>Se vos platz, premetz acceptar entà gésser.&lt;/b>&lt;br>&lt;br>%s</string>
+    <string name="tab1">DADES\nPERSONAUS</string>
+    <string name="tab2">DADES\nLOCAL ELECTORAU</string>
+    <string name="tabla_concejo">Conselh</string>
+    <string name="tablas">TAULES</string>
+    <string name="telefono">TELEFÒN</string>
+    <string name="telefono1">TELEFÒN 1</string>
+    <string name="telefono2">TELEFÒN 2 (OPCIONAU)</string>
+    <string name="tercerAvanceTabText">&lt;b>Fasa&lt;/b>&lt;br>Tresau Auanç</string>
+    <string name="terceravance">Fasa: &lt;font color="green">&lt;b>Tresau auanç&lt;/b>&lt;/font></string>
+    <string name="terceravance_nohtml">Tresau auanç</string>
+    <string name="terminar">Talhar era comunicacion</string>
+    <string name="tfno1">TEL 1</string>
+    <string name="tfno2">TEL 2</string>
+    <string name="tiempo">Temps</string>
+    <string name="toast_situacion1">S\'a actualizat era lista de Meses en demora de Constitucion de Meses</string>
+    <string name="toast_situacion2">S\' actualizat era lista de Meses en demora entara Eleccion %s</string>
+    <string name="todasLasElecciones">TOTES ES ELECCIONS</string>
+    <string name="total">TOTAU</string>
+    <string name="txtInstrucciones_dc_introducir">Introdusitz Chifra de Contròl</string>
+    <string name="txtInstrucciones_enviando">Enviant dades…</string>
+    <string name="txtInstrucciones_introducir">Introdusitz eth nombre de %s</string>
+    <string name="txtInstrucciones_introducirCenso">Introdusitz Cens</string>
+    <string name="txtInstrucciones_introducirCensoExtranjeros">Introdusitz Cens Estrangèrs</string>
+    <string name="txtInstrucciones_introducirCensoNacional">Introdusitz Cens Nacionau</string>
+    <string name="txtInstrucciones_rellenar_boletin">Introdusitz es valors deth bulletin d\'escrutinh</string>
+    <string name="txtInstrucciones_validacion_error">Errors ena validacion</string>
+    <string name="txtInstrucciones_validacion_ok">Validacion reüssidament completada</string>
+    <string name="txtInstrucciones_validacion_warnings">Verificatz es dades introdusides</string>
+    <string name="txtInstrucciones_validando_avances">En tot validar Auanci…</string>
+    <string name="txtInstrucciones_validando_censo">Validant Cens</string>
+    <string name="txtInstrucciones_validando_datos">En tot validar dades…</string>
+    <string name="txtInstrucciones_validando_dc">En tot validar Chifra de contròl…</string>
+    <string name="txtInstrucciones_validando_escrutinio">Validant Bulletin e Candidatures…</string>
+    <string name="txtInstrucciones_votantes_avance1">Introdusitz eth nombre de Votants deth Prumèr Auanç</string>
+    <string name="txtInstrucciones_votantes_avance2">Introdusitz eth nombre de Votants deth Dusau Auanç</string>
+    <string name="txtInstrucciones_votantes_avance3">Introdusitz eth nombre de Votants deth Tresau Auanç</string>
+    <string name="txtInstrucciones_votos_candidato">Vòts deth Candidat</string>
+    <string name="ultimoestado">Darrèr Estat</string>
+    <string name="unknown">unknown</string>
+    <string name="urlping">http://m.google.com</string>
+    <string name="validacion_censo_supera_umbral">Era valor deth cens ei dehòra deth reng permetut tocant ara valor deth cens iniciau (%d)</string>
+    <string name="validacion_censo_supera_umbral_extranjeros">Era soma deth cens d\'electors nacionaus e deth cens d\'electors estrangèrs ei dehòra deth reng permetut tocant ara valor deth cens totau iniciau (%d)</string>
+    <string name="validacion_censo_valor_coincide_otra_mesa">Eth cens introdusit coïncidís damb eth dera mesa %s N’ètz segur?</string>
+    <string name="validacion_censo_valor_no_valido">Cau introdusir ua valor valida entath cens.</string>
+    <string name="valores">CÒDIS</string>
+    <string name="value">value</string>
+    <string name="vblanco"><b>Vòts en Blanc</b></string>
+    <string name="vnulos"><b>Vòts Nulli</b></string>
+    <string name="volumen">Volum</string>
+    <string name="volver">Tornar</string>
+    <string formatted="false" name="votos_2n_avanc_inferior_1r">Dusau Auanç %sinferior ath Prumèr Auanç %s</string>
+    <string formatted="false" name="votos_3r_avanc_inferior_2n">Tresau Auanç %sinferior ath Dusau Auanç %s</string>
+    <string name="votos_avanc_inferior1">2au Auanç</string>
+    <string name="votos_avanc_inferior2">inferior ath 1r Auanç</string>
+    <string name="votos_avanc_inferior3">3au Auanç</string>
+    <string name="votos_avanc_inferior4">inferiora ath 2au Auanç</string>
+    <string name="votos_avanc_voto_igual_DC">Eth nombre de votants %scoincidís damb era Chifra de contròl. Ei corrècte?</string>
+    <string name="votos_avanc_voto_igual_DC1">Eth nombre de votants</string>
+    <string name="votos_avanc_voto_igual_DC2">Coïncidís damb era chifra de contròl. Ei corrècte ?</string>
+    <string formatted="false" name="votos_avanc_voto_igual_censo">Eth nombre de votants %sei parion qu’eth cens %sÈtz segur dera dada introdusida?</string>
+    <string name="votos_avanc_voto_igual_censo1">Eth nombre de votants</string>
+    <string name="votos_avanc_voto_igual_censo2">ei parion qu’eth Cens\"</string>
+    <string name="votos_avanc_voto_igual_censo3">\"Ètz segur dera dada introdusida</string>
+    <string name="votos_avance1_cero_telefono">Aurà de transméter eth %sentad aguesta mesa a trauès deth telefòn de recompde de dades.</string>
+    <string name="votos_avance1_cero_telefono1">Aurà de transméter eth</string>
+    <string name="votos_avance1_cero_telefono2">entad aguesta mesa a trauès deth telefòn de recompde de dades</string>
+    <string name="votos_avance_avanceN">Eth nombre de votants coïncidís damb eth der auanç precedent %sn’ètz segur?</string>
+    <string formatted="false" name="votos_avance_censo">Nombre de Votants %sMès gran que Cens %s</string>
+    <string name="votos_avance_censo1">Nombre de Votants</string>
+    <string name="votos_avance_censo2">Mès gran que Cens</string>
+    <string name="votos_avance_cero">Ètz segur qu\'eth nombre de votants %sei 0?</string>
+    <string name="votos_avance_cero1">Ètz segur qu\'eth nombre de votants</string>
+    <string name="votos_avance_cero2">ei 0?</string>
+    <string name="votos_avance_introducir">Introdusitz eth nombre de Votants</string>
+    <string name="votos_resultado_baja_participacion">Es nivèus de participacion son inferiors a %d%%. Ètz segur des dades introdusides?</string>
+    <string name="votos_resultado_umbral">Ei possible que i age errors enes vòts de quauqua candidatura. Ètz segur des dades introdusides?</string>
+    <string name="warningMessageSalir">Se tornatz tath menu anterior se perderàn totes es dades introdusides en aguesta pantalha. Ètz segur que voletz tornar?</string>
+    <string name="warningTitleEnvio">Confirmar er enviament…</string>
+    <string name="warningTitleSalir">Ètz segur que voletz tornar?</string>
+    <string name="wifi_changing_network">Solicitando ligação à rede\u2026</string>
+    <string name="wrongletter">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Letra de document incorrècta&lt;/big>&lt;/big></string>
+    <string name="wrongnie">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> NIE incorrècte&lt;/big>&lt;/big></string>
+    <string name="wrongnif">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> NIF incorrècte&lt;/big>&lt;/big></string>
+    <string name="wrongnombre">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Nòm incorrècte&lt;/big>&lt;/big></string>
+    <string name="wrongphone">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Telefòn incorrècte&lt;/big>&lt;/big></string>
+</resources>

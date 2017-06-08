@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="203dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="@color/fgAppBackgroundBlue"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold" />
+                
+                <LinearLayout
+                    android:id="@+id/censo_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"                    
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/censo_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusDown="@+id/votele_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/certif_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+						android:text="@string/boletin_registered"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/certif_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusDown="@+id/votele_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cercor_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:text="3- Certificaciones Censales Corrección"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/cercor_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="203dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/darker_gray" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="@color/fgAppBackgroundBlue" />
+
+
+                <LinearLayout
+                    android:id="@+id/votele_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:text="@string/boletin_cast"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <!--  ndroid:background="@drawable/background_deltaedittext" -->
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/votele_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusDown="@+id/votint_deltaEditText"
+                        android:nextFocusUp="@+id/certif_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/votint_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:text="@string/boletin_valid"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/votint_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusDown="@+id/votnul_deltaEditText"
+                        android:nextFocusUp="@+id/votele_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/vottot_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:text="@string/boletin_valid"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/vottot_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusDown="@+id/votnul_deltaEditText"
+                        android:nextFocusUp="@+id/votele_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:layout_width="203dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/darker_gray" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="@color/fgAppBackgroundBlue" />
+
+                <LinearLayout
+                    android:id="@+id/votnul_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:text="@string/votos_nulos"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/votnul_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusDown="@+id/votbla_deltaEditText"
+                        android:nextFocusUp="@+id/votint_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/votbla_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:text="@string/votos_blanco"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/votbla_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusUp="@+id/votnul_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="203dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@android:color/darker_gray" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="@color/fgAppBackgroundBlue" />
+
+                <LinearLayout
+                    android:id="@+id/votrech_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:text="@string/boletin_rejected"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/votrech_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusDown="@+id/votbla_deltaEditText"
+                        android:nextFocusUp="@+id/votint_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/votimpug_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/escrutinio_item_background_blue"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:maxLines="3"
+                        android:tag="@string/label"
+                        android:text="@string/boletin_disputed"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="15sp" />
+
+                    <com.indra.elections.customcontrols.DeltaEditText
+                        android:id="@+id/votimpug_deltaEditText"
+                        android:layout_width="53dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background_deltaedittext"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        android:nextFocusUp="@+id/votnul_deltaEditText"
+                        android:tag="@string/value"
+                        android:textColor="@color/fgAppText"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

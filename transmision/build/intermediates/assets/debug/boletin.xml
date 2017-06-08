@@ -1,0 +1,52 @@
+<Mesa value="1111111111 A" >
+
+    <Fase value="Apertura" >
+
+        <Validacion value="Censo" >1101</Validacion>
+    </Fase>
+
+    <Fase value="Primer Avance" >
+
+        <Validacion value="Avance" >231</Validacion>
+    </Fase>
+
+    <Fase value="Segundo Avance" >
+
+        <Validacion value="Avance" >755</Validacion>
+    </Fase>
+
+    <Fase value="Escrutinio" >
+
+        <Validacion value="CERTIF" >3</Validacion>
+
+        <Validacion value="VOTELE" >755</Validacion>
+
+        <Validacion value="VOTINT" >12</Validacion>
+
+        <Validacion value="VOTNUL" >30</Validacion>
+
+        <Validacion value="VOTBLA" >57</Validacion>
+
+        <Validacion value="CANDIDATURA 1" >135</Validacion>
+
+        <Validacion value="CANDIDATURA 2" >72</Validacion>
+
+        <Validacion value="CANDIDATURA 3" >66</Validacion>
+
+        <Validacion value="CANDIDATURA 4" >10</Validacion>
+
+        <Validacion value="CANDIDATURA 5" >35</Validacion>
+
+        <Validacion value="CANDIDATURA 6" >123</Validacion>
+
+        <Validacion value="CANDIDATURA 7" >121</Validacion>
+        
+        <Validacion value="CANDIDATURA 8" >89</Validacion>
+
+        <Validacion value="CANDIDATURA 9" >23</Validacion>
+
+        <Validacion value="CANDIDATURA 10" >6</Validacion>
+
+    </Fase>
+
+</Mesa>

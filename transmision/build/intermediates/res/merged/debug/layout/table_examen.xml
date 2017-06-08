@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dip"
+    android:layout_marginRight="2dip"
+    android:background="@color/fgAppText"
+    android:gravity="center_horizontal|bottom" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="80"
+            android:background="@color/fgAppBackgroundBlue"
+            android:gravity="center"
+            android:text="@string/help_titulo_fase"
+            android:textColor="@color/fgAppText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="20"
+            android:background="@color/fgAppBackgroundBlue"
+            android:gravity="center"
+            android:text="@string/finalizado"
+            android:textColor="@color/fgAppText"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="80"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:text="@string/constmesa_nohtml"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/examenConstErrores"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="20"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="80"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:text="@string/primeravance_nohtml"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/examenPrimerErrores"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="20"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="80"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:text="@string/segundoavance_nohtml"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/examenSegundoErrores"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="20"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="80"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:text="@string/escrutinio_nohtml"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/examenEscrutinioErrores"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="20"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="80"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingRight="10dip"
+            android:text="@string/total"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/examenTotalErrores"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="20"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+    </TableRow>
+
+</TableLayout>

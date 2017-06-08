@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_enabled="true" android:state_selected="false" >
+        <layer-list>
+              <item android:bottom="6dip"> 
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/eleccion_color1_0000"/>
+                </shape>
+		    </item>
+		     <item> 
+		        <bitmap
+		            android:gravity="top|left"
+		            android:src="@drawable/fondo_0500" />
+		    </item>
+            <item>    
+                    <shape android:shape="rectangle">
+                    <solid android:color="#A0FFFFFF"/>
+                </shape>            
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true" android:state_selected="true" >
+        <layer-list >
+              <item> 
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/eleccion_color1_0000"/>
+                </shape>
+		    </item>
+            <item> 
+		        <bitmap
+		            android:gravity="top|left"
+		            android:src="@drawable/fondo_0500" />
+		    </item>
+            <item android:left="-6dp" android:right="-6dp" android:top="-6dp">
+                <shape android:shape="rectangle">
+                    <stroke android:width="5dp" android:color="@color/eleccion_color1_0000"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

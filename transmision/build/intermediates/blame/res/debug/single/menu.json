@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/menu/popup_menu_no_auto_no_idioma.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/menu/popup_menu_no_auto_no_idioma.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/menu/popup_menu_si_auto.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/menu/popup_menu_si_auto.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/menu/popup_menu_no_auto.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/menu/popup_menu_no_auto.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/menu/capture.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/menu/capture.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/menu/popup_menu_si_auto_no_idioma.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/menu/popup_menu_si_auto_no_idioma.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/menu/encode.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/menu/encode.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/menu/history.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/menu/history.xml"
+    }
+]

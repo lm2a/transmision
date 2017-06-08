@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background0" >
+
+    <RelativeLayout
+        android:id="@+id/logoImageViewRL"
+        android:layout_width="fill_parent"
+
+        android:layout_height="128dip"
+        android:layout_alignParentBottom="true" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-10dp"
+            android:background="@drawable/toast_frame"
+            android:orientation="vertical" >
+        </View>
+
+        <RelativeLayout
+            android:id="@+id/logoImageViewRLcolor"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+			android:background="@color/header_color"            
+			android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/logoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/mediummargin"
+                android:src="@drawable/ministerio_96"
+                android:background="@color/header_color"
+                android:contentDescription="@string/defaultContentDescription" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listaMesasListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/logoImageViewRL"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:background="@drawable/rightblackline"
+        android:fadeScrollbars="false"
+        android:fadingEdgeLength="72dp"
+        android:fillViewport="true"
+        android:requiresFadingEdge="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/barra_fastscroll_track"
+        android:smoothScrollbar="true" />
+
+    <RelativeLayout
+        android:id="@+id/viewForEmptyListRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/logoImageViewRL"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/viewForEmptyListImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:alpha="0.5"
+                android:contentDescription="@string/defaultContentDescription"
+                android:src="@drawable/urna_128" />
+
+            <TextView
+                android:id="@+id/viewForEmptyListTextView"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:alpha="0.7"
+                android:gravity="center"
+                android:padding="@dimen/bigmargin"
+                android:text="@string/noHayMesasSinDatos"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

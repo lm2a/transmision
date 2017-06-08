@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faseNames">
+		<item>Constitución</item>
+		<item>Primeiro avance</item>
+		<item>Segundo avance</item>
+		<item>Terceiro avance</item>
+		<item>Escrutinio</item>
+		<item>Agardando xornada</item>
+    </string-array>
+    <string-array name="faseTitles">
+		<item>CONSTITUCIÓN DE MESAS</item>
+		<item>PRIMEIRO AVANCE</item>
+		<item>SEGUNDO AVANCE</item>
+		<item>TERCEIRO AVANCE</item>
+		<item>ESCRUTINIO</item>
+		<item>AGARDANDO XORNADA</item>
+    </string-array>
+    <string-array name="menu">
+		<item>Configuración</item>
+		<item>Envío de datos</item>
+		<item>Estado de mesas</item>
+		<item>Teléfono</item>      
+    </string-array>
+    <string-array name="otrasOpciones">
+		<item>Consultar estado</item>
+		<item>Pantalla</item>
+		<item>Apagar dispositivo</item>
+		<item>Axuda</item>
+    </string-array>
+    <string-array name="otrasOpcionesTest">
+		<item>Consultar estado</item>
+		<item>Pantalla</item>
+		<item>Apagar dispositivo</item>
+		<item>Comezar exame</item>
+		<item>Realizar chamada</item>
+    </string-array>
+    <string-array name="txtInstrucciones_boletin">
+		<item>Introduza o censo</item>
+		<item>Introduza o número de certificacións de alta no censo electoral</item>
+		<item>Introduza o número de certificacións de corrección de erros</item>
+		<item>Introduza o número total de votantes</item>
+		<item>Introduza o número de electores censados na mesa que votaron</item>
+		<item>Introduza o número de interventores non censados na mesa que votaron</item>
+		<item>Introduza o número de votos nulos</item>
+		<item>Introduza o número de votos en branco</item>
+    </string-array>
+    <string name="Autoformacion">Autoformación</string>
+    <string name="CERTIFICIONES_ALTA">Certificacións censuais altas erradas</string>
+    <string name="CERTIFICIONES_CORRECCION">Certificacións censuais corrección erradas</string>
+    <string name="ConNACK">Conexións sen resposta</string>
+    <string name="Examen">Exame</string>
+    <string name="IMEI">IMEI</string>
+    <string name="Jornada">Xornada electoral</string>
+    <string name="NIE">NIE</string>
+    <string name="NIF">NIF</string>
+    <string name="OK">OK</string>
+    <string name="ResulBlanc">Número de votos en branco</string>
+    <string name="ResulCenso">Censo</string>
+    <string name="ResulCertAlt">2- De alta no censo electoral</string>
+    <string name="ResulCertAlt_28">A.- De alta en el censo electoral</string>
+    <string name="ResulCertErr">3- De corrección de erros</string>
+    <string name="ResulNVots">Total votantes</string>
+    <string name="ResulNele">A) electores/as censados/as que votaron</string>
+    <string name="ResulNele_28">Núm. Electores/as de la Mesa que han\nvotado (3)</string>
+    <string name="ResulNeleayuda">Núm. de electores/as censados/as na mesa que votaron</string>
+    <string name="ResulNint">B) Interventores/as non censados que votaron</string>
+    <string name="ResulNint_28">Núm. Interventores/as no censados/as en la Mesa que han votado (3)</string>
+    <string name="ResulNintayuda">Núm. de interventores/as non censados/as na mesa que votaron</string>
+    <string name="ResulNul">Número de votos nulos</string>
+    <string name="STATUS_ERROR">Estado non recibido</string>
+    <string name="Simulacro">Simulacro</string>
+    <string name="UNKNOW_ERROR">ERRO DESCOÑECIDO</string>
+    <string name="VOTANTES_CERO">Total votantes (electores/as censados/as que votaron + Interventores/as non censados/as que votaron) debe ser maior que 0</string>
+    <string formatted="false" name="VOTANTES_ELECTORES">Electores/as censados/as que votaron non deben superar o censo %s+ certificacións censuais Alta %s</string>
+    <string name="VOTANTES_ELECTORES1">Votantes electores/as non deben superar o censo </string>
+    <string name="VOTANTES_ELECTORES2"> =+ certif. alta</string>
+    <string name="VOTANTES_INTERVENTORES">Interventores/as non censados/as que votaron non debe superar o dobre das candidaturas presentadas (%d)</string>
+    <string name="VOTANTES_SUMA">Total votantes (electores/as censados/as que votaron + Interventores/as non censados/as que votaron) debe ser igual a votos en branco + votos nulos + votos candidaturas</string>
+    <string name="VOTANTES_SUMA1">Votos candidaturas non poden ser menor ca: total votantes - brancos - nulos</string>
+    <string name="VOTANTES_SUMA2">Votos candidaturas non poden ser maior ca: (total votantes – brancos – nulos) * nº candid. circunscri</string>
+    <string name="VOTANTES_SUMA3">Votos a un candidato deben ser menor ou igual a: total votantes – brancos – nulos</string>
+    <string name="VOTANTES_SUMA4">Total votantes (Electores/as censados/as que votaron + Interventores/as non censados/as que votaron) debe ser maior ou igual a votos en branco + votos nulos</string>
+    <string name="VerDat">VERSIÓN DATOS: %s</string>
+    <string name="VerSw">VERSIÓN SW: %s</string>
+    <string name="accboletin">Accedendo ao boletín de escrutinio da mesa </string>
+    <string name="accept">Aceptar</string>
+    <string name="acceptlanguage">ACEPTAR</string>
+    <string name="accesibilidad">Accesibilidade</string>
+    <string name="aceptarTxt">Aceptar</string>
+    <string name="action">ACCIÓN</string>
+    <string name="activarAccesibilidad">Vai activar a opción de Accesibilidade. O dispositivo reiniciarase.\nEstá vostede seguro?</string>
+    <string name="admin">Administración</string>
+    <string name="admin_Home">Ir a Inicio</string>
+    <string name="admin_mostrar">Amosar táboas</string>
+    <string name="admin_red">Axustes de rede</string>
+    <string name="ajustes">Axustes</string>
+    <string name="apagando">Apagando dispositivo. Agarde, por favor…</string>
+    <string name="apagardispositivo">Apagar dispositivo</string>
+    <string name="app_name">Eleccións 25 de Setembro de 2016</string>
+    <string name="applylanguage">APLICAR IDIOMA</string>
+    <string name="applyprovincia">APLICAR PROVINCIA</string>
+    <string name="avance">Número de votantes</string>
+    <string name="ayuda">Axuda</string>
+    <string name="bloqueando">Bloqueando pantalla. Agarde, por favor…</string>
+    <string name="borrardatos">Borrar datos</string>
+    <string name="brillo">Brillo</string>
+    <string name="buscar">Buscar</string>
+    <string name="callincorrecto">Teléfono incorrecto. Só chamadas permitidas ao <b>Centro de atención a usuarios de tablet</b>, teléfonos de emerxencias ou que empecen por 900</string>
+    <string name="callintroduza">Introduza o teléfono que desexe marcar</string>
+    <string name="callllamando">Chamando ao teléfono de incidencias de PDA</string>
+    <string name="callsidesea"><b>CAU</b></string>
+    <string name="cancel">Cancelar</string>
+    <string name="censalesalta"><b>Certificacións censuais alta</b></string>
+    <string name="censo"><b>CENSO</b><br/></string>
+    <string name="censo2">CENSO</string>
+    <string name="cererror"><b>Certificacións erro</b></string>
+    <string name="cerrar">Pechar</string>
+    <string name="cerrar2">PECHAR</string>
+    <string name="codigo">Código:</string>
+    <string name="codigollamada">Esta operación só está permitida para resolver determinadas incidencias. Se é preciso, chame ao teléfono de incidencias e informarano do PIN necesario.</string>
+    <string name="codigos">CÓDIGOS</string>
+    <string name="colgar">Colgar</string>
+    <string name="comenzarExamen">Comezar exame</string>
+    <string name="completado">Completado</string>
+    <string name="comunidad">AUTONÓMICAS  </string>
+    <string name="comunvotantes">XERAL</string>
+    <string name="concejo">CONCELLO:</string>
+    <string name="concejos">CONCELLOS</string>
+    <string name="conectedto">Conectado a</string>
+    <string name="conf_letra">Letra</string>
+    <string name="configuracion">Configuración</string>
+    <string name="confirmarlanguage">Aplicar cambio de idioma ao </string>
+    <string name="confirmarprovincia">Desexa seleccionar a provincia de %s?</string>
+    <string name="connor">CONEXIÓN NoR</string>
+    <string name="consejos">CONSELLOS INSULARES         </string>
+    <string name="constitucionTabText">&lt;b>Fase&lt;/b>&lt;br>Constitución</string>
+    <string name="constmesa">Fase: &lt;font color="green">&lt;b>constitución de mesas&lt;/b>&lt;/font></string>
+    <string name="constmesa_nohtml">Constitución de mesas</string>
+    <string name="consultarestado">Consultar estado</string>
+    <string name="consultarestado_message">Desexa obter novamente o estado do servidor?</string>
+    <string name="continuar">Continuar</string>
+    <string name="controlalarma">Control alarma</string>
+    <string name="cortes09">CORTES DE\nCASTELA E LEÓN </string>
+    <string name="datacontact"><b>Datos de contacto</b></string>
+    <string name="datosconexion">Datos conexión</string>
+    <string name="datosdispositivo">DATOS DO DISPOSITIVO</string>
+    <string name="datoslocal">DATOS DO LOCAL ELECTORAL</string>
+    <string name="dc">Díxito de control</string>
+    <string name="dc_erroneo">Díxito de control errado</string>
+    <string name="dc_formacion">Díxito de control errado. Para formación introduza \'1\'</string>
+    <string name="dc_simulacro">Díxito de control errado. Para este simulacro introduza \'1\'</string>
+    <string name="defaultContentDescription">Descritor predeterminado</string>
+    <string name="delete">Borrar</string>
+    <string name="desactivarAccesibilidad">Vai desactivar a opción de Accesibilidade. O dispositivo reiniciarase.\nEstá vostede seguro?</string>
+    <string name="desautorizado">O dispositivo está deshabilitado. Por favor, chame ao Centro de incidencias.</string>
+    <string name="dialog_apagarterminal">O terminal vaise apagar.\nEstá vde. seguro?</string>
+    <string name="dialog_cerrardatos1">&lt;b>EDITÁRONSE&lt;/b> os &lt;b>DATOS PERSOAIS&lt;/b>. Se preme "Continuar", perderanse as modificacións.&lt;br>&lt;br>Para gardar os &lt;b>DATOS PERSOAIS&lt;/b>, prema "Cancelar" e prema "Aceptar" na pestana de &lt;b>DATOS PERSOAIS&lt;/b></string>
+    <string name="dialog_cerrardatos2">&lt;b>EDITÁRONSE&lt;/b> os &lt;b>DATOS DO LOCAL ELECTORAL&lt;/b>. Se preme "Continuar", perderanse as modificacións.&lt;br>&lt;br>Para gardar os &lt;b>DATOS DO LOCAL ELECTORAL&lt;/b>, prema "Cancelar" e prema "Aceptar" na pestana de &lt;b>DATOS DO LOCAL ELECTORAL&lt;/b></string>
+    <string name="dialog_cerrarresultados">Se se pecha a ventá, perderanse os datos.\nEstá Vde. seguro?</string>
+    <string name="dialog_comenzarexamen">Atención, vai comezar o Modo Exame.\nRealice esta operación unicamente en supervisión do Formador.\nEstá Vde. seguro?</string>
+    <string name="dialog_configuracion">CONFIGURACIÓN</string>
+    <string name="dialog_conformidad1">É preciso a introducción dos seus datos persoais, só para fins administrativos nas eleccións do 25 de Setembro de 2016</string>
+    <string name="dialog_conformidad2">Vaise rexistrar a situación do terminal para efectos de control administrativo</string>
+    <string name="dialog_conformidad2_options">&lt;b>Activar compartir situación do terminal.&lt;/b>&lt;br>&lt;br>Vaise rexistrar a situación do terminal a efectos de control administrativo.</string>
+    <string name="dialog_conformidad3">Por favor, prema sobre  &lt;i>&lt;b>\"Activar rexistro de situación do terminal\"&lt;/b>&lt;/i> para continuar co uso da aplicación</string>
+    <string formatted="false" name="dialog_conformidad4">Desexa confirmar o colexio para que quede rexistrado no sistema?&lt;br>&lt;br>&lt;b>%s&lt;/b>&lt;br>&lt;br>Se non preme ningún botón, o Local electoral será rexistrado automaticamente en &lt;b>%s segundos&lt;/b></string>
+    <string formatted="false" name="dialog_conformidad_idioma_inicio">¿Desea confirmar el idioma para que quede registrado en el sistema?&lt;br>&lt;br>&lt;b>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/b>&lt;br>&lt;br>Sí no pulsa ningún botón, el idioma seleccionado será registrado automáticamente en &lt;b>%s&lt;/b></string>
+    <string name="dialog_errormesa">Erro na mesa</string>
+    <string name="dialog_errormesaconnection">Erro de conexión co servidor</string>
+    <string name="dialog_errormesanotfound">A Mesa introducida non se atopa na base de datos das eleccións, por favor, revise que os datos corresponden cunha das súas mesas asignadas.</string>
+    <string name="dialog_mesassinconfirmar">Mesas sen confirmación</string>
+    <string name="dialog_noestado">Ningún estado recibido</string>
+    <string formatted="false" name="dialog_prioridad_eleccion">Por favor, introduza primeiro o boletín de escrutinio da mesa &lt;b>%s&lt;/b> para a elección &lt;b>%s&lt;/b></string>
+    <string name="dialog_sim_no">Configurando rede móbil. Agarde, por favor…</string>
+    <string name="dialog_votoszero">Os votos ás candidaturas son cero.\nEstá vostede seguro?</string>
+    <string name="direccion">Enderezo</string>
+    <string name="direccion2">ENDEREZO</string>
+    <string name="distrito">Distrito</string>
+    <string name="edit">Editar</string>
+    <string name="elec">Elección</string>
+    <string name="eleccensados"><b>electores/as censados</b></string>
+    <string name="electoresCenso"><b>NÚMERO DE ELECTORES/AS SEGUNDO AS LISTAXES DO CENSO:</b>\n(Este dato debe incluír os apéndices de altas e baixas)</string>
+    <string name="electoresCensoExtranjeros"><b>CIDADÁNS DA UE E DE PAÍSES CON ACORDOS, RESIDENTES EN ESPAÑA\n(Este dato debe incluír os apéndices de altas e baixas):</b>\n(Este dato debe incluír os apéndices de altas e baixas)</string>
+    <string name="electoresCensoNacional"><b>ELECTORES/AS NACIONAIS SEGUNDO AS LISTAXES DO CENSO:</b>\n(Este dato debe incluír os apéndices de altas e baixas)</string>
+    <string name="enviando">Enviando datos. Agarde, por favor…</string>
+    <string name="enviandoTx">Comprobando datos de transmisor. Agarde, por favor…</string>
+    <string name="enviarlogs">Enviar logs</string>
+    <string name="enviarmesas">Envío de datos</string>
+    <string name="envioMesasCompletado">Envío completado</string>
+    <string name="error_campo_obligatorio">Este campo é obrigatorio</string>
+    <string name="errores">Erros</string>
+    <string name="errorpin">error introducindo o PIN</string>
+    <string name="escrutinio">Fase: &lt;font color="green">&lt;b>escrutinio&lt;/b>&lt;/font></string>
+    <string name="escrutinioTabText">&lt;b>Fase&lt;/b>&lt;br>Escrutinio</string>
+    <string name="escrutinio_nohtml">Escrutinio</string>
+    <string name="esperandoApertura">(ESPERANDO A APERTURA DE MESAS)</string>
+    <string name="esperandoTabText">&lt;b>Fase&lt;/b>&lt;br>Agardando xornada</string>
+    <string name="esperandojornada">Fase: &lt;font color="green">&lt;b>agardando xornada&lt;/b>&lt;/font></string>
+    <string name="esperandojornada_nohtml">Agardando xornada</string>
+    <string name="estado">Estado</string>
+    <string name="estadoMesasConstMesas">Constitución de mesas</string>
+    <string name="estadoMesasEnCola">En cola de envío</string>
+    <string name="estadoMesasEnviadaxtfno">Enviada por teléfono</string>
+    <string name="estadoMesasEnviado">Enviado por tablet</string>
+    <string name="estadoMesasEscrutinio">Escrutinio</string>
+    <string name="estadoMesasIdMesas">Mesas</string>
+    <string name="estadoMesasInfoColumnaResaltada">A columna resaltada correspóndese coa fase actual.</string>
+    <string name="estadoMesasNoAplica">Non aplica:</string>
+    <string name="estadoMesasPrimerAvance">Primeiro avance</string>
+    <string name="estadoMesasSegundoAvance">Segundo avance</string>
+    <string name="estadoMesasSinDatos">Sen datos</string>
+    <string name="estadoMesasTercerAvance">Terceiro avance</string>
+    <string name="estadomesas">Estado de mesas</string>
+    <string name="extranjero">DOCUMENTO</string>
+    <string name="fase">Fase: </string>
+    <string name="finTabText">&lt;b>Fase&lt;/b>&lt;br>Fin de xornada</string>
+    <string name="finalizado">Finalizado</string>
+    <string name="finformacion">Rematou un ciclo de formación. Prema Aceptar para reiniciar a aplicación e comezar un novo ciclo.</string>
+    <string name="finformaciontitle">Fin formación</string>
+    <string name="finjornada">Fase: &lt;font color="green">&lt;b>fin de xornada&lt;/b>&lt;/font></string>
+    <string name="finjornada_nohtml">Fin de xornada</string>
+    <string name="forzarapagar">O dispositivo apagarase automaticamente en &lt;b>%s segundos&lt;/b>&lt;br></string>
+    <string name="frmEstadoMesasTitle">Estado das mesas</string>
+    <string name="header_menu">MENÚ</string>
+    <string name="header_title1">CONFIGURACIÓN</string>
+    <string name="help_ayuda">&lt;b>&lt;u>Axuda&lt;/u>:&lt;/b> o/a Representante poderá premer este botón en cada&lt;br />        pantalla e aparecerá unha ventá de axuda onde se&lt;br />        explicarán todas as opcións e botóns desta.</string>
+    <string name="help_bExit">Saír</string>
+    <string name="help_bateria">&lt;b>&lt;u>Batería&lt;/u>:&lt;/b> amosa o nivel de carga da batería. Debe estar&lt;br />sempre por enriba do 30%:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/full_battery_48.png" /> Nivel de batería moi alto.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_75_48.png" />   Nivel de batería alto.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_50_48.png" />   Nivel de batería medio.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_25_48.png" />   Nivel de batería baixo.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/almost_empty_48.png" /> Nivel de batería moi baixo. Conectar á rede.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/empty_battery_48.png" /> Batería descargada. Conectar á rede.</string>
+    <string name="help_cobertura">&lt;b>&lt;u>Cobertura&lt;/u>:&lt;/b> amosa o nivel de cobertura:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_4.png" /> &lt;b>Moi alta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_3.png" /> &lt;b>Alta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_2.png" /> &lt;b>Media&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_1.png" /> &lt;b>Baixa&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_0.png" /> &lt;b>Nula:&lt;/b> debe contactar co &lt;b>Centro de atención&lt;br/>        &amp;nbsp;&amp;nbsp;a usuarios de tablet&lt;/b>.</string>
+    <string name="help_cobertura_top">&lt;img src="file:///android_res/drawable/high_connection_48.png" />&amp;nbsp;&lt;b>&lt;u>Nivel de cobertura&lt;/u>:&amp;nbsp;&lt;/b>amosa o nivel e o tipo de cobertura.        &lt;br />Poderán ser os seguintes:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/high_connection_48.png" /> &lt;b>Alto&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/medium_connection_48.png" /> &lt;b>Medio&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/low_connection_48.png" /> &lt;b>Baixo&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/no_connection_48.png" /> &lt;b>Nulo&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;Operadora (Movistar, NO SIM ou NO RED) e tipo de&lt;br />        &amp;nbsp;&amp;nbsp;cobertura (HP, H, 3G, E).</string>
+    <string name="help_codigomesa">Premer sobre o código de mesa para introducir os datos&lt;br />que correspondan á fase actual da mesa seleccionada.  </string>
+    <string name="help_constitucion_mesas">&lt;b>&lt;u>Constitución de mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Para realizar a constitución dunha mesa, débese indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Díxito de Control da Mesa:&lt;/b>&amp;nbsp;Deberá introducir o número que aparece no&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;campo de díxito de control do boletín.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Número de electores/as (nacionais e estranxeiros) segundo as listas do censo:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Deberá recordarlle ao presidente/a da mesa a necesidade de actualizar o dato do&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;censo dos electores/as nacionais e dos electores/as estranxeiros cos&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;apéndices de altas e baixas se se recibiron. (Introducir como&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;máximo catro díxitos en cada campo).&lt;br />&lt;br />
+        Unha vez introducidos o nº de votantes en cada Elección, premerase o botón &lt;img src=""file:///android_res/drawable/datosaceptar.png"" />
+        para enviar os datos indicados. Se o envío foi correcto, informarase por pantalla.&lt;br />
+        No caso de detectarse algún erro nos datos introducidos, avisarase por pantalla mediante unha &lt;b>mensaxe de erro&lt;/b> &lt;img src=""file:///android_res/drawable/error.png"" /> para a súa corrección."  </string>
+    <string name="help_constitucion_mesas_tipocenso0">&lt;b>&lt;u>Constitución de mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />Para realizar a constitución dunha mesa, débese indicar:&lt;br />&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>- Díxito de control da mesa:&lt;/b>&amp;nbsp;Deberá introducir o número que aparece no&lt;br />
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;campo de díxito de control do boletín.&lt;br />
+Unha vez introducido o Díxito de control, premerase o botón &lt;img src=""file:///android_res/drawable/datosaceptar.png"" /> para enviar os datos indicados. Se o envío foi correcto, informarase por pantalla.&lt;br />No caso de detectarse algún erro nos datos introducidos, avisarase por pantalla mediante unha &lt;b>mensaxe de erro&lt;/b> &lt;img src=""file:///android_res/drawable/error.png"" /> para a súa corrección.</string>
+    <string name="help_constitucion_mesas_tipocenso1">&lt;b>&lt;u>Constitución de mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Para realizar a constitución dunha mesa, débese indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Díxito de control da mesa:&lt;/b>&amp;nbsp;Deberá introducir o número que aparece no&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;campo de Díxito de control do boletín.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Número de electores/as nacionais según as listas do censo:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Deberá recordarlle ao presidente/a de mesa a necesidade de actualizar o dato do&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;censo dos electores/as nacionais cos&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;apéndices de altas e baixas, se se recibisen. (Introducir como&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;máximo catro díxitos en cada campo).&lt;br />&lt;br />
+        Unha vez introducidos o nº de votantes en cada elección, premerase o botón &lt;img src=""file:///android_res/drawable/datosaceptar.png"" />
+        para enviar os datos indicados. Se o envío foi correcto, informarase por pantalla.&lt;br />
+        No caso de detectarse algún erro nos datos introducidos, avisarase por pantalla mediante unha &lt;b>mensaxe de erro&lt;/b> &lt;img src=""file:///android_res/drawable/error.png"" /> para a súa corrección."  </string>
+    <string name="help_datos">&lt;b>&lt;u>Datos&lt;/u>:&lt;/b> indica a cobertura de datos:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_connected_g.png" /> &lt;b>Conectado:&lt;/b> debe vixiarse a cobertura de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;datos, para que a tablet estea en conexión co&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;servidor en todo momento.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_no_connected_gred.png" /> &lt;b>Non conectado:&lt;/b> debe contactar co &lt;b>Centro&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;de atención a usuarios de tablet&lt;/b>.</string>
+    <string name="help_datos1">Datos Persoais Transmisor</string>
+    <string name="help_datos2">Por favor, verifique que os datos persoais do Transmisor, almacenados no dispositivo, son correctos</string>
+    <string name="help_datos_colegio">&lt;b>&lt;u>Datos do Local electoral e mesas asignadas&lt;/u>:&lt;/b>&lt;br />&lt;br />        Segundo os datos da mesa introducida na pantalla anterior amosaranse&lt;br />os datos do Local electoral e das mesas asignadas ao/a representante:&lt;br />        &lt;img src="file:///android_res/drawable/ic_action_place.png" />Amosa no mapa a situación do Local electoral.&lt;br />        &amp;nbsp;&lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp; Se os datos son correctos debe premer este botón         para  confirmar o Local electoral e continuar.&lt;br />        &amp;nbsp;&lt;img src="file:///android_res/drawable/datoseditar.jpg" />&amp;nbsp; Se os datos non son os correctos, premendo este botón regresará&lt;br />        á pantalla de datos de mesa que foron introducidos e poderá modificalos.</string>
+    <string name="help_datos_colegio_direccion">INSTITUTO Nº4 AMPARO SANZ\nRÚA TOMÁS EDISON 9998\nALBACETE\nALBACETE\n</string>
+    <string name="help_datos_conexion">&lt;b>&lt;u>Información de datos de conexión&lt;/u>:&lt;/b> a través deste botón&lt;br />        obtemos a seguinte información sobre os datos de&lt;br />        conexión. O &lt;b>Centro de atención a usuarios de tablet&lt;/b> pode&lt;br />        solicitar a consulta destes datos en caso de incidencia:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Modo:&lt;/b> Autoformación, simulacro ou xornada electoral.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Operadora&lt;/b> á que pertence a rede pola que está&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;conectando o dispositivo. Se non consta &lt;b>&lt;i>MOVISTAR&lt;i>&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;debe poñerse en contacto co &lt;b>Centro de atención a&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;usuarios de tablet&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- APN&lt;/b> polo que está conectando o dispositivo.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&lt;/b> identificador do dispositivo.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&lt;/b> identificador da tarxeta SIM.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP tablet&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP servidor&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Conexións sen resposta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Versión do software&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Versión de datos&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Consulta do último estado:&lt;/b> Premendo este botón amosarase&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;información que pode ser útil en determinados&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;casos para o &lt;b>Centro de atención a usuarios de tablet&lt;/b>.</string>
+    <string name="help_datos_electoral_cut1">&lt;b>&lt;u>Introdución dos datos dunha das mesas asignadas ao/a representante&lt;/u>:&lt;/b>&lt;br />&lt;br />        Unha vez identificado/a o/a representante, aparecerá a sección de introdución&lt;br />        de datos dunha das mesas que teña asignadas. Os datos que se deben indicar son:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Provincia:&lt;/b> código de provincia (dous díxitos).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Concello:&lt;/b> código de concello (tres díxitos).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Distrito:&lt;/b> código de distrito (dous díxitos).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Sección:&lt;/b> código de sección (tres díxitos).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mesa:&lt;/b>código de mesa (unha letra).</string>
+    <string name="help_datos_electoral_cut2">&lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Introducidos todos os datos da mesa débese premer este botón para continuar.&lt;br />&lt;br />        &lt;img src="file:///android_res/drawable/datosbuscar.jpg" />&amp;nbsp;A continuación, premerase este botón para a busca da mesa que introduciu:        &lt;br />Se todos os datos son correctos, pasará á seguinte pantalla para confirmar Local electoral e mesas. En caso contrario, aparecerá unha mensaxe debaixo do campo que debe modificar.&lt;br />        &lt;br />&lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Ao premer este botón eliminará TODOS os datos introducidos.        &lt;br />&lt;br />&lt;img src="file:///android_res/drawable/datosmenu.jpg" />&amp;nbsp;En calquera momento poderá acceder a modificar os datos de Local electoral desde Menú, seleccionando a opción de configuración.        &lt;br />Durante o simulacro e a xornada electoral será necesario chamar ao &lt;b>Centro de atención a usuarios de tablet&lt;/b> para poder modificar os datos do Local electoral.</string>
+    <string name="help_datos_modosnavega"> &lt;b>Modos de navegación na pantalla&lt;/b>:&lt;br />
+         Para seleccionar e inserir os datos das mesas asignadas a cada unha das&lt;br />
+         Eleccións na súa fase actual, pódese facer de dous xeitos:&lt;br /> 
+         -Pulsar sobor o nome da Elección que quere seleccionar e este mostrarase
+         &lt;br />&amp;nbsp;resaltado.&lt;br />
+         -Pasar o punteiro/dedo polo centro da pantalla, cara á dereita&lt;br />
+         &amp;nbsp;ou cara á esquerda, até que aparezca resaltada a pestana da Elección&lt;br />
+         &amp;nbsp;que quere seleccionar</string>
+    <string name="help_datos_personales_cut1">&lt;b>&lt;u>Datos do/a representante&lt;/u>:&lt;/b>&lt;br />&lt;br />        Cando se arranque o dispositivo por primeira vez, solicitaranse os datos&lt;br />        persoais do/da Representante. Son:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- O documento:&lt;/b> premer o botón &amp;nbsp;&lt;img src="file:///android_res/drawable/nifnie.jpg" />&amp;nbsp; para que se habilite a opción de NIE,&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;se fose o caso.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- NIF/NIE:&lt;/b> número e letra do NIF/NIE.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- O nome e apelidos:&lt;/b> introducir o nome e os apelidos do representante.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- O teléfono 1:&lt;/b> primeiro teléfono de contacto. Debe ser un teléfono móbil onde&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;se poida contactar co/a representante en todo momento e&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;en especial durante o simulacro e a Xornada electoral.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- O teléfono 2:&lt;/b> segundo teléfono de contacto (opcional).&lt;br />        &lt;br />É importante que estes datos sexan correctos, xa que se utilizarán en caso de&lt;br />        ter que poñerse en contacto co/a representante.&lt;br />        &lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Introducidos todos os datos persoais debe premerse esta tecla para continuar.</string>
+    <string name="help_datos_personales_cut2">&lt;b>&lt;u>Datos do/a representante&lt;/u>:&lt;/b>&lt;br />&lt;br />        &lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp;Unha vez introducidos todos os datos hai que premer este botón:        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Se todos os datos son correctos activarase a pestana de Local electoral.        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;En caso contrario, aparecerá unha mensaxe debaixo do campo que debe ser         &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;modificado.        &lt;br />        &lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Ao premer este botón eliminaranse TODOS os datos introducidos. &lt;br />        &amp;nbsp;En calquera momento poderá modificar os datos persoais desde &amp;nbsp;&lt;img src="file:///android_res/drawable/datosmenu.jpg" /> &lt;br />        e seleccionando a opción de configuración.</string>
+    <string name="help_datos_personales_pag1_tab1">&lt;b>&lt;u>Formas de introducir os datos na pantalla&lt;/u>:&lt;/b>&lt;br />        para desprazarse e editar os campos hai catro posibilidades:&lt;br />        &amp;nbsp;&amp;nbsp;1-Premendo sobre o campo para editar.&lt;br />        &amp;nbsp;&amp;nbsp;2-Premendo sobre o &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> lapis, á dereita do campo que se queira editar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nese momento cambiarase ao&amp;nbsp; &lt;img src="file:///android_res/drawable/ic_action_accept.png" /> de check que indica que os datos&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;dese campo se poden modificar.&lt;br />        &amp;nbsp;&amp;nbsp;3-Ao premer &lt;img src="file:///android_res/drawable/sig.jpg" /> tecla de seguinte no teclado, permitirá pasar dun campo&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ao seguinte.&lt;br />        &amp;nbsp;&amp;nbsp;4-Ao completar o campo saltará automaticamente ao seguinte, a excepción&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;do campo "Nome e apelidos", no que será necesario realizar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;realizar calquera das opcións anteriores.</string>
+    <string name="help_datos_personales_pag1_tab2">&lt;b>&lt;u>Formas de introducir os datos na pantalla&lt;/u>:&lt;/b>&lt;br />        Para desprazarse e editar os campos hai catro posibilidades:&lt;br />        &amp;nbsp;&amp;nbsp;1-Premer sobre o campo para editar.&lt;br />        &amp;nbsp;&amp;nbsp;2-Premer sobre o &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> lapis, á dereita do campo que se queira editar;&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nese momento cambiarase ao&amp;nbsp; &lt;img src="file:///android_res/drawable/check48.png" /> de check que indica que os datos de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;campo se poden modificar.&lt;br />        &amp;nbsp;&amp;nbsp;3-Ao premer &lt;img src="file:///android_res/drawable/sig.jpg" /> tecla de seguinte no teclado, permitirá pasar dun campo&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ao seguinte.&lt;br />        &amp;nbsp;&amp;nbsp;4-Ao completar o campo saltará automaticamente ao seguinte.</string>
+    <string name="help_datos_tabs">&lt;b>Pestana Elección&lt;/b>:&lt;br />
+         A aplicación amosa tantas pestanas como eleccións deben ser&lt;br />
+         transmitidas. Ata que sexan enviados os datos da mesa para &lt;br />
+         a elección mais prioritaria na fase actual, esta mesa non estará&lt;br />
+         dispoñible para completar seus datos para o resto de Eleccións&lt;br />
+         que lle apliquen</string>
+    <string name="help_datosdeldispositivo">&lt;img src="file:///android_res/drawable/info_72.png" />&amp;nbsp;&lt;b>&lt;u>Datos do dispositivo&lt;/u>:&lt;/b>son os datos identificativos da tablet:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- APN:&amp;nbsp;&lt;/b>polo que está conectado o dispositivo&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&amp;nbsp;&lt;/b>identificador do dispositivo&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&amp;nbsp;&lt;/b>identificador da tarxeta SIM&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP de dispositivo&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP de Servidor&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Conexión noR:&lt;/b>&amp;nbsp;indica o número de conexións sen resposta.</string>
+    <string name="help_datoslocalelectoral">&lt;img src="file:///android_res/drawable/urnalista.png" />&amp;nbsp;&lt;b>&lt;u>Datos do Local electoral&lt;/u>:&lt;/b>&amp;nbsp;son os datos que se gravaron no dispositivo.&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Local electoral:&amp;nbsp;&lt;/b>nome do Local electoral&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Enderezo:&amp;nbsp;&lt;/b>rúa, número, localidade e código postal.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mesa de referencia:&amp;nbsp;&lt;/b>unha das mesas que ten asignada o representante.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Listaxe de mesas:&amp;nbsp;&lt;/b>resto de mesas asignadas ao representante.</string>
+    <string name="help_escrutinio_1">&lt;b>&lt;u>Escrutinio: Conceptos básicos&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Censo electoral:&lt;/b> é o número de persoas que reúnen os requisitos para&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ser elector e non se atopen privados, definitiva ou temporalmente, do dereito&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;de sufraxio.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Certificacións de alta:&lt;/b> é o número de electores/as que presentaron unha&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;certificación censual específica expedida pola Oficina do Censo Electoral&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;que o habilita para facer efectivo o dereito ao voto nesa mesa.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- electores/as censados/as na mesa que votaron:&lt;/b> indica o número de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;votantes incluídos no censo da mesa.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Interventores/as non censados/as que votaron nesa mesa:&lt;/b> indica o número de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;interventores/as que votaron e non pertencen ao ese censo.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Número de votos nulos:&lt;/b> considéranse votos nulos:&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Os que se emiten en sobres ou papeletas diferentes do modelo oficial.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> As papeletas sen sobre.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Os que se emiten en sobres alterados.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> As papeletas nas que se modificase, engadise ou cruzase o nome dos&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;candidatos e candidatas, se alterase a súa orde de colocación,&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;así como aquelas nas que se introducise calquera lenda ou&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;expresión, ou se producise calquera outra alteración de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;carácter voluntario ou intencionado.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Os sobres que conteñan máis dunha papeleta de distintas candidaturas&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(se se inclúen varias papeletas da mesma candidatura, cóntase como&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;un só voto válido).&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· &lt;u>Lembre&lt;/u>:&lt;/b> non son votos nulos as papeletas nas que se introducise&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;algún sinal ou marca que non xere dúbidas sobre o&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sentido do voto.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Número de votos en branco:&lt;/b> indica o número dos sobres que non teñen         &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;papeleta.</string>
+    <string name="help_escrutinio_2">&lt;b>&lt;u>Campos do boletín de escrutinio&lt;/u>&lt;/b>&lt;br />&lt;br />        En primeiro lugar, para facer o escrutinio, deben indicarse os seguintes&lt;br />        datos:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Díxito de control da mesa:&lt;/b>&amp;nbsp;deberá introducir o número que aparece&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;no campo de Díxito de control do boletín.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Os seguintes datos do boletín impreso:&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· De alta no censo electoral&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Electores/as censados/as que votaron&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Interventores/as non censados/as na mesa que votaron&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Número de votos nulos&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Número de votos en branco&lt;/b>.&lt;br />&lt;br />        Posteriormente, cóbrense os datos dos &lt;b>votos de cada candidatura&lt;/b>. Non cómpre&lt;br />        cubrir aquelas candidaturas que obtivesen 0 votos.        &lt;br />        &lt;b>&lt;u>Validacións&lt;/u>:&lt;/b> lembre que o número de electores/as censados/as na mesa que&lt;br />        votaron (A) + Interventores/as non censados/as na mesa que votaron (B) debe&lt;br />        ser igual á suma de votos a candidaturas + votos en branco + votos nulos.&lt;br />        Número de electores/as censados/as na mesa que votaron (A) debe ser menor &lt;br />        ou igual cá suma do censo + as certificacións de alta.</string>
+    <string name="help_escrutinio_2b">&lt;b>&lt;u>Visualización dos datos introducidos na pantalla escrutinio&lt;/u>:&lt;/b>&lt;br />            poderá visualizar a pantalla de escrutinio completa, ao finalizar a introdución dos datos do boletín de escrutinio, para iso deberá premer a icona             que pecha o campo de datos que teña ampliado &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />            Para desprazarse pola pantalla completa de escrutinio, terá que mover o punteiro co dedo sobre a pantalla en sentido vertical.</string>
+    <string name="help_escrutinio_3">&lt;b>&lt;u>Introdución dos datos na pantalla de escrutinio&lt;/u>:&lt;/b>&lt;br />            Para introducir os datos nos campos da pantalla de escrutinio, primeiro deberá escribir o Díxito de control. A continuación terá que:&lt;br />            &amp;nbsp;1) Premer sobre o campo no que quere introducir os datos, este ampliarase e aparecerá o teclado na parte inferior da pantalla.&lt;br />            &amp;nbsp;2) Teclear o valor que corresponde no campo de datos que está visible na pantalla e premer a tecla Seg. &lt;img src="file:///android_res/drawable/sig.jpg" /> .&lt;br />            &amp;nbsp;3) Introducir o valor que corresponda para o seguinte campo ampliado.&lt;br />            Deberá repetir os puntos 1, 2 e 3 tantas veces como sexa necesario ata cubrir os datos en todos os campos da pantalla de escrutinio (datos de boletín e votos a candidaturas) tal e como terá no seu boletín.&lt;br />            Cando o valor dun campo sexa cero, non será necesario que teclee esta cifra, pode premer a tecla Seg. &lt;img src="file:///android_res/drawable/sig.jpg" />             e pasar ao seguinte campo ou premer directamente sobre o campo que queira cubrir.&lt;br />            Para pasar e visualizar os campos de datos ampliados tamén poderá utilizar o punteiro, deslizándoo pola pantalla en sentido vertical,            ata chegar ao campo de datos que queira seleccionar.&lt;br />            Poderá visualizar a pantalla de escrutinio completa ao finalizar a introdución dos datos do boletín de escrutinio; para iso deberá premer a icona             que pecha o campo de datos que teña ampliado &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />            Para desprazarse pola pantalla completa de escrutinio, terá que deslizar o punteiro sobre a pantalla e en sentido vertical.</string>
+    <string name="help_esperandojornada">Na fase actual, &lt;b>non se require ningunha acción&lt;/b>&lt;br />         por parte do representante. O cambio á fase de&lt;br />          constitución de mesa será de forma automática.</string>
+    <string name="help_estado_mesas">&lt;b>&lt;u>Estado das mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Esta pantalla mostra información sobre o estado de cada unha das mesas&lt;br />
+        nas distintas fases do proceso electoral (A columna da fase actual estará resaltada noutra cor).&lt;br />
+        Os distintos estados dunha mesa en cada fase poden ser:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_remove.png"" /> Sen datos:&lt;/b> Non se teñen datos da mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/pending_icon.png"" /> Na cola de envío:&lt;/b> Os datos da mesa están esperando para seren&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;enviados.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_accept.png"" /> Enviado por tablet:&lt;/b> Os datos da mesa foron enviados por tablet.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_menu_call.png"" /> Enviado por teléfono:&lt;/b> Os datos da mesa foron enviados por teléfono.</string>
+    <string name="help_estado_mesas_multielec">&lt;b>&lt;u>Estado das mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Esta pantalla mostra información sobre o estado de cada unha das mesas&lt;br />
+        nas distintas fases do proceso electoral seleccionado (o logo estará resaltado).&lt;br />
+        A columna da fase actual estará resaltada noutra cor. Os distintos estados dunha mesa en cada fase poden ser:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_remove.png"" /> Sen datos:&lt;/b> Non se teñen datos da mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/pending_icon.png"" /> Na cola de envío:&lt;/b> Os datos da mesa están esperando a ser enviados.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_accept.png"" /> Enviado por tablet:&lt;/b> Os datos da mesa foron enviados por tablet.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_menu_call.png"" /> Enviado por teléfono:&lt;/b> Os datos da mesa foron enviados por teléfono.</string>
+    <string name="help_findefase">Nesta fase xa introduciron os datos para todas as mesas&lt;br />           que ten asignadas.</string>
+    <string name="help_findejornada">Esta fase indica que se enviaron os datos de todas&lt;br />           as mesas asignadas ao representante.</string>
+    <string name="help_mapa">&lt;b>&lt;u>Situación da elección&lt;/u>:&lt;/b>&lt;br />        indica a provincia á que pertence&lt;br />o Local electoral gravado.</string>
+    <string name="help_mesaref1">Introduzca Datos de Mesa</string>
+    <string name="help_mesaref2">Introduzca os datos dunha das súas mesas asignadas para transmitir na xornada electoral. Os datos (Provincia, Concello, Distrito, Secció e Mesa) encontraraos nos boletíns que lle foron entregados con a Tablet.</string>
+    <string name="help_mesasindatos">&lt;b>Sen Datos&lt;/b>:&lt;br />        indica o número de mesas nas que non se introduciron&lt;br />         os datos para a fase actual.&lt;br />        &lt;b>Sen enviar&lt;/b>:&lt;br />        indica o número de mesas nas que si se introduciron os datos&lt;br />         para a fase actual, pero están na cola de envío.</string>
+    <string name="help_modo">&lt;b>&lt;u>Modo&lt;/u>:&lt;/b> indica o modo no que opera a tablet:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/autoformacion.png" /> &lt;b>Autoformación&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/examen.png" /> &lt;b>Exame&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/simulacro.png" /> &lt;b>Simulacro&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/urna.png" /> &lt;b>Xornada electoral&lt;/b>.</string>
+    <string name="help_open_progress">Abrindo axuda...</string>
+    <string name="help_operadora">&lt;b>&lt;u>Operadora&lt;/u>&lt;/b> á que pertence a rede pola que está&lt;br />        conectando o dispositivo (HP, H, 3G, E).&lt;br />Se non consta &lt;b>&lt;i>Movistar&lt;i>&lt;/b> ou se amosa&lt;br />NO SIM ou NO RED debe poñerse en contacto con&lt;br />&lt;b>Centro de atención a usuarios de tablet&lt;/b>.</string>
+    <string name="help_otras_opciones">&lt;b>&lt;u>Outras opcións&lt;/u>:&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Datos persoais:&lt;/b> editar os datos&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;persoais do/a representante.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Consultar estado&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Pantalla:&lt;/b> Accesibilidade e brillo.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Apagar dispositivo&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Comezar exame&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Realizar chamada&lt;/b>.</string>
+    <string name="help_pantalla_principal_1">&lt;b>&lt;u>Pantalla principal: mesa de referencia, enderezo e datos do Local electoral&lt;/u>.&lt;/b>&lt;br />&lt;br />        Ao premer sobre a mesa de referencia &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, amosaranse os datos do local&lt;br />        electoral e mesas asignadas:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Enderezo do Local electoral:&lt;/b> local electoral e enderezo deste.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mesas do Local electoral:&lt;/b> listaxe de mesas asignadas e o seu censo.&lt;br />&lt;br />        O botón &lt;b>Ver mapa&lt;/b> &lt;img src="file:///android_res/drawable/ic_action_place.png" /> amosará un mapa coa localización física do local&lt;br />        electoral.&lt;br />        O botón &lt;b>Editar&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> amosará a pantalla de edición de mesas (agás en&lt;br />        simulacro e Xornada electoral). Se o/a Representante precisa corrixir estes datos&lt;br />        deberá poñerse en contacto co &lt;b>Centro de atención a usuarios de tablet&lt;/b>.&lt;br />&lt;br />        Para ocultar estes datos, abondará con premer de novo sobre a mesa de&lt;br />        referencia &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.</string>
+    <string name="help_pantalla_principal_2">&lt;b>&lt;u>Pantalla principal: envío de datos&lt;/u>.&lt;/b>&lt;br />&lt;br />        Nesta sección infórmase do número de mesas que aínda non teñen datos e do&lt;br />        número de mesas sen enviar.&lt;br />&lt;br />        &lt;b>&lt;u>Estado das mesas:&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ao premer sobre o botón &lt;b>Estado mesas&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_info_details.png" />, amosarase a pantalla&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>Estado das mesas&lt;/b>, onde poderemos ver, por cada unha das mesas e fase&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;da xornada electoral, o seu estado. *-O Estado de mesas pode ser:&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/delete_icon.png" /> Sen datos&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> En cola de envío&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/check_icon.png" /> Enviado&lt;/b>.&lt;br />&lt;br />        &lt;b>&lt;u>Mesas sen datos:&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ao premer sobre o proceso electoral desexado  &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, amosarase unha listaxe das&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mesas que aínda non teñen datos para o proceso electoral e fase actual&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(indicada no título da pantalla).&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ao premer sobre algunha das mesas que aparecen na listaxe, accederemos&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;á pantalla da Fase que corresponda, onde se indicará o Díxito de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;control da mesa e o resto de datos para indicar nesta fase. Este proceso repetirase&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;con todas as mesas.&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Para ocultar esta listaxe de mesas sen datos, abondará con premer de novo&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sobre o proceso electoral &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.</string>
+    <string name="help_popmenu_opciones">&lt;img src="file:///android_res/drawable/ic_action_overflow.png" />&amp;nbsp;&amp;nbsp;&lt;b>&lt;u>Botón de opcións&lt;/u>:&lt;/b>&lt;br />        &lt;br />        &lt;b>Consulta do último estado:&amp;nbsp;&lt;/b>ao premer este botón          &lt;br />amosarase información que pode ser solicitada         &lt;br />desde o &lt;b>Centro de atención a usuarios de tablet&lt;/b>.&lt;br />        &lt;br />        &lt;b>Pantalla:&amp;nbsp;&lt;/b>ao premer esta opción pódese habilitar         &lt;br />ou deshabilitar a accesibilidade (posibilidade de         &lt;br />aumentar o tamaño da pantalla) e regular o&lt;br />          brillo.&lt;br />&lt;br />        &lt;b>Comezar exame:&amp;nbsp;&lt;/b>esta opción permite acceder        &lt;br />ao exame e soamente deberá facelo cando sexa         &lt;br />indicado polo formador.</string>
+    <string name="help_primer_avance">&lt;b>&lt;u>Primeiro avance:&lt;/u>&lt;/b>&lt;br />&lt;br />        Para enviar os datos do primeiro avance, débese indicar:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Díxito de control da mesa:&lt;/b>&amp;nbsp;deberá introducir o campo &lt;i>Díxito de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;control&lt;/i> do boletín.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Número de votantes da mesa en cada elección:&lt;/b>&amp;nbsp;deberá introducir&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;como máximo catro díxitos en cada campo.&lt;br />&lt;br />        Unha vez introducidos o nº de votantes en cada elección, premerase o botón &lt;b>Aceptar&lt;/b> &lt;img src="file:///android_res/drawable/datosaceptar.png" /> para        enviar os datos indicados. Se o envío foi correcto, informarase por pantalla.        &lt;br />&lt;br />        No caso de detectarse algún erro nos datos introducidos, avisarase por pantalla mediante unha &lt;b>mensaxe de erro&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> para a súa corrección.&lt;br />&lt;br />        &lt;b>&lt;u>Validacións&lt;/u>:&lt;/b> lembre que o número de votantes no primeiro avance debe ser menor ou igual có        censo da mesa desa elección.</string>
+    <string name="help_segundo_avance">&lt;b>&lt;u>Segundo avance:&lt;/u>&lt;/b>&lt;br />&lt;br />        Para enviar os datos do segundo avance, débese indicar:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Díxito de control da mesa:&lt;/b>&amp;nbsp;deberá introducir o campo &lt;i>Díxito de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;control&lt;/i> do boletín.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Número de votantes da mesa en cada elección:&lt;/b>&amp;nbsp;deberá introducir&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;como máximo catro díxitos en cada campo.&lt;br />&lt;br />        Unha vez introducidos o nº de votantes en cada elección, premerase o botón &lt;b>Aceptar&lt;/b> &lt;img src="file:///android_res/drawable/datosaceptar.png" />         para enviar os datos indicados. Se o envío foi correcto, informarase por pantalla.        &lt;br />&lt;br />        No caso de detectarse algún erro nos datos introducidos, avisarase        por pantalla mediante unha &lt;b>mensaxe de erro&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> para a súa corrección.&lt;br />&lt;br />        &lt;b>&lt;u>Validacións&lt;/u>:&lt;/b> lembre que o número de votantes no segundo avance debe ser maior ou igual que&lt;br />        no primeiro avance da elección seleccionada e menor ou igual que o censo de mesa desa elección.</string>
+    <string name="help_sidemenu_config">&lt;b>&lt;u>Configuración&lt;/u>:&lt;br />
+         &lt;/b> Seleccionando esta opción pode consultar, ou modificar, 
+         &lt;br />os datos persoais ou as mesas asignadas. O mesmo que
+         &lt;br />si é presionado o botón &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/ic_menu_edit.png" /></string>
+    <string name="help_sidemenu_enviodatos">&lt;b>&lt;u>Envío de Datos&lt;/u>:&lt;br />        &lt;/b> premendo sobre esta opción amosará        &lt;br />a pantalla principal da fase actual.</string>
+    <string name="help_sidemenu_estmesas"> &lt;b>&lt;u>Estado de Mesas&lt;/u>:&lt;br />
+         &lt;/b> Presionando mostrarase a pantalla 
+         &lt;br />onde se poderá ver o estado de 
+         &lt;br />cada mesa en cada unha das
+         &lt;br />fases da xornada electoral.</string>
+    <string name="help_sidemenu_telefono">&lt;b>&lt;u>Teléfono&lt;/u>:&lt;br />        &lt;/b> Ao premer este botón amosarase a información co &lt;b>Centro de atención        &lt;br />&lt;/b>ao usuario de tablet&lt;/ br>        e o teclado para establecer chamada.</string>
+    <string name="help_telefono">&lt;b>&lt;u>Teléfono:&lt;/u>&lt;/b>&lt;br />&lt;br />        unha vez marcado o número de teléfono do &lt;b>Centro de atención a usuarios de tablet&lt;/b>,          &lt;br />aparecerá na parte inferior do teclado o botón para activar/desactivar o mans libres         &lt;br />e a barra que permitirá regular o volume.</string>
+    <string name="help_titulo_aceptar_colegio">Aceptar colexio</string>
+    <string name="help_titulo_configuracion">Configuración</string>
+    <string name="help_titulo_fase">Fase</string>
+    <string name="help_titulo_fases">&lt;b>&lt;u>Fases&lt;/u>:&lt;/b> a xornada electoral divídese &lt;br />nas seguintes fases:&lt;br />        &amp;nbsp;&lt;b>- Esperando xornada&lt;/b>.&lt;br />        &amp;nbsp;&lt;b>- Constitución de mesas&lt;/b>&lt;br />        &amp;nbsp;a partir das 8:00.&lt;br />        &amp;nbsp;&lt;b>- Primeiro avance (*)&lt;/b>&lt;br />        &amp;nbsp;&lt;b>- Segundo avance (*)&lt;/b>&lt;br />        &amp;nbsp;&lt;b>- Escrutinio&lt;/b>: 20:00.&lt;br />        &amp;nbsp;&lt;b>- Fin de xornada electoral&lt;/b>.&lt;br />                 (*) O usuario da tablet debe transmitir&lt;br />                 a información correspondente aos&lt;br />                 avances segundo o horario indicado no&lt;br />                 manual de usuario de tablet e segundo&lt;br />                 a elección seleccionada.</string>
+    <string name="help_titulo_seccion">&lt;b>&lt;u>Título&lt;/u>:&lt;/b> título da sección.</string>
+    <string name="help_version_software">&lt;b>&lt;u>Versión SW&lt;/u>:&lt;/b>&lt;br />        esta información pode ser solicitada desde o &lt;br />&lt;b>Centro de atención a usuarios de tablet&lt;/b>.</string>
+    <string name="help_volver">&lt;b>&lt;u>Volver&lt;/u>:&lt;/b>&amp;nbsp;&lt;img src="file:///android_res/drawable/undo_56.png" /> botón para volver&lt;br />        á pantalla anterior.</string>
+    <string name="identification"><b>Identificación</b></string>
+    <string name="idioma"><b>Idioma</b></string>
+    <string name="idiomacambiar">Cambiar idioma</string>
+    <string name="imeDone">Fin</string>
+    <string name="imeNext">Seg.</string>
+    <string name="incorrectPIN"><b>PIN</b> incorrecto</string>
+    <string name="insdist">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> introduza distrito&lt;/big>&lt;/big></string>
+    <string name="insertePIN">Introduza o <b>PIN:</b></string>
+    <string name="inslocal">&lt;b>Atención:&lt;/b>&lt;br>prema o botón &lt;b>&lt;i>\"Aceptar\"&lt;/i>&lt;/b> para que o Local electoral quede rexistrado no Sistema</string>
+    <string name="insmesa">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> introduza mesa&lt;/big>&lt;/big></string>
+    <string name="insmuni">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> introduza concello&lt;/big>&lt;/big></string>
+    <string name="insnie">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> introduza NIE&lt;/big>&lt;/big></string>
+    <string name="insnif">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> introduza NIF&lt;/big>&lt;/big></string>
+    <string name="insprov">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> introduza provincia&lt;/big>&lt;/big></string>
+    <string name="inssec">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> introduza sección&lt;/big>&lt;/big></string>
+    <string name="insselmesa">&lt;b>Instrucións:&lt;/b> seleccione unha mesa</string>
+    <string name="insselmesa1">&lt;b>Mesa procesada&lt;/b></string>
+    <string name="insselprov">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> seleccione provincia&lt;/big>&lt;/big></string>
+    <string name="instel">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> introduza teléfono</string>
+    <string name="internocensados"><b>Interventores/as non censados</b></string>
+    <string name="introducir">Introducir %s</string>
+    <string name="introducirCodigo">Introducir código de %s</string>
+    <string name="ipDispositivo">IP DISPOSITIVO</string>
+    <string name="ipServidor">IP SERVIDOR</string>
+    <string name="ippda">IP tablet</string>
+    <string name="ipweb">IP servizo web</string>
+    <string name="label">label</string>
+    <string name="leyenda">LENDA</string>
+    <string name="listamesas">LISTAXE DE MESAS</string>
+    <string name="listosoftkeyboard">Listo</string>
+    <string name="llamadaproceso">Chamada</string>
+    <string name="llamando">Chamando. Agarde, por favor…</string>
+    <string name="loadMessage">Iniciando. Agarde…</string>
+    <string name="local">Local electoral</string>
+    <string name="local2">LOCAL ELECTORAL</string>
+    <string name="localizacion">Ver mapa</string>
+    <string name="logo">Logotipo de Indra</string>
+    <string name="logoElecciones">Logotipo das eleccións</string>
+    <string name="logoMinisterio">Logotipo estado</string>
+    <string name="manosLibres">Mans libres</string>
+    <string name="mapas_error">Rede non dispoñible; imposible obter mapas do Local electoral. Por favor, ténteo de novo máis tarde.</string>
+    <string name="marcaAguaAutoformacion">MODO\nAUTO\nFORMACIÓN\n</string>
+    <string name="marcaAguaExamen">MODO\n EXAME\n</string>
+    <string name="marcaAguaVersionFormacion">VERSIÓN\nFORMACIÓN\n</string>
+    <string name="menu_noaction">Por favor, introduza primeiro os seus datos persoais e os datos do seu Local electoral</string>
+    <string name="mesa">Mesa</string>
+    <string name="mesa_enviada">MESA ENVIADA</string>
+    <string name="mesapruebaerror">A mesa de proba só se pode utilizar no modo autoformación</string>
+    <string name="mesaref">Mesa ref</string>
+    <string name="mesaref_revise">Revise os seus datos</string>
+    <string name="mesareferencia">Mesa de referencia</string>
+    <string name="mesareferencia2">MESA DE REFERENCIA</string>
+    <string name="mesas">MESAS</string>
+    <string name="mesasSinDatos">Sen datos %d</string>
+    <string name="mesasSinEnviar">Sen enviar %d</string>
+    <string name="mesasTxt">Mesas</string>
+    <string name="mesasfin">Fin de</string>
+    <string name="mesasseleccionadas"><b>Mesas seleccionadas</b></string>
+    <string name="mesassindatos">Mesa(s) sen datos</string>
+    <string name="mesassinenviar">Mesa(s) sen enviar</string>
+    <string name="mod_idioma"><b>Modificar idioma</b></string>
+    <string name="mode">Modo</string>
+    <string name="modifica_variable">modifica variable</string>
+    <string name="modificardatos_dni"><b>DNI</b></string>
+    <string name="modificardatos_revise">Revise os seus datos persoais</string>
+    <string name="modificardatos_tfno1"><b>TFNO1</b></string>
+    <string name="modificardatos_tfno2"><b>TFNO2</b></string>
+    <string name="modo_header">MODO:</string>
+    <string name="municipio">Concello</string>
+    <string name="negativeButtonText">Non</string>
+    <string name="no">Non</string>
+    <string name="noHayMesasQueMostrar">NON HAI MESAS DISPOÑIBLES PARA AMOSAR</string>
+    <string name="noHayMesasSinDatos">(XA FORON INTRODUCIDOS OS DATOS DE TODAS AS MESAS)</string>
+    <string name="noLocalizacion">Deshabilitouse a localización. Por favor, ténteo máis tarde.</string>
+    <string name="noRequiereEnvioMesas">Non require envío</string>
+    <string name="nochangemesa">Só se pode cambiar a mesa se se atopa no modo de formación.</string>
+    <string name="nombre">NOME E APELIDOS</string>
+    <string name="notiftitle">Notificación do servizo</string>
+    <string name="numCertificacionesCensales">Número de certificacións censuais presentadas</string>
+    <string name="numero">Número %s</string>
+    <string name="numvotantes">Nº de votantes</string>
+    <string name="obteniendo">Obtendo datos. Agarde, por favor…</string>
+    <string name="off">OFF</string>
+    <string name="ok">Aceptar</string>
+    <string name="on">ON</string>
+    <string name="otrasopciones">Opcións</string>
+    <string name="otrasopciones_apagardispositivo">Apagar dispositivo</string>
+    <string name="otrasopciones_bloqueardispositivo">Bloquear dispositivo</string>
+    <string name="otrasopciones_modificardatoscontacto">Modificar datos contacto</string>
+    <string name="otrasopciones_modificarmesa">Modificar mesa</string>
+    <string name="otrasopciones_obtenerdatosconexion">Obter datos conexión</string>
+    <string name="otrasopciones_obtenerestado">Obter estado</string>
+    <string name="otrasopciones_realizarllamadas">Realizar chamadas</string>
+    <string name="otrasopciones_resolucionproblemas">Resolución problemas</string>
+    <string name="pantalla">Pantalla</string>
+    <string name="parsecolegio">Colexio ficticio para probas </string>
+    <string name="parsedireccion">Enderezo do colexio ficticio </string>
+    <string name="patterncolegio">Colexio</string>
+    <string name="patterndireccion">Enderezo</string>
+    <string name="personaldata">Datos persoais</string>
+    <string name="positiveButtonText">Si</string>
+    <string name="primerAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>primeiro avance</string>
+    <string name="primeravance">Fase: &lt;font color="green">&lt;b>primeiro avance&lt;/b>&lt;/font></string>
+    <string name="primeravance_nohtml">Primeiro avance</string>
+    <string name="procesando">Procesando</string>
+    <string name="prohibido">O dispositivo está desautorizado. Por favor, chame ao Centro de incidencias.</string>
+    <string name="provincia">Provincia</string>
+    <string name="rechazar">Rexeitar</string>
+    <string name="refrescar">Actualiza datos</string>
+    <string name="reinciaraplicacion">Reiniciar</string>
+    <string name="responder">Responder</string>
+    <string name="resulCenso2">1- Electores Segundo Listas Censo</string>
+    <string name="resulCertAlt2">2- Certificacións Censais Alta</string>
+    <string name="resulCertErr2">3- Certificacións Censais Corrección</string>
+    <string name="resultado">Resultado do exame:</string>
+    <string name="resultadoexamen">Fin do exame</string>
+    <string name="resultadoinfo">*Comunique o resultado ao formador</string>
+    <string name="resultadoultimo">Resultado do último exame:</string>
+    <string name="seccion">Sección</string>
+    <string name="segundoAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>segundo avance</string>
+    <string name="segundoavance">Fase: &lt;font color="green">&lt;b>segundo avance&lt;/b>&lt;/font></string>
+    <string name="segundoavance_nohtml">Segundo avance</string>
+    <string name="seleccionaridioma"><b>Seleccionar idioma</b></string>
+    <string name="seleccionprovincia">Provincias</string>
+    <string name="selectlanguage">SELECCIONE IDIOMA</string>
+    <string name="selectprovincia">SELECCIONE PROVINCIA</string>
+    <string name="si">Si</string>
+    <string name="sim_netlocked">NETWORK LOCKED</string>
+    <string name="sim_no">NO SIM</string>
+    <string name="sim_nored">NO RED</string>
+    <string name="sim_pin">PIN REQUIRED</string>
+    <string name="sim_puk">PUK REQUIRED</string>
+    <string name="slider_apn">APN</string>
+    <string name="slider_bateria">BATERÍA PRINCIPAL</string>
+    <string name="slider_bateria_nivel0">NIVEL DE BATERÍA MOI ALTO</string>
+    <string name="slider_bateria_nivel1">NIVEL DE BATERÍA ALTO</string>
+    <string name="slider_bateria_nivel2">NIVEL DE BATERÍA MEDIO</string>
+    <string name="slider_bateria_nivel3">NIVEL DE BATERÍA BAIXO</string>
+    <string name="slider_bateria_nivel4">NIVEL DE BATERÍA MOI BAIXO</string>
+    <string name="slider_bateria_nivel5">BATERÍA DESCARGADA</string>
+    <string name="slider_conexion1">COBERTURA ALTA</string>
+    <string name="slider_conexion2">COBERTURA MEDIA</string>
+    <string name="slider_conexion3">COBERTURA BAIXA</string>
+    <string name="slider_conexion4">SEN COBERTURA</string>
+    <string name="slider_corriente_conectada">CONECTADO Á CORRENTE</string>
+    <string name="slider_elecciones">ELECCIÓNS APN</string>
+    <string name="slider_iccid">ICCID</string>
+    <string name="slider_imei">IMEI</string>
+    <string name="smesa"><b>Mesa/s</b><br/></string>
+    <string name="splash1">Configurando tablet</string>
+    <string name="splash2">Comunicando con tarxeta SIM</string>
+    <string name="splash3">Agardando a que a rede estea dispoñible</string>
+    <string name="splash4">Conectando co servidor de datos</string>
+    <string name="splash5">Procesando resposta</string>
+    <string name="splash51">Comprobando copias de seguridade: intento número %d</string>
+    <string name="splash6">Por favor, seleccione idioma</string>
+    <string name="sysdump">&lt;b>Está accedendo a unha función de administración.&lt;br>Por favor, prema aceptar para saír.&lt;/b>&lt;br>&lt;br>%s</string>
+    <string name="tab1">DATOS\nPERSOAIS</string>
+    <string name="tab2">DATOS\nLOCAL ELECTORAL</string>
+    <string name="tabla_concejo">Concello</string>
+    <string name="tablas">TÁBOAS</string>
+    <string name="telefono">TELÉFONO</string>
+    <string name="telefono1">TELÉFONO 1</string>
+    <string name="telefono2">TELÉFONO 2 (OPCIONAL)</string>
+    <string name="tercerAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>terceiro avance</string>
+    <string name="terceravance">Fase: &lt;font color="green">&lt;b>terceiro avance&lt;/b>&lt;/font></string>
+    <string name="terceravance_nohtml">Terceiro avance</string>
+    <string name="terminar">Colgar</string>
+    <string name="tfno1">TFNO 1</string>
+    <string name="tfno2">TFNO 2</string>
+    <string name="tiempo">Tempo</string>
+    <string name="toast_situacion1">Actualizouse a listaxe de mesas pendentes para a constitución de mesas</string>
+    <string name="toast_situacion2">Actualizouse a listaxe de mesas pendentes para a elección %s</string>
+    <string name="todasLasElecciones">TODAS AS ELECCIÓNS</string>
+    <string name="total">TOTAL</string>
+    <string name="txtInstrucciones_dc_introducir">Introduza o díxito de control</string>
+    <string name="txtInstrucciones_enviando">Enviando datos...</string>
+    <string name="txtInstrucciones_introducir">Introduza o número de %s</string>
+    <string name="txtInstrucciones_introducirCenso">Introduza censo</string>
+    <string name="txtInstrucciones_introducirCensoExtranjeros">Introduza censo estranxeiros/as</string>
+    <string name="txtInstrucciones_introducirCensoNacional">Introduza censo nacional</string>
+    <string name="txtInstrucciones_rellenar_boletin">Introduza os valores do boletín de escrutinio</string>
+    <string name="txtInstrucciones_validacion_error">Erros na validación</string>
+    <string name="txtInstrucciones_validacion_ok">Validación completada con éxito</string>
+    <string name="txtInstrucciones_validacion_warnings">Comprobe os datos introducidos</string>
+    <string name="txtInstrucciones_validando_avances">Validando avances…</string>
+    <string name="txtInstrucciones_validando_censo">Validando censo</string>
+    <string name="txtInstrucciones_validando_datos">Validando datos…</string>
+    <string name="txtInstrucciones_validando_dc">Validando díxito de control…</string>
+    <string name="txtInstrucciones_validando_escrutinio">Validando boletín e candidaturas…</string>
+    <string name="txtInstrucciones_votantes_avance1">Introduza o número de votantes do primeiro avance</string>
+    <string name="txtInstrucciones_votantes_avance2">Introduza o número de votantes do segundo avance</string>
+    <string name="txtInstrucciones_votantes_avance3">Introduza o número de votantes do terceiro avance</string>
+    <string name="txtInstrucciones_votos_candidato">Votos da candidatura</string>
+    <string name="ultimoestado">Último estado</string>
+    <string name="unknown">unknown</string>
+    <string name="urlping">http://m.google.com</string>
+    <string name="validacion_censo_supera_umbral">O valor do censo está fóra do rango permitido respecto do valor do censo inicial (%d)</string>
+    <string name="validacion_censo_supera_umbral_extranjeros">A suma do censo de electores/as nacionais e o censo de electores/as estranxeiros está fóra do rango permitido respecto do valor do censo total inicial (%d)</string>
+    <string name="validacion_censo_valor_coincide_otra_mesa">O censo introducido cadra co da mesa. %s Está seguro?</string>
+    <string name="validacion_censo_valor_no_valido">Debe introducir un valor válido para o censo.</string>
+    <string name="valores">VALORES</string>
+    <string name="value">value</string>
+    <string name="vblanco"><b>Votos en branco</b></string>
+    <string name="vnulos"><b>Votos nulos</b></string>
+    <string name="volumen">Volume</string>
+    <string name="volver">Volver</string>
+    <string formatted="false" name="votos_2n_avanc_inferior_1r">Segundo avance %sinferior ao primeiro avance %s</string>
+    <string formatted="false" name="votos_3r_avanc_inferior_2n">Terceiro avance %sinferior ao segundo avance %s</string>
+    <string name="votos_avanc_inferior1">2º avance</string>
+    <string name="votos_avanc_inferior2">inferior ao 1º avance</string>
+    <string name="votos_avanc_inferior3">3º avance</string>
+    <string name="votos_avanc_inferior4">inferior ao 2º avance</string>
+    <string name="votos_avanc_voto_igual_DC">O número de votantes %scadra co díxito de control. É correcto ?</string>
+    <string name="votos_avanc_voto_igual_DC1">O número de votantes</string>
+    <string name="votos_avanc_voto_igual_DC2">cadra co díxito de control. É correcto?</string>
+    <string formatted="false" name="votos_avanc_voto_igual_censo">O nº de votantes %s é igual que censo. %sEstá seguro do dato introducido?</string>
+    <string name="votos_avanc_voto_igual_censo1">O Nº de votantes</string>
+    <string name="votos_avanc_voto_igual_censo2">é igual có censo\"</string>
+    <string name="votos_avanc_voto_igual_censo3">\"Está seguro do dato introducido</string>
+    <string name="votos_avance1_cero_telefono">Deberá transmitir o %spara esta mesa a través do teléfono de reconto de datos.</string>
+    <string name="votos_avance1_cero_telefono1">Deberá transmitir o</string>
+    <string name="votos_avance1_cero_telefono2">para esta mesa a través do teléfono de reconto de datos</string>
+    <string name="votos_avance_avanceN">O número de votantes cadra co do avance anterior. %sEstá seguro?</string>
+    <string formatted="false" name="votos_avance_censo">Nº de votantes %sMaior que censo %s</string>
+    <string name="votos_avance_censo1">Nº de votantes</string>
+    <string name="votos_avance_censo2">Maior que censo</string>
+    <string name="votos_avance_cero">Está vostede seguro de que o número votantes %sé 0?</string>
+    <string name="votos_avance_cero1">Está vostede seguro de que o número votantes</string>
+    <string name="votos_avance_cero2">é 0?</string>
+    <string name="votos_avance_introducir">Introduza o nº de votantes</string>
+    <string name="votos_resultado_baja_participacion">Os niveis de participación son inferiores ao %d%%. Está seguro dos datos introducidos?</string>
+    <string name="votos_resultado_umbral">É posible que haxa erros nos votos dalgunha candidatura. Está seguro dos datos introducidos?</string>
+    <string name="warningMessageSalir">Se volve ao menú anterior perderanse todos os datos introducidos nesta pantalla. Está seguro de que desexa volver?</string>
+    <string name="warningTitleEnvio">Confirmar o envío…</string>
+    <string name="warningTitleSalir">Está seguro de que desexa volver?</string>
+    <string name="wrongletter">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> letra de documento incorrecta&lt;/big>&lt;/big></string>
+    <string name="wrongnie">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> NIE incorrecto&lt;/big>&lt;/big></string>
+    <string name="wrongnif">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> NIF incorrecto&lt;/big>&lt;/big></string>
+    <string name="wrongnombre">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> nome incorrecto&lt;/big>&lt;/big></string>
+    <string name="wrongphone">&lt;big>&lt;big>&lt;b>Instrucións:&lt;/b> teléfono incorrecto&lt;/big>&lt;/big></string>
+</resources>

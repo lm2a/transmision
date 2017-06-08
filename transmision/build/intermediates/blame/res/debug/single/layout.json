@@ -1,0 +1,498 @@
+[
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/edititem_nif.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/edititem_nif.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmconfiguracion1.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmconfiguracion1.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/dialog_showtables.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/dialog_showtables.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/barcode_reader_fragment.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/barcode_reader_fragment.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_escrutinio.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_escrutinio.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/alertcustom.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/alertcustom.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/delta_header.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/delta_header.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/boletin_escrutinio_layout_arg.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/boletin_escrutinio_layout_arg.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmconfiguracion2.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmconfiguracion2.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/maevotoactionbar.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/maevotoactionbar.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_edit_text.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_edit_text.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/edititem_nie.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/edititem_nie.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_camera.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/peruvian_table_mesa_escrutinio.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/peruvian_table_mesa_escrutinio.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/search_book_contents.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/search_book_contents.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/bookmark_picker_list_item.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_estado_mesas_eleccion.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_estado_mesas_eleccion.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/datosconexion.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/datosconexion.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/num_votos.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/num_votos.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/dialog_country_layout_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/dialog_country_layout_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_photos.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_photos.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmconfiguracion.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmconfiguracion.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/slidersystembar.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/slidersystembar.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/switchitem.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/switchitem.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/estado_eleccion_tab.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/estado_eleccion_tab.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/search_book_contents_list_item.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/mesaspendientes.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/mesaspendientes.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/deltainitactionbar.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/deltainitactionbar.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/lista_estado_mesas_header.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/lista_estado_mesas_header.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/toast_layout_general.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/toast_layout_general.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/main_peruvian_activity.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/main_peruvian_activity.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/tab.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/tab.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/general_main.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/general_main.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_mesas_eleccion.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_mesas_eleccion.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/configuration_item_header.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/configuration_item_header.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/lista_estado_mesas_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/lista_estado_mesas_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/deltaactionbarfake.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/deltaactionbarfake.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/footeritem.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/footeritem.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/telephone.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/telephone.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/boletin_escrutinio_layout_05002.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/boletin_escrutinio_layout_05002.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/configuraciondialog.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/configuraciondialog.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmenvioresultadosavance_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmenvioresultadosavance_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/table_mesa_examen.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/table_mesa_examen.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/table_escrutinio.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/table_escrutinio.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/drawer_list_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/drawer_list_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/informationexamen_layout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/informationexamen_layout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/list_menu_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/list_menu_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/dialog_basic_configuration.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/dialog_basic_configuration.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/capture.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/capture.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/deltainitactionbar_balloons.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/deltainitactionbar_balloons.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/boletin_escrutinio_layout_01.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/boletin_escrutinio_layout_01.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/list_photo_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/list_photo_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/lista_mesas_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/lista_mesas_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/lista_candidaturas_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/lista_candidaturas_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/informationmsg_layout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/informationmsg_layout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/toast_layout_eleccion.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/toast_layout_eleccion.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/foto_envio_fragment.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/foto_envio_fragment.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/peruvian_camera_fragment.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/peruvian_camera_fragment.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/drawer_sublist_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/drawer_sublist_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_control_envios.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_control_envios.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_constitucion.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_constitucion.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmhelp.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmhelp.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/app_picker_list_item.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/app_picker_list_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/estado_eleccion_tab_0500.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/estado_eleccion_tab_0500.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/edititem.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/edititem.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/list_fragment.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/list_fragment.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/share.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/share.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/help.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/help.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/dialog_layout_eleccion.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/dialog_layout_eleccion.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/testdialog.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/testdialog.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/boletin_escrutinio_layout_kenia.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/boletin_escrutinio_layout_kenia.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_examen.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_examen.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/pindialog.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/pindialog.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmmostrarcolegio_itemnocenso.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmmostrarcolegio_itemnocenso.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/slider_help_configuracion.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/slider_help_configuracion.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/toasterror_layout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/toasterror_layout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/delta_header_balloons.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/delta_header_balloons.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/maeactionbar.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/maeactionbar.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/history_list_item.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/history_list_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/deltabackactionbar.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/deltabackactionbar.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_info_votos.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_info_votos.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/search_book_contents_header.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/search_book_contents_header.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/dialog_advanced_configuration.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/dialog_advanced_configuration.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/eleccion_candidatos_lista_resultados_fragment.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/eleccion_candidatos_lista_resultados_fragment.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/callingdialog.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/callingdialog.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/informationexamendialog_layout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/informationexamendialog_layout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/eleccion_tab.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/eleccion_tab.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/popupview.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/popupview.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/table_examen.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/table_examen.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/datoscolegio.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/datoscolegio.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_avances.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_avances.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/slider_help_datospersonales.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/slider_help_datospersonales.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/fragment_image_preview.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/fragment_image_preview.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/footer_photo.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/footer_photo.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/data_send_fragment.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/data_send_fragment.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/boletin_escrutinio_layout_05001.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/boletin_escrutinio_layout_05001.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/dialog_cambioidioma.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/dialog_cambioidioma.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/deltaactionbar.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/deltaactionbar.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/lista_mesas_item_concejo.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/lista_mesas_item_concejo.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/small_spinner.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/small_spinner.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frameforpager.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frameforpager.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/boletin_escrutinio_layout_28.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/boletin_escrutinio_layout_28.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/candidatos_resultados_fragment.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/candidatos_resultados_fragment.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/tmp.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/tmp.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/configuration_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/configuration_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/mesas_control_fragment.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/mesas_control_fragment.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/textitem.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/textitem.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/slider_menuleft.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/slider_menuleft.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/splash.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmconfiguracion3.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmconfiguracion3.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/gmapsdialog.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/gmapsdialog.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/toast_layout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/toast_layout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/lista_estado_mesas_footer.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/lista_estado_mesas_footer.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/editswitchitem.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/editswitchitem.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmmostrarcolegio_item.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmmostrarcolegio_item.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/table.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/table.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/barcode_reader.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/layout/barcode_reader.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/mesaitem.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/mesaitem.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/dialog_wheels_layout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/dialog_wheels_layout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/splash_gallegas.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/splash_gallegas.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/listitem.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/listitem.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/table_mesa_escrutinio.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/table_mesa_escrutinio.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/encode.xml",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/layout/encode.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/layout/frmhelp2.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/layout/frmhelp2.xml"
+    }
+]

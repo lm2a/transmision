@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/main_background0"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="fill_parent"
+        android:layout_height="486dp"
+        android:background="@android:color/transparent"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:fastScrollAlwaysVisible="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarStyle="insideInset" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_item_big"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:weightSum="1.0" >
+
+        <RelativeLayout
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/button_ll_delta"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/button1_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:background="@android:color/transparent"
+                android:text="@string/delete"
+                android:textColor="@color/greyTextDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/button1_text"
+                android:src="@drawable/eraser_64" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/line_height"
+            android:layout_height="fill_parent"
+            android:background="@color/greyBG" />
+
+        <RelativeLayout
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/button_ll_delta"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/button2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_action_search_with_state"
+                android:gravity="center"
+                android:text="@string/buscar"
+                android:textColor="@drawable/button_font_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_alignTop="@id/buttons"
+        android:background="@color/greyBG" />
+
+</RelativeLayout>

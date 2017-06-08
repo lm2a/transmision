@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/lm2a/2017/transmision/zxing/build/intermediates/bundles/default/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/raw/fallbackring.ogg",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/raw/fallbackring.ogg"
+    }
+]

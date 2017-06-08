@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:gravity="center_horizontal|bottom" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@color/fgAppText" >
+			<TableRow>
+				<TextView android:layout_width="41dip" android:gravity="center"
+					android:layout_height="25dip" android:text="@string/provincia"
+					android:textColor="@color/fgAppText" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginLeft="1dp"/>
+				<TextView android:layout_width="41dip" android:gravity="center"
+					android:layout_height="fill_parent" android:text="@string/municipio"
+					android:textColor="@color/fgAppText" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginLeft="1dp"/>
+				<TextView android:layout_width="41dip" android:gravity="center"
+					android:layout_height="fill_parent" android:text="@string/distrito"
+					android:textColor="@color/fgAppText" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginLeft="1dp"/>
+				<TextView android:layout_width="41dip" android:gravity="center"
+					android:layout_height="fill_parent" android:text="@string/seccion"
+					android:textColor="@color/fgAppText" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginLeft="1dp"/>
+				<TextView android:layout_width="41dip" android:gravity="center"
+					android:layout_height="fill_parent" android:text="@string/mesa"
+					android:textColor="@color/fgAppText" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginLeft="1dp"/>
+				<TextView android:layout_width="48dip" android:gravity="center"
+					android:layout_height="fill_parent" android:text="@string/dc"
+					android:textColor="@color/fgAppText" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginLeft="1dp"
+					android:layout_marginRight="1dp"/>
+
+			</TableRow>
+
+			<TableRow>
+				<TextView android:layout_width="41dip" android:textColor="@color/fgAppText"
+					android:layout_height="fill_parent" android:text="@string/menos" android:id="@+id/etextProvincia"
+					android:gravity="center" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginBottom="1dp"
+					android:layout_marginLeft="1dp" />
+				<TextView android:layout_width="41dip" android:textColor="@color/fgAppText"
+					android:layout_height="fill_parent" android:text="@string/menos" android:id="@+id/etextMunicipio"
+					android:gravity="center" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginBottom="1dp"
+					android:layout_marginLeft="1dp" />
+				<TextView android:layout_width="41dip" android:textColor="@color/fgAppText"
+					android:layout_height="fill_parent" android:text="@string/menos" android:id="@+id/etextDistrito"
+					android:gravity="center" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginBottom="1dp"
+					android:layout_marginLeft="1dp" />
+				<TextView android:layout_width="41dip" android:textColor="@color/fgAppText"
+					android:layout_height="fill_parent" android:text="@string/menos" android:id="@+id/etextSector"
+					android:gravity="center" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginBottom="1dp"
+					android:layout_marginLeft="1dp" />
+				<TextView android:layout_width="41dip" android:textColor="@color/fgAppText"
+					android:layout_height="fill_parent" android:text="@string/menos" android:id="@+id/etextMesa"
+					android:gravity="center" android:background="#ffffff"
+					android:layout_marginTop="1dp" android:layout_marginBottom="1dp"
+					android:layout_marginLeft="1dp" />
+				<LinearLayout
+					android:orientation="vertical" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:background="#000000"
+					android:gravity="center">
+					<com.indra.elections.customcontrols.DeltaEditText
+						android:id="@+id/etxtDC" android:layout_height="fill_parent" android:gravity="center"
+						android:layout_width="48dip" android:inputType="phone" android:textColor="@color/fgAppText"
+						android:maxLength="1"  android:background="#ffffff" android:layout_margin="2dp"/>
+				</LinearLayout>
+			</TableRow>
+
+
+		</TableLayout>

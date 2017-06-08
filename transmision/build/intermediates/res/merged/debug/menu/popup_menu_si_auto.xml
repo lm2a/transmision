@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"> 
+    
+    <item  
+        android:id="@+id/option1"  
+        android:showAsAction="ifRoom"
+        android:title="@string/consultarestado"/>  
+      
+    <item  
+        android:id="@+id/option2"  
+        android:showAsAction="ifRoom"
+        android:title="@string/pantalla"/>  
+        
+    <item  
+        android:id="@+id/option3"  
+        android:showAsAction="ifRoom"
+        android:title="@string/apagardispositivo"/>  
+    
+    <item  
+        android:id="@+id/option4"  
+        android:title="@string/comenzarExamen"
+        android:showAsAction="ifRoom"/>    
+
+    <item  
+        android:id="@+id/option5"  
+        android:title="@string/idiomacambiar"
+        android:showAsAction="ifRoom"/>
+    
+    <item  
+        android:id="@+id/option6"  
+        android:title="@string/ayuda"
+        android:showAsAction="ifRoom"/>
+    
+</menu> 

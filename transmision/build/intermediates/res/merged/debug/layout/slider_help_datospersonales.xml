@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_slider_help" >
+
+    
+    <Button 
+        android:id="@+id/slider_button_close"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_ll_delta_holo"   
+        android:layout_marginBottom="156dp"     
+        />
+    
+    <com.indra.elections.customcontrols.CustomTextViewLoto
+        android:id="@+id/slider_help_info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/slider_button_close"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@android:color/transparent"
+        android:text="@string/help_datos2"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <com.indra.elections.customcontrols.CustomTextViewOpenSans
+        android:id="@+id/slider_help_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/slider_help_info1"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:layout_marginTop="@dimen/bigmargin"
+        android:background="@android:color/transparent"
+        android:text="@string/help_datos1"
+        android:textColor="@color/header_color_dark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:alpha="0.8"
+        android:src="@drawable/help_datospersonales" />
+
+</RelativeLayout>

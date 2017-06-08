@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faseNames">
+		<item>Constitució</item>
+		<item>Primer avançament</item>
+		<item>Segon avançament</item>
+		<item>Tercer avançament</item>
+		<item>Escrutini</item>
+		<item>S\'està esperant la jornada</item>
+    </string-array>
+    <string-array name="faseTitles">
+		<item>CONSTITUCIÓ DE MESES</item>
+		<item>PRIMER AVANÇAMENT</item>
+		<item>SEGON AVANÇAMENT</item>
+		<item>TERCER AVANÇAMENT</item>
+		<item>ESCRUTINI</item>
+		<item>S\'ESTÀ ESPERANT LA JORNADA</item>
+    </string-array>
+    <string-array name="menu">
+		<item>Configuració</item>
+		<item>Enviament de dades</item>
+		<item>Estat de meses</item>
+		<item>Telèfon</item>
+    </string-array>
+    <string-array name="otrasOpciones">
+		<item>Consulta l\'estat</item>
+		<item>Pantalla</item>
+		<item>Apaga el dispositiu</item>
+		<item>Ajuda</item>
+    </string-array>
+    <string-array name="otrasOpcionesTest">
+		<item>Consulta l\'estat</item>
+		<item>Pantalla</item>
+		<item>Apaga el dispositiu</item>
+		<item>Comença examen</item>
+		<item>Telefona</item>
+    </string-array>
+    <string-array name="txtInstrucciones_boletin">
+		<item>Introduïu el cens</item>
+		<item>Introduïu el nombre de certificacions d\'alta en el cens electoral</item>
+		<item>Introduïu el nombre de certificacions de correcció d\'errors</item>
+		<item>Introduïu el nombre total de votants</item>
+		<item>Introduïu el nombre d\'electors censats a la mesa que han votat</item>
+		<item>Introduïu el nombre d\'interventors no censats a la mesa que han votat</item>
+		<item>Introduïu el nombre de vots nuls</item>
+		<item>Introduïu el nombre de vots en blanc</item>
+    </string-array>
+    <string name="Autoformacion">Autoformació</string>
+    <string name="CERTIFICIONES_ALTA">Certificacions censals alta errònies</string>
+    <string name="CERTIFICIONES_CORRECCION">Certificacions censals correcció errònies</string>
+    <string name="ConNACK">Connexions sense resposta</string>
+    <string name="Examen">Examen</string>
+    <string name="IMEI">IMEI</string>
+    <string name="Jornada">Jornada electoral</string>
+    <string name="NIE">NIE</string>
+    <string name="NIF">NIF</string>
+    <string name="OK">OK</string>
+    <string name="ResulBlanc">Nombre de vots en blanc</string>
+    <string name="ResulCenso">Cens</string>
+    <string name="ResulCertAlt">2. D\'alta en el cens electoral</string>
+    <string name="ResulCertAlt_28">A.- D\'alta en el cens electoral</string>
+    <string name="ResulCertErr">3. De correcció d\'errors</string>
+    <string name="ResulNVots">Total de votants</string>
+    <string name="ResulNele">A) Electors censats que ja han votat</string>
+    <string name="ResulNele_28">Nre. electors de la mesa que han\nvotat (3)</string>
+    <string name="ResulNeleayuda">Nre. d\'electors censats a la mesa que han votat</string>
+    <string name="ResulNint">B) Interventors no censats que han votat</string>
+    <string name="ResulNint_28">Nre. interventors no censats en la mesa que han votat (3)</string>
+    <string name="ResulNintayuda">Nre. d\'interventors no censats a la mesa que han votat</string>
+    <string name="ResulNul">Nombre de vots nuls</string>
+    <string name="STATUS_ERROR">No s\'ha rebut l\'estat</string>
+    <string name="Simulacro">Simulacre</string>
+    <string name="UNKNOW_ERROR">ERROR DESCONEGUT</string>
+    <string name="VOTANTES_CERO">El total de votants (electors censats que han votat + interventors no censats que han votat) ha de ser més alt que 0</string>
+    <string formatted="false" name="VOTANTES_ELECTORES">Els electors censats que han votat no poden superar el cens %s+ certificacions censals d\'alta %s</string>
+    <string name="VOTANTES_ELECTORES1">Els votants electorals no poden superar el cens </string>
+    <string name="VOTANTES_ELECTORES2"> =+ certif. d\'alta</string>
+    <string name="VOTANTES_INTERVENTORES">Els interventors no censats que han votat no poden superar el doble de les candidatures presentades (%d)</string>
+    <string name="VOTANTES_SUMA">El total de votants (electors censats que han votat + interventors no censats que han votat) ha de ser igual als vots en blanc + vots nuls + vots candidatures</string>
+    <string name="VOTANTES_SUMA1">Els vots de les candidatures no poden ser més baixos que: total de votants - blancs - nuls</string>
+    <string name="VOTANTES_SUMA2">Els vots de les candidatures no poden ser més alts que: (total de votants - blancs - nuls) * nre. candit. Circumscrip.</string>
+    <string name="VOTANTES_SUMA3">Els vots a un candidat han de ser més baixos o iguals a: total de votants - blancs - nuls</string>
+    <string name="VOTANTES_SUMA4">El total de votants (electors censats que han votat + interventors no censats que han votat) ha de ser més alt o igual als vots en blanc + vots nuls</string>
+    <string name="VerDat">VERSIÓ DADES: %s</string>
+    <string name="VerSw">VERSIÓ SW: %s</string>
+    <string name="accboletin">S\'està accedint al butlletí d\'escrutini de la mesa </string>
+    <string name="accept">Accepta</string>
+    <string name="acceptlanguage">ACCEPTA</string>
+    <string name="accesibilidad">Accessibilitat</string>
+    <string name="aceptarTxt">Accepta</string>
+    <string name="action">ACCIÓ</string>
+    <string name="activarAccesibilidad">Activareu l\'opció d\'accessibilitat i el dispositiu es reiniciarà\nN\'esteu segur?</string>
+    <string name="admin">Administració</string>
+    <string name="admin_Home">Vés a inici</string>
+    <string name="admin_mostrar">Mostra les taules</string>
+    <string name="admin_red">Ajustaments de xarxa</string>
+    <string name="ajustes">Ajustaments</string>
+    <string name="apagando">S\'està apagant el dispositiu. Per favor, espereu...</string>
+    <string name="apagardispositivo">Apaga el dispositiu</string>
+    <string name="app_name">Eleccions 24 de maig de 2015</string>
+    <string name="app_picker_name">Applications</string>
+    <string name="applylanguage">APLICA l\'IDIOMA</string>
+    <string name="applyprovincia">APLICA LA PROVÍNCIA</string>
+    <string name="avance">Nombre de votants</string>
+    <string name="ayuda">Ajuda</string>
+    <string name="bloqueando">S\'està bloquejant la pantalla. Per favor, espereu...</string>
+    <string name="bookmark_picker_name">Marque-pages</string>
+    <string name="borrardatos">Esborra les dades</string>
+    <string name="brillo">Brillantor</string>
+    <string name="buscar">Busca</string>
+    <string name="button_add_calendar">Ajouter à l\'agenda</string>
+    <string name="button_add_contact">Ajouter un contact</string>
+    <string name="button_book_search">Recherche de livre</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="button_custom_product_search">Recherche personnalisée de produit</string>
+    <string name="button_dial">Composer un numéro</string>
+    <string name="button_email">Envoyer un courriel</string>
+    <string name="button_get_directions">Obtenir un itinéraire</string>
+    <string name="button_mms">Envoyer MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Ouvrir le navigateur</string>
+    <string name="button_product_search">Recherche de produit</string>
+    <string name="button_search_book_contents">Rechercher dans le contenu</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Marque-page</string>
+    <string name="button_share_by_email">Partager par courriel</string>
+    <string name="button_share_by_sms">Partager par texto</string>
+    <string name="button_share_clipboard">Presse-papiers</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Afficher la carte</string>
+    <string name="button_sms">Envoyer un texto</string>
+    <string name="button_web_search">Recherche Web</string>
+    <string name="button_wifi">Se connecter au réseau</string>
+    <string name="callincorrecto">Telèfon incorrecte. Només telefonades permeses al <b>Centre d\'Atenció a Usuaris de Tauleta</b>, Telèfons d\'emergències o que comencen per 900</string>
+    <string name="callintroduza">Introduïu el telèfon que voleu marcar</string>
+    <string name="callllamando">S\'està marcat el telèfon d\'incidències de PDA</string>
+    <string name="callsidesea"><b>CAU</b></string>
+    <string name="cancel">Cancel·la</string>
+    <string name="censalesalta"><b>Certificacions censals alta</b></string>
+    <string name="censo"><b>CENS</b><br>CENS</br></string>
+    <string name="censo2">CENS</string>
+    <string name="cererror"><b>Certificacions error</b></string>
+    <string name="cerrar">Tanca</string>
+    <string name="cerrar2">TANCA</string>
+    <string name="codigo">Codi</string>
+    <string name="codigollamada">Esta operació només és permesa per a resoldre determinades incidències. Si cal, telefoneu al número d\'incidències i vos informaran del PIN necessari</string>
+    <string name="codigos">CODIS</string>
+    <string name="colgar">Penja</string>
+    <string name="comenzarExamen">Comença examen</string>
+    <string name="completado">Completat</string>
+    <string name="comunidad">AUTONÒMIQUES  </string>
+    <string name="comunvotantes">GENERAL</string>
+    <string name="concejo">CONSELL:</string>
+    <string name="concejos">CONSELLS</string>
+    <string name="conectedto">Connectat a</string>
+    <string name="conf_guion">-</string>
+    <string name="conf_letra">Lletra</string>
+    <string name="configuracion">Configuració</string>
+    <string name="confirmarlanguage">Aplica el canvi d\'idioma al </string>
+    <string name="confirmarprovincia">Voleu seleccionar la provincia de %s?</string>
+    <string name="connor">CONNEXIÓ NoR</string>
+    <string name="consejos">CONSELLS INSULARS         </string>
+    <string name="constitucionTabText">&lt;b>Fase&lt;/b>&lt;br>Constitució</string>
+    <string name="constmesa">Fase: &lt;font color="green">&lt;b>constitució de meses&lt;/b>&lt;/font></string>
+    <string name="constmesa_nohtml">Constitució de meses</string>
+    <string name="consultarestado">Consulta l\'estat</string>
+    <string name="consultarestado_message">Voleu tornar a obtindre l\'estat del servidor?</string>
+    <string name="contents_contact">Informations de contact</string>
+    <string name="contents_email">Adresse courriel</string>
+    <string name="contents_location">Coordonnées géographiques</string>
+    <string name="contents_phone">Numéro de téléphone</string>
+    <string name="contents_sms">Adresse SMS</string>
+    <string name="contents_text">Texte en clair</string>
+    <string name="continuar">Continua</string>
+    <string name="controlalarma">Control alarma</string>
+    <string name="cortes09">CORTS DE\nCASTELLA I LLEÓ </string>
+    <string name="datacontact"><b>Dades de contacte</b></string>
+    <string name="datosconexion">Dades de connexió</string>
+    <string name="datosdispositivo">DADES DEL DISPOSITIU</string>
+    <string name="datoslocal">DADES DEL LOCAL ELECTORAL</string>
+    <string name="dc">Dígit de control</string>
+    <string name="dc_erroneo">Dígit de control erroni</string>
+    <string name="dc_formacion">Dígit de control erroni. Per a formació introduïu \'1\'</string>
+    <string name="dc_simulacro">Dígit de control erroni. Per a este simulacre introduïu \'1\'</string>
+    <string name="defaultContentDescription">Descriptor per defecte</string>
+    <string name="delete">Esborra</string>
+    <string name="desactivarAccesibilidad">Desactivareu l\'opció d\'accessibilitat i el dispositiu es reiniciarà\nN\'esteu segur?</string>
+    <string name="desautorizado">El dispositiu està deshabilitat. Per favor, telefoneu al Centre d\'Incidències</string>
+    <string name="dialog_apagarterminal">El terminal s\'apagarà\nN\'esteu segur?</string>
+    <string name="dialog_cerrardatos1">S\'han <b>EDITAT</b> les <b>DADES PERSONALS</b>. Si cliqueu a "Continua" es perdran les modificacions.<br/><br/>Per guardar les <b>DADES PERSONALS</b> cliqueu a "Cancel·la" i cliqueu a "Accepta" a la pestanya de <b>DADES PERSONALS</b></string>
+    <string name="dialog_cerrardatos2">S\'han &lt;b>EDITAT&lt;/b> les &lt;b>DADES DEL LOCAL ELECTORAL&lt;/b>. Si cliqueu a "Continua" es perdran les modificacions.&lt;br>&lt;br>Per guardar les &lt;b>DADES DEL LOCAL ELECTORAL&lt;/b> cliqueu a "Cancel·la" i cliqueu a "Accepta" a la pestanya de &lt;b>DADES DEL LOCAL ELECTORAL&lt;/b></string>
+    <string name="dialog_cerrarresultados">Si es tanca la finestra es perdran les dades\nN\'esteu segur?</string>
+    <string name="dialog_comenzarexamen">Atenció! Començarà el mode examen\nFeu esta operació solament com a supervisió del formador\nN\'esteu segur?</string>
+    <string name="dialog_configuracion">CONFIGURACIÓ</string>
+    <string name="dialog_conformidad1">Cal introduir les dades personals només amb finalitats administratives en les eleccions del 24 de maig de 2015</string>
+    <string name="dialog_conformidad2">S\'enregistrarà la localització del terminal a l\'efecte del control administratiu</string>
+    <string name="dialog_conformidad2_options">&lt;b>Activa compartir localització del terminal&lt;/b>&lt;br>&lt;br>s\'enregistrarà la localització del terminal a l\'efecte del control administratiu</string>
+    <string name="dialog_conformidad3">Per favor, cliqueu a  &lt;i>&lt;b>\"Activa registre de localització del terminal\"&lt;/b>&lt;/i> , per continuar usant l\'aplicació</string>
+    <string formatted="false" name="dialog_conformidad4">Voleu confirmar el col·legi perquè quede enregistrat en el sistema?&lt;br>&lt;br>&lt;b>%s&lt;/b>&lt;br>&lt;br>Si no cliqueu a cap botó, el local electoral s\'enregistrarà automàticament al cap de &lt;b>%s segons&lt;/b></string>
+    <string formatted="false" name="dialog_conformidad_idioma_inicio">¿Voleu confirmar l\'idioma perquè el local electoral quede enregistrat en el sistema?&lt;br>&lt;br>&lt;b>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/b>&lt;br>&lt;br>Sí no pulsa ningún botón, el idioma seleccionado será registrado automáticamente en &lt;b>%s&lt;/b></string>
+    <string name="dialog_errormesa">Error en la mesa</string>
+    <string name="dialog_errormesaconnection">Error de connexió amb el servidor</string>
+    <string name="dialog_errormesanotfound">Mesa no trobada. Per favor, reviseu les dades.</string>
+    <string name="dialog_mesassinconfirmar">Meses sense confirmació</string>
+    <string name="dialog_noestado">No s\'ha rebut cap estat</string>
+    <string formatted="false" name="dialog_prioridad_eleccion">Per favor, introduïu primer el butlletí d\'escrutini de la mesa &lt;b>%s&lt;/b> per a les eleccions &lt;b>%s&lt;/b></string>
+    <string name="dialog_sim_no">S\'està configurant la xarxa mòbil. Per favor, espereu...</string>
+    <string name="dialog_votoszero">Els vots a les candidatures són cero\nN\'esteu segur?</string>
+    <string name="direccion">Adreça</string>
+    <string name="direccion2">ADREÇA</string>
+    <string name="distrito">Districte</string>
+    <string name="edit">Edita</string>
+    <string name="elec">Eleccions</string>
+    <string name="eleccensados"><b>Electors censats</b></string>
+    <string name="electoresCenso"><b>NOMBRE d\'ELECTORS SEGONS LES LLISTES DEL CENS:</b>\n(esta dada ha d\'incloure els apèndixs d\'alta i baixa)</string>
+    <string name="electoresCensoExtranjeros"><b>ELECTORS ESTRANGERS SEGONS LES LLISTES DEL CENS:</b>\n(esta dada ha d\'incloure els apèndixs d\'alta i baixa)</string>
+    <string name="electoresCensoNacional"><b>ELECTORS NACIONALS SEGONS LES LLISTES DEL CENS:</b>\n(esta dada ha d\'incloure els apèndixs d\'alta i baixa)</string>
+    <string name="enviando">S\'estan enviant les dades. Per favor, espereu...</string>
+    <string name="enviandoTx">S\'estan comprovant les dades de transmissor. Per favor, espereu...</string>
+    <string name="enviarlogs">Envia els registres</string>
+    <string name="enviarmesas">Enviament de dades</string>
+    <string name="envioMesasCompletado">Enviament completat</string>
+    <string name="error_campo_obligatorio">Este camp és obligatori</string>
+    <string name="errores">Errors</string>
+    <string name="errorpin">error introduint el PIN</string>
+    <string name="escrutinio">Fase: &lt;font color="green">&lt;b>escrutini&lt;/b>&lt;/font></string>
+    <string name="escrutinioTabText">&lt;b>Fase&lt;/b>&lt;br>Escrutini</string>
+    <string name="escrutinio_nohtml">Escrutini</string>
+    <string name="esperandoApertura">(S\'ESTÀ ESPERANT QUE S\'ÒBRIGUEN LES MESES)</string>
+    <string name="esperandoTabText">&lt;b>Fase&lt;/b>&lt;br>S\'està esperant la jornada</string>
+    <string name="esperandojornada">Fase: &lt;font color="green">&lt;b>S\'està esperant la jornada&lt;/b>&lt;/font></string>
+    <string name="esperandojornada_nohtml">S\'està esperant la jornada</string>
+    <string name="estado">Estat</string>
+    <string name="estadoMesasConstMesas">Constitució de meses</string>
+    <string name="estadoMesasEnCola">En cua d\'enviament</string>
+    <string name="estadoMesasEnviadaxtfno">Enviada per telèfon</string>
+    <string name="estadoMesasEnviado">Enviat per tauleta</string>
+    <string name="estadoMesasEscrutinio">Escrutini</string>
+    <string name="estadoMesasIdMesas">Meses</string>
+    <string name="estadoMesasInfoColumnaResaltada">La columna ressaltada es correspon amb la fase actual.</string>
+    <string name="estadoMesasNoAplica">No s\'aplica:</string>
+    <string name="estadoMesasPrimerAvance">Primer avançament</string>
+    <string name="estadoMesasSegundoAvance">Segon avançament</string>
+    <string name="estadoMesasSinDatos">Sense dades</string>
+    <string name="estadoMesasTercerAvance">Tercer avançament</string>
+    <string name="estadomesas">Estat de meses</string>
+    <string name="extranjero">DOCUMENT</string>
+    <string name="fase">Fase: </string>
+    <string name="finTabText">&lt;b>Fase&lt;/b>&lt;br>Fi de la jornada</string>
+    <string name="finalizado">Finalitzat</string>
+    <string name="finformacion">Heu acabat un cicle de formació. Cliqueu a Accepta per reiniciar l\'aplicació i començar un nou cicle.</string>
+    <string name="finformaciontitle">Fi de la formació</string>
+    <string name="finjornada">Fase: &lt;font color="green">&lt;b>fi de la jornada&lt;/b>&lt;/font></string>
+    <string name="finjornada_nohtml">Fi de la jornada</string>
+    <string name="forzarapagar">El dispositiu s\'apagarà automàticament al cap de &lt;b>%s segons&lt;/b>&lt;br></string>
+    <string name="frmEstadoMesasTitle">Estat de les meses</string>
+    <string name="header_menu">MENÚ</string>
+    <string name="header_title1">CONFIGURACIÓ</string>
+    <string name="help_ayuda">&lt;b>&lt;u>Ajut&lt;/u>:&lt;/b> el representant pot clicar a este botó en cada&lt;br />        pantalla i apareixerà una finestra d\'ajuda en què&lt;br />        s\'explicaran totes les opcions i botons de la pantalla.</string>
+    <string name="help_bExit">Ix</string>
+    <string name="help_bateria">&lt;b>&lt;u>Bateria&lt;/u>:&lt;/b> mostra el nivell de càrrega de la bateria. Heu&lt;br />        d\'estar sempre per sobre de 30%:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/full_battery_48.png" /> Nivell de bateria molt alt.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_75_48.png" />   Nivell de bateria alt.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_50_48.png" />   Nivell de bateria mitjà.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_25_48.png" />   Nivell de bateria baix.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/almost_empty_48.png" /> Nivell de bateria molt baix. Connecta a la xarxa.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/empty_battery_48.png" /> Bateria descarregada. Connecta a la xarxa.</string>
+    <string name="help_cobertura">&lt;b>&lt;u>Cobertura&lt;/u>:&lt;/b> mostra el nivell de cobertura:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_4.png" /> &lt;b>Molt alta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_3.png" /> &lt;b>Alta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_2.png" /> &lt;b>Mitjana&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_1.png" /> &lt;b>Baixa&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_0.png" /> &lt;b>Nul·la:&lt;/b> cal que vos poseu en contacte amb el &lt;b>Centre d\'Atenció&lt;/b>&lt;br/>        &amp;nbsp;&amp;nbsp;&lt;b>a Usuaris de Tauleta&lt;/b>.</string>
+    <string name="help_cobertura_top">&lt;img src="file:///android_res/drawable/high_connection_48.png" />&amp;nbsp;&lt;b>&lt;u>Nivell de cobertura&lt;/u>:&amp;nbsp;&lt;/b>mostra el nivell i el tipus de cobertura.        &lt;br />Poden ser els següents:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/high_connection_48.png" /> &lt;b>Alt&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/medium_connection_48.png" /> &lt;b>Mitjà&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/low_connection_48.png" /> &lt;b>Baix&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/no_connection_48.png" /> &lt;b>Nul&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;Operadora (Movistar, NO SIM o NO RED) i del tipus de&lt;br />        &amp;nbsp;&amp;nbsp;i tipus de cobertura (HP, H, 3G, E).</string>
+    <string name="help_codigomesa">Cliqueu al codi de mesa per introduir les dades que&lt;br />corresponen a la fase actual de la mesa seleccionada.  </string>
+    <string name="help_constitucion_mesas">&lt;b>&lt;u>Constitució de meses:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Per a constituir una mesa cal indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dígit de control de la mesa:&lt;/b>&amp;nbsp;heu d\'introduir el número que apareix&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;al camp de dígit de control del butlletí.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre d\'electors (nacionals i estrangers) segons les llistes del cens:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Heu de recordar al president de mesa que cal actualitzar la dada del&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cens dels electors nacionals i dels electors estrangers amb els&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;apèndixs d\'altes i baixes, si n\'hi ha hagut. (Introduïu com a&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;màxim quatre dígits en cada camp).&lt;br />&lt;br />
+        Una vegada introduït el nre. de votants en cada elecció cal clicar al botó &lt;img src=""file:///android_res/drawable/datosaceptar.png"" />
+        per a enviar les dades indicades. Si s\'han enviat correctament s\'indicarà a la pantalla.&lt;br />
+        Si es detecta cap error en les dades introduïdes, s\'indicarà a la pantalla per mitjà d\'un &lt;b>missatge d\'error&lt;/b> &lt;img src=""file:///android_res/drawable/error.png"" /> perquè es corregisca.
+</string>
+    <string name="help_constitucion_mesas_tipocenso0">&lt;b>&lt;u>Constitució de meses:&lt;/u>&lt;/b>&lt;br />&lt;br />per a constituir una mesa cal indicar:&lt;br />&lt;br />&amp;nbsp;&amp;nbsp;&lt;b>- Dígit de control de la mesa:&lt;/b>&amp;nbsp;heu d\'introduir el número que apareix&lt;br />
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;al camp de dígit de control del butlletí.&lt;br />
+Una vegada introduït el dígit de control cal clicar al botó &lt;img src=""file:///android_res/drawable/datosaceptar.png"" /> per a trametre les dades indicades. Si l\'enviament s\'ha fet correctament s\'indicarà a la pantalla.&lt;br />Si es detecta cap error en les dades introduïdes, s\'indicarà a la pantalla per mitjà d\'un &lt;b>missatge d\'error&lt;/b> &lt;img src=""file:///android_res/drawable/error.png"" /> perquè es corregisca.
+</string>
+    <string name="help_constitucion_mesas_tipocenso1">&lt;b>&lt;u>Constitució de meses:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Per a constituir una mesa cal indicar:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Dígit de control de la mesa:&lt;/b>&amp;nbsp;heu d\'introduir el número que apareix&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;al camp de dígit de control del butlletí.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre d\'electors nacionals segons les llistes del cens:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Heu de recordar al president de mesa que cal actualitzar la dada del&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cens dels electors nacionals amb els&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;apèndixs d\'altes i baixes, si n\'hi ha hagut. (Introduïu com a&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;màxim quatre dígits en cada camp).&lt;br />&lt;br />
+        Una vegada introduït el nre. de votants en cada elecció cal clicar al botó &lt;img src=""file:///android_res/drawable/datosaceptar.png"" />
+        per a enviar les dades indicades. Si s\'han enviat correctament s\'indicarà a la pantalla.&lt;br />
+        Si es detecta cap error en les dades introduïdes, s\'indicarà a la pantalla per mitjà d\'un &lt;b>missatge d\'error&lt;/b> &lt;img src=""file:///android_res/drawable/error.png"" /> perquè es corregisca.
+</string>
+    <string name="help_datos">&lt;b>&lt;u>Dades&lt;/u>:&lt;/b> Indica la cobertura de dades:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_connected_g.png" /> &lt;b>Connectat:&lt;/b> cal vigilar la cobertura de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;dades perquè la tauleta estiga connectada amb el&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;servidor en tot moment.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_no_connected_gred.png" /> &lt;b>No connectat:&lt;/b> cal que vos poseu en contacte amb el &lt;b>Centre&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;d\'Atenció a Usuaris de Tauleta&lt;/b>.</string>
+    <string name="help_datos_colegio">&lt;b>&lt;u>Dades del local electoral i meses assignades&lt;/u>:&lt;/b>&lt;br />&lt;br />        Segons les dades de la mesa introduïda a la pantalla anterior&lt;br />        es mostraran les dades del local electoral i de les meses assignades al representant:&lt;br />        &lt;img src="file:///android_res/drawable/ic_action_place.png" />mostra al mapa la localització del local electoral.&lt;br />        &amp;nbsp;&lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp; Si les dades són correctes cal clicar a este botó         per a confirmar el local electoral i continuar.&lt;br />        &amp;nbsp;&lt;img src="file:///android_res/drawable/datoseditar.jpg" />&amp;nbsp; Si les dades no són les correctes, clicant a este botó tornareu&lt;br />        a la pantalla de dades de mesa que s\'han introduït i les podreu modificar.</string>
+    <string name="help_datos_colegio_direccion">INSTITUT NÚM. 4 AMPARO SANZ\nCARRER DE TOMÁS EDISON 9998\nALBACETE\nALBACETE\n</string>
+    <string name="help_datos_conexion">&lt;b>&lt;u>Informació de dades de connexió&lt;/u>:&lt;/b> clicant a este botó&lt;br />        obtenim la informació següent sobre les dades de&lt;br />        connexió. El &lt;b>Centre d\'Atenció a Usuaris de Tauleta&lt;/b> pot&lt;br />        sol·licitar la consulta d\'estes dades en cas d\'incidència:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mode:&lt;/b> autoformació, simulacre o jornada electoral.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Operadora&lt;/b> a què pertany la xarxa amb què està&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;connectat el dispositiu. Si no consta &lt;b>&lt;i>MOVISTAR&lt;i>&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;vos heu de posar en contacte amb el &lt;b>Centre d\'Atenció a&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Usuaris de Tauleta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- APN&lt;/b> amb què està connectant el dispositiu.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&lt;/b> identificador del dispositiu.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&lt;/b> identificador de la targeta SIM.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP Tablet&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP Servidor&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Connexions sense resposta&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Versió del programari&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Versió de dades&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Consulta de l\'últim estat:&lt;/b> si cliqueu a este botó es&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mostrarà informació que pot ser útil en determinats&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;casos per al &lt;b>Centre d\'Atenció a Usuaris de Tauleta&lt;/b>.</string>
+    <string name="help_datos_electoral_cut1">&lt;b>&lt;u>Introducció de les dades d\'una de les meses assignades al representant&lt;/u>:&lt;/b>&lt;br />&lt;br />        Una vegada identificat el representant, apareixerà la secció d\'introducció&lt;br />        de dades d\'una de les meses que té assignades. Les dades que cal indicar són:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Província:&lt;/b> codi de província (dos dígits).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Municipi:&lt;/b> codi de municipi (tres dígits).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Districte:&lt;/b> codi de districte (dos dígits).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Secció:&lt;/b> codi de secció (tres dígits).&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mesa:&lt;/b> codi de mesa (una lletra).</string>
+    <string name="help_datos_electoral_cut2">&lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Introduïdes totes les dades de la mesa cal clicar a este botó per a continuar.&lt;br />&lt;br />        &lt;img src="file:///android_res/drawable/datosbuscar.jpg" />&amp;nbsp;Tot seguit s\'ha de clicar a este botó per a buscar la mesa que heu introduït:        &lt;br />Si totes les dades són correctes passareu a la pantalla següent per confirmar el local electoral i les meses. En cas contrari, apareixerà un missatge davall del camp que cal modificar.&lt;br />        &lt;br />&lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Clicant a este botó eliminareu TOTES les dades introduïdes.        &lt;br />&lt;br />&lt;img src="file:///android_res/drawable/datosmenu.jpg" />&amp;nbsp;En qualsevol moment podreu modificar les dades del local electoral al menú per mitjà de l\'opció de configuració.        &lt;br />Durant el simulacre i la jornada electoral caldrà telefonar al &lt;b>Centre d\'Atenció a Usuaris de Tauleta&lt;/b> per modificar les dades del local electoral.</string>
+    <string name="help_datos_modosnavega">&lt;b>Modes de navegació en pantalla&lt;/b>:&lt;br />        es poden seleccionar i introduir les dades de les meses assignades a cadascuna de les&lt;br />        eleccions en la fase actual de dos maneres:&lt;br />         - Clicant al logo de les eleccions que voleu consultar, el logo apareixerà        &lt;br />&amp;nbsp;ressaltat.&lt;br />        - Arrossegant la busca / el dit pel centre de la pantalla, cap a la dreta&lt;br />        &amp;nbsp;o l\'esquerra, fins que aparega ressaltada la pestanya de les eleccions&lt;br />        &amp;nbsp;que voleu seleccionar per a la fase actual, però que són a la cua d\'enviament.</string>
+    <string name="help_datos_personales_cut1">&lt;b>&lt;u>Dades del representant&lt;/u>:&lt;/b>&lt;br />&lt;br />        quan s\'inicie el dispositiu per primera vegada se sol·licitaran les dades&lt;br />        personals del representant. Són:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Document:&lt;/b> cliqueu al botó &amp;nbsp;&lt;img src="file:///android_res/drawable/nifnie.jpg" />&amp;nbsp; perquè s\'habilite l\'opció de NIE&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;si escau.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- NIF / NIE:&lt;/b> número i lletra del NIF / NIE.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nom i cognoms:&lt;/b> introduïu el nom i els cognoms del representant.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Telèfon 1:&lt;/b> primer telèfon de contacte. Ha de ser un telèfon mòbil amb què&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;es puga contactar amb el representant en tot moment, i&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;en especial durant el simulacre i la jornada electoral.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Telèfon 2:&lt;/b> segon telèfon de contacte (opcional).&lt;br />        &lt;br />És important que estes dades siguen correctes perquè s\'utilitzaran si cal&lt;br />        posar-se en contacte amb el representant&lt;br />        &lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;Introduïdes totes les dades personals cal clicar a esta tecla per a continuar.</string>
+    <string name="help_datos_personales_cut2">&lt;b>&lt;u>Dades del representant&lt;/u>:&lt;/b>&lt;br />&lt;br />        &lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp;una vegada introduïdes totes les dades cal clicar a este botó:        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si totes les dades són correctes s\'activarà la pestanya de local electoral.        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;En cas contrari, apareixerà un missatge davall del camp que cal         &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;modificar.        &lt;br />        &lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Clicant a este botó s\'eliminaran TOTES les dades introduïdes. &lt;br />        &amp;nbsp;En qualsevol moment podreu modificar les dades personals a &amp;nbsp;&lt;img src="file:///android_res/drawable/datosmenu.jpg" /> &lt;br />        i per mitjà de l\'opció de configuració.</string>
+    <string name="help_datos_personales_pag1_tab1">&lt;b>&lt;u>Maneres d\'introduir les dades a la pantalla&lt;/u>:&lt;/b>&lt;br />        Hi ha quatres possibilitats per a desplaçar-se i editar els camps:&lt;br />        &amp;nbsp;&amp;nbsp;1. Clicant al camp que es vol editar.&lt;br />        &amp;nbsp;&amp;nbsp;2. Clicant al &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> llapis, a la dreta del camp que es vol editar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;en este moment es passarà al&amp;nbsp; &lt;img src="file:///android_res/drawable/ic_action_accept.png" /> de check que indica que les dades&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;d\'este camp es poden modificar.&lt;br />        &amp;nbsp;&amp;nbsp;3. Clicar a la &lt;img src="file:///android_res/drawable/sig.jpg" /> tecla "Següent" del teclat permetrà passar d\'un camp&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;al següent.&lt;br />        &amp;nbsp;&amp;nbsp;4. En completar el camp passarà automàticament al següent, llevat&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;del camp "Nom i cognoms", en què caldrà fer&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;qualsevol de les opcions anteriors.</string>
+    <string name="help_datos_personales_pag1_tab2">&lt;b>&lt;u>Maneres d\'introduir les dades a la pantalla&lt;/u>:&lt;/b>&lt;br />        hi ha quatres possibilitats per a desplaçar-se i editar els camps:&lt;br />        &amp;nbsp;&amp;nbsp;1. Clicant al camp que es vol editar.&lt;br />        &amp;nbsp;&amp;nbsp;2. Clicant al &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> llapis, a la dreta del camp que es vol editar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;en este moment es passarà al&amp;nbsp; &lt;img src="file:///android_res/drawable/check48.png" /> de check que indica que les dades&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;d\'este camp es poden modificar.&lt;br />        &amp;nbsp;&amp;nbsp;3. Clicar &lt;img src="file:///android_res/drawable/sig.jpg" /> a la tecla "Següent" del teclat permetrà passar d\'un camp&lt;br />         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;al següent&lt;br />        &amp;nbsp;&amp;nbsp;4. En completar el camp passarà automàticament al següent.</string>
+    <string name="help_datos_tabs">&lt;b>Pestanya eleccions&lt;/b>:&lt;br />        l\'aplicació mostra tantes pestanyes com les eleccions que cal&lt;br />        transmetre. Fins que s\'envien les dades de la mesa per a &lt;br />        les Eleccions Locals 2015 en la fase actual, esta mesa no estarà&lt;br />        disponible per a completar les vostres dades per a la resta d\'eleccions&lt;br />        aplicables.</string>
+    <string name="help_datosdeldispositivo">&lt;img src="file:///android_res/drawable/info_72.png" />&amp;nbsp;&lt;b>&lt;u>Dades del dispositiu&lt;/u>:&lt;/b>són les dades identificadores de la tauleta:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- APN:&amp;nbsp;&lt;/b>amb què està connectat el dispositiu&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&amp;nbsp;&lt;/b>identificador del dispositiu&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&amp;nbsp;&lt;/b>identificador de la targeta SIM&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP de dispositiu&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- IP de servidor&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Connexió noR:&lt;/b>&amp;nbsp;Indica el nombre de connexions sense resposta.</string>
+    <string name="help_datoslocalelectoral">&lt;img src="file:///android_res/drawable/urnalista.png" />&amp;nbsp;&lt;b>&lt;u>Dades del local electoral&lt;/u>:&lt;/b>&amp;nbsp;són les dades que s\'han enregistrat al dispositiu&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Local electoral:&amp;nbsp;&lt;/b>nom del local electoral&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Adreça:&amp;nbsp;&lt;/b>carrer, número, localitat i codi postal.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Mesa de referència:&amp;nbsp;&lt;/b>una de les meses que té assignada el representant.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Llista de meses:&amp;nbsp;&lt;/b>la resta de meses assignades al representant.</string>
+    <string name="help_escrutinio_1">&lt;b>&lt;u>Escrutini: conceptes bàsics&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Cens electoral:&lt;/b> és el nombre de persones que complixen els requisits per a&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ser elector i no són privats definitivament o temporalment del dret&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;de sufragi.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Certificacions d\'alta:&lt;/b> és el nombre d\'electors que han presentat una&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;certificació censal específica expedida per l\'Oficina de Cens Electoral&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;que els habilita per a fer efectiu el dret de vot en esta mesa.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Electors censats en la mesa que han votat:&lt;/b> indiqueu el nombre de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;votants inclosos en el cens de la mesa.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Interventors no censats que han votat en esta mesa:&lt;/b> indiqueu el nombre&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;d\'interventors que han votat i no pertanyen al cens de la mesa.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre de vots nuls:&lt;/b> es considera vot nul:&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Els que s\'emeten en sobres o paperetes diferents del model oficial.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Les paperetes sense sobre.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Els que s\'emeten en sobres alterats.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Les paperetes en què s\'haja modificat, afegit o ratllat el nom dels&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;candidats, se n\'haja alterat l\'ordre de col·locació&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;i les paperetes en què s\'haja introduït qualsevol llegenda o&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;expressió o s\'hi haja fet qualsevol altra alteració&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;voluntària o intencionada.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Els sobres que continguen més d\'una papereta de diverses candidatures&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(si s\'hi inclouen diverses paperetes de la mateixa candidatura es compta&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com un sol vot vàlid).&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· &lt;u>Recordeu&lt;/u>:&lt;/b> no són vots nuls las paperetes en què s\'haja&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;introduït algun senyal o marca que no genere cap dubte sobre el&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sentit del vot.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre de vots en blanc:&lt;/b> indiqueu el vot dels sobres que no tenen         &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;papereta.</string>
+    <string name="help_escrutinio_2">&lt;b>&lt;u>Camps del butlletí d\'escrutini&lt;/u>&lt;/b>&lt;br />&lt;br />        En primer lloc, per a fer l\'escrutini cal indicar les&lt;br />        dades següents:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Dígit de control de la mesa:&lt;/b>&amp;nbsp;cal introduir el número que apareix&lt;br />        &amp;nbsp;&amp;nbsp;en el camp de dígit de control del butlletí.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Les dades següents del butlletí imprés:&lt;/b>&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· D\'alta en el cens electoral&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Electors censats que han votat&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Interventors no censats en la mesa que han votat.&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Nombre de vots nuls&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Nombre de vots en blanc.&lt;/b>&lt;br />&lt;br />        Després cal omplir les dades dels &lt;b>vots de cada candidatura&lt;/b>. No&lt;br />        cal omplir les candidatures que hagen obtingut 0 vots.        &lt;br />        &lt;b>&lt;u>Validacions&lt;/u>:&lt;/b>: recordeu que el nombre d\'electors censats en la mesa que han&lt;br />        votat (A) + interventors no censats en la mesa que han votat (B) ha de&lt;br />        ser igual a la suma de vots a les candidatures + vots en blanc + vots nuls.&lt;br />        Nombre d\'electors censats en la mesa que han votat (A) ha de ser més baix &lt;br />        o igual que la suma del cens + les certificacions d\'alta.</string>
+    <string name="help_escrutinio_2b">&lt;b>&lt;u>Visualització de les dades introduïdes a la pantalla d\'escrutini&lt;/u>:&lt;/b>&lt;br />            podreu visualitzar la pantalla d\'escrutini completa quan acabe la introducció de les dades del butlletí d\'escrutini. Per fer-ho heu de clicar la icona             que tanca el camp de dades que tingueu ampliat &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />            Per a desplaçar-vos per la pantalla completa d\'escrutini heu d\'arrossegar la busca o el dit per la pantalla i en sentit vertical.</string>
+    <string name="help_escrutinio_3">&lt;b>&lt;u>Introducció de les dades en la pantalla d\'escrutini&lt;/u>:&lt;/b>&lt;br />            Per a introduir les dades als camps de la pantalla d\'escrutini, primer heu d\'escriure el dígit de control. Tot seguit cal que:&lt;br />            &amp;nbsp;1. Cliqueu al camp en què voleu introduir les dades, que s\'ampliarà i apareixerà el teclat a la banda inferior de la pantalla.&lt;br />            &amp;nbsp;2. Escriviu el valor que correspon al camp de dades visible a la pantalla i cliqueu a la tecla "Següent" &lt;img src="file:///android_res/drawable/sig.jpg" /> .&lt;br />            &amp;nbsp;3. Introduïu el valor que corresponga per al camp ampliat següent.&lt;br />            Heu de repetir els punts 1, 2 i 3 tantes vegades com calga fins a omplir les dades a tots els camps de la pantalla d\'escrutini (dades de butlletí             i vots a candidatures) tal com ho teniu al vostre butlletí.&lt;br />            Quan el valor d\'un camp siga zero, no cal que escriviu esta xifra. Podeu clicar a la tecla "Següent" &lt;img src="file:///android_res/drawable/sig.jpg" />             i passar al camp següent o clicar directament al camp que voleu omplir.&lt;br />            Per passar i visualitzar els camps de dades ampliades també podeu utilitzar la busca i arrossegar-la per la pantalla en sentit vertical            fins al camp de dades que voleu seleccionar.&lt;br />            Podeu visualitzar la pantalla d\'escrutini completa, en acabar la introducció de les dades del butlletí d\'escrutini. Per a fer-ho heu de clicar a la icona que tanca el camp de dades que tingueu ampliat &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />            Per a desplaçar-vos per la pantalla completa d\'escrutini heu d\'arrossegar la busca per la pantalla i en sentit vertical.</string>
+    <string name="help_esperandojornada">En la fase actual, &lt;b>no cal cap acció&lt;/b>&lt;br />         del representant. El canvi a la fase de&lt;br />          constitució de mesa es farà de manera automàtica.</string>
+    <string name="help_estado_mesas">&lt;b>&lt;u>Estat de les meses:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        Esta pantalla mostra informació sobre l\'estat de cadascuna de les meses&lt;br />
+        en les diverses fases del procés electoral (la columna de la fase actual estarà ressaltada en un altre color).&lt;br />
+        Els diversos estats d\'una mesa en cada fase poden ser:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_remove.png"" /> Sense dades:&lt;/b> no es disposa de dades de la mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/pending_icon.png"" /> A la cua d\'enviament:&lt;/b> les dades de la mesa estan pendents d\'enviament.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_accept.png"" /> Enviat per tauleta:&lt;/b> les dades de la mesa s\'han enviat per tauleta.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_menu_call.png"" /> Enviat per telèfon:&lt;/b> les dades de la mesa s\'han enviat per telèfon.
+</string>
+    <string name="help_estado_mesas_multielec">"&lt;b>&lt;u>Estat de les meses:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        esta pantalla mostra informació sobre l\'estat de cadascuna de les meses&lt;br />
+        en les diverses fases del procés electoral seleccionat (el logo està ressaltat).&lt;br />
+        La columna de la fase actual està ressaltada en un altre color. Els diversos estats d\'una mesa en cada fase poden ser:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_remove.png"" /> Sense dades:&lt;/b> No es disposa de dades de la mesa.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/pending_icon.png"" /> A la cua d\'enviament:&lt;/b> les dades de la mesa estan pendents d\'enviament.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_action_accept.png"" /> Enviat per tauleta:&lt;/b> les dades de la mesa s\'han enviat per tauleta.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src=""file:///android_res/drawable/ic_menu_call.png"" /> Enviat per telèfon:&lt;/b> les dades de la mesa s\'han enviat per telèfon.
+</string>
+    <string name="help_findefase">En esta fase ja heu introduït les dades per a totes les mesas&lt;br />           que teniu assignades.</string>
+    <string name="help_findejornada">Esta fase indica que s\'han enviat les dades de totes&lt;br />           les meses assignades al representant.</string>
+    <string name="help_mapa">&lt;b>&lt;u>Localització de les eleccions&lt;/u>:&lt;/b>&lt;br />        indica la província a què pertany&lt;br />el local electoral enregistrat.</string>
+    <string name="help_mesasindatos">&lt;b>Sense dades&lt;/b>:&lt;br />        indica el nombre de meses en què no s\'han introduït&lt;br />         les dades per a la fase actual.&lt;br />        &lt;b>Sense enviar&lt;/b>:&lt;br />        indica el nombre de meses en què sí que s\'han introduït les dades&lt;br />         per a la fase actual però no són a la cua d\'enviament.</string>
+    <string name="help_modo">&lt;b>&lt;u>Mode&lt;/u>:&lt;/b> indica el mode en què opera la tauleta:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/autoformacion.png" /> &lt;b>Autoformació&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/examen.png" /> &lt;b>Examen&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/simulacro.png" /> &lt;b>Simulacre&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/urna.png" /> &lt;b>Jornada electoral&lt;/b>.</string>
+    <string name="help_open_progress">S\'està obtenint ajuda...</string>
+    <string name="help_operadora">&lt;b>&lt;u>Operadora&lt;/u>&lt;/b> a què pertany la xarxa amb què està&lt;br />        connectat el dispositiu (HP, H, 3G, E). Si no consta &lt;br />        &lt;b>&lt;i>Movistar&lt;i>&lt;/b> o es mostra NO SIM o NO RED &lt;br />        cal que vos poseu en contacte amb el &lt;b>Centre d\'Atenció a&lt;br />        Usuaris de Tauleta&lt;/b>.</string>
+    <string name="help_otras_opciones">&lt;b>&lt;u>Altres opcions&lt;/u>:&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Dades personals:&lt;/b> edita les dades&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;personals del representant.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Consulta l\'estat&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Pantalla:&lt;/b> accessibilitat i brillantor.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Apaga el dispositiu&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Comença l\'examen&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Telefona&lt;/b>.</string>
+    <string name="help_pantalla_principal_1">&lt;b>&lt;u>Pantalla principal: mesa de referència, adreça i dades del local electoral&lt;/u>.&lt;/b>&lt;br />&lt;br />        Clicant a la mesa de referència &lt;img src="file:///android_res/drawable/ic_menu_more.png" /> es mostraran les dades del local&lt;br />        electoral i les meses assignades:&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Adreça del local electoral:&lt;/b> local electoral i adreça.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Meses del local electoral:&lt;/b> llistat de meses assignades i el seu cens.&lt;br />&lt;br />        El botó &lt;b>Consulta el mapa&lt;/b> &lt;img src="file:///android_res/drawable/ic_action_place.png" /> mostrarà un mapa amb la localització física del local&lt;br />        electoral.&lt;br />        El botó &lt;b>Edita&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> mostrarà la pantalla d\'edició de meses (llevat de&lt;br />        Simulacre i jornada electoral). Si el representant ha de corregir estes dades&lt;br />        S\'ha de posar en contacte amb el &lt;b>Centre d\'Atenció a Usuaris de Tauleta&lt;/b>&lt;br />&lt;br />.        Per a ocultar estes dades n\'hi ha prou amb tornar a clicar a la mesa de&lt;br />        referència &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.</string>
+    <string name="help_pantalla_principal_2">&lt;b>&lt;u>Pantalla principal: enviament de dades&lt;/u>.&lt;/b>&lt;br />&lt;br />        En esta secció s\'informa del nombre de meses que encara no tenen dades i del&lt;br />        nombre de meses sense enviar.&lt;br />&lt;br />        &lt;b>&lt;u>Estat de les meses:&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;si cliqueu al botó &lt;b>Estat de les meses&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_info_details.png" /> es mostrarà la pantalla sobre&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>l\'estat de las meses&lt;/b>, en què podrem consultar l\'estat de cadascuna de les meses i la fase&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;de la jornada electoral. l\'estat de les meses pot ser:&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/delete_icon.png" /> Sense dades&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> En cua d\'enviament&lt;/b>.&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/check_icon.png" /> Enviat&lt;/b>.&lt;br />&lt;br />        &lt;b>&lt;u>Meses sense dades:&lt;/u>&lt;/b>&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si cliqueu al procés electoral que voleu consultar  &lt;img src="file:///android_res/drawable/ic_menu_more.png" /> es mostrarà un llistat de les&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;meses que encara no tenen dades per al procés electoral i fase actual&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(indicada al títol de la pantalla).&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Si cliqueu a alguna de les meses que apareixen al llistat anireu&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;a la pantalla de la fase corresponent, en què s\'indicarà el dígit de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;control de la mesa i la resta de dades que cal indicar en esta fase. Este procés es&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;repetirà en totes les meses.&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Per a ocultar este llistat de meses sense dades n\'hi haurà prou amb tornar a clicar&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;al procés electoral &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.</string>
+    <string name="help_popmenu_opciones">&lt;img src="file:///android_res/drawable/ic_action_overflow.png" />&amp;nbsp;&amp;nbsp;&lt;b>&lt;u>Botó d\'opcions&lt;/u>:&lt;/b>&lt;br />        &lt;br />        &lt;b>Consulta de l\'últim estat:&amp;nbsp;&lt;/b>si cliqueu a este botó          &lt;br />es mostrarà informació que es pot sol·licitar         &lt;br />al &lt;b>Centre d\'Atenció a Usuaris de Tauleta&lt;/b>.&lt;br />        &lt;br />        &lt;b>Pantalla:&amp;nbsp;&lt;/b>clicant a esta opció es pot habilitar         &lt;br />o deshabilitar l\'accessibilitat (possibilitat         &lt;br />d\'augmentar la mida de la pantalla) i regular la&lt;br />          brillantor.&lt;br />&lt;br />        &lt;b>Comença l\'examen:&amp;nbsp;&lt;/b>esta opció permet accedir        &lt;br />a l\'examen i només ho heu de fer quan         &lt;br />ho indique el formador.</string>
+    <string name="help_primer_avance">&lt;b>&lt;u>Primer avançament:&lt;/u>&lt;/b>&lt;br />&lt;br />        Per a enviar les dades del primer avançament cal indicar:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Dígit de control de la mesa:&lt;/b>&amp;nbsp;heu d\'introduir el camp &lt;i>Dígit de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;control&lt;/i> del butlletí.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre de votants de la mesa en cada elecció:&lt;/b>&amp;nbsp;heu d\'introduir com a&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;màxim quatre dígits en cada camp.&lt;br />&lt;br />        Una vegada introduït el nre. de votants en cada elecció, cal clicar al botó &lt;b>Accepta&lt;/b> &lt;img src="file:///android_res/drawable/datosaceptar.png" /> per a        enviar les dades indicades. Si s\'ha enviat correctament s\'indicarà a la pantalla.        &lt;br />&lt;br />        En cas que es detecte algun error en les dades introduïdes se n\'informarà a la pantalla per mitjà d\'un &lt;b>missatge d\'error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> perquè es corregisca.&lt;br />&lt;br />        &lt;b>&lt;u>Validacions&lt;/u>:&lt;/b> recordeu que el nombre de votants en el primer avançament ha de ser més baix o igual que el         cens de la mesa d\'estes eleccions.</string>
+    <string name="help_segundo_avance">&lt;b>&lt;u>Segon avançament:&lt;/u>&lt;/b>&lt;br />&lt;br />        Per a enviar les dades del segon avançament cal indicar:&lt;br />&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Dígit de control de la mesa:&lt;/b>&amp;nbsp;heu d\'introduir el camp &lt;i>Dígit de&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;control&lt;/i> del butlletí.&lt;br />        &amp;nbsp;&amp;nbsp;&lt;b>- Nombre de votants de la mesa en cada elecció:&lt;/b>&amp;nbsp;heu d\'introduir com a&lt;br />        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;màxim quatre dígits en cada camp.&lt;br />&lt;br />        Una vegada introduït el nre. de votants en cada elecció, cal clicar al botó &lt;b>Accepta&lt;/b> &lt;img src="file:///android_res/drawable/datosaceptar.png" />         per a enviar les dades indicades. Si s\'ha enviat correctament s\'indicarà a la pantalla.        &lt;br />&lt;br />        En cas que es detecte algun error en les dades introduïdes se n\'informarà        a la pantalla per mitjà d\'un &lt;b>missatge d\'error&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> perquè es corregisca.&lt;br />&lt;br />        &lt;b>&lt;u>Validacions&lt;/u>:&lt;/b> recordeu que el nombre de votants en el segon avançament ha de ser més alt o igual que&lt;br />        el primer avançament de les eleccions seleccionades i més baix o igual que el cens de la mesa d\'estes eleccions.</string>
+    <string name="help_sidemenu_config">&lt;b>&lt;u>Configuració&lt;/u>:&lt;br />        &lt;/b> si selecciona esta opció pot consultar o modificar         &lt;br />les dades personals o les meses assignades.</string>
+    <string name="help_sidemenu_enviodatos">&lt;b>&lt;u>Enviament de dades&lt;/u>:&lt;br />        &lt;/b> si cliqueu a esta opció es mostrarà        &lt;br />la pantalla principal de la fase actual.</string>
+    <string name="help_sidemenu_estmesas">&lt;b>&lt;u>Estat de meses&lt;/u>:&lt;br />        &lt;/b> si hi cliqueu es mostrarà la pantalla en què         &lt;br />es podrà veure l\'estat de cada mesa en         &lt;br />cadascuna de les fases de la jornada electoral.</string>
+    <string name="help_sidemenu_telefono">&lt;b>&lt;u>Telèfon&lt;/u>:&lt;br />        &lt;/b> clicant a este botó es mostrarà la informació amb el &lt;b>Centre d\'Atenció        &lt;br />&lt;/b>a l\'Usuari de Tauleta&lt;/ br>        i el teclat per a establir la telefonada.</string>
+    <string name="help_telefono">&lt;b>&lt;u>Telèfon:&lt;/u>&lt;/b>&lt;br />&lt;br />        Una vegada marcat el número de telèfon del &lt;b>Centre d\'Atenció a Usuaris de Tauleta&lt;/b>          &lt;br />apareixeran a la banda inferior del teclat el botó per a activar/desactivar el mans lliures         &lt;br />i la barra que permetrà regular el volum.</string>
+    <string name="help_titulo_aceptar_colegio">Accepta el col·legi</string>
+    <string name="help_titulo_configuracion">Configuració</string>
+    <string name="help_titulo_fase">Fase</string>
+    <string name="help_titulo_fases">&lt;b>&lt;u>Fases&lt;/u>:&lt;/b> la jornada electoral es &lt;br />dividix en les fases següents:&lt;br />        &amp;nbsp;&lt;b>- S\'està esperant la jornada&lt;/b>.&lt;br />        &amp;nbsp;&lt;b>- Constitució de meses:&lt;/b>&lt;br />        &amp;nbsp;a partir de les 8.00 h.&lt;br />        &amp;nbsp;&lt;b>- Primer avançament*&lt;/b>&lt;br />        &amp;nbsp;&lt;b>- Segon avançament*&lt;/b>&lt;br />        &amp;nbsp;&lt;b>- Escrutini:&lt;/b> 20.00 h.&lt;br />        &amp;nbsp;&lt;b>- Fi de la jornada electoral&lt;/b>.&lt;br />                 * l\'usuari de tauleta ha de transmetre&lt;br />                 la informació corresponent als&lt;br />                 avançaments segons l\'horari indicat en&lt;br />                 el manual d\'usuari de tauleta i&lt;br />                 d\'acord amb les eleccions seleccionades.</string>
+    <string name="help_titulo_seccion">&lt;b>&lt;u>Títol&lt;/u>:&lt;/b> títol de la secció.</string>
+    <string name="help_version_software">&lt;b>&lt;u>Versió SW&lt;/u>:&lt;/b>&lt;br />        Es pot sol·licitar esta informació al &lt;br />&lt;b>Centre d\'Atenció a Usuaris de Tauleta&lt;/b>.</string>
+    <string name="help_volver">&lt;b>&lt;u>Torna&lt;/u>:&lt;/b>&amp;nbsp;&lt;img src="file:///android_res/drawable/undo_56.png" /> Botó per a tornar&lt;br />        a la pantalla anterior.</string>
+    <string name="history_clear_one_history_text">Effacer</string>
+    <string name="history_clear_text">Effacer l\'historique</string>
+    <string name="history_email_title">Historique de Barcode Scanner</string>
+    <string name="history_empty">Vide</string>
+    <string name="history_empty_detail">Aucun code-barre balayé n\'a encore été enregistré</string>
+    <string name="history_send">Envoyer historique</string>
+    <string name="history_title">Historique</string>
+    <string name="identification"><b>Identificació</b></string>
+    <string name="idioma"><b>Idioma</b></string>
+    <string name="idiomacambiar">Canvia l\'idioma</string>
+    <string name="imeDone">FI</string>
+    <string name="imeNext">Següent</string>
+    <string name="incorrectPIN"><b>PIN</b> incorrecte</string>
+    <string name="insdist">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introduïu el districte&lt;/big>&lt;/big></string>
+    <string name="insertePIN">Inseriu <b>PIN:</b></string>
+    <string name="inslocal">&lt;b>Atenció:&lt;/b>&lt;br>Cliqueu al botó &lt;b>&lt;i>\"Accepta\"&lt;/i>&lt;/b>, perquè el local electoral quede enregistrat en el sistema</string>
+    <string name="insmesa">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introduïu la mesa&lt;/big>&lt;/big></string>
+    <string name="insmuni">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introduïu el municipi&lt;/big>&lt;/big></string>
+    <string name="insnie">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introduïu el NIE&lt;/big>&lt;/big></string>
+    <string name="insnif">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introduïu el NIF&lt;/big>&lt;/big></string>
+    <string name="insprov">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introduïu la província&lt;/big>&lt;/big></string>
+    <string name="inssec">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introduïu la secció&lt;/big>&lt;/big></string>
+    <string name="insselmesa">&lt;b>Instruccions:&lt;/b> Seleccioneu una mesa</string>
+    <string name="insselmesa1">&lt;b>Mesa processada&lt;/b></string>
+    <string name="insselprov">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Seleccioneu la província&lt;/big>&lt;/big></string>
+    <string name="instel">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> Introduïu el telèfon</string>
+    <string name="internocensados"><b>Interventors no censats</b></string>
+    <string name="introducir">Introduïu %s</string>
+    <string name="introducirCodigo">Introduïu el codi de %s</string>
+    <string name="ipDispositivo">IP DISPOSITIU</string>
+    <string name="ipServidor">IP SERVIDOR</string>
+    <string name="ippda">IP Tablet</string>
+    <string name="ipweb">IP servici web</string>
+    <string name="label">label</string>
+    <string name="leyenda">LLEGENDA</string>
+    <string name="listamesas">LLISTA DE MESES</string>
+    <string name="listosoftkeyboard">A punt</string>
+    <string name="llamadaproceso">Telefonada</string>
+    <string name="llamando">S\'està telefonant. Per favor, espereu...</string>
+    <string name="loadMessage">S\'està inicialitzant. Espereu…</string>
+    <string name="local">Local electoral</string>
+    <string name="local2">LOCAL ELECTORAL</string>
+    <string name="localizacion">Consulta mapa</string>
+    <string name="logo">Logo d\'Indra</string>
+    <string name="logoElecciones">Logo de les eleccions</string>
+    <string name="logoMinisterio">Logo estat</string>
+    <string name="manosLibres">Mans lliures</string>
+    <string name="mapas_error">Xarxa no disponible. No es poden obtindre mapes del local electoral. Per favor, torneu-ho a intentar més tard.</string>
+    <string name="marcaAguaAutoformacion">MODE\nAUTO\nFORMACIÓ\n</string>
+    <string name="marcaAguaExamen">MODE\n EXAMEN\n</string>
+    <string name="marcaAguaVersionFormacion">VERSIÓ\nFORMACIÓ\n</string>
+    <string name="menu_encode_mecard">Utiliser MECARD</string>
+    <string name="menu_encode_vcard">Utiliser vCard</string>
+    <string name="menu_help">Aide</string>
+    <string name="menu_history">Historique</string>
+    <string name="menu_noaction">Per favor, introduïu primer les dades personals i les dades del vostre local electoral</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_share">Partager</string>
+    <string name="mesa">Mesa</string>
+    <string name="mesa_enviada">MESA ENVIADA</string>
+    <string name="mesapruebaerror">Només es pot utilitzar la mesa de prova en el mode d\'autoformació.</string>
+    <string name="mesaref">Mesa ref.</string>
+    <string name="mesaref_revise">Reviseu les dades</string>
+    <string name="mesareferencia">Mesa de referència</string>
+    <string name="mesareferencia2">MESA DE REFERÈNCIA</string>
+    <string name="mesas">MESES</string>
+    <string name="mesasSinDatos">Sense dades %d</string>
+    <string name="mesasSinEnviar">Sense enviar %d</string>
+    <string name="mesasTxt">Meses</string>
+    <string name="mesasfin">Fi de</string>
+    <string name="mesasseleccionadas"><b>Meses seleccionades</b></string>
+    <string name="mesassindatos">Mesa/es sense dades</string>
+    <string name="mesassinenviar">Mesa/es sense enviar</string>
+    <string name="mod_idioma"><b>Modifica l\'idioma</b></string>
+    <string name="mode">Mode</string>
+    <string name="modifica_variable">modifica la variable</string>
+    <string name="modificardatos_dni"><b>DNI</b></string>
+    <string name="modificardatos_revise">Reviseu les dades personals</string>
+    <string name="modificardatos_tfno1"><b>TEL. 1</b></string>
+    <string name="modificardatos_tfno2"><b>TEL. 2</b></string>
+    <string name="modo_header">MODE:</string>
+    <string name="msg_bulk_mode_scanned">Balayage en rafale\u00A0: code-barres balayés et enregistrés</string>
+    <string name="msg_camera_framework_bug">Désolé, la caméra Android a rencontré un problème. Un redémarrage de l\'appareil est peut-être nécessaire.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Métadonnées</string>
+    <string name="msg_default_mms_subject">Salut</string>
+    <string name="msg_default_status">Encadrez un code-barres avec le viseur pour le balayer.</string>
+    <string name="msg_default_time">Heure</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Impossible d\'encoder un code-barres à partir des données fournies.</string>
+    <string name="msg_error">Erreur</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Désolé, l\'application demandée n\'a pas pu être lancée. Le contenu du code-barres est peut-être invalide.</string>
+    <string name="msg_invalid_value">Valeur invalide</string>
+    <string name="msg_redirect">Réacheminement</string>
+    <string name="msg_sbc_book_not_searchable">Désolé, ce livre ne peut pas être cherché.</string>
+    <string name="msg_sbc_failed">Désolé, la recherche a rencontré un problème.</string>
+    <string name="msg_sbc_no_page_returned">Aucun résultat</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Résultats</string>
+    <string name="msg_sbc_searching_book">Recherche du livre\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Extrait non disponible</string>
+    <string name="msg_share_explanation">Vous pouvez partager des données en affichant un code-barres sur votre écran et en le balayant avec un autre téléphone.</string>
+    <string name="msg_share_text">Ou tapez du texte et appuyez sur Entrée</string>
+    <string name="msg_sure">Le voulez-vous vraiment\u00A0?</string>
+    <string name="msg_unmount_usb">Désolé, la carte SD n\'est pas accessible.</string>
+    <string name="municipio">Municipi</string>
+    <string name="negativeButtonText">No</string>
+    <string name="no">No</string>
+    <string name="noHayMesasQueMostrar">NO HI HA MESES DISPONIBLES PER A MOSTRAR</string>
+    <string name="noHayMesasSinDatos">(JA s\'HAN INTRODUÏT LES DADES DE TOTES LES MESES)</string>
+    <string name="noLocalizacion">s\'ha deshabilitat la localització Per favor, torneu-ho a intentar més tard</string>
+    <string name="noRequiereEnvioMesas">No cal enviament</string>
+    <string name="nochangemesa">Només es pot canviar la mesa si vos trobeu en el mode de formació.</string>
+    <string name="nombre">NOM I COGNOMS</string>
+    <string name="notiftitle">Notificació del servici</string>
+    <string name="numCertificacionesCensales">Nombre de certificacions censals presentades</string>
+    <string name="numero">Número %s</string>
+    <string name="numvotantes">Nre. de votants</string>
+    <string name="obteniendo">S\'estan obtenint dades. Per favor, espereu...</string>
+    <string name="off">OFF</string>
+    <string name="ok">Accepta</string>
+    <string name="on">ON</string>
+    <string name="otrasopciones">Opcions</string>
+    <string name="otrasopciones_apagardispositivo">Apaga el dispositiu</string>
+    <string name="otrasopciones_bloqueardispositivo">Bloqueja el dispositiu</string>
+    <string name="otrasopciones_modificardatoscontacto">Modifica les dades de contacte</string>
+    <string name="otrasopciones_modificarmesa">Modifica l\'idioma</string>
+    <string name="otrasopciones_obtenerdatosconexion">Obtín les dades de connexió</string>
+    <string name="otrasopciones_obtenerestado">Obtín l\'estat</string>
+    <string name="otrasopciones_realizarllamadas">Telefona</string>
+    <string name="otrasopciones_resolucionproblemas">Resolució de problemes</string>
+    <string name="pantalla">Pantalla</string>
+    <string name="parsecolegio">Col·legi fictici per a proves </string>
+    <string name="parsedireccion">Adreça del col·legi fictici </string>
+    <string name="patterncolegio">Col·legi</string>
+    <string name="patterndireccion">Adreça</string>
+    <string name="personaldata">Dades personals</string>
+    <string name="positiveButtonText">Sí</string>
+    <string name="preferences_actions_title">Quand un code-barres est trouvé\u2026</string>
+    <string name="preferences_auto_focus_title">Utiliser la mise au point automatique</string>
+    <string name="preferences_auto_open_web_title">Ouvrir les pages Web automatiquement</string>
+    <string name="preferences_bulk_mode_summary">Balayer et enregistrer des codes-barres en rafale</string>
+    <string name="preferences_bulk_mode_title">Mode de lecture en rafale</string>
+    <string name="preferences_copy_to_clipboard_title">Copier dans le presse-papiers</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Remplacements\u00A0: %s = contenu, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">URL de recherche personnalisée</string>
+    <string name="preferences_decode_1D_industrial_title">1D industrielle</string>
+    <string name="preferences_decode_1D_product_title">1D produit</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">Codes QR</string>
+    <string name="preferences_device_bug_workarounds_title">Paliatifs des bogues de l\'appareil</string>
+    <string name="preferences_disable_barcode_scene_mode_title">Pas de mode scène de code-barres</string>
+    <string name="preferences_disable_continuous_focus_summary">Utiliser uniquement le mode de mise au point standard</string>
+    <string name="preferences_disable_continuous_focus_title">Pas de mise au point continue</string>
+    <string name="preferences_disable_exposure_title">Pas d\'exposition</string>
+    <string name="preferences_disable_metering_title">Pas de mesure</string>
+    <string name="preferences_front_light_auto">Automatique</string>
+    <string name="preferences_front_light_off">Éteinte</string>
+    <string name="preferences_front_light_on">Allumée</string>
+    <string name="preferences_front_light_summary">Améliore le balayage lors d\'une faible luminosité sur certains téléphone, mais peut causer un reflet. Ne fonctionne pas sur tous les téléphones.</string>
+    <string name="preferences_front_light_title">Utiliser la lumière frontale</string>
+    <string name="preferences_general_title">Paramètres généraux</string>
+    <string name="preferences_history_summary">Stockez vos scans dans l\'historique</string>
+    <string name="preferences_history_title">Ajouter à l\'historique</string>
+    <string name="preferences_invert_scan_summary">Balayer des codes-barres blancs sur fond noir. Non disponible sur certains appareils.</string>
+    <string name="preferences_invert_scan_title">Balayage négatif</string>
+    <string name="preferences_name">Paramètres</string>
+    <string name="preferences_orientation_title">Pas de rotation automatique</string>
+    <string name="preferences_play_beep_title">Bip</string>
+    <string name="preferences_remember_duplicates_summary">Enregistrer dans l\'historique les lectures multiples d\'un même code-barres</string>
+    <string name="preferences_remember_duplicates_title">Enregistrer les doublons</string>
+    <string name="preferences_result_title">Paramètres de résultat</string>
+    <string name="preferences_scanning_title">Pendant le balayage de codes-barres, décoder\u2026</string>
+    <string name="preferences_search_country">Pays de recherche</string>
+    <string name="preferences_supplemental_summary">Essayer d\'obtenir plus d\'informations sur le contenu du code-barres</string>
+    <string name="preferences_supplemental_title">Obtenir plus d\'infos</string>
+    <string name="preferences_vibrate_title">Vibreur</string>
+    <string name="primerAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>Primer avançament</string>
+    <string name="primeravance">Fase: &lt;font color="green">&lt;b>primer avançament&lt;/b>&lt;/font></string>
+    <string name="primeravance_nohtml">Primer avançament</string>
+    <string name="procesando">S\'està processant</string>
+    <string name="prohibido">El dispositiu està desautoritzat. Per favor, telefoneu al Centre d\'Incidències</string>
+    <string name="provincia">Província</string>
+    <string name="rechazar">Refusa</string>
+    <string name="refrescar">Actualitza les dades</string>
+    <string name="reinciaraplicacion">Reinicia</string>
+    <string name="responder">Respon</string>
+    <string name="result_address_book">Informations de contact trouvées</string>
+    <string name="result_calendar">Événement d\'agenda trouvé</string>
+    <string name="result_email_address">Adresse courriel trouvée</string>
+    <string name="result_geo">Coordonnées géographiques trouvées</string>
+    <string name="result_isbn">Livre trouvé</string>
+    <string name="result_product">Produit trouvé</string>
+    <string name="result_sms">Adresse SMS trouvée</string>
+    <string name="result_tel">Numéro de téléphone trouvé</string>
+    <string name="result_text">Texte en clair trouvé</string>
+    <string name="result_uri">URL trouvée</string>
+    <string name="result_wifi">Configuration WLAN trouvée</string>
+    <string name="resultado">Resultat de l\'examen</string>
+    <string name="resultadoexamen">Fi de l\'examen</string>
+    <string name="resultadoinfo">* Comuniqueu el resultat al formador</string>
+    <string name="resultadoultimo">Resultat de l\'últim examen:</string>
+    <string name="sbc_name">Recherche Google Livres</string>
+    <string name="seccion">Secció</string>
+    <string name="segundoAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>Segon avançament</string>
+    <string name="segundoavance">Fase: &lt;font color="green">&lt;b>segon avançament&lt;/b>&lt;/font></string>
+    <string name="segundoavance_nohtml">Segon avançament</string>
+    <string name="seleccionaridioma"><b>Selecciona l\'idioma</b></string>
+    <string name="seleccionprovincia">Províncies</string>
+    <string name="selectlanguage">SELECCIONEU l\'IDIOMA</string>
+    <string name="selectprovincia">SELECCIONA LA PROVÍNCIA</string>
+    <string name="si">Sí</string>
+    <string name="sim_netlocked">NETWORK LOCKED</string>
+    <string name="sim_no">NO SIM</string>
+    <string name="sim_nored">NO RED</string>
+    <string name="sim_pin">PIN REQUIRED</string>
+    <string name="sim_puk">PUK REQUIRED</string>
+    <string name="slider_apn">APN</string>
+    <string name="slider_bateria">BATERIA PRINCIPAL</string>
+    <string name="slider_bateria_nivel0">NIVELL DE BATERIA MOLT ALT</string>
+    <string name="slider_bateria_nivel1">NIVELL DE BATERIA ALT</string>
+    <string name="slider_bateria_nivel2">NIVELL DE BATERIA MITJÀ</string>
+    <string name="slider_bateria_nivel3">NIVELL DE BATERIA BAIX</string>
+    <string name="slider_bateria_nivel4">NIVELL DE BATERIA MOLT BAIX</string>
+    <string name="slider_bateria_nivel5">BATERIA DESCARREGADA</string>
+    <string name="slider_conexion1">COBERTURA ALTA</string>
+    <string name="slider_conexion2">COBERTURA MITJANA</string>
+    <string name="slider_conexion3">COBERTURA BAIXA</string>
+    <string name="slider_conexion4">SENSE COBERTURA</string>
+    <string name="slider_corriente_conectada">CONNECTAT AL CORRENT</string>
+    <string name="slider_elecciones">ELECCIONS APN</string>
+    <string name="slider_iccid">ICCID</string>
+    <string name="slider_imei">IMEI</string>
+    <string name="smesa"><b>Mesa/es</b><br>Mesa/es</br></string>
+    <string name="splash1">S\'està configurant la tauleta</string>
+    <string name="splash2">S\'està comunicant amb targeta SIM</string>
+    <string name="splash3">S\'està esperant que la xarxa estiga disponible</string>
+    <string name="splash4">S\'està connectant amb el servidor de dades</string>
+    <string name="splash5">S\'està processant la resposta</string>
+    <string name="splash51">S\'estan comprovant les còpies de seguretat: intent número %d</string>
+    <string name="splash6">Per favor, seleccioneu l\'idioma</string>
+    <string name="sysdump">&lt;b>Esteu accedint a una funció d\'administració.&lt;br>Per favor, cliqueu a Accepta per eixir.&lt;/b>&lt;br>&lt;br>%s</string>
+    <string name="tab1">DADES\nPERSONALS</string>
+    <string name="tab2">DADES\nLOCAL ELECTORAL</string>
+    <string name="tabla_concejo">Consell</string>
+    <string name="tablas">TAULES</string>
+    <string name="telefono">TELÈFON</string>
+    <string name="telefono1">TELÈFON 1</string>
+    <string name="telefono2">TELÈFON 2 (OPCIONAL)</string>
+    <string name="tercerAvanceTabText">&lt;b>Fase&lt;/b>&lt;br>Tercer avançament</string>
+    <string name="terceravance">Fase: &lt;font color="green">&lt;b>tercer avançament&lt;/b>&lt;/font></string>
+    <string name="terceravance_nohtml">Tercer avançament</string>
+    <string name="terminar">Penja</string>
+    <string name="tfno1">TEL. 1</string>
+    <string name="tfno2">TEL. 2</string>
+    <string name="tiempo">Temps</string>
+    <string name="toast_situacion1">s\'ha actualitzat la llista de meses pendents per a la constitució de meses</string>
+    <string name="toast_situacion2">S\'ha actualitzat la llista de meses pendents per a les eleccions %s</string>
+    <string name="todasLasElecciones">TOTES LES ELECCIONS</string>
+    <string name="total">TOTAL</string>
+    <string name="txtInstrucciones_dc_introducir">Introduïu el dígit de control</string>
+    <string name="txtInstrucciones_enviando">S\'estan enviant les dades...</string>
+    <string name="txtInstrucciones_introducir">Introduïu el nombre de %s</string>
+    <string name="txtInstrucciones_introducirCenso">Introduïu el cens</string>
+    <string name="txtInstrucciones_introducirCensoExtranjeros">Introduïu el cens d\'estrangers</string>
+    <string name="txtInstrucciones_introducirCensoNacional">Introduïu el cens nacional</string>
+    <string name="txtInstrucciones_rellenar_boletin">Introduïu els valors del butlletí d\'escrutini</string>
+    <string name="txtInstrucciones_validacion_error">Errors en la validació</string>
+    <string name="txtInstrucciones_validacion_ok">Validació completada correctament</string>
+    <string name="txtInstrucciones_validacion_warnings">Comproveu les dades introduïdes</string>
+    <string name="txtInstrucciones_validando_avances">S\'estan validant els avançaments...</string>
+    <string name="txtInstrucciones_validando_censo">S\'està validant el cens</string>
+    <string name="txtInstrucciones_validando_datos">S\'estan validant les dades...</string>
+    <string name="txtInstrucciones_validando_dc">S\'està validant el dígit de control...</string>
+    <string name="txtInstrucciones_validando_escrutinio">S\'estan validant el butlletí i les candidatures...</string>
+    <string name="txtInstrucciones_votantes_avance1">Introduïu el nombre de votants del primer avançament</string>
+    <string name="txtInstrucciones_votantes_avance2">Introduïu el nombre de votants del segon avançament</string>
+    <string name="txtInstrucciones_votantes_avance3">Introduïu el nombre de votants del tercer avançament</string>
+    <string name="txtInstrucciones_votos_candidato">Vots del candidat</string>
+    <string name="ultimoestado">Últim estat</string>
+    <string name="unknown">unknown</string>
+    <string name="urlping">http://m.google.com</string>
+    <string name="validacion_censo_supera_umbral">El valor del cens és fora del rang permés respecte del valor del cens inicial (%d)</string>
+    <string name="validacion_censo_supera_umbral_extranjeros">La suma del cens d\'electors nacionals i el cens d\'electors estrangers és fora del rang permés respecte del valor del cens total inicial (%d)</string>
+    <string name="validacion_censo_valor_coincide_otra_mesa">El cens introduït coincidix amb el de la mesa %s. N\'esteu segur?</string>
+    <string name="validacion_censo_valor_no_valido">Heu d\'introduir un valor vàlid per al cens.</string>
+    <string name="valores">VALORS</string>
+    <string name="value">value</string>
+    <string name="vblanco"><b>Vots en blanc</b></string>
+    <string name="vnulos"><b>Vots nuls</b></string>
+    <string name="volumen">Volum</string>
+    <string name="volver">Torna</string>
+    <string formatted="false" name="votos_2n_avanc_inferior_1r">Segon avançament %sinferior al primer avançament %s</string>
+    <string formatted="false" name="votos_3r_avanc_inferior_2n">Tercer avançament %sinferior al segon avançament %s</string>
+    <string name="votos_avanc_inferior1">2n avançament</string>
+    <string name="votos_avanc_inferior2">inferior al 1r avançament</string>
+    <string name="votos_avanc_inferior3">3r avançament</string>
+    <string name="votos_avanc_inferior4">inferior al 2n avançament</string>
+    <string name="votos_avanc_voto_igual_DC">El nombre de votants %scoincidix amb el dígit de control. És correcte?</string>
+    <string name="votos_avanc_voto_igual_DC1">El nombre de votants</string>
+    <string name="votos_avanc_voto_igual_DC2">coincidix amb el dígit de control. És correcte?</string>
+    <string formatted="false" name="votos_avanc_voto_igual_censo">El nre. de votants %sés igual que el cens %s. Esteu segur de la dada introduïda?</string>
+    <string name="votos_avanc_voto_igual_censo1">El nre. de votants</string>
+    <string name="votos_avanc_voto_igual_censo2">és igual que el cens\"</string>
+    <string name="votos_avanc_voto_igual_censo3">\"Esteu segur de la dada introduïda</string>
+    <string name="votos_avance1_cero_telefono">Heu de transmetre el %sper a esta mesa per mitjà del telèfon de recompte de dades.</string>
+    <string name="votos_avance1_cero_telefono1">Heu de transmetre el</string>
+    <string name="votos_avance1_cero_telefono2">per a esta mesa a través del telèfon de recompte de dades</string>
+    <string name="votos_avance_avanceN">El nombre de votants coincidix con el de l\'avançament anterior %sN\'esteu segur?</string>
+    <string formatted="false" name="votos_avance_censo">Nre. de votants %sMés alt que el cens %s</string>
+    <string name="votos_avance_censo1">Nre. de votants</string>
+    <string name="votos_avance_censo2">Més alt que el cens</string>
+    <string name="votos_avance_cero">Esteu segur que el nombre de votants %sés 0?</string>
+    <string name="votos_avance_cero1">Esteu segur que el nombre de votants</string>
+    <string name="votos_avance_cero2">és 0?</string>
+    <string name="votos_avance_introducir">Introduïu el nre. de votants</string>
+    <string name="votos_resultado_baja_participacion">Els nivells de participació són inferiors a %d%%. Esteu segur de les dades introduïdes?</string>
+    <string name="votos_resultado_umbral">És possible que hi haja errors en els vots d\'alguna candidatura. Esteu segur de les dades introduïdes?</string>
+    <string name="warningMessageSalir">Si torneu al menú anterior es perdran totes les dades introduïdes en esta pantalla. Esteu segur que voleu tornar?</string>
+    <string name="warningTitleEnvio">Confirmeu l\'enviament...</string>
+    <string name="warningTitleSalir">Esteu segur que voleu tornar?</string>
+    <string name="wifi_changing_network">Demande de connexion au réseau\u2026</string>
+    <string name="wrongletter">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> lletra del document incorrecta&lt;/big>&lt;/big></string>
+    <string name="wrongnie">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> NIE incorrecte&lt;/big>&lt;/big></string>
+    <string name="wrongnif">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> NIF incorrecte&lt;/big>&lt;/big></string>
+    <string name="wrongnombre">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> nom incorrecte&lt;/big>&lt;/big></string>
+    <string name="wrongphone">&lt;big>&lt;big>&lt;b>Instruccions:&lt;/b> telèfon incorrecte&lt;/big>&lt;/big></string>
+</resources>

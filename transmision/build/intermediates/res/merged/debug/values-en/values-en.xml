@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="codigo_provincias">
+		<item>01</item>
+		<item>02</item>
+		<item>03</item>
+		<item>04</item>
+		<item>33</item>
+		<item>05</item>
+		<item>06</item>
+		<item>08</item>
+		<item>09</item>
+		<item>10</item>
+		<item>11</item>
+		<item>39</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>07</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+		<item>32</item>
+		<item>34</item>
+		<item>35</item>
+		<item>36</item>
+		<item>26</item>
+		<item>37</item>
+		<item>40</item>
+		<item>41</item>
+		<item>42</item>
+		<item>43</item>
+		<item>38</item>
+		<item>44</item>
+		<item>45</item>
+		<item>46</item>
+		<item>47</item>
+		<item>48</item>
+		<item>49</item>
+		<item>50</item>
+		<item>51</item>
+		<item>52</item>
+	</string-array>
+    <string-array name="faseNames">
+        <item>Constitution</item>
+        <item>First Advance</item>
+        <item>Second Advance</item>
+        <item>Third Advance</item>
+        <item>Data Counting</item>
+        <item>Prior to Election Day</item>
+    </string-array>
+    <string-array name="faseTitles">
+        <item>&lt;b>CONSTITUTION OF POLLING STATIONS&lt;/b></item>
+        <item>&lt;b>FIRST ADVANCE&lt;/b></item>
+        <item>&lt;b>SECOND ADVANCE&lt;/b></item>
+        <item>&lt;b>THIRD ADVANCE&lt;/b></item>
+        <item>&lt;b>VOTE COUNTING&lt;/b></item>
+        <item>&lt;b>PRIOR TO ELECTION DAY&lt;/b></item>
+    </string-array>
+    <string-array name="idiomalanguajes">
+
+		<item>Español</item>
+		<item>Catalan</item>
+	</string-array>
+    <string-array name="idiomalanguajesCodes">
+
+		<item>es</item>
+		<item>ca</item>
+	</string-array>
+    <string-array name="menu">
+        <item>Configuration</item>
+        <item>Data Sender</item>
+        <item>Polling Stations State</item>
+        <item>Telephone</item>        
+    </string-array>
+    <integer-array name="menu_int">
+        <item>@drawable/settings48</item>
+        <item>@drawable/home48</item>
+        <item>@drawable/check48</item>
+        <item>@drawable/telephone48</item>
+    </integer-array>
+    <integer-array name="menu_int_fase">
+        <item>0x01</item>
+        <item>0x02</item>
+        <item>0x03</item>
+        <item>0x04</item>
+    </integer-array>
+    <string-array name="mesaLetters">
+		<item>A</item>
+		<item>B</item>
+		<item>C</item>
+		<item>D</item>
+		<item>E</item>
+		<item>F</item>
+		<item>G</item>
+		<item>H</item>
+		<item>U</item>
+	</string-array>
+    <string-array name="nieLetters">
+		<item>
+		</item>
+		<item>X</item>
+		<item>Y</item>
+		<item>Z</item>
+	</string-array>
+    <string-array name="nifLetters">
+		<item>
+		</item>
+		<item>A</item>
+		<item>B</item>
+		<item>C</item>
+		<item>D</item>
+		<item>E</item>
+		<item>F</item>
+		<item>G</item>
+		<item>H</item>
+		<item>I</item>
+		<item>J</item>
+		<item>K</item>
+		<item>L</item>
+		<item>M</item>
+		<item>N</item>
+		<item>Ñ</item>
+		<item>O</item>
+		<item>P</item>
+		<item>Q</item>
+		<item>R</item>
+		<item>S</item>
+		<item>T</item>
+		<item>U</item>
+		<item>V</item>
+		<item>W</item>
+		<item>X</item>
+		<item>Y</item>
+		<item>Z</item>
+	</string-array>
+    <string-array name="otrasOpciones">
+        <item>Check State</item>
+        <item>Screen</item>
+        <item>Shutdown Device</item>
+        <item>Help</item>
+    </string-array>
+    <string-array name="otrasOpcionesTest">
+        <item>Check State</item>
+        <item>Screen</item>
+        <item>Shutdown Device</item>
+        <item>Start Exam</item>
+        <item>Make a call</item>
+    </string-array>
+    <string-array name="provincias">
+		<item>Álava</item>
+		<item>Albacete</item>
+		<item>Alicante</item>
+		<item>Almería</item>
+		<item>Asturias</item>
+		<item>Ávila</item>
+		<item>Badajoz</item>
+		<item>Barcelona</item>
+		<item>Burgos</item>
+		<item>Cáceres</item>
+		<item>Cádiz</item>
+		<item>Cantabria</item>
+		<item>Castellón</item>
+		<item>Ciudad Real</item>
+		<item>Córdoba</item>
+		<item>La Coruña</item>
+		<item>Cuenca</item>
+		<item>Gerona</item>
+		<item>Granada</item>
+		<item>Guadalajara</item>
+		<item>Guipúzcoa</item>
+		<item>Huelva</item>
+		<item>Huesca</item>
+		<item>Islas Baleares</item>
+		<item>Jaén</item>
+		<item>León</item>
+		<item>Lérida</item>
+		<item>Lugo</item>
+		<item>Madrid</item>
+		<item>Málaga</item>
+		<item>Murcia</item>
+		<item>Navarra</item>
+		<item>Orense</item>
+		<item>Palencia</item>
+		<item>Las Palmas</item>
+		<item>Pontevedra</item>
+		<item>La Rioja</item>
+		<item>Salamanca</item>
+		<item>Segovia</item>
+		<item>Sevilla</item>
+		<item>Soria</item>
+		<item>Tarragona</item>
+		<item>Santa Cruz de Tenerife</item>
+		<item>Teruel</item>
+		<item>Toledo</item>
+		<item>Valencia</item>
+		<item>Valladolid</item>
+		<item>Vizcaya</item>
+		<item>Zamora</item>
+		<item>Zaragoza</item>
+		<item>Ceuta</item>
+		<item>Melilla</item>
+	</string-array>
+    <string-array name="txtInstrucciones_boletin">
+        <item>Enter Electoral Roll</item>
+        <item>Enter the number of certificates in the electoral census</item>
+        <item>Enter the number of incorrect certificates</item>
+        <item>Enter the total voters</item>
+        <item>Enter the number of voters registered in the polling station that voted</item>
+        <item>Enter the number of auditors not registered in the polling station that voted</item>
+        <item>Enter the number of null votes</item>
+        <item>Enter the number of blank votes</item>
+        <item>Introduzca el número de votos recurridos</item>
+        <item>Introduzca el número de votos de identidad impugnada</item>
+    </string-array>
+    <string name="Autoformacion">Self-training</string>
+    <string formatted="false" name="CERTIFICIONES_ALTA">Certificates of incorrect Electoral Roll additions</string>
+    <string formatted="false" name="CERTIFICIONES_CORRECCION">Certificate of incorrect Electoral Roll corrections</string>
+    <string name="ConNACK">Connections without response</string>
+    <string name="Examen">Exam</string>
+    <string name="IMEI">IMEI</string>
+    <string name="Jornada">Election Day</string>
+    <string name="NIE">FOREIGNER\'S ID NO.</string>
+    <string name="NIF">ID NO.</string>
+    <string name="OK">OK</string>
+    <string name="ResulBlanc">Number of Blank Votes</string>
+    <string name="ResulCenso">Electoral roll</string>
+    <string name="ResulCertAlt">2- For additions to the electoral roll</string>
+    <string name="ResulCertAlt_28">A.- For additions to the electoral roll</string>
+    <string name="ResulCertErr">3- For correction of errors</string>
+    <string name="ResulNVots">Total Voters</string>
+    <string name="ResulNele">A) Registered voters who voted</string>
+    <string name="ResulNele_28">No. Voters at the Polling Station who have voted (3)</string>
+    <string name="ResulNeleayuda">Number of voters registered at the polling station who voted</string>
+    <string name="ResulNint">B) Non-registered polling officers who have voted</string>
+    <string name="ResulNint_28">No. Polling officers not registered at the Polling Station who have voted (3)</string>
+    <string name="ResulNintayuda">Number of polling officers not registered at the polling station who voted</string>
+    <string name="ResulNul">Number of Invalid Votes</string>
+    <string name="STATUS_ERROR">Status not received</string>
+    <string name="Simulacro">Test Run</string>
+    <string name="UNKNOW_ERROR">UNKNOWN ERROR</string>
+    <string name="VOTANTES_CERO">Total voters (Registered voters who have voted + Non-registered polling officers who have voted) must be greater than 0</string>
+    <string formatted="false" name="VOTANTES_ELECTORES">Registered voters must be equal to Certificate of Electoral Roll Additions %s</string>
+    <string name="VOTANTES_ELECTORES1">Voters in Election must not exceed the electoral roll  </string>
+    <string name="VOTANTES_ELECTORES2">+ Certif. Addition</string>
+    <string formatted="false" name="VOTANTES_INTERVENTORES">Non-registered polling officers who have voted must not exceed twice the number of candidates standing (%d)</string>
+    <string name="VOTANTES_SUMA">Total Votes Cast must be equal to Total Valid Votes + Rejected Votes + Disputed Votes</string>
+    <string name="VOTANTES_SUMA1">Votes for Candidates must be equal to Valid Votes</string>
+    <string name="VOTANTES_SUMA2">Votes for Candidates may not be greater than: (Total Voters - Blank - Informal) * No. Cand. in Constituency </string>
+    <string name="VOTANTES_SUMA3">Votes for a Candidate must be less than or equal to: Total Voters - Blank - Informal</string>
+    <string name="VOTANTES_SUMA4">Total voters (Registered voters who have voted + Non-registered polling officers who have voted) must be greater than or equal to Blank Votes + Informal Votes</string>
+    <string name="VOTANTES_SUMA5">Total Votes Cast must be equal to the Number of Voters in Polling station (%s)</string>
+    <string formatted="false" name="VerDat">DATA VERSION: %s</string>
+    <string formatted="false" name="VerSw">SW VERSION: %s</string>
+    <string name="accboletin">Accessing vote counting report for the polling station </string>
+    <string name="accept">Accept</string>
+    <string name="acceptlanguage">ACCEPT</string>
+    <string name="accesibilidad">Accessibility</string>
+    <string name="aceptarTxt">Accept</string>
+    <string name="action">ACTION</string>
+    <string name="activarAccesibilidad">You are going to activate the Accessibility option, the device will reboot\nAre you sure?</string>
+    <string name="admin">Admin</string>
+    <string name="admin_Home">Go Home</string>
+    <string name="admin_mostrar">Show Tables</string>
+    <string name="admin_red">Network Settings</string>
+    <string name="advertenciaFactoryReset">The polling station will be restored to the original settings. Are you sure?</string>
+    <string name="ajustes">Settings</string>
+    <string name="androidcode">D</string>
+    <string name="apagando">Shutting down device. Please wait……</string>
+    <string name="apagardispositivo">Shut Down Device</string>
+    <string name="app_name">Kenya\'s 2017 Presidential Election</string>
+    <string name="applylanguage">APPLY LANGUAGE</string>
+    <string name="applyprovincia">APPLY PROVINCE</string>
+    <string name="avance">Number of Voters</string>
+    <string name="ayuda">Help</string>
+    <string name="basichttpsecurity">Basic c2VydmljZXdlYjpvWXBmQ211NDFDR3Axa2Voa2FibkcxY1c=</string>
+    <string name="bloqueando">Locking screen. Please wait……</string>
+    <string name="boletin_cast">Votes Cast</string>
+    <string name="boletin_disputed">Disputed Votes</string>
+    <string name="boletin_registered">Registered Voters</string>
+    <string name="boletin_rejected">Rejected Votes</string>
+    <string name="boletin_valid">Valid Votes</string>
+    <string name="borrardatos">Delete data</string>
+    <string name="brillo">Brightness</string>
+    <string name="buscar">Search</string>
+    <string name="callincorrecto">Incorrect telephone number. Calls only allowed to <b>Polling Station User Support Centre</b>, emergency numbers or 900 prefix numbers</string>
+    <string name="callintroduza">Enter the telephone no. you want to dial</string>
+    <string name="callllamando">Calling Device Incident Line</string>
+    <string name="callsidesea"><b>USer Support</b></string>
+    <string name="cancel">Cancel</string>
+    <string name="censalesalta"><b>Certificates of Electoral Roll additions</b></string>
+    <string name="censo"><b>ELECTORAL ROLL</b><br/></string>
+    <string name="censo2">ELECTORAL ROLL</string>
+    <string name="cererror"><b>Certificates of Error</b></string>
+    <string name="cerrar">Close</string>
+    <string name="cerrar2">CLOSE</string>
+    <string name="codigo">Code:</string>
+    <string name="codigollamada">This operation is only allowed to solve certain issues. If it is necessary, call the incident hotline and they will give you the necessary PIN</string>
+    <string name="codigos">CODES</string>
+    <string name="colgar">Hang up</string>
+    <string name="comenzarExamen">Begin Exam</string>
+    <string name="completado">Complete</string>
+    <string name="comunidad">REGIONAL</string>
+    <string name="comunvotantes">GENERAL</string>
+    <string name="concejo">COUNCIL:</string>
+    <string name="concejos">COUNCILS</string>
+    <string name="conectedto">Connected to</string>
+    <string name="conf_guion">-</string>
+    <string name="conf_letra">Letter</string>
+    <string name="configuracion">Configuration</string>
+    <string name="confirmarlanguage">Apply change of language to </string>
+    <string name="confirmarprovincia">Do you want to select the province of %s?</string>
+    <string name="connor">NoR CONNECTION</string>
+    <string name="consejos">ISLAND COUNCILS</string>
+    <string name="constitucionTabText">&lt;b>Phase:&lt;/b>&lt;br>Constitution</string>
+    <string name="constmesa">Phase: &lt;font color="green">&lt;b>Constitution of Polling Stations&lt;/b>&lt;/font></string>
+    <string name="constmesa_nohtml">Constitution of Polling Stations</string>
+    <string name="consultarestado">Query Status</string>
+    <string name="consultarestado_message">Want to know the server status again?</string>
+    <string name="continuar">Continue</string>
+    <string name="controlalarma">Check Alarm</string>
+    <string name="cortes09">CORTES DE\nCASTILLA Y LEÓN</string>
+    <string name="datacontact"><b>Contact details</b></string>
+    <string name="datosconexion">Connection Data</string>
+    <string name="datosdispositivo">DEVICE DATA</string>
+    <string name="datoslocal">DEVICE DATA</string>
+    <string name="dc">Check Digit</string>
+    <string name="dc_erroneo">Incorrect Check Digit</string>
+    <string name="dc_formacion">Incorrect Check Digit, for Training enter \'1\'</string>
+    <string name="dc_simulacro">Incorrect Check Digit, for this test run enter \'1\'</string>
+    <string name="defaultContentDescription">Default descriptor</string>
+    <string name="delete">Delete</string>
+    <string name="desactivarAccesibilidad">You are going to deactivate the Accessibility option, the device will reboot\nAre you sure?</string>
+    <string name="desautorizado">The device has been disabled, please call the Incident Centre</string>
+    <string name="dialog_apagarterminal">The polling stations will shut down\n Are you sure?</string>
+    <string name="dialog_cerrardatos1">&lt;b>PERSONAL DATA&lt;/b>&lt;b>EDITED&lt;/b>, if you click on “Continue”, the changes will be lost.&lt;br>&lt;br>To save the &lt;b>PERSONAL DATA&lt;/b>, click "Cancel", then click "OK" in the &lt;b>PERSONAL DATA&lt;/b> tab</string>
+    <string name="dialog_cerrardatos2">&lt;b>DEVICE DATA&lt;/b> edited, if you click on "Continue" the changes will get lost.&lt;br>&lt;br>To save the &lt;b>DEVICE DATA&lt;/b>, click "Cancel" then click "OK" in the &lt;b>DEVICE DATA&lt;/b> tab </string>
+    <string name="dialog_cerrarresultados">If the window closes, the data will be lost\n¿Are you sure?</string>
+    <string name="dialog_comenzarexamen"> Attention, Examination Mode is about to start \n Perform this operation only when supervised by a Trainer \n Are you sure?</string>
+    <string name="dialog_configuracion">CONFIGURATION</string>
+    <string name="dialog_conformidad1">The entry of personal data is necessary, solely for administrative purposes in the Kenya\'s 2017 Presidential Election</string>
+    <string name="dialog_conformidad2">The location of the terminal will be recorded for administrative control purposes</string>
+    <string name="dialog_conformidad2_options">&lt;b>Enable sharing of the terminal location&lt;/b>&lt;br>&lt;br> The location of the terminal will be recorded for administrative control purposes </string>
+    <string name="dialog_conformidad3">Please, click  &lt;i>&lt;b>\"Enable registration of terminal location\"&lt;/b>&lt;/i>, to continue the use of the application</string>
+    <string formatted="false" name="dialog_conformidad4"> Do you want to confirm the electoral site to be registered in the system?&lt;br>&lt;br>&lt;b>%s&lt;/b>&lt;br>&lt;br>Sí no pulsa ningún botón, el Local Electoral será registrado automáticamente en &lt;b>%s segundos&lt;/b></string>
+    <string formatted="false" name="dialog_conformidad_idioma_inicio"> Confirm language &lt;br>&lt;br>&lt;b>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/b>&lt;br>&lt;br>If no button is pressed, the selected language will be automatically registered in &lt;b>%s&lt;/b></string>
+    <string name="dialog_errormesa">Error at polling station</string>
+    <string name="dialog_errormesaconnection">Server Connection Error</string>
+    <string name="dialog_errormesanotfound">The Polling Station entered has not been found in the database of the elections, please check that the data correspond with their assigned polling stations.</string>
+    <string name="dialog_mesassinconfirmar">Polling stations without confirmation</string>
+    <string name="dialog_noestado">No status received</string>
+    <string formatted="false" name="dialog_prioridad_eleccion">Please, Enter the table counting bulletin first &lt;b>%s&lt;/b> for the Election &lt;b>%s&lt;/b></string>
+    <string name="dialog_sim_no">Configuring wireless network, please wait…</string>
+    <string name="dialog_votoszero">Votes for candidates are zero\n Are you sure?</string>
+    <string name="direccion">Address</string>
+    <string name="direccion2">ADDRESS</string>
+    <string name="distrito">District</string>
+    <string name="dns1">94.126.241.60</string>
+    <string name="dns2">94.126.241.61</string>
+    <string name="edit">Edit</string>
+    <string name="elec">Election</string>
+    <string name="eleccensados"><b>Registered Voters</b></string>
+    <string name="electoresCenso"><b>NUMBER OF VOTERS AS PER ELECTORAL ROLLS:</b>\n (This information should include appendices on additions and removals)</string>
+    <string name="electoresCensoExtranjeros"><b>CITIZENS OF EU AND COUNTRIES WITH TREATIES WHO RESIDE IN SPAIN</b>\n(This information should include appendices on additions and removals)</string>
+    <string name="electoresCensoNacional"><b>VOTERS RESIDING IN KENIA INCLUDED IN ELECTORAL ROLL</b>\n(This information should include appendices on additions and removals)</string>
+    <string name="enviando">Sending data. Please wait……</string>
+    <string name="enviandoTx">Checking transmitter’s data. Please wait……</string>
+    <string name="enviarlogs">Send Logs</string>
+    <string name="enviarmesas">Data Sender</string>
+    <string name="envioMesasCompletado">Sending Complete</string>
+    <string name="error_campo_obligatorio">Required field</string>
+    <string name="errores">Errors</string>
+    <string name="errorpin">Error entering the PIN</string>
+    <string name="escrutinio">Phase: &lt;font color="green">&lt;b>Vote Counting&lt;/b>&lt;/font></string>
+    <string name="escrutinioTabText">&lt;b>Phase:&lt;/b>&lt;br>Vote Counting</string>
+    <string name="escrutinio_nohtml">Vote Counting</string>
+    <string name="esperandoApertura">(WAITING FOR THE OPENING OF POLLING STATIONS)</string>
+    <string name="esperandoTabText">&lt;b>Phase:&lt;/b>&lt;br>Prior to Day</string>
+    <string name="esperandojornada">Phase: &lt;font color="green">&lt;b>Prior to Day&lt;/b>&lt;/font></string>
+    <string name="esperandojornada_nohtml">Prior to Day</string>
+    <string name="estado">Status</string>
+    <string name="estadoMesasConstMesas">Constitution of Polling Stations</string>
+    <string name="estadoMesasEnCola">In submission queue</string>
+    <string name="estadoMesasEnviadaxtfno">Sent by telephone</string>
+    <string name="estadoMesasEnviado">Sent by polling stations</string>
+    <string name="estadoMesasEscrutinio">Vote Counting</string>
+    <string name="estadoMesasIdMesas">Polling stations</string>
+    <string name="estadoMesasInfoColumnaResaltada">The highlighted column corresponds to the current phase.</string>
+    <string name="estadoMesasNoAplica">Not applicable:</string>
+    <string name="estadoMesasPrimerAvance">First Advance</string>
+    <string name="estadoMesasSegundoAvance">Second Advance</string>
+    <string name="estadoMesasSinDatos">No Data</string>
+    <string name="estadoMesasTercerAvance">Third Advance</string>
+    <string name="estadomesas">Polling Stations STATE</string>
+    <string name="examenpin">examen15</string>
+    <string name="exitmesa">6666666666 A</string>
+    <string name="exitpasswd">666666666</string>
+    <string name="exitpasswd0">000000000</string>
+    <string name="exitpin">9119</string>
+    <string name="extranjero">DOCUMENT</string>
+    <string name="factoryReset">Factory Reset</string>
+    <string name="fase">Phase: </string>
+    <string name="finTabText">&lt;b>Phase:&lt;/b>&lt;br>End Of Election Day</string>
+    <string name="finalizado">Finished</string>
+    <string name="finformacion">You have completed a training cycle, press OK to restart the application and start a new cycle.</string>
+    <string name="finformaciontitle">End of Training</string>
+    <string name="finjornada">Phase: &lt;font color="green">&lt;b>End of Election Day&lt;/b>&lt;/font></string>
+    <string name="finjornada_nohtml">End of Election Day</string>
+    <string formatted="false" name="forzarapagar">The polling station will shut down in &lt;b>%s seconds&lt;/b>&lt;br></string>
+    <string name="frmEstadoMesasTitle">Status of the polling stations</string>
+    <string name="headding">HEADDING</string>
+    <string name="header_menu">MENU</string>
+    <string name="header_title1">CONFIGURATION</string>
+    <string name="hello">Hello World, ADeltaActivity!</string>
+    <string name="help_ayuda">
+&lt;b>&lt;u>Help&lt;/u>:&lt;/b> The Representative can press this button on each&lt;br />
+        creen and a help window will appear where&lt;br />
+        all the options and buttons are explained.
+    </string>
+    <string name="help_bExit">Exit</string>
+    <string name="help_bateria">
+&lt;b>&lt;u>Battery&lt;/u>:&lt;/b> Shows the level of battery charge. It must&lt;br />
+        always be above 30%:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/full_battery_48.png" /> Battery level very high&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_75_48.png" />   Battery level high.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_50_48.png" />   Battery level medium.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/percent_25_48.png" />   Battery level low.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/almost_empty_48.png" /> Battery level very low. Connect to the network.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/empty_battery_48.png" /> Flat battery. Connect to the network.
+    </string>
+    <string name="help_censo_mesa_1">827</string>
+    <string name="help_censo_mesa_2">723</string>
+    <string name="help_cobertura">
+&lt;b>&lt;u>Coverage&lt;/u>:&lt;/b> Shows the level of coverage:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_4.png" /> &lt;b>Very High&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_3.png" /> &lt;b>High&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_2.png" /> &lt;b>Medium&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_1.png" /> &lt;b>Low&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/signal_0.png" /> &lt;b>None:&lt;/b> You must contact the &lt;b>Polling Station&lt;br/>
+        &amp;nbsp;&amp;nbsp;Service Centre&lt;/b>.
+    </string>
+    <string name="help_cobertura_top">
+&lt;img src="file:///android_res/drawable/high_connection_48.png" />&amp;nbsp;&lt;b>&lt;u>Level of Coverage&lt;/u>:&amp;nbsp;&lt;/b>Shows the level and type of coverage.
+        &lt;br />It could be one of the following:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/high_connection_48.png" /> &lt;b>High&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/medium_connection_48.png" /> &lt;b>Medium&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/low_connection_48.png" /> &lt;b>Low&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/no_connection_48.png" /> &lt;b>None&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;Operator (Movistar, NO SIM o NO NETWORK) and type of&lt;br />
+        &amp;nbsp;&amp;nbsp;coverage (HP, H, 3G, E).
+    </string>
+    <string name="help_codigomesa">
+Click in the "polling station code"&lt;br />  
+	     to fill from the corresponding data to the current phase at the selected polling station 
+    </string>
+    <string name="help_constitucion_mesas">
+&lt;b>&lt;u>Constitution of Polling Stations:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        For the constitution of a polling station, the following must be indicated:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Check Digit of the Polling Station:&lt;/b>&amp;nbsp;You must enter the number that appears in&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the Check Digit field of the report.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Number of voters (domestic and foreign) according to the electoral rolls:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;You must remind the returning officer of the need to update the&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;electoral roll data of domestic voters and overseas voters with the&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Appendices of Additions and Removals if they have been received. (Enter up to&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;four digits in each field).&lt;br />&lt;br />
+        After entering the number of voters in each election, click the button  to send the data indicated.
+        &lt;br />If sent successfully, this will be reported on screen. If any errors are detected in the data entered, an  &lt;b>error message&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> will appear on the screen for correction
+    </string>
+    <string name="help_constitucion_mesas_tipocenso0">
+&lt;b>&lt;u>Constitution of Polling Stations:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        For the constitution of a polling station, the following must be indicated:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Check Digit of the Polling Station:&lt;/b>&amp;nbsp;You must enter the number that appears in&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the Check Digit field of the report.&lt;br />
+        After entering the check digit, press the button &lt;img src="file:///android_res/drawable/datosaceptar.png" />
+        to send the data indicated.
+        &lt;br />If sent successfully, this will be reported on screen. If any errors are detected in the data entered, an &lt;b>error message&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> will appear on the screen for correction.
+    </string>
+    <string name="help_constitucion_mesas_tipocenso1">
+&lt;b>&lt;u>Constitution of Polling Stations:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        For the constitution of a polling station, the following must be indicated:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Check Digit of the Polling Station:&lt;/b>&amp;nbsp;You must enter the number that&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;appears in the Check Digit field of the report.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>-Number of domestic voters according to the electoral rolls:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;You must remind the returning officer of the need to update the&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data on electoral roll of national voters with the&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Appendices of Additions and Removals if they have been received.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(Enter up to four digits in each field).&lt;br />&lt;br />
+        After entering the number of voters in each election, click the button  to send &lt;img src="file:///android_res/drawable/datosaceptar.png" />
+        the data indicated. 
+        &lt;br />.If sent successfully, this will be reported on screen. If any errors are detected in the data entered, an &lt;b>error message&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> will appear on the screen for correction.
+    </string>
+    <string name="help_datos">
+&lt;b>&lt;u>Data&lt;/u>:&lt;/b> Indicates data coverage:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_connected_g.png" /> &lt;b>Connected:&lt;/b> Data coverage&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;should be monitored, so that the polling station is in connection to the&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp; server at all times.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/data_no_connected_gred.png" /> &lt;b>Not connected:&lt;/b> You must contact the &lt;b>Polling Station&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;Service Centre&lt;/b>.
+    </string>
+    <string name="help_datos1">Transmitter’s Personal Data</string>
+    <string name="help_datos2">Please check that the personal data of the Transmitter, stored in the device, are correct</string>
+    <string name="help_datos_colegio">
+&lt;b>&lt;u>Data for the Polling Place and assigned polling stations&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        According to the data on the polling station entered in the previous screen,&lt;br />
+        the data for the Polling Place and the polling stations assigned to the representative:&lt;br />
+		&lt;img src="file:///android_res/drawable/ic_action_place.png" />Displays the location of the Polling Place on the map.&lt;br />
+		&amp;nbsp;&lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp;  If the data are correct, press this button to confirm the Polling Place and  
+		continue.&lt;br />
+		&amp;nbsp;&lt;img src="file:///android_res/drawable/datoseditar.jpg" />&amp;nbsp; If the data are not correct, pressing this button will return&lt;br />
+		to the screen where polling station data were entered and they can be modified.
+        
+    </string>
+    <string name="help_datos_colegio_direccion">School St. Mary\'s School \n P.O Box 40580 \n Nairobi City, Kenia \n</string>
+    <string name="help_datos_conexion">
+&lt;b>&lt;u>Information on connection data:&lt;/u>:&lt;/b> Using this button&lt;br />
+        we obtain the following information about the connection&lt;br />
+        data. The &lt;b>Polling Station User Service Centre&lt;/b> can&lt;br />
+        request authorisation to consult these data in case of an incident:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Mode:&lt;/b> Self-training, test run or election day.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Operator&lt;/b> running the network to which the device is&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;connecting. If it is not  &lt;b>&lt;i>MOVISTAR&lt;i>&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;you must contact the &lt;b>Polling Station User&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Service Centre&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- APN&lt;/b> you are connecting the device.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&lt;/b> Device ID.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&lt;/b> ID SIM card ID.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Polling Station IP&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Server IP&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Failed Connections&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Software Version&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Data Version&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Query the last status:&lt;/b> Pressing this button&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;displays information that may be useful in certain&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cases for the &lt;b>Polling Station User Service Centre&lt;/b>.
+    </string>
+    <string name="help_datos_electoral_cut1">
+&lt;b>&lt;u>Entry of data from one of the tables assigned to the representative:&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        Once the Representative has been identified, the data entry section will &lt;br />
+        appear from one of the polling stations they have assigned. The required data to be :&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Province:&lt;/b> Province code (Two digits).&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Town/City:&lt;/b> Town/City code (Three digits).&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- District Code:&lt;/b> District code(two digits).&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Section:&lt;/b> Section code(Three digits).&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Polling station:&lt;/b> Polling station code (one letter).
+        
+    </string>
+    <string name="help_datos_electoral_cut2">
+
+        &lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;After entering all the details of the polling station, press this button to continue&lt;br />&lt;br />
+        &lt;img src="file:///android_res/drawable/datosbuscar.jpg" />&amp;nbsp;Next, press this button to find the polling station you have entered:
+        &lt;br />If all the data are correct, you will be taken to the next screen to confirm the Polling Place and polling stations. Otherwise, a message will appear below the field that needs to be modified. &lt;br />
+        &lt;br />&lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;By pressing this button ALL data entered will be deleted.
+        &lt;br />&lt;br />&lt;img src="file:///android_res/drawable/datosmenu.jpg" />&amp;nbsp;At any time you can modify the personal data of the Polling Place from the Menu, by selecting the configuration option.
+        &lt;br />&lt;br /> During the test run and on Election Day you will need to call the &lt;b>polling station User Service Centre&lt;/b> to modify the data of the Polling Place.
+        
+    </string>
+    <string name="help_datos_modosnavega">
+
+	        &lt;b>Screen navigation modes&lt;/b>:&lt;br />
+	        Selecting and entering data on the polling stations assigned to each of the&lt;br />
+	        elections in its current phase can be done in two ways:&lt;br /> 
+	        -Press on the name of the election you want to select and it will be 
+	        &lt;br />&amp;nbsp;highlighted.&lt;br />
+	        -Swipe the pointer/finger across the centre of the screen, to the right&lt;br />
+	        &amp;nbsp; or to the left, until the Election&lt;br />
+	        &amp;nbsp; tab you want to select is highlighted. 
+	        
+    </string>
+    <string name="help_datos_personales_cut1">
+&lt;b>&lt;u>Details of Representative&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        When the device is started for the first time, the personal&lt;br />
+        details of the Representative will be requested. They are:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Document:&lt;/b> Press the button &amp;nbsp;&lt;img src="file:///android_res/drawable/nifnie.jpg" />&amp;nbsp; to enable the Foreigner\'s Identification Number option&lt;br /> 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if applicable&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- NIF / NIE:&lt;/b> Number and letter of the National ID / Foreigner\'s ID Numer.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Name and surname(s):&lt;/b> Enter the name and surname(s) of the representative.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Telephone 1:&lt;/b>First contact telephone number. This must be a mobile phone on which.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;it is possible to contact the Representative at all times, especially&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;during the Test Run on Election Day&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Telephone 2:&lt;/b> Second contact phone (optional).&lt;br />
+        &lt;br />It is important that these details are correct, since they will be used in the event of &lt;br />
+        having to contact the Representative.&lt;br />
+        &lt;img src="file:///android_res/drawable/datoslisto.jpg" />&amp;nbsp;After entering all the personal details, press this key to continue.
+        
+    </string>
+    <string name="help_datos_personales_cut2">
+&lt;b>&lt;u>Personal details of the Representative:&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        &lt;img src="file:///android_res/drawable/datosaceptar.jpg" />&amp;nbsp;Once all the details are entered, press this button:
+        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If all the details are correct the Polling Place tab is activated. 
+        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Otherwise, a message will appear below the field that needs to be
+        &lt;br /> &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;modified.
+        &lt;br />
+        &lt;img src="file:///android_res/drawable/datosborrar.jpg" />&amp;nbsp;Pressing this button means ALL the data entered will be deleted.  &lt;br />
+        &amp;nbsp;At any time you can modify the personal data from &amp;nbsp;&lt;img src="file:///android_res/drawable/datosmenu.jpg" /> &lt;br />
+        by selecting the configuration option.
+        
+    </string>
+    <string name="help_datos_personales_nif">11111111H</string>
+    <string name="help_datos_personales_pag1_tab1">
+&lt;b>&lt;u>Ways to enter the data on the screen:&lt;/u>:&lt;/b>&lt;br />
+        To move and edit the fields there are four possibilities:&lt;br />
+        &amp;nbsp;&amp;nbsp;1-Clicking on the field to edit.&lt;br />
+        &amp;nbsp;&amp;nbsp;2-Clicking on the &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> pencil, to the right of the field you want to edit&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at this time will be changed to the &amp;nbsp; &lt;img src="file:///android_res/drawable/ic_action_accept.png" /> check box indicating thet the data&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;in that field can be modified.&lt;br />
+        &amp;nbsp;&amp;nbsp;3-Clicking &lt;img src="file:///android_res/drawable/sig.jpg" /> the next key on the keyboard will allow you to move from one field&lt;br /> 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;to the next&lt;br />
+        &amp;nbsp;&amp;nbsp;4-Upon completion the field will automatically jump to the next one, except for&lt;br /> 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the field “Name and surname(s)”, in which it will be necessary to perform&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;any of the above options.
+        
+    </string>
+    <string name="help_datos_personales_pag1_tab2">
+&lt;b>&lt;u>Ways to enter the data on the screen:&lt;/u>:&lt;/b>&lt;br />
+        To move and edit the fields there are four possibilities:&lt;br />
+        &amp;nbsp;&amp;nbsp;1-Clicking on the field to edit.&lt;br />
+        &amp;nbsp;&amp;nbsp;2-Clicking on the &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> pencil, to the right of the field you want to edit &lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at this time will be changed to &amp;nbsp; &lt;img src="file:///android_res/drawable/check48.png" /> check box indicating that the data&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;in that field can be modified.&lt;br />
+        &amp;nbsp;&amp;nbsp;3-Clicking &lt;img src="file:///android_res/drawable/sig.jpg" /> the next key on the keyboard will allow you to move from one filed&lt;br /> 
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;to the next.&lt;br />
+        &amp;nbsp;&amp;nbsp;4-Upon completion the field will automatically jump to the next one. 
+        
+    </string>
+    <string name="help_datos_personales_telefono_1">609609609</string>
+    <string name="help_datos_tabs">
+
+	        &lt;b>Election Tab&lt;/b>:&lt;br />
+	        The application displays as many tabs as elections needing to be&lt;br />
+	        transmitted. Until the data are sent from the polling station for &lt;br />
+	        the highest-priority election in the current phase, this polling station will not be&lt;br />
+	        vailable to complete its data for the rest of the applicable elections.&lt;br />
+	        
+    </string>
+    <string name="help_datosdeldispositivo">
+&lt;img src="file:///android_res/drawable/info_72.png" />&amp;nbsp;&lt;b>&lt;u>Device Data&lt;/u>:&lt;/b>These are the identifying data of the polling station:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- APN:&amp;nbsp;&lt;/b>through which the device is connected.&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- IMEI:&amp;nbsp;&lt;/b>Device ID&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- ICCID:&amp;nbsp;&lt;/b>SIM card ID.&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Device IP&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Server IP&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- noR connection:&lt;/b>&amp;nbsp;Indicates the number of connections without response.
+    </string>
+    <string name="help_datoslocalelectoral">
+&lt;img src="file:///android_res/drawable/urnalista.png" />&amp;nbsp;&lt;b>&lt;u>Polling Place Details&lt;/u>:&lt;/b>&amp;nbsp; The data which are recorded on the device.&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Polling Place:&amp;nbsp;&lt;/b>Name of the Polling Place&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Address:&amp;nbsp;&lt;/b>Street, number, town/city and postcode&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Reference Polling Station:&amp;nbsp;&lt;/b>One of the polling stations assigned to the representative.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- List os polling stations:&amp;nbsp;&lt;/b>Other polling stations assigned to the representative.
+    </string>
+    <string name="help_escrutinio_1">
+&lt;b>&lt;u>Vote counting: Basic concepts&lt;/u>&lt;/b>&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Electoral roll:&lt;/b> This is the number of people eligible to&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;vote and who have not been deprived, permanently or temporarily, of the &lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;right to vote.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Certificates of Additions:&lt;/b> The number of voters who have submitted a&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;specific electoral roll certificate issued by the Electoral Census Office&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;that enables you to enforce the right to vote at that polling station.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Voters registered at the polling station who have voted:&lt;/b> Indicate the number of&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;voters included in the electoral roll for the polling station.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Non-registered polling officers who have voted at that polling station: &lt;/b> Indicates the number of&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;polling officers who have voted and are not on the electoral roll of the polling station.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Number of invalid votes:&lt;/b> The following are considered invalid votes:&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Those issued in envelopes or ballot slips other than the official model&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Ballot papers without an envelope.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> Those issued in altered envelopes.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> The ballot papers in which the
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;names of the candidates have been&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;modified, added, or blacked out, the order of placement changed,&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;or those in which any legend or expression has been introduced,  &lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;or any voluntary or intentional alteration been produced.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>·&lt;/b> The envelopes containing more than one ballot paper for different candidates&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(if several ballot papers from the same candidate are included, it is counted &lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;as a single valid vote).&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· &lt;u>Remember&lt;/u>:&lt;/b> Those ballot papers are not invalid on which some sign or&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mark has been made that does not generate any doubts about the&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;intention of the vote.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Number of blank votes:&lt;/b> Indicate the number of envelopes that do not contain
+        &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;a ballot paper.
+    </string>
+    <string name="help_escrutinio_2">
+&lt;b>&lt;u>Fields of vote counting report&lt;/u>&lt;/b>&lt;br />&lt;br />
+        First, to perform the vote counting, the following information needs to be&lt;br />
+        indicated:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Check Digit of the polling station:&lt;/b>&amp;nbsp;You must enter the number that appears&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; in the Check Digit field in the report.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- The following data from the printed report:&lt;/b>&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· On additions to the electoral roll.&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Registered voters who have voted.&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Polling officers not registered at the polling station who have voted.&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Number of invalid votes.&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>· Number of blank ballots.&lt;/b>.&lt;br />&lt;br />
+        Subsequently, the data of the &lt;b>votes for each candidate&lt;/b> are filled in. No&lt;br />
+        need to fill in for those candidates who have received 0 votes.
+        &lt;br />&lt;br />
+        &lt;b>&lt;u>Validations&lt;/u>:&lt;/b> Remember that the number of registered voters at the polling station who have&lt;br />
+        voted (A) + Polling officers not registered at the polling station who have voted (B) must&lt;br />
+        be equal to the sum of votes for candidates + blank votes + invalid votes.&lt;br />
+        Number of voters on the electoral roll at the polling station who have voted (A) must be less than  &lt;br />
+        or equal to the sum of the electoral roll + certificates of additions.
+    </string>
+    <string name="help_escrutinio_2b">
+&lt;b>&lt;u>Display of data entered into counting screen:&lt;/u>:&lt;/b>&lt;br />
+            ou can display the full vote counting screen, after finishing entry of data 
+            from the vote counting report, for this you need to click on the icon that closes the data field that has been expanded &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />
+            To scroll around the entire vote counting screen, you will have to slide the pointer or your finger on the screen and move vertically.
+        
+    </string>
+    <string name="help_escrutinio_3">
+&lt;b>&lt;u>Entering data on the vote counting screen:&lt;/u>:&lt;/b>&lt;br />
+			To enter data in the fields of the vote counting screen, you must first write the. Check Digit. Then you need to: &lt;br />
+			&amp;nbsp;1) Click on the field where you want to enter the data, it will expand and&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the keyboard will appear at the bottom of the screen.&lt;br />
+			&amp;nbsp;2) Enter the value corresponding to the data field that is visible on the&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;screen and press the key &lt;img src="file:///android_res/drawable/sig.jpg" /> .&lt;br />
+			&amp;nbsp;3) Enter the appropriate value for the next expanded field.&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;You must repeat points 1, 2 and 3 as many times as necessary until you&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;complete the data in all the fields of the vote counting screen&lt;br />
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(report data and votes for candidates) as they are given in the report.&lt;br />&lt;br />
+			When the value of a field is zero, you do not need to enter this number, &lt;img src="file:///android_res/drawable/sig.jpg" /> 
+			you can press the key  and move to the next field or click in the field you want to fill.&lt;br />
+			To move and view the extended data fields you can also use the pointer, sliding vertically up the screen to the data field you want to select.&lt;br />
+			You can display the full vote counting screen on finish entering the data from the vote counting report, for this you need to click on the icon that closes the
+			data field that has expanded &lt;img src="file:///android_res/drawable/cancel_65.png" />.&lt;br />
+			To scroll on the full vote counting screen, you need to slide the pointer or your finger vertically on the screen.
+        
+    </string>
+    <string name="help_esperandojornada">
+In the current phase, &lt;b>no action is required&lt;/b>&lt;br />
+         by the representative. The change to the phase of&lt;br /> 
+         constitution of the polling station will be automatic.
+    </string>
+    <string name="help_estado_mesas">
+&lt;b>&lt;u>Status of the polling stations:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        This screen displays information about the status of each of the polling stations&lt;br />
+        in the different phases of the electoral process (The column of the current phase is highlighted in a different colour).&lt;br />&lt;br />
+        The different states of a polling station in each phase can be:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_remove.png" /> No data:&lt;/b>There are no data from the polling station.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> In submission queue:&lt;/b>The data from the polling station are waiting to be sent.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_accept.png" /> Sent by polling station:&lt;/b>The data from the polling station have been sent by polling station.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_menu_call.png" /> Sent by telephone:&lt;/b>  Sent by telephone: The data from the polling station have been sent by
+        &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;telephone.
+    </string>
+    <string name="help_estado_mesas_multielec">
+&lt;b>&lt;u>Status of the polling stations:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        This screen displays information about the status of each of the polling stations&lt;br />
+        in the different phases of the electoral process (the logo will be highlighted).&lt;br />
+        The column of the current phase is highlighted in a different colour.&lt;br />&lt;br /> 
+        The different states of a polling station in each phase can be:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_remove.png" />No data:&lt;/b>There are no data from the polling station.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> In submission queue:&lt;/b>The data from the polling station are waiting to be sent&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_action_accept.png" /> Sent by polling station:&lt;/b> The data from the polling station have been sent by device.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/ic_menu_call.png" /> Sent by telephone:&lt;/b>  The data from the polling station have been sent by
+        &lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;telephone.
+    </string>
+    <string name="help_findefase">
+Has been introduced the whole polling station data for that phase&lt;br />  
+         
+    </string>
+    <string name="help_findejornada">
+This phase indicates that all data have been sent&lt;br />  
+         by polling stations assigned to the representative.
+    </string>
+    <string name="help_mapa">
+&lt;b>&lt;u>Location of the Election&lt;/u>:&lt;/b>&lt;br />
+        Indicates the province to which&lt;br />the saved Polling Place belongs.
+    </string>
+    <string name="help_mesa_1">02 003 01 019 A</string>
+    <string name="help_mesa_2">02 003 01 019 B</string>
+    <string name="help_mesa_referencia">02 003 01 019 A</string>
+    <string name="help_mesaref1">Enter Polling Station Data</string>
+    <string name="help_mesaref2">Enter details of one of their polling stations assigned to transmit on election day. The data (Province, Town/City, District, Section and Polling Station) can be found in the reports that were delivered with the device</string>
+    <string name="help_mesasindatos">
+
+        &lt;b>No Data&lt;/b>:&lt;br />
+        Indicates the number of polling stations for which the data&lt;br /> 
+        for the current phase have not been entered.&lt;br />
+        &lt;b>Not Sent&lt;/b>:&lt;br />
+        Indicates the number of polling stations where data have been entered&lt;br /> 
+        for the current phase, but are in the submission queue.
+        
+    </string>
+    <string name="help_modo">
+&lt;b>&lt;u>Mode&lt;/u>:&lt;/b> Indicates the mode in which the polling station is operating:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/autoformacion.png" /> &lt;b>Self-training&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/examen.png" /> &lt;b>Exam&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/simulacro.png" /> &lt;b>Test Run&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/urna.png" /> &lt;b>Election Day&lt;/b>.
+    </string>
+    <string name="help_nombre_eleccion">European Parliament</string>
+    <string name="help_open_progress">Opening help</string>
+    <string name="help_operadora">
+&lt;b>&lt;u>Operator&lt;/u>&lt;/b>  running the network to which &lt;br />
+        cthe device is connecting (HP, H, 3G, E). If it is not &lt;br />
+        &lt;b>&lt;i>MOVISTAR&lt;i>&lt;/b> or NO SIM or NO NETWORK is shown, &lt;br />
+        you must contact &lt;b>Polling Station Support Center&lt;br /> &lt;/b>.
+    </string>
+    <string name="help_otras_opciones">
+&lt;b>&lt;u>Other options:&lt;/u>:&lt;/b>&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Personal data:&lt;/b> Edit the personal data&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;of Representative.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Query status.&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Screen:&lt;/b> Accessibility and brightness.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Turn off the device&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Start Exam&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Make call&lt;/b>.
+    </string>
+    <string name="help_pantalla_principal_1">
+&lt;b>&lt;u>Main Screen: Reference polling station, address and data of the Polling Place&lt;/u>.&lt;/b>&lt;br />&lt;br />
+        Clicking on the reference polling station &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, data for the polling&lt;br />
+        place and assigned polling stations will be displayed:&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Address of the Polling Place:&lt;/b> Polling Place and its address..&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Polling Stations at the Polling Place:&lt;/b> List of assigned polling stations and their electoral roll.&lt;br />&lt;br />
+        The &lt;b>View Map&lt;/b> &lt;img src="file:///android_res/drawable/ic_action_place.png" /> button displays a map with the physical location of the&lt;br />
+        polling place.&lt;br />
+        The &lt;b>Edit&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_edit.png" /> button will display the polling station editing screen (except during &lt;br />
+        Test Run and Election Day). If the Representative needs to correct these data&lt;br />
+        they need to contact the &lt;b>polling station User Service Centre&lt;/b>.&lt;br />&lt;br />
+        To hide these data, simply click again on the reference&lt;br />
+        polling station &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.
+    </string>
+    <string name="help_pantalla_principal_2">
+&lt;b>&lt;u>Main Screen: Data Sender&lt;/u>.&lt;/b>&lt;br />&lt;br />
+        This section reports on the number of polling stations that do not yet have data&lt;br />
+        and the number of the Polling Stations still unsent.&lt;br />&lt;br />
+        &lt;b>&lt;u>Status of the polling stations:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Clicking on the &lt;b>Status of Polling Stations&lt;/b> &lt;img src="file:///android_res/drawable/ic_menu_info_details.png" />, button will display&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>Status of the Polling Stations&lt;/b>, screen, where we can see the status for each of the polling stations and phases&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;on Election Day. The Status of the Polling Stations can be:&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/delete_icon.png" /> No data &lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/pending_icon.png" /> In submission queue&lt;/b>.&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b>&lt;img src="file:///android_res/drawable/check_icon.png" /> Sent&lt;/b>.&lt;br />&lt;br />
+        &lt;b>&lt;u>Stations without data:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Clicking on desired electoral process &lt;img src="file:///android_res/drawable/ic_menu_more.png" />, displays a list of the&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;polling stations that do not yet have data for the electoral process and &lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;current phase(indicated in the title on the screen).&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Clicking on any of the polling stations that appear in the list, we access&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;he screen of the corresponding phase, where the check&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;digit of the polling station and other data to indicate at this stage will be&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shown. This process is repeated for all the polling stations&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;To hide this list of polling stations without data, simply click again&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;on the electoral process &lt;img src="file:///android_res/drawable/ic_menu_no_more.png" />.
+    </string>
+    <string name="help_popmenu_opciones">
+&lt;img src="file:///android_res/drawable/ic_action_overflow.png" />&amp;nbsp;&amp;nbsp;&lt;b>&lt;u>Options button&lt;/u>:&lt;/b>&lt;br />
+        &lt;br />
+        &lt;b>See the latest status:&amp;nbsp;&lt;/b>pressing this button  
+        &lt;br />will display information that may be requested 
+        &lt;br />by the &lt;b>Polling Station User Service Centre&lt;/b>.&lt;br />
+        &lt;br />
+        &lt;b>Display:&amp;nbsp;&lt;/b>by clicking this option you can enable
+        &lt;br />or disable accessibility (possibility of
+        &lt;br />increasing the size of the screen) and adjust the&lt;br />  
+        brightness.&lt;br />&lt;br />
+        &lt;b>Start exam:&amp;nbsp;&lt;/b>this option provides access
+        &lt;br />to the exam and must only be chosen when 
+        &lt;br />indicated by the trainer.
+    
+    </string>
+    <string name="help_primer_avance">
+&lt;b>&lt;u>First Advance:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        To send data for the First Advance, you need to indicate:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Check Digit of the polling station:&lt;/b>&amp;nbsp;You must enter the number that&lt;i>appears in the Check&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Digit field&lt;/i> of the Report.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Number of voters at the polling station in each Election:&lt;/b>&amp;nbsp;Enter up to four digits&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;in each field.&lt;br />&lt;br />
+        After entering the number of voters in each Election, &lt;img src="file:///android_res/drawable/datosaceptar.png" /> 
+        click the button  to send the data indicated. If sent successfully, this will be reported on screen
+        &lt;br />&lt;br />
+        If any errors are detected in the data entered and &lt;b>error message&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> will appear on the screen for correction.&lt;br />&lt;br />
+        &lt;b>&lt;u>Validations&lt;/u>:&lt;/b>Remember that the number of voters in the First Advance must be less than or equal to the electoral roll 
+        for the polling station in that Election.
+    </string>
+    <string name="help_segundo_avance">
+&lt;b>&lt;u>Second Advance:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        To send data for the Second Advance, you need to indicate:&lt;br />&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Check Digit of the polling station:&lt;/b>&amp;nbsp;You must enter the number that appears in the &lt;i>check digit&lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Control&lt;/i>of the report.&lt;br />
+        &amp;nbsp;&amp;nbsp;&lt;b>- Number of voters at the polling station in each Election:&lt;/b>&amp;nbsp;Enter up to &lt;br />
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;four digits in each field.&lt;br />&lt;br />
+        After entering the number of voters in each Election, click the button &lt;img src="file:///android_res/drawable/datosaceptar.png" /> 
+        to send the data indicated. If sent successfully, this will be reported on screen.
+        &lt;br />&lt;br />
+        If any errors are detected in the data entered, an
+        &lt;b>error message&lt;/b> &lt;img src="file:///android_res/drawable/error.png" /> will appear on the screen for correction.&lt;br />&lt;br />
+        &lt;b>&lt;u>Validations&lt;/u>:&lt;/b> Remember that the number of voters in the Second Advance must be greater than or equal to the First Advance of the Election selected and less than or equal to the electoral roll for the polling station in that Election.
+    </string>
+    <string name="help_sidemenu_config">
+&lt;b>&lt;u>Configuration&lt;/u>:&lt;br />
+	        &lt;/b> Selecting this option we can view or modify,
+	        &lt;br />personal data or assigned polling stations. The same as
+	        &lt;br />f the button  is pressed &amp;nbsp;&amp;nbsp;&lt;img src="file:///android_res/drawable/ic_menu_edit.png" />
+	    
+    </string>
+    <string name="help_sidemenu_enviodatos">
+&lt;b>&lt;u>Data Sender:&lt;/u>:&lt;br />
+        &lt;/b> Clicking on this option will display 
+        &lt;br />the main screen of the current phase.
+    </string>
+    <string name="help_sidemenu_estmesas">
+&lt;b>&lt;u>Status of Polling Stations&lt;/u>:&lt;br />
+	        &lt;/b> Pressing will display the screen  
+	        &lt;br />where you can see the status of 
+	        &lt;br />each polling station in each of the 
+	        &lt;br />phases of Election Day. 
+        
+    </string>
+    <string name="help_sidemenu_telefono">
+&lt;b>&lt;u>Telephone&lt;/u>:&lt;br />
+        &lt;/b> Pressing this button will display information on the &lt;b>device User
+        &lt;br />Service Centre&lt;/b>&lt;/ br>
+        and the keyboard to make a call
+    </string>
+    <string name="help_telefono">
+&lt;b>&lt;u>Telephone:&lt;/u>&lt;/b>&lt;br />&lt;br />
+        After dialing the telephone number of the &lt;b>polling station User Service Centre&lt;/b>,  
+        &lt;br />will appear on the bottom of the keyboard button to activate/deactivate the handsfree
+        &lt;br />and the bar to regulate the volume.
+        
+    </string>
+    <string name="help_titulo_aceptar_colegio">Accept Polling Station Site</string>
+    <string name="help_titulo_configuracion">Configuration</string>
+    <string name="help_titulo_fase">Phase</string>
+    <string name="help_titulo_fases">
+&lt;b>&lt;u>Phases&lt;/u>:&lt;/b> Election day is &lt;br />divided into the following phases:&lt;br />
+        &amp;nbsp;&lt;b>- Prior to Election Day&lt;/b>.&lt;br />
+        &amp;nbsp;&lt;b>- Constitution of Polling Stations&lt;/b> from&lt;br />
+        &amp;nbsp;8:00 p.m.&lt;br />
+        &amp;nbsp;&lt;b>- First Advance (*)&lt;/b>&lt;br />
+        &amp;nbsp;&lt;b>- Second Advance (*)&lt;/b>&lt;br />
+        &amp;nbsp;&lt;b>- Vote Counting:&lt;/b> 8:00 p.m.&lt;br />
+        &amp;nbsp;&lt;b>- End of Election Day&lt;/b>.&lt;br />
+                 (*) The device user must transmit&lt;br />
+                 the information corresponding to the&lt;br />
+                 progress according to the schedule indicated in&lt;br />
+                 the polling station user manual and&lt;br />
+                 according to the selected Election.
+        
+    </string>
+    <string name="help_titulo_seccion">&lt;b>&lt;u>Title&lt;/u>:&lt;/b> Section title.</string>
+    <string name="help_version_software">
+&lt;b>&lt;u>SW version&lt;/u>:&lt;/b>&lt;br />
+        This information may be requested from the  &lt;br />&lt;b>Polling station Support Centre&lt;/b>.
+    </string>
+    <string name="help_volver">
+&lt;b>&lt;u>Return&lt;/u>:&lt;/b>&amp;nbsp;&lt;img src="file:///android_res/drawable/undo_56.png" /> Button to return&lt;br />
+        to the previous screen.
+    </string>
+    <string name="identification"><b>identification</b></string>
+    <string name="idioma"><b>Language</b></string>
+    <string name="idiomacambiar">Change Language</string>
+    <string name="imeDone">End</string>
+    <string name="imeNext">Next</string>
+    <string name="incorrectPIN"><b>INCORRECT</b> PIN</string>
+    <string name="insdist">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Enter District&lt;/big>&lt;/big></string>
+    <string name="insertePIN">ENTER <b>PIN:</b></string>
+    <string name="inslocal">&lt;b>Attention:&lt;/b>&lt;br>Click on the button&lt;b>&lt;i>\"OK\"&lt;/i>&lt;/b>, so the Polling Place will be registered in the System</string>
+    <string name="insmesa">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Enter Polling Station Site&lt;/big>&lt;/big></string>
+    <string name="insmuni">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Enter Town/City&lt;/big>&lt;/big></string>
+    <string name="insnie">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Enter Foreigner’s ID No.&lt;/big>&lt;/big></string>
+    <string name="insnif">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Enter Tax ID No.&lt;/big>&lt;/big></string>
+    <string name="insprov">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Enter Province&lt;/big>&lt;/big></string>
+    <string name="inssec">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Enter Section&lt;/big>&lt;/big></string>
+    <string name="insselmesa">&lt;b>Instructions:&lt;/b> Select a polling station</string>
+    <string name="insselmesa1">&lt;b>Polling station processed&lt;/b></string>
+    <string name="insselprov">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Select Province&lt;/big>&lt;/big></string>
+    <string name="instel">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Enter Telephone No.</string>
+    <string name="internocensados"><b>Non-Registered Polling Officers</b></string>
+    <string formatted="false" name="introducir">"Enter %s"</string>
+    <string formatted="false" name="introducirCodigo">"Enter Code of %s"</string>
+    <string name="ipDispositivo">DEVICE IP</string>
+    <string name="ipServidor">SERVER IP</string>
+    <string name="ippda">Polling Station IP</string>
+    <string name="ipweb">Web Service IP</string>
+    <string name="item_0">0</string>
+    <string name="item_1">1</string>
+    <string name="item_2">2</string>
+    <string name="item_3">3</string>
+    <string name="item_4">4</string>
+    <string name="item_5">5</string>
+    <string name="item_6">6</string>
+    <string name="item_7">7</string>
+    <string formatted="false" name="kenia_counter">&lt;b>Form picture %s&lt;/b> \n %s</string>
+    <string name="kenia_footer">Take new photo</string>
+    <string name="kenia_selecmesa_dates">Introduce data</string>
+    <string name="kenia_selecmesa_dates_ok">Data sent</string>
+    <string name="kenia_selecmesa_photo">Take photos</string>
+    <string name="kenia_selecmesa_photo_ok">Photos sent</string>
+    <string name="kenia_side1">Form side 1</string>
+    <string name="kenia_side2">Form side 2</string>
+    <string name="kenia_validation">Must take a photo on both sides of the form</string>
+    <string name="keypin">4nd4l8c1</string>
+    <string name="label">label</string>
+    <string name="leyenda">LEGEND</string>
+    <string name="listamesas">LIST OF POLLING STATIONS</string>
+    <string name="listosoftkeyboard">Ready</string>
+    <string name="llamadaproceso">Call</string>
+    <string name="llamando">Calling. Please wait……</string>
+    <string name="loadMessage">Initialising. Please wait …</string>
+    <string name="local">Polling Place</string>
+    <string name="local2">POLLING PLACE</string>
+    <string name="localizacion">See Map</string>
+    <string name="login">ServiceWeb2016</string>
+    <string name="logo">Indra Logo</string>
+    <string name="logoElecciones">Logo of elections</string>
+    <string name="logoMinisterio">State Logo</string>
+    <string name="manosLibres">Hands-free</string>
+    <string name="mapas_error">Network unavailable, impossible to obtain maps of the Polling Place. Please try again later</string>
+    <string name="marcaAguaAutoformacion">SELF \n TRAINING \n MODE\n</string>
+    <string name="marcaAguaExamen">EXAM\n MODE\n</string>
+    <string name="marcaAguaVersionFormacion">TRAINING\n VERSION\n</string>
+    <string name="menos">-</string>
+    <string name="menu_noaction">Please enter your personal data and data from your Polling Place</string>
+    <string name="mesa">Polling station</string>
+    <string name="mesa_enviada">POLLING STATION SENT</string>
+    <string name="mesapruebaerror">That case only can be used to self-trainer</string>
+    <string name="mesaref">Ref. Polling Station</string>
+    <string name="mesaref_revise">Check your data</string>
+    <string name="mesareferencia">Polling Station Reference</string>
+    <string name="mesareferencia2">REFERENCE POLLING STATION</string>
+    <string name="mesas">POLLING STATIONS</string>
+    <string formatted="false" name="mesasSinDatos">No Data %d</string>
+    <string formatted="false" name="mesasSinEnviar">Not Sent %d</string>
+    <string name="mesasTxt">Polling stations</string>
+    <string name="mesasfin">End of</string>
+    <string name="mesasseleccionadas"><b>Polling stations selected</b></string>
+    <string name="mesassindatos">Polling station(s) without data</string>
+    <string name="mesassinenviar">Polling station(s) not sent</string>
+    <string name="mod_idioma"><b>Change language</b></string>
+    <string name="mode">Mode</string>
+    <string name="modifica_variable">change variable</string>
+    <string name="modificardatos_dni"><b>NATIONAL ID NO.</b></string>
+    <string name="modificardatos_revise">Check your personal details</string>
+    <string name="modificardatos_tfno1"><b>TEL1</b></string>
+    <string name="modificardatos_tfno2"><b>TEL2</b></string>
+    <string name="modo_header">MODE:</string>
+    <string name="municipio">Town/City</string>
+    <string name="namespace">ServicioDelta</string>
+    <string name="negativeButtonText">No</string>
+    <string name="no">No</string>
+    <string name="noHayMesasQueMostrar">NO POLLING STATIONS AVAILABLE TO SHOW</string>
+    <string name="noHayMesasSinDatos">(DATA ON ALL POLLING STATIONS ALREADY ENTERED)</string>
+    <string name="noLocalizacion">The location has been disabled. Please try again later</string>
+    <string name="noRequiereEnvioMesas">Does not need to be sent</string>
+    <string name="nochangemesa">The polling station can only be changed if you are in training mode</string>
+    <string name="nombre">NAME AND SURNAME(S)</string>
+    <string name="notiftitle">Notification of service</string>
+    <string name="numCertificacionesCensales">Number of Electoral Roll Certificates Presented</string>
+    <string formatted="false" name="numero">Number %s</string>
+    <string name="numvotantes">Number of Voters</string>
+    <string name="obteniendo">Obtaining data. Please wait……</string>
+    <string name="off">OFF</string>
+    <string name="ok">Accept</string>
+    <string name="on">ON</string>
+    <string name="otrasopciones">Options</string>
+    <string name="otrasopciones_apagardispositivo">Shutting Down Device</string>
+    <string name="otrasopciones_bloqueardispositivo">Locking Device</string>
+    <string name="otrasopciones_modificardatoscontacto">Changind Contact Details</string>
+    <string name="otrasopciones_modificarmesa">Changing Polling Station</string>
+    <string name="otrasopciones_obtenerdatosconexion">Obtain Connection Data</string>
+    <string name="otrasopciones_obtenerestado">Get Status</string>
+    <string name="otrasopciones_realizarllamadas">MAking calls</string>
+    <string name="otrasopciones_resolucionproblemas">Troubleshooting</string>
+    <string name="pantalla">Screen</string>
+    <string name="parsecolegio">Phantom School for Testing </string>
+    <string name="parsedireccion">Address of Phantom School </string>
+    <string name="pass">v%6n*#6TxDVYkk</string>
+    <string name="patterncolegio">Polling Station Site</string>
+    <string name="patterndescripcion">CANDIDATE %s</string>
+    <string name="patterndireccion">Address</string>
+    <string name="patternsiglas">CANDIDATE %s</string>
+    <string name="personaldata">Personal Details</string>
+    <string name="positiveButtonText">Yes</string>
+    <string name="primerAvanceTabText">&lt;b>Phase:&lt;/b>&lt;br>First Advance</string>
+    <string name="primeravance">Phase: &lt;font color="green">&lt;b>First Advance&lt;/b>&lt;/font></string>
+    <string name="primeravance_nohtml">First Advance</string>
+    <string name="procesando">Processing</string>
+    <string name="prohibido">The device has been unauthorised, please call the Incident Centre</string>
+    <string name="provincia">Province</string>
+    <string name="rechazar">Reject</string>
+    <string name="refrescar">Refresh data</string>
+    <string name="reinciaraplicacion">Rebooting</string>
+    <string name="responder">Reply</string>
+    <string name="resulCenso2">1- Voters According to Electoral Roll Lists</string>
+    <string name="resulCertAlt2">2- Certificates of Electoral Roll Additions</string>
+    <string name="resulCertErr2">3- Certificates of Electoral Roll Corrections</string>
+    <string name="resultado">Result of Exam:</string>
+    <string name="resultadoexamen">End of Exam</string>
+    <string name="resultadoinfo">*Communicate the result to the Trainer</string>
+    <string name="resultadoultimo">Result of Last Exam:</string>
+    <string name="seccion">Section</string>
+    <string name="segundoAvanceTabText">&lt;b>Phase:&lt;/b>&lt;br>Second Advance</string>
+    <string name="segundoavance">Phase: &lt;font color="green">&lt;b>Second Advance&lt;/b>&lt;/font></string>
+    <string name="segundoavance_nohtml">Second Advance</string>
+    <string name="seleccionaridioma"><b>Select language</b></string>
+    <string name="seleccionprovincia">Provinces</string>
+    <string name="selectlanguage">SELECT LANGUAGE</string>
+    <string name="selectprovincia">SELECT PROVINCE</string>
+    <string name="si">Yes</string>
+    <string name="sim_netlocked">NETWORK LOCKED</string>
+    <string name="sim_no">NO SIM</string>
+    <string name="sim_nored">NO NETWORK</string>
+    <string name="sim_pin">PIN REQUIRED</string>
+    <string name="sim_puk">PUK REQUIRED</string>
+    <string name="slider_apn">APN</string>
+    <string name="slider_bateria">MAIN BATTERY</string>
+    <string name="slider_bateria_nivel0">BATTERY LEVEL VERY HIGH</string>
+    <string name="slider_bateria_nivel1">BATTERY LEVEL HIGH</string>
+    <string name="slider_bateria_nivel2">BATTERY LEVEL MEDIUM</string>
+    <string name="slider_bateria_nivel3">BATTERY LEVEL LOW</string>
+    <string name="slider_bateria_nivel4">BATTERY LEVEL VERY LOW</string>
+    <string name="slider_bateria_nivel5">FLAT BATTERY</string>
+    <string name="slider_conexion1">HIGH COVERAGE</string>
+    <string name="slider_conexion2">MEDIUM COVERAGE</string>
+    <string name="slider_conexion3">LOW COVERAGE</string>
+    <string name="slider_conexion4">NO COVERAGE</string>
+    <string name="slider_corriente_conectada">CONNECTED TO POWER</string>
+    <string name="slider_elecciones">APN ELECTIONS</string>
+    <string name="slider_iccid">ICCID</string>
+    <string name="slider_iccid_num">89340766000003301890</string>
+    <string name="slider_imei">IMEI</string>
+    <string name="slider_imei_num">863368020058928</string>
+    <string name="smesa"><b>Polling Station/s</b><br/></string>
+    <string name="splash1">Configuring polling station</string>
+    <string name="splash2">Communicating with SIM card</string>
+    <string name="splash3">Waiting for the network to be available</string>
+    <string name="splash4">Connecting to Data Server</string>
+    <string name="splash5">Processing response</string>
+    <string formatted="false" name="splash51">Checking Backups: Attempt number %d</string>
+    <string name="splash6">Please select language</string>
+    <string name="str0">0</string>
+    <string name="str1">1</string>
+    <string name="str2">2</string>
+    <string name="str3">3</string>
+    <string name="str4">4</string>
+    <string name="str5">5</string>
+    <string name="str6">6</string>
+    <string name="str7">7</string>
+    <string name="str8">8</string>
+    <string name="str9">9</string>
+    <string formatted="false" name="sysdump">&lt;b>You are accessing an admin function.&lt;br>Please click OK to exit.&lt;/b>&lt;br>&lt;br>%s</string>
+    <string name="tab1">PERSONAL\nDATA</string>
+    <string name="tab2">POLLING PLACE\nDATA</string>
+    <string name="tabla_concejo">Council</string>
+    <string name="tablas">TABLES</string>
+    <string name="telefono">TELEPHONE NO.</string>
+    <string name="telefono1">TELEPHONE 1</string>
+    <string name="telefono2">TELEPHONE 2 (OPTIONAL)</string>
+    <string name="tercerAvanceTabText">&lt;b>Phase:&lt;/b>&lt;br>Third Advance</string>
+    <string name="terceravance">Phase: &lt;font color="green">&lt;b>Third Advance&lt;/b>&lt;/font></string>
+    <string name="terceravance_nohtml">Third Advance</string>
+    <string name="terminar">Hang up</string>
+    <string name="tfno1">TEL 1</string>
+    <string name="tfno2">TEL 2</string>
+    <string name="tiempo">Time</string>
+    <string name="timer_delay_personaldata">12000</string>
+    <string name="tipo">D</string>
+    <string name="tipo_BQ">Q</string>
+    <string name="tipo_home">H</string>
+    <string name="tipo_home_BQ">I</string>
+    <string name="toast_situacion1">The list of Polling Stations pending has been updated for the Constitution of Polling Stations</string>
+    <string formatted="false" name="toast_situacion2">The list of Polling Stations pending for the Election %s has been updated</string>
+    <string name="todasLasElecciones">ALL ELECTIONS</string>
+    <string name="total">TOTAL</string>
+    <string name="txtInstrucciones_dc_introducir">Enter Check Digit</string>
+    <string name="txtInstrucciones_enviando">Data Sender…</string>
+    <string formatted="false" name="txtInstrucciones_introducir">Enter the number of %s</string>
+    <string name="txtInstrucciones_introducirCenso">Enter Electoral Roll</string>
+    <string name="txtInstrucciones_introducirCensoExtranjeros">Enter Foreigners’ Electoral Roll</string>
+    <string name="txtInstrucciones_introducirCensoNacional">Enter National Electoral Roll</string>
+    <string name="txtInstrucciones_rellenar_boletin">"Enter the values ​​of the vote counting report"</string>
+    <string name="txtInstrucciones_validacion_error">Errors in the validation</string>
+    <string name="txtInstrucciones_validacion_ok">Validation completed successfully</string>
+    <string name="txtInstrucciones_validacion_warnings">Check the data entered</string>
+    <string name="txtInstrucciones_validando_avances">Validating Advances…</string>
+    <string name="txtInstrucciones_validando_censo">Validating Electoral Roll</string>
+    <string name="txtInstrucciones_validando_datos">Validating Data…</string>
+    <string name="txtInstrucciones_validando_dc">Validating Check Digit…</string>
+    <string name="txtInstrucciones_validando_escrutinio">Validating Report and Candidates…</string>
+    <string name="txtInstrucciones_votantes_avance1">Enter the number of Voters in the First Advance</string>
+    <string name="txtInstrucciones_votantes_avance2">Enter the number of Voters in the Second Advance</string>
+    <string name="txtInstrucciones_votantes_avance3">Enter the number of Voters in the Third Advance</string>
+    <string name="txtInstrucciones_votos_candidato">Votes for Candidate</string>
+    <string name="ultimoestado">Last Status</string>
+    <string name="unknown">unknown</string>
+    <string name="url">https://g3n3ll.0m1cr0n.indra.es/SERVICIODELTA/SERVICIODELTA.ASMX</string>
+    <string name="url1">g3n3ll.0m1cr0n.indra.es</string>
+    <string name="url1alt">89.141.89.163 </string>
+    <string name="url2">/SERVICIODELTA/SERVICIODELTA.ASMX</string>
+    <string name="url2alt">/ServicioDelta/ServicioDelta.asmx</string>
+    <string name="urlalt">https://89.141.89.163/ServicioDelta/ServicioDelta.asmx</string>
+    <string name="urlping">http://m.google.com</string>
+    <string formatted="false" name="validacion_censo_supera_umbral">The value of the electoral roll is outside the range allowed regarding the value of the initial electoral roll (%d)</string>
+    <string formatted="false" name="validacion_censo_supera_umbral_extranjeros">The sum of the electoral roll of domestic voters and the electoral roll of foreign voters is outside the range allowed regarding the value of the total initial electoral roll (%d)</string>
+    <string formatted="false" name="validacion_censo_valor_coincide_otra_mesa">The electoral roll entered matches that of the polling station %s Are you sure?</string>
+    <string name="validacion_censo_valor_no_valido">You must enter a valid value for the electoral roll.</string>
+    <string name="valores">VALUES</string>
+    <string name="value">value</string>
+    <string name="vblanco"><b>Blank Votes</b></string>
+    <string name="vnulos"><b>Invalid Votes</b></string>
+    <string name="volumen">Volume</string>
+    <string name="volver">Back</string>
+    <string formatted="false" name="votos_2n_avanc_inferior_1r">Second Advance %slower than the First Advance %s</string>
+    <string formatted="false" name="votos_3r_avanc_inferior_2n">Third Advance %slower than the Second Advance %s</string>
+    <string name="votos_avanc_inferior1">2nd Advance</string>
+    <string name="votos_avanc_inferior2">Lower than the 1st Advance</string>
+    <string name="votos_avanc_inferior3">3rd Advance</string>
+    <string name="votos_avanc_inferior4">Lower than the 2nd Advance</string>
+    <string formatted="false" name="votos_avanc_voto_igual_DC">The number of voters %coincides with the Check Digit. Is that correct?</string>
+    <string name="votos_avanc_voto_igual_DC1">The number of voters</string>
+    <string name="votos_avanc_voto_igual_DC2">Fits with the Check Digit. Is that correct?</string>
+    <string formatted="false" name="votos_avanc_voto_igual_censo">No. of Voters %s is the same as the Electoral Roll %s Are you sure the correct data has been entered?</string>
+    <string name="votos_avanc_voto_igual_censo1">Number of Voters</string>
+    <string name="votos_avanc_voto_igual_censo2">is the same as the Electoral Roll\"</string>
+    <string name="votos_avanc_voto_igual_censo3">\"Are you sure of the data entered</string>
+    <string formatted="false" name="votos_avance1_cero_telefono">Must transmit the %s for this polling station via data count telephone.</string>
+    <string name="votos_avance1_cero_telefono1">Must transmit the</string>
+    <string name="votos_avance1_cero_telefono2">for this polling station via the data count telephone</string>
+    <string formatted="false" name="votos_avance_avanceN">The number of voters coincides with the previous advance. %sAre you sure?</string>
+    <string formatted="false" name="votos_avance_censo">Number of Voters %sGreater than Electoral Roll%s</string>
+    <string name="votos_avance_censo1">Number of Voters</string>
+    <string name="votos_avance_censo2">Greater than the Electoral Roll</string>
+    <string formatted="false" name="votos_avance_cero">Are you sure that the number of voters %sis 0?</string>
+    <string name="votos_avance_cero1">Are you sure that the number of voters</string>
+    <string name="votos_avance_cero2">is 0?</string>
+    <string name="votos_avance_introducir">Enter Number of Voters</string>
+    <string formatted="false" name="votos_resultado_baja_participacion">Levels of participation are lower than %d%%. Are you sure about the data entered?</string>
+    <string name="votos_resultado_umbral">There may be errors in the votes of some candidates. Are you sure about the data entered?</string>
+    <string name="warningMessageSalir">If you return to the previous menu all the data entered on this screen will be lost. Are you sure you want to return?</string>
+    <string name="warningTitleEnvio">Confirm sending……</string>
+    <string name="warningTitleSalir">Are you sure you want to return?</string>
+    <string name="wrongletter">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Incorrect document letter&lt;/big>&lt;/big></string>
+    <string name="wrongnie">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Incorrect Foreigner’s ID No.&lt;/big>&lt;/big></string>
+    <string name="wrongnif">&lt;big>&lt;big>&lt;b>Instructions::&lt;/b> Incorrect Tax ID No.&lt;/big>&lt;/big></string>
+    <string name="wrongnombre">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Incorrect name&lt;/big>&lt;/big></string>
+    <string name="wrongphone">&lt;big>&lt;big>&lt;b>Instructions:&lt;/b> Incorrect telephone no.&lt;/big>&lt;/big></string>
+</resources>

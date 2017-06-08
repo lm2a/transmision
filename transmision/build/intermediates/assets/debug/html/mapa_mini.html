@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="jquery-jvectormap-1.2.2.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery-jvectormap-1.2.2.min.js"></script>
+<script type="text/javascript" src="galicia.js"></script>
+</head>
+<body>
+	<div id="map" style="width: 300px; height: 220px;"></div>
+	</div> 
+</body>
+
+ <script>
+  
+    $(function(){
+ 	
+    	var colores = {	%codpro% };
+    	
+        var map = $('#map').vectorMap({
+        map: 'map',
+        backgroundColor: 'transparent',
+        onRegionLabelShow: function (e, el, code) {
+         		e.preventDefault();
+        },
+        series: { 
+                regions: [{
+                    values: colores
+                }]
+            }
+         ,
+		zoomButtons : false,
+		     regionStyle: {
+         		hover: {
+             	"fill-opacity": 1
+         		}
+     		}
+        });
+ 
+      });
+    
+    
+  </script>
+</html>

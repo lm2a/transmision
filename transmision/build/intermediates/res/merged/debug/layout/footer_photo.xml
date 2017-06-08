@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_ll_delta" >
+
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:paddingLeft="@dimen/doblebigmargin" >
+
+        <ImageView
+            android:id="@+id/footer_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/defaultContentDescription"
+            android:gravity="center"
+            android:src="@drawable/plus_128" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/footer_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/footer_image"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:text="@string/kenia_footer"
+            android:textStyle="bold" >
+        </TextView>
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.6dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/doblebigmargin"
+        android:background="@drawable/list_divider" />
+
+</RelativeLayout>

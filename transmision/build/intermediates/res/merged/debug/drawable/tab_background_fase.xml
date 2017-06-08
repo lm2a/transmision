@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_enabled="true" android:state_selected="false" >
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/grey_bg_fase"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_selected="true" >
+        <shape android:shape="rectangle" >
+            <gradient
+                android:type="radial"
+                android:startColor="@color/grey_bg_fase_selected_start"
+                android:endColor="@color/grey_bg_fase_selected_end"
+                android:centerColor="@color/grey_bg_fase_selected_center"
+                android:gradientRadius="400"
+                android:centerX="50%"
+                android:centerY="400%" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/lisystem"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_tab"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <com.indra.elections.customcontrols.CustomDigitalClock
+                android:id="@+id/slider_text_hora"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                android:gravity="left|bottom"
+                android:lines="1"
+                android:textColor="@color/white"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+            <com.indra.elections.customcontrols.CustomDigitalDate
+                android:id="@+id/slider_text_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_toRightOf="@id/slider_text_hora"
+                android:background="@android:color/transparent"
+                android:gravity="bottom|left"
+                android:lines="1"
+                android:paddingBottom="4dip"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/mediummargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/version1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center"
+                    android:lines="1"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/version2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center"
+                    android:lines="1"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/bigmargin"
+            android:layout_marginRight="@dimen/bigmargin"
+            android:background="@color/slider_grey" />
+
+        <RelativeLayout
+            android:id="@+id/slider_modo"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_big"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/slider_icon_modo_rl"
+                android:layout_width="@dimen/height_item_big"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/slider_icon_modo"
+                    android:layout_width="38.4dip"
+                    android:layout_height="38.4dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/birrete" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/slider_text_modo"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/slider_icon_modo_rl"
+                android:background="@android:color/transparent"
+                android:gravity="left|center"
+                android:lines="1"
+                android:text="@string/marcaAguaAutoformacion"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/slider_help"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                android:gravity="right|center"
+                android:src="@android:drawable/ic_menu_help"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/bigmargin"
+            android:layout_marginRight="@dimen/bigmargin"
+            android:background="@color/slider_grey" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_big"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/slider_icon_bateria_rl"
+                android:layout_width="@dimen/height_item_big"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/slider_iv_battery"
+                    android:layout_width="38.4dip"
+                    android:layout_height="38.4dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/birrete" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/slider_text_battery"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/slider_icon_bateria_rl"
+                android:background="@android:color/transparent"
+                android:gravity="left|center"
+                android:lines="1"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/bigmargin"
+            android:layout_marginRight="@dimen/bigmargin"
+            android:background="@color/slider_grey" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_big"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/slider_icon_image_rl"
+                android:layout_width="@dimen/height_item_big"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/slider_image_operador1"
+                    android:layout_width="38.4dip"
+                    android:layout_height="38.4dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/birrete" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/slider_icon_image_rl"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/slider_text_operador1"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center"
+                    android:lines="1"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/slider_text_operador2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:background="@android:color/transparent"
+                    android:gravity="left|center"
+                    android:lines="1"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/bigmargin"
+            android:layout_marginRight="@dimen/bigmargin"
+            android:background="@color/slider_grey" />
+
+        <RelativeLayout
+            android:id="@+id/slider_datos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/slider_icon_datos_rl"
+                android:layout_width="@dimen/height_item_big"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/slider_icon_datos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/info_72" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/slider_text_datos"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/slider_icon_datos_rl"
+                android:background="@android:color/transparent"
+                android:gravity="left|center"
+                android:lines="1"
+                android:text="@string/datosdispositivo"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="72dip"
+                android:layout_toRightOf="@id/slider_icon_datos_rl"
+                android:orientation="horizontal"
+                android:paddingBottom="16dip"
+                android:weightSum="1.0" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/bigmargin" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/slider_apn"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textAPN"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/slider_elecciones"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/slider_imei"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textIMEI"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/slider_imei_num"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/slider_iccid"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textICCID"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/slider_iccid_num"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/line_height"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="@dimen/mediummargin"
+                    android:layout_marginTop="@dimen/mediummargin"
+                    android:background="@color/slider_grey" />
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/bigmargin" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/ipDispositivo"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textIP"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/menos"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/ipServidor"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textIPSERV"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/menos"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/connor"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textNOR"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/menos"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/bigmargin"
+            android:layout_marginRight="@dimen/bigmargin"
+            android:background="@color/slider_grey" />
+
+        <RelativeLayout
+            android:id="@+id/slider_mesa"
+            android:layout_width="fill_parent"
+            android:layout_height="375dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/slider_icon_mesa_rl"
+                android:layout_width="@dimen/height_item_big"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/slider_icon_mesa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/urnalista" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/slider_text_mesa"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/slider_icon_mesa_rl"
+                android:background="@android:color/transparent"
+                android:gravity="left|center"
+                android:lines="1"
+                android:text="@string/datoslocal"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/slider_ll_mesa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="72dip"
+                android:orientation="horizontal"
+                android:paddingBottom="16dip"
+                android:weightSum="1.0" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/bigmargin" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/bigmargin" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/local2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textNombreColegio"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:text="@string/menos"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/direccion2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDireccionColegio"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center"
+                        android:lines="3"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:text="@string/menos"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/mesareferencia2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textMESAREF"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:text="@string/menos"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="1"
+                        android:text="@string/listamesas"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textMesasColegio"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center"
+                        android:lines="3"
+                        android:scrollbars="none"
+                        android:text="@string/menos"
+                        android:textColor="@color/greyTextSoft"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/mapaImageView"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/slider_text_mesa"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/defaultContentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sliderButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:lines="1"
+                android:paddingBottom="@dimen/mediummargin"
+                android:text="@string/cerrar2"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/slider_line"
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/mediummargin"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:background="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_formacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/bigmargin"
+        android:alpha="0.6"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/marcaAguaVersionFormacion"
+            android:textColor="@color/header_color"
+            android:textSize="75sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+    Android Wheel Control.
+
+    1er item: ?
+    2º item: borde interior del componente rueda
+    
+-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item>
+		<shape android:shape="rectangle">
+            <corners android:radius="3dp" />
+			<gradient
+				android:startColor="#777"
+				android:centerColor="#EEE"
+				android:endColor="#777"
+				android:angle="90" />
+				
+				<stroke android:width="0dp" android:color="#FF333333" />
+		</shape>
+	</item>
+	<item android:left="6dp" android:right="6dp" android:top="1dp" android:bottom="1dp">
+		<shape android:shape="rectangle">
+		    <corners android:radius="3dp" />
+			<gradient
+				android:startColor="#BBB"
+				android:centerColor="#FFF"
+				android:endColor="#AAA"
+				android:angle="90" />
+		</shape>
+	</item>
+    
+</layer-list>

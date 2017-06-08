@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/candidatoRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/fgAppBackgroundBlue"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/votosCandidatoDeltaEditText"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/background_deltaedittext"
+            android:gravity="center"
+            android:inputType="phone"
+            android:maxLength="4"
+            android:tag="@string/value"
+            android:textColor="@color/onpeDarkBlue" />
+
+        <TextView
+            android:id="@+id/ordenCandidatoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_toLeftOf="@id/votosCandidatoDeltaEditText"
+            android:background="@android:color/transparent"
+            android:gravity="right|center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/siglasTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/ordenCandidatoTextView"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:tag="@string/label"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

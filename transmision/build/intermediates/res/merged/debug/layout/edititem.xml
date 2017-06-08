@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_item_big"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:weightSum="1.0" >
+
+        <RelativeLayout
+            android:id="@+id/item_rl0"
+            android:layout_width="@dimen/height_item_big"
+            android:layout_height="@dimen/height_item_big"
+            android:layout_alignParentRight="true">
+
+            <RelativeLayout
+                android:id="@+id/item_rl1"
+                android:layout_width="@dimen/height_item_big"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/button_ll_delta"
+                android:paddingRight="@dimen/bigmargin" >
+
+                <ImageView
+                    android:id="@+id/item_rl1_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:src="@android:drawable/ic_menu_edit" />
+
+                <View
+                    android:layout_width="@dimen/line_height"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/mediummargin"
+                    android:layout_marginTop="@dimen/mediummargin"
+                    android:background="@color/line_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/item_rl2"
+                android:layout_width="@dimen/height_item_big"
+                android:layout_height="@dimen/height_item_big"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/button_ll_delta"
+                android:paddingRight="@dimen/bigmargin"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/item_rl2_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:src="@drawable/ic_action_accept_96" />
+
+                <View
+                    android:layout_width="@dimen/line_height"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/mediummargin"
+                    android:layout_marginTop="@dimen/mediummargin"
+                    android:background="@color/line_color" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/line_height"
+                    android:background="@android:color/holo_blue_light" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_big"
+            android:layout_toLeftOf="@id/item_rl0"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1.0" >
+
+            <com.indra.elections.customcontrols.CustomTextViewOpenSans
+                android:id="@+id/headding"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/greyTextDark"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <com.indra.elections.customcontrols.CustomEditTextViewLoto
+                android:id="@+id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/greyText"
+                android:textSize="26sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@color/line_color" />
+
+</RelativeLayout>

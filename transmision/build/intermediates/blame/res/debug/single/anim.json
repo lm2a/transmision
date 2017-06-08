@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/sladeout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/sladeout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/sladebq.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/sladebq.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/keyboardoinbq.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/keyboardoinbq.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/mesaref_slade.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/mesaref_slade.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/mesas_slade.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/mesas_slade.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/enter_anim.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/enter_anim.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/mesas_sladeoutleft.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/mesas_sladeoutleft.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/mesas_sladeout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/mesas_sladeout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/sladeoutbq.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/sladeoutbq.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/slade.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/slade.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/keyboardoutbq.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/keyboardoutbq.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/keyboardoin.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/keyboardoin.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/mesaref_sladeout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/mesaref_sladeout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/help_anim_in.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/help_anim_in.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/keyboardout.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/keyboardout.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/exit_resultados_anim.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/exit_resultados_anim.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/rotate_loader.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/rotate_loader.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/slide_in_bottom.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/help_anim_out.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/help_anim_out.xml"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/anim/exit_anim.xml",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/res/anim/exit_anim.xml"
+    }
+]

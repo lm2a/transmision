@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dip"
+    android:background="@color/fgAppText"
+    android:gravity="center_horizontal|bottom" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundBlue"
+            android:gravity="center"
+            android:text="@string/provincia"
+            android:textColor="@color/fgAppText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundBlue"
+            android:gravity="center"
+            android:text="@string/municipio"
+            android:textColor="@color/fgAppText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundBlue"
+            android:gravity="center"
+            android:text="@string/distrito"
+            android:textColor="@color/fgAppText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundBlue"
+            android:gravity="center"
+            android:text="@string/seccion"
+            android:textColor="@color/fgAppText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundBlue"
+            android:gravity="center"
+            android:text="@string/mesa"
+            android:textColor="@color/fgAppText"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/etextProvincia"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/etextMunicipio"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/etextDistrito"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/etextSector"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/etextMesa"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="18"
+            android:background="@color/fgAppBackgroundGray"
+            android:gravity="center"
+            android:textColor="@color/fgAppText"
+            android:textSize="22sp" />
+    </TableRow>
+
+</TableLayout>

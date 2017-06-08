@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="scan_instructions">Por favor escanee el codigo de barras</string>
+
+    <!-- HEADER -->
+    <string name="stLbMachineId">Id. Maquina</string>
+    <string name="stLbVVMId">Colegio</string>
+</resources>

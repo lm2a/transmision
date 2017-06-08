@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_oscuro"
+    tools:context="com.indra.elections.peruvian.fragments.FotoEnvioFragment">
+
+
+    <Button
+        android:text="Fotografiar el acta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_light"
+        android:id="@+id/fotografiar"
+        android:enabled="false"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:layout_below="@+id/escanear"
+        android:layout_alignStart="@+id/escanear"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="102dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/escanear"
+        android:layout_alignEnd="@+id/fotografiar"
+        android:layout_marginBottom="65dp"
+        android:id="@+id/enviarTodoLabel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/azul_light"
+        android:layout_alignStart="@+id/enviarTodoLabel" />
+
+    <Button
+        android:text="Escanear codigo de barras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/escanear"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:background="@color/azul_light"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Enviar los datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp"
+        android:id="@+id/enviarTodo"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:background="@color/azul_light"
+        android:layout_below="@+id/fotografiar"
+        android:layout_centerHorizontal="true"
+        android:enabled="false" />
+
+    <TextView
+        android:text="@string/scan_instructions"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/azul_light"
+        android:layout_alignTop="@+id/enviarTodoLabel"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+
+</RelativeLayout>

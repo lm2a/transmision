@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/deltainitactionbarwrapper"
+    android:layout_width="fill_parent"
+    android:layout_height="100dip"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        layout="@layout/delta_header" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="false"
+        android:orientation="horizontal" >
+
+        <!-- android:background="@drawable/barplain" -->
+
+        <TextView
+            android:id="@+id/delta_Title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="5dip"
+            android:text="@string/configuracion"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu"
+            android:textColor="@color/greyText"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/cerrarbar"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="3dip"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/llbackground"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/action_bar_title"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+            <TextView
+                android:id="@+id/action_bar_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="15dp"
+                android:text="@string/volver"
+                android:textColor="@color/greyText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cerrarbar2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@id/cerrarbar"
+            android:alpha="45"
+            android:src="@color/greyText" />
+
+        <ImageButton
+            android:id="@+id/barinithelp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/llbackground"
+            android:paddingBottom="3dip"
+            android:paddingTop="3dip"
+            android:src="@android:drawable/ic_menu_help" />
+
+        <ImageButton
+            android:id="@+id/barinitconexion"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/barinithelp"
+            android:background="@drawable/llbackground"
+            android:paddingBottom="3dip"
+            android:paddingTop="3dip"
+            android:src="@android:drawable/ic_menu_info_details" />
+    </RelativeLayout>
+
+</LinearLayout>

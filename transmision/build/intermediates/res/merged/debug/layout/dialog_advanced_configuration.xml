@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/deltaactionbarwrapper"
+    android:layout_width="match_parent"
+    android:layout_height="518.4dip"
+    android:orientation="horizontal"
+    android:background="@drawable/dialogbackground2"
+    android:padding="2dip" >
+        
+    <include
+        android:id="@+id/dialog_header"
+        android:layout_width="fill_parent"
+        android:layout_height="57.6dp"
+        layout="@layout/maevotoactionbar"/>
+
+    <LinearLayout
+        android:id="@+id/dialog_conf_ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_header"
+        android:orientation="horizontal"
+        android:padding="@dimen/bigmargin"
+        android:weightSum="1.0" >
+
+        <LinearLayout
+            android:id="@+id/dialog_conf_ll11"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@+id/txtborrardatos"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:padding="2dip"
+                android:textStyle="bold"
+                android:text="@string/controlalarma" />
+
+            <Button
+                android:id="@+id/dial_btncontrolalarma"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/OK" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_conf_ll12"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/borrardatos"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/dial_btnborrardatos"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/OK" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_conf_ll13"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/ajustes"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/dial_hardreset"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/OK" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_conf_ll2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_conf_ll1"
+        android:orientation="horizontal"
+        android:padding="@dimen/bigmargin"
+        android:weightSum="1.0" >
+
+        <LinearLayout
+            android:id="@+id/dialog_conf_ll21"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@+id/txtfactoryreset"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/factoryReset"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/dial_btnfactoryreset"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/OK" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_conf_ll22"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/dialog_header"
+            android:layout_weight="0.33"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@+id/dialogtxttablas"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/admin_mostrar"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/dial_btn_muestratablas"
+                android:visibility="visible"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/OK" />
+            
+            <ProgressBar 
+                android:id="@+id/pb_backupdialog22"
+                android:visibility="gone"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:padding="2dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_conf_ll23"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/dialog_header"
+            android:layout_weight="0.33"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+            <TextView
+                android:id="@+id/txtgohome"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/admin_Home"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/dial_btngohome"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:padding="2dip"
+                android:text="@string/OK" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <include 
+        android:id="@+id/tableheader"
+        android:layout_below="@+id/dialog_conf_ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/configuration_item_header"
+        android:paddingRight="@dimen/mediummargin"
+        android:paddingLeft="@dimen/mediummargin"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        />
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableheader"
+        android:paddingBottom="10dp">
+	    <TableLayout
+	        android:id="@+id/table_configuration"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="@dimen/mediummargin">
+	    </TableLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/dialog_conf_ll1"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@color/greyBG" />
+<!-- 
+    <View
+        android:id="@+id/lineagris"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/dialog_conf_ll2"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@color/greyBG" />
+-->
+
+</RelativeLayout>

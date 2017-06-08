@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/deltaactionbarwrapper"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dialogbackground2"
+    android:orientation="horizontal"
+    android:padding="2dip" >
+
+    <include
+        android:id="@+id/dialog_header"
+        android:layout_width="fill_parent"
+        android:layout_height="57.6dp"
+        layout="@layout/maevotoactionbar" />
+
+    <RelativeLayout
+        android:id="@+id/ajustesRedRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/dialog_header"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp" >
+
+        <TextView
+            android:id="@+id/txtajustesred"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/dial_btnajustesred"
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/admin_red"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dial_btnajustesred"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/OK" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/ajustesRedRelativeLayout"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@color/greyBG" />
+
+    <RelativeLayout
+        android:id="@+id/controlAlarmaRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/ajustesRedRelativeLayout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp" >
+
+        <TextView
+            android:id="@+id/txtborrardatos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/dial_btncontrolalarma"
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/controlalarma"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dial_btncontrolalarma"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/OK" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_below="@id/controlAlarmaRelativeLayout"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@color/greyBG" />
+
+    <RelativeLayout
+        android:id="@+id/irAlHomeRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/controlAlarmaRelativeLayout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp" >
+
+        <TextView
+            android:id="@+id/txtgohome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/dial_btngohome"
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/admin_Home"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dial_btngohome"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/OK" />
+    </RelativeLayout>
+
+</RelativeLayout>

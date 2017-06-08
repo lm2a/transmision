@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_item_big"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:weightSum="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_item_big"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:weightSum="1.0" >
+
+            <com.indra.elections.customcontrols.CustomTextViewOpenSans
+                android:id="@+id/headding_switch"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|left"
+                android:text="@string/headding"
+                android:textColor="@color/greyTextDark"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/bigmargin"
+                android:layout_marginRight="@dimen/bigmargin"
+                android:layout_weight="0.5" >
+
+                <Switch
+                    android:id="@+id/content_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true" 
+                    android:background="@android:color/white"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/bigmargin"
+        android:layout_marginRight="@dimen/bigmargin"
+        android:background="@color/line_color" />
+
+</RelativeLayout>

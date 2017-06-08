@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/hederListaEstadoMesas"
+        android:layout_width="match_parent"
+        android:layout_height="110dp" >
+
+        <TextView
+            android:id="@+id/escrutinioLabelTextView"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginRight="-34dp"
+            android:background="@drawable/background_header_estado_mesas"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:rotation="-60"
+            android:text="@string/estadoMesasEscrutinio"
+            android:textColor="@color/greyText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tercerAvanceLabelTextView"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-140dp"
+            android:layout_toLeftOf="@id/escrutinioLabelTextView"
+            android:background="@drawable/background_header_estado_mesas"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:rotation="-60"
+            android:text="@string/estadoMesasTercerAvance"
+            android:textColor="@color/greyText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/segundoAvanceLabelTextView"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-140dp"
+            android:layout_toLeftOf="@id/tercerAvanceLabelTextView"
+            android:background="@drawable/background_header_estado_mesas"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:rotation="-60"
+            android:text="@string/estadoMesasSegundoAvance"
+            android:textColor="@color/greyText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/primerAvanceLabelTextView"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-140dp"
+            android:layout_toLeftOf="@id/segundoAvanceLabelTextView"
+            android:background="@drawable/background_header_estado_mesas"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:rotation="-60"
+            android:text="@string/estadoMesasPrimerAvance"
+            android:textColor="@color/greyText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/constitucionMesasLabelTextView"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-40dp"
+            android:layout_toLeftOf="@id/primerAvanceLabelTextView"
+            android:background="@drawable/background_header_estado_mesas"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:rotation="-60"
+            android:text="@string/estadoMesasConstMesas"
+            android:textColor="@color/greyText"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/separatorView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/header_color_dark" />
+
+        <TextView
+            android:id="@+id/mesasLabelTextView"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/separatorView"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="5dp"
+            android:text="@string/estadoMesasIdMesas"
+            android:textColor="@color/greyText"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

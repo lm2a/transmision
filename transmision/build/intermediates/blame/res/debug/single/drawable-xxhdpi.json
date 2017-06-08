@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_cancelar_blanco.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_cancelar_blanco.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_bateria_media_carga.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_bateria_media_carga.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_check_blanco.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_check_blanco.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_warning.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_warning.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_circulo_flecha_blanco.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_circulo_flecha_blanco.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_circulo_flecha_negro.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_circulo_flecha_negro.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_aceptar_blanco.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_aceptar_blanco.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_bateria_llena.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_bateria_llena.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_reloj.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_reloj.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_bateria_terminada.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_bateria_terminada.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_bateria_cargando2.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_bateria_cargando2.png"
+    },
+    {
+        "merged": "/Users/lm2a/2017/transmision/transmision/build/intermediates/res/merged/debug/drawable-xxhdpi/ico_bateria_alerta.png",
+        "source": "/Users/lm2a/2017/transmision/transmision/src/main/peruvian/drawable-xxhdpi/ico_bateria_alerta.png"
+    }
+]

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:theme="@android:style/Theme.Holo.Dialog"
+    android:background="#e7e7e7" >
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:id="@+id/titletextdialogidiomasprov"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#E7EBF0"
+            android:gravity="center"
+            android:text="@string/selectlanguage"
+            android:textColor="#ff0099cc"
+            android:textSize="23sp"
+            android:paddingTop="21dp"
+            android:paddingBottom="21dp"
+	        android:paddingLeft="115dp"
+	        android:paddingRight="115dp"
+            android:textStyle="normal" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_below="@id/titletextdialogidiomasprov"
+            android:background="#ff0099cc" />
+    </RelativeLayout>
+
+    <include 
+        android:layout_below="@+id/title2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="185dp"
+        android:paddingRight="185dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        layout="@layout/dialog_wheels_layout"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+	    <ImageView
+	        android:id="@+id/imageViewLogoEleccion"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:scaleType="centerInside"
+	        android:contentDescription="@string/defaultContentDescription"
+	        android:src="@drawable/urna_128"
+	        android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_alignTop="@+id/relaceptar"
+        android:background="@color/greyBG" />
+    <RelativeLayout
+	     android:id="@+id/relaceptar"
+	     android:padding="15dp"
+	     android:layout_alignParentBottom="true"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:background="@drawable/button_ll_delta"
+	     android:orientation="horizontal" >
+	<TextView
+	    android:id="@+id/button2_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="@dimen/bigmargin"
+	    android:layout_marginRight="@dimen/bigmargin"
+	    android:background="@android:color/transparent"
+	    android:text="@string/acceptlanguage"
+	    android:textColor="@color/greyTextDark"
+	    android:textSize="20sp"
+	    android:textStyle="bold" />
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@id/button2_text"
+	    android:src="@drawable/ic_action_accept_96" />
+    </RelativeLayout>
+   
+</RelativeLayout>

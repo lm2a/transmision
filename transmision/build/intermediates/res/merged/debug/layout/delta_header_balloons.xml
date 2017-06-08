@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DeltaHeaderll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+
+        <ImageView
+            android:id="@+id/iconnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dip"
+            android:layout_toLeftOf="@id/icnsignal"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            android:scaleType="fitEnd" />
+        
+        <LinearLayout
+            android:id="@+id/simproviderll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="4dip"
+            android:layout_toLeftOf="@id/iconnection"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="4dip" >
+
+            <TextView
+                android:id="@+id/simProvider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dip"
+                android:paddingRight="4dip"
+                android:text="@string/sim_no"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textmode"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dip"
+            android:layout_toRightOf="@id/llLeft"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="@string/modo_header"
+            android:textColor="@color/black"
+            android:textSize="15sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvMODO"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dip"
+            android:layout_toRightOf="@id/textmode"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="@string/unknown"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" >
+        </TextView>
+    </RelativeLayout>
+
+
+</LinearLayout>

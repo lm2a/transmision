@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/datosconexionBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.8"
+        android:background="@drawable/toast_frame"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dcprogress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dctitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/datosconexion"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/dcline"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/dctitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dip"
+        android:alpha="0.2"
+        android:background="@color/greyBG"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dcbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dp"
+        android:drawableRight="@android:drawable/ic_menu_close_clear_cancel"
+        android:text="@string/cerrar"
+        android:textColor="@android:color/white" />
+    
+        <Button
+        android:id="@+id/dcverestado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_above="@id/dcbutton"
+		android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dip"
+        android:drawableRight="@android:drawable/ic_menu_info_details"
+        android:text="@string/ultimoestado"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/dccontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/dcline"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal|top"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

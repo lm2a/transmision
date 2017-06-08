@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:orientation="horizontal"
+
+    android:background="@android:color/transparent">
+
+     <View
+        android:id="@+id/viewLineEleccion"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp"
+        android:background="@drawable/toast_frame"
+        android:orientation="vertical" />       
+             
+    <ImageView
+        android:id="@+id/imageViewLogoEleccion"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/defaultContentDescription"
+        android:scaleType="fitStart"
+        android:layout_marginLeft="-6dp"
+        android:visibility="visible"    
+    	android:background="#e9e9e4" /> 
+    
+    <TableLayout
+        android:id="@+id/tableLayoutMesa"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_gravity="center" 
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:background="@android:color/darker_gray">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundBlue"
+                android:gravity="center"
+                android:text="@string/provincia"
+                android:textColor="@color/fgAppText"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundBlue"
+                android:gravity="center"
+                android:text="@string/municipio"
+                android:textColor="@color/fgAppText"
+                android:textSize="13sp" />
+            
+            <TextView
+                android:id="@+id/textViewConcejotitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundBlue"
+                android:gravity="center"
+                android:text="@string/tabla_concejo"
+                android:visibility="gone"                
+                android:textColor="@color/eleccion_color3_0631"
+                android:textSize="13sp" />
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundBlue"
+                android:gravity="center"
+                android:text="@string/distrito"
+                android:textColor="@color/fgAppText"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundBlue"
+                android:gravity="center"
+                android:text="@string/seccion"
+                android:textColor="@color/fgAppText"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundBlue"
+                android:gravity="center"
+                android:text="@string/mesa"
+                android:textColor="@color/fgAppText"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundBlue"
+                android:gravity="center"
+                android:text="@string/dc"
+                android:textColor="@color/fgAppText"
+                android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewProvincia"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundGray"
+                android:gravity="center"
+                android:textColor="@color/fgAppText"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewMunicipio"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundGray"
+                android:gravity="center"
+                android:textColor="@color/fgAppText"
+                android:textSize="22sp" />
+
+             <TextView
+                android:id="@+id/textViewConcejo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundGray"
+                android:gravity="center"
+                android:textColor="@color/eleccion_color3_0631"
+                android:visibility="gone"
+                android:textSize="22sp" />
+                        
+            <TextView
+                android:id="@+id/textViewDistrito"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundGray"
+                android:gravity="center"
+                android:textColor="@color/fgAppText"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewSector"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundGray"
+                android:gravity="center"
+                android:textColor="@color/fgAppText"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewMesa"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="18"
+                android:background="@color/fgAppBackgroundGray"
+                android:gravity="center"
+                android:textColor="@color/fgAppText"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewDC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="18"
+                android:background="@drawable/background_deltaedittext"
+                android:gravity="center"
+                android:enabled="false"
+                android:text="1"
+                android:textColor="@color/fgAppText"
+                android:textSize="22sp" />
+            <!--
+            <com.indra.elections.customcontrols.DeltaEditText
+                android:id="@+id/deltaEditTextDC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/background_deltaedittext"
+                android:gravity="center"
+                android:inputType="phone"
+                android:maxLength="1"
+                android:textColor="@color/fgAppText"
+                android:textSize="22sp" /> -->
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
